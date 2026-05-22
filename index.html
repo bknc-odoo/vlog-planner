@@ -161,6 +161,49 @@
          margin-top:8px;color:var(--ink)}
   .story p{margin-bottom:8px}
   .story p:last-child{margin-bottom:0}
+
+  /* tappable act cards */
+  .card.act-card{cursor:pointer;position:relative;padding-right:32px}
+  .card.act-card::after{content:"›";position:absolute;right:13px;top:50%;
+        transform:translateY(-50%);font-family:'Fraunces',serif;font-size:24px;
+        line-height:1;color:var(--soft)}
+  .card.act-card:active{transform:translateY(1px)}
+
+  /* full-screen act overlay */
+  .overlay{position:fixed;inset:0;z-index:40;background:var(--paper);
+           transform:translateY(100%);transition:transform .28s ease;
+           overflow-y:auto;-webkit-overflow-scrolling:touch;
+           padding-bottom:env(safe-area-inset-bottom);visibility:hidden}
+  .overlay.on{transform:translateY(0);visibility:visible}
+  .overlay-bar{position:sticky;top:0;background:var(--ink);color:var(--paper);
+        padding:calc(12px + env(safe-area-inset-top)) 18px 12px;
+        display:flex;align-items:center;gap:12px;
+        border-bottom:3px solid var(--c,var(--rust));z-index:1}
+  .overlay-back{background:none;border:none;color:var(--paper);cursor:pointer;
+        font-family:'Space Mono',monospace;font-size:12px;font-weight:700;
+        letter-spacing:.06em;padding:6px 4px}
+  .overlay-act{font-family:'Space Mono',monospace;font-size:10.5px;letter-spacing:.18em;
+        text-transform:uppercase;color:var(--c,var(--rust))}
+  .overlay-body{padding:18px 16px 40px;max-width:600px;margin:0 auto}
+  .overlay-body .act-hero h1{font-family:'Fraunces',serif;font-weight:900;font-size:30px;
+        line-height:1.02;color:var(--c,var(--rust))}
+  .overlay-body .act-hero p{font-family:'Fraunces',serif;font-style:italic;font-size:15px;
+        color:var(--soft);margin-top:6px}
+  .overlay-body .narrative{font-family:'Fraunces',serif;font-weight:400;font-size:15px;
+        line-height:1.6;margin-top:14px}
+  .overlay-body .narrative p{margin-bottom:11px}
+  .overlay-body h3{font-family:'Fraunces',serif;font-weight:900;font-size:18px;margin:22px 0 10px}
+  .stop-link{display:block;border:1.5px solid var(--ink);background:var(--card);
+        padding:11px 13px;margin-bottom:8px;text-decoration:none;color:var(--ink)}
+  .stop-link .sn{font-family:'Fraunces',serif;font-weight:900;font-size:16px;color:var(--c,var(--rust))}
+  .stop-link .sa{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:.09em;
+        text-transform:uppercase;color:var(--soft);margin-top:2px}
+  .stop-link .row{margin-top:8px;display:flex;gap:7px}
+  .stop-link .row a{flex:1;text-align:center;text-decoration:none;
+        font-family:'Space Mono',monospace;font-size:11px;font-weight:700;
+        letter-spacing:.04em;padding:7px;border:1.5px solid var(--c,var(--rust));
+        color:var(--c,var(--rust));background:transparent}
+  body.locked{overflow:hidden}
 </style>
 </head>
 <body>
@@ -192,6 +235,14 @@
       <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H8l-4 4V5a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2z"/></svg>Talk
     </button>
   </nav>
+
+  <div class="overlay" id="actOverlay" aria-hidden="true">
+    <div class="overlay-bar">
+      <button class="overlay-back" id="overlayBack" aria-label="Back">‹ Back</button>
+      <span class="overlay-act" id="overlayActLabel"></span>
+    </div>
+    <div class="overlay-body" id="overlayBody"></div>
+  </div>
 
 </div>
 
@@ -241,6 +292,101 @@
     });
   }
 
+  /* ---------- act overlay ---------- */
+  function openAct(actId) {
+    var act = (TRIP.acts || []).filter(function (a) { return a.id === actId; })[0];
+    if (!act) return;
+    var ov = document.getElementById('actOverlay');
+    var body = document.getElementById('overlayBody');
+    var labelEl = document.getElementById('overlayActLabel');
+    var c = colorVar(act.color);
+    ov.style.setProperty('--c', c);
+    labelEl.textContent = act.label;
+
+    var paras = (act.narrative || '').trim()
+      ? act.narrative.split(/\n\s*\n/).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('')
+      : '<p>(No narrative yet.)</p>';
+
+    var stopsHTML = (act.stopIds || []).map(function (sid) {
+      var s = stop(sid);
+      if (!s) return '';
+      return ''
+        + '<div class="stop-link" style="--c:' + c + '">'
+        +   '<div class="sn">' + esc(s.name) + '</div>'
+        +   '<div class="sa">' + esc(s.angle || '') + '</div>'
+        +   '<div class="row">'
+        +     '<a href="#talk/' + attr(sid) + '">Talk →</a>'
+        +     '<a href="#tab/route">Route →</a>'
+        +   '</div>'
+        + '</div>';
+    }).join('');
+
+    var html = ''
+      + '<div class="act-hero" style="--c:' + c + '">'
+      +   '<h1>' + esc(act.label) + '</h1>'
+      +   '<p>' + esc(act.tagline) + '</p>'
+      + '</div>'
+      + '<div class="narrative">' + paras + '</div>'
+      + (stopsHTML ? '<h3>Stops in this act</h3>' + stopsHTML : '');
+    body.innerHTML = html;
+
+    ov.classList.add('on');
+    ov.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('locked');
+  }
+
+  function hideOverlayPanel() {
+    var ov = document.getElementById('actOverlay');
+    ov.classList.remove('on');
+    ov.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('locked');
+  }
+
+  function wireOverlay() {
+    document.getElementById('overlayBack').addEventListener('click', function () {
+      if (location.hash.indexOf('#act/') === 0) history.back();
+      else hideOverlayPanel();
+    });
+    document.getElementById('trip').addEventListener('click', function (e) {
+      var card = e.target.closest('.act-card');
+      if (!card) return;
+      location.hash = '#act/' + card.dataset.act;
+    });
+  }
+
+  /* ---------- hash router ---------- */
+  function applyHash() {
+    var h = location.hash || '';
+    if (h.indexOf('#act/') === 0) {
+      openAct(h.slice(5));
+      return;
+    }
+    var ov = document.getElementById('actOverlay');
+    if (ov && ov.classList.contains('on')) hideOverlayPanel();
+
+    if (h.indexOf('#tab/') === 0) {
+      var name = h.slice(5);
+      if (document.getElementById(name)) showTab(name);
+      return;
+    }
+    if (h.indexOf('#talk/') === 0) {
+      var sid = h.slice(6);
+      showTab('talk');
+      requestAnimationFrame(function () {
+        var s = stop(sid);
+        if (!s) return;
+        var slug = s.name.toLowerCase().replace(/[^a-z]+/g, '-');
+        var el = document.getElementById('talk-' + s.actId + '-' + slug);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      return;
+    }
+  }
+
+  function wireHash() {
+    window.addEventListener('hashchange', applyHash);
+  }
+
   function boot() {
     fetch('trips/index.json', { cache: 'no-store' })
       .then(function (r) { if (!r.ok) throw new Error('index failed'); return r.json(); })
@@ -255,10 +401,13 @@
       .then(function () {
         renderAll();
         wireTabs();
+        wireOverlay();
+        wireHash();
         try {
           var last = localStorage.getItem('wt_tab');
           if (last && document.getElementById(last)) showTab(last);
         } catch (e) {}
+        applyHash();
       })
       .catch(function (err) {
         var msg = '<div style="padding:20px;border:1.5px solid #b8472a;background:#fbf5e6;margin:14px 0">'
