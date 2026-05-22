@@ -19,7 +19,7 @@
       "color": "rust",
       "label": "Act 1 · The journey north",
       "tagline": "The old towns. Each stop a little more wow than the last.",
-      "narrative": "",
+      "narrative": "You start in your own driveway, in a sleepy Essex village no one has heard of, and within an hour you're standing in Lavenham — a town so wonky and so old that it feels staged. From there it just keeps building. Stamford turns the dial up: a whole town carved from one honey-coloured stone, every house in conversation with the next. Then Lincoln, the headliner — a cathedral that was, for two and a half centuries, the tallest thing humans had ever built. The pattern of the day is the pattern of the trip: each stop should feel a little bigger, a little more 'wait, really?' than the one before. By the time you roll into Pudsey in the early evening, you've travelled five hundred years of England in a single day, and the camera has the proof.",
       "stopIds": ["lavenham", "stamford", "lincoln"]
     },
     {
@@ -27,7 +27,7 @@
       "color": "ochre",
       "label": "Act 2 · A city to yourself",
       "tagline": "York, solo — calmer, a touch more reflective.",
-      "narrative": "",
+      "narrative": "Day two is the change of register. After a Saturday spent reacting to one wow after another with your mate's voice off-camera, York is just you and a walled city. That solitude is the story — not a sad one, just a calmer one. You walk the most complete medieval walls in England with no one to perform for. You wander into the Shambles, the narrow lane that whispered the idea of Diagon Alley into J.K. Rowling's head. Somewhere quiet — Museum Gardens by the river works — you turn the camera on yourself and say, honestly, how the trip is going. That short piece is the heart of the episode. Then you point the car south, because the Peak District is waiting and you want to be there before the light goes.",
       "stopIds": ["york"]
     },
     {
@@ -35,7 +35,7 @@
       "color": "forest",
       "label": "Act 3 · The scenic way home",
       "tagline": "Mountains and gorge — wind the trip down, then sign off.",
-      "narrative": "",
+      "narrative": "The third day rewinds the clock by a few hundred million years. You've spent two days in places where humans piled stone on stone; now you stand on stone that used to be a tropical sea. Winnats Pass is a limestone gorge a car can drive through, formed underwater long before England existed. Above it sits Mam Tor, the Shivering Mountain — the only A-road in Britain to ever be defeated by a hill, abandoned in 1979 because the slope kept slipping. From here you wind down to Bakewell, taste a pudding that exists because a cook got a recipe wrong in 1820, and then you point the car south for the long quiet drive home. Somewhere on a viewpoint or back in the village, you say the last line of Episode 01 on camera, and that is your wrap.",
       "stopIds": ["bakewell", "castleton"]
     }
   ],
@@ -106,7 +106,7 @@
   "stops": {
     "lavenham": {
       "name": "Lavenham", "actId": "act1", "angle": "A perfect medieval town",
-      "story": "",
+      "story": "Six hundred years ago Lavenham was one of the richest towns in England, and all of it was built on sheep. The wool from East Anglian farms went out through this market and the merchants who handled it built houses that screamed money — three storeys of oak, carved gables, the lot. The catch: they were in such a hurry to flaunt it, they used the timber before it was properly seasoned, and as the wood dried over the centuries it warped. That's why every wall here leans. The whole village is a wonky monument to medieval cash flow. The other thing to know — De Vere House, the timber-framed one on Water Street, was Godric's Hollow in Harry Potter, so you're literally walking through Harry's childhood front garden.",
       "facts": [
         "Point at how wonky it all is — the timber was used unseasoned, so it warped as it dried",
         "600 years ago this was one of England's richest towns, all on wool",
@@ -133,7 +133,7 @@
 
     "stamford": {
       "name": "Stamford", "actId": "act1", "angle": "Timber to stone",
-      "story": "",
+      "story": "After Lavenham's leaning timbers, Stamford is the same idea in stone. Every wall, every roof, every garden gate is cut from the same honey-coloured Lincolnshire limestone — quarried just up the road — and the result is a town that looks like one continuous, harmonious composition. That harmony is so striking that in 1967 Stamford became the first ever Conservation Area in England — the place that invented the idea that towns themselves are worth protecting. It feels like a film set, and it is one: this is where they shot most of the 2005 Pride & Prejudice. You can walk through Mr Bingley's Meryton in twenty minutes, eat lunch, and be back in the car.",
       "facts": [
         "All one honey-coloured limestone — that's why it's so harmonious",
         "England's first-ever Conservation Area, 1967",
@@ -160,7 +160,7 @@
 
     "lincoln": {
       "name": "Lincoln", "actId": "act1", "angle": "The big one — and a hill",
-      "story": "",
+      "story": "Lincoln is the headliner of day one, and it earns it twice — once for the climb and once for the building at the top. Steep Hill is the spine of the old city; you grind up it past medieval houses and timbered shopfronts, and when you crest the top the cathedral fills the sky. Here's the line on camera: from the year 1311 until 1548, Lincoln Cathedral's spire was the tallest building in the world. For two hundred and thirty-seven years humans had built nothing taller. Then in 1548 the spire collapsed in a storm and the world had to wait three hundred more years for anything to overtake it. Next door, the castle holds one of only four surviving original copies of the 1215 Magna Carta — the actual sheet of vellum that ended the absolute power of English kings. Bring a wide lens and a moment of awe.",
       "facts": [
         "Steep Hill — make a joke of the climb",
         "The cathedral was the tallest building in the world for over 200 years, until its spire fell in 1548",
@@ -204,7 +204,7 @@
 
     "york": {
       "name": "York", "actId": "act2", "angle": "A walled city, just you",
-      "story": "",
+      "story": "York is the city of day two and the quiet part of the episode. The walls are the move — almost three miles of medieval defences, the most complete city walls left in England, and the path runs straight along the top of them. You go up at Bootham Bar, walk a stretch overlooking the Minster, and the city lays itself out below you. The Shambles is the other one to film: a narrow cobbled lane of crooked timber-framed shops that has been a street of butchers since before America was a country, and is widely said to have inspired Diagon Alley — J.K. Rowling studied near here. The thing to remember on camera is that this is the solo day. Drop the tour-guide voice; somewhere quiet by the river, look into the lens and say honestly how the trip is going. That single clip will land harder than any wide shot.",
       "facts": [
         "Lean into the solo tone — calmer, more reflective",
         "The Shambles is said to have inspired Diagon Alley",
@@ -234,7 +234,7 @@
 
     "bakewell": {
       "name": "Bakewell", "actId": "act3", "angle": "Arrived at the Peak",
-      "story": "",
+      "story": "The story of Bakewell is the story of a cook who got it wrong. The legend goes that in 1820 the landlady of the White Horse Inn asked her cook to make a strawberry tart, and the cook misread the recipe — instead of stirring the egg-and-almond mixture into the pastry, she poured it on top of the jam. The customers loved the mistake and a thousand bakeries got into a slow-motion fight about what to call it. The original is the Bakewell pudding — soft, slightly wobbly, a hot mess. The neater, almond-iced disc you find in supermarkets is the Bakewell tart — a Victorian remix. Both exist; the pudding is the one you came for. Buy one, bite it on camera, react honestly. The mistake is the point.",
       "facts": [
         "The Bakewell pudding and the tart are different things — the pudding is the original",
         "Buy one, try it on camera, react honestly"
@@ -257,7 +257,7 @@
 
     "castleton": {
       "name": "Castleton & Winnats Pass", "actId": "act3", "angle": "Old towns to ancient land",
-      "story": "",
+      "story": "Castleton flips the timescale. You've spent two days admiring things humans built; now you're standing on rock that built itself, underwater, three hundred and fifty million years ago. The Peak's limestone is fossilised tropical sea floor — the corals, the shells, all still in there. Winnats Pass is the gorge cut through it, a single road squeezed between two limestone walls, dramatic enough that drone shots feel illegal. Above the pass, Mam Tor has its own story: nicknamed the Shivering Mountain because its softer shale layers keep slipping, it defeated an A-road. The old A625 across its eastern face had to be repaired seven times in twenty years and was finally abandoned in 1979 — you can still walk the broken tarmac, fenced off, weirdly cinematic. And one last thing only Castleton has: Blue John, a violet-banded stone mined here and literally nowhere else on Earth. Buy a tiny piece; it's a souvenir with a postcode.",
       "facts": [
         "This limestone formed in a tropical sea — it was all underwater once",
         "Mam Tor, the \"Shivering Mountain\" — its old road was abandoned in 1979 as the hill kept slipping",
