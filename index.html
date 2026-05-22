@@ -155,6 +155,12 @@
   .ck{display:flex;gap:9px;align-items:flex-start;padding:6px 0;font-size:13px;
       border-bottom:1px solid var(--line)}
   .ck b{flex:none;width:15px;height:15px;border:1.5px solid var(--rust);margin-top:2px}
+
+  /* story (Talk tab) */
+  .story{font-family:'Fraunces',serif;font-weight:400;font-size:14.5px;line-height:1.55;
+         margin-top:8px;color:var(--ink)}
+  .story p{margin-bottom:8px}
+  .story p:last-child{margin-bottom:0}
 </style>
 </head>
 <body>
@@ -433,11 +439,25 @@
     var act = (TRIP.acts || []).filter(function (a) { return a.id === stopObj.actId; })[0];
     var color = colorVar(act ? act.color : 'rust');
     var facts = (stopObj.facts || []).map(function (f) { return '<li>' + esc(f) + '</li>'; }).join('');
+    var storyText = (stopObj.story || '').trim();
+    var storyParas = storyText
+      ? storyText.split(/\n\s*\n/).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('')
+      : '';
+    var storyBlock = storyParas
+      ? '<div class="mlabel" style="color:' + color + ';border-color:' + color + '">The story</div>'
+        + '<div class="story">' + storyParas + '</div>'
+      : '';
+    var factsBlock = facts
+      ? '<div class="mlabel" style="color:' + color + ';border-color:' + color + ';margin-top:14px">Quick facts</div>'
+        + '<ul>' + facts + '</ul>'
+      : '';
+    var slug = stopObj.name.toLowerCase().replace(/[^a-z]+/g, '-');
     return ''
-      + '<div class="card">'
+      + '<div class="card" id="talk-' + attr(stopObj.actId) + '-' + attr(slug) + '">'
       +   '<div class="cap" style="font-size:16px;color:' + color + '">' + esc(stopObj.name) + '</div>'
-      +   '<div class="sub">Angle: ' + esc(stopObj.angle) + '</div>'
-      +   (facts ? '<ul style="margin-top:7px">' + facts + '</ul>' : '')
+      +   '<div class="sub">Angle · ' + esc(stopObj.angle) + '</div>'
+      +   storyBlock
+      +   factsBlock
       + '</div>';
   }
 
