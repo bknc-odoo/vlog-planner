@@ -204,6 +204,37 @@
         letter-spacing:.04em;padding:7px;border:1.5px solid var(--c,var(--rust));
         color:var(--c,var(--rust));background:transparent}
   body.locked{overflow:hidden}
+
+  /* header trip picker */
+  .trip-pick{flex:1;min-width:0;background:none;border:none;color:var(--paper);
+        cursor:pointer;padding:0;display:flex;align-items:baseline;gap:6px;
+        font-family:'Fraunces',serif;font-weight:900;font-size:15px;
+        letter-spacing:-.01em;overflow:hidden;text-align:left}
+  .trip-pick-title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .trip-pick-caret{font-size:12px;color:#c8a86f;flex:none}
+
+  /* bottom sheet */
+  .sheet-backdrop{position:fixed;inset:0;z-index:45;background:rgba(43,39,34,.55);
+        opacity:0;transition:opacity .22s ease;pointer-events:none}
+  .sheet-backdrop.on{opacity:1;pointer-events:auto}
+  .sheet{position:fixed;left:0;right:0;bottom:0;z-index:46;
+        background:var(--paper);border-top-left-radius:14px;border-top-right-radius:14px;
+        transform:translateY(100%);transition:transform .25s ease;
+        padding:8px 16px calc(20px + env(safe-area-inset-bottom));
+        max-width:600px;margin:0 auto;max-height:70vh;overflow-y:auto}
+  .sheet.on{transform:translateY(0)}
+  .sheet-handle{width:38px;height:4px;background:var(--line);border-radius:2px;
+        margin:6px auto 12px}
+  .sheet-title{font-family:'Space Mono',monospace;font-size:10.5px;letter-spacing:.18em;
+        text-transform:uppercase;color:var(--soft);margin-bottom:8px}
+  .sheet-trip{display:block;width:100%;text-align:left;background:var(--card);
+        border:1.5px solid var(--ink);padding:12px 14px;margin-bottom:8px;
+        cursor:pointer;font:inherit;color:inherit}
+  .sheet-trip.active{box-shadow:3px 3px 0 var(--rust)}
+  .sheet-trip-title{font-family:'Fraunces',serif;font-weight:900;font-size:17px}
+  .sheet-trip-sub{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.08em;
+        text-transform:uppercase;color:var(--soft);margin-top:4px}
+  .sheet-trip-dates{font-size:12.5px;color:var(--soft);margin-top:3px}
 </style>
 </head>
 <body>
@@ -211,8 +242,19 @@
 
   <header>
     <span class="wm">WockingTocking</span>
-    <span class="ep">Episode 01</span>
+    <button class="trip-pick" id="tripPick" aria-haspopup="true">
+      <span class="trip-pick-title" id="tripPickTitle">…</span>
+      <span class="trip-pick-caret">▾</span>
+    </button>
+    <span class="ep" id="tripPickEp">EP.01</span>
   </header>
+
+  <div class="sheet-backdrop" id="sheetBackdrop" hidden></div>
+  <div class="sheet" id="tripSheet" aria-hidden="true">
+    <div class="sheet-handle"></div>
+    <h3 class="sheet-title">Choose a trip</h3>
+    <div class="sheet-list" id="sheetList"></div>
+  </div>
 
   <main>
     <section class="tab active" id="trip"></section>
@@ -289,6 +331,63 @@
   function wireTabs() {
     document.querySelectorAll('nav.tabs button').forEach(function (b) {
       b.addEventListener('click', function () { showTab(b.dataset.tab); });
+    });
+  }
+
+  /* ---------- header / trip picker ---------- */
+  function renderHeader() {
+    var meta = (TRIPS.trips || []).filter(function (t) { return t.id === ACTIVE; })[0];
+    if (!meta) return;
+    document.getElementById('tripPickTitle').textContent = meta.title;
+    document.getElementById('tripPickEp').textContent = meta.episode || '';
+  }
+
+  function openSheet() {
+    var sheet = document.getElementById('tripSheet');
+    var back = document.getElementById('sheetBackdrop');
+    var list = document.getElementById('sheetList');
+    var html = (TRIPS.trips || []).map(function (t) {
+      var on = (t.id === ACTIVE) ? ' active' : '';
+      var subBits = [t.episode || '', t.subtitle || ''].filter(Boolean).join(' \u00b7 ');
+      return '<button class="sheet-trip' + on + '" data-trip="' + attr(t.id) + '">'
+        +    '<div class="sheet-trip-title">' + esc(t.title) + '</div>'
+        +    '<div class="sheet-trip-sub">' + esc(subBits) + '</div>'
+        +    '<div class="sheet-trip-dates">' + esc(t.dates || '') + '</div>'
+        +    '</button>';
+    }).join('');
+    list.innerHTML = html;
+    back.hidden = false;
+    requestAnimationFrame(function () { back.classList.add('on'); sheet.classList.add('on'); });
+    sheet.setAttribute('aria-hidden', 'false');
+  }
+
+  function closeSheet() {
+    var sheet = document.getElementById('tripSheet');
+    var back = document.getElementById('sheetBackdrop');
+    sheet.classList.remove('on');
+    back.classList.remove('on');
+    sheet.setAttribute('aria-hidden', 'true');
+    setTimeout(function () { back.hidden = true; }, 250);
+  }
+
+  function selectTrip(id) {
+    if (id === ACTIVE) { closeSheet(); return; }
+    closeSheet();
+    loadTrip(id).then(function () {
+      try { localStorage.setItem('wt_trip', id); } catch (e) {}
+      renderAll();
+      renderHeader();
+      window.scrollTo(0, 0);
+    });
+  }
+
+  function wireHeader() {
+    document.getElementById('tripPick').addEventListener('click', openSheet);
+    document.getElementById('sheetBackdrop').addEventListener('click', closeSheet);
+    document.getElementById('sheetList').addEventListener('click', function (e) {
+      var btn = e.target.closest('.sheet-trip');
+      if (!btn) return;
+      selectTrip(btn.dataset.trip);
     });
   }
 
@@ -400,8 +499,10 @@
       })
       .then(function () {
         renderAll();
+        renderHeader();
         wireTabs();
         wireOverlay();
+        wireHeader();
         wireHash();
         try {
           var last = localStorage.getItem('wt_tab');
