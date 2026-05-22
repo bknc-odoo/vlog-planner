@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>WockingTocking · Ep.01 Trip</title>
+<title>WockingTocking · Trip</title>
 <meta name="theme-color" content="#2b2722">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="WT Ep.01">
+<meta name="apple-mobile-web-app-title" content="WockingTocking">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" href="icon-192.png">
@@ -35,12 +35,12 @@
     position:sticky;top:0;z-index:20;
     background:var(--ink);color:var(--paper);
     padding:calc(12px + env(safe-area-inset-top)) 18px 12px;
-    display:flex;align-items:baseline;justify-content:space-between;
+    display:flex;align-items:baseline;justify-content:flex-start;gap:10px;
     border-bottom:3px solid var(--rust);
   }
-  header .wm{font-family:'Fraunces',serif;font-weight:900;font-size:17px;letter-spacing:-.01em}
+  header .wm{font-family:'Fraunces',serif;font-weight:900;font-size:17px;letter-spacing:-.01em;flex:none}
   header .ep{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:.18em;
-             text-transform:uppercase;color:#c8a86f}
+             text-transform:uppercase;color:#c8a86f;flex:none}
 
   main{padding:18px 16px calc(96px + env(safe-area-inset-bottom))}
   .tab{display:none}
@@ -166,328 +166,10 @@
   </header>
 
   <main>
-
-    <!-- ============ TRIP ============ -->
-    <section class="tab active" id="trip">
-      <div class="hero">
-        <div class="k">A WockingTocking road trip</div>
-        <h1>Essex <em>to</em> Yorkshire</h1>
-        <div class="meta">Little Yeldham → Pudsey<br>Sat 23 – Mon 25 May 2026</div>
-      </div>
-      <div class="stripe">
-        <i style="background:var(--rust)"></i><i style="background:var(--ochre)"></i><i style="background:var(--forest)"></i>
-      </div>
-
-      <p class="p0">Drive up through Britain's most beautiful old towns, spend a day exploring York, and take the long way home through the Peak District — your first episode, filmed end to end.</p>
-
-      <h2 class="sec">The three days</h2>
-      <div class="lede">Tap <b>Route</b> for navigation, <b>Plan</b> for the timed agenda, <b>Talk</b> for what to say on camera.</div>
-
-      <div class="glance">
-        <div class="gd" style="background:var(--rust)">1</div>
-        <div><div class="gt">The Old-Towns Run</div>
-        <div class="gs">Sat — Lavenham, Stamford & Lincoln, then on to Pudsey.</div></div>
-      </div>
-      <div class="glance">
-        <div class="gd" style="background:var(--ochre)">2</div>
-        <div><div class="gt">York, then South</div>
-        <div class="gs">Sun — a morning in York, then drive to a Bakewell overnight.</div></div>
-      </div>
-      <div class="glance">
-        <div class="gd" style="background:var(--forest)">3</div>
-        <div><div class="gt">The Peak District & Home</div>
-        <div class="gs">Mon — Castleton & Winnats Pass, then the drive home.</div></div>
-      </div>
-
-      <h2 class="sec" style="margin-top:22px">The story to film</h2>
-      <div class="lede">Three acts — let the episode build.</div>
-      <div class="card"><div class="cap" style="font-size:15px;color:var(--rust)">Act 1 · The journey north</div>
-        <p style="font-size:13px;margin-top:4px">The old towns. Each stop a little more wow than the last.</p></div>
-      <div class="card"><div class="cap" style="font-size:15px;color:var(--ochre)">Act 2 · A city to yourself</div>
-        <p style="font-size:13px;margin-top:4px">York, solo — calmer, a touch more reflective.</p></div>
-      <div class="card"><div class="cap" style="font-size:15px;color:var(--forest)">Act 3 · The scenic way home</div>
-        <p style="font-size:13px;margin-top:4px">Mountains and gorge — wind the trip down, then sign off.</p></div>
-
-      <h2 class="sec" style="margin-top:22px">Your kit</h2>
-      <ul style="margin-top:8px">
-        <li>Insta360 Ace Pro 2 — flip screen, high frame rate, voice control</li>
-        <li>Selfie stick — keep it short, it shows in shot</li>
-        <li>AirPods as mic — test first; camera mics as backup</li>
-        <li>2–3 spare batteries or a USB-C car charger</li>
-        <li>A cleared, high-capacity microSD card</li>
-      </ul>
-
-      <h2 class="sec" style="margin-top:22px">Before you go</h2>
-      <div style="margin-top:8px">
-        <div class="ck"><b></b><span>Book a room near Bakewell for Sunday night — Bank Holiday, fills fast</span></div>
-        <div class="ck"><b></b><span>Charge every battery and your AirPods</span></div>
-        <div class="ck"><b></b><span>Clear the microSD card</span></div>
-        <div class="ck"><b></b><span>Test the AirPods as a mic with the camera</span></div>
-        <div class="ck"><b></b><span>Set phone alarms for Saturday's "leave by" times</span></div>
-      </div>
-      <div class="tipbox" style="margin-top:14px"><b>Golden rule</b>Never film while driving. Mount the camera before you move; do pieces-to-camera parked.</div>
-    </section>
-
-    <!-- ============ ROUTE ============ -->
-    <section class="tab" id="route">
-      <h2 class="sec">Route &amp; Navigation</h2>
-      <p class="lede">Driving links connect the towns; walking loops connect the sights inside each one. Set destinations while parked — never while moving.</p>
-
-      <!-- DAY 1 -->
-      <div class="day d1">
-        <div class="dh"><span class="dn">Day 1</span><span class="dd">Sat 23 May</span>
-          <span class="dr">Little Yeldham → Lavenham → Stamford → Lincoln → Pudsey</span></div>
-        <a class="full" href="https://www.google.com/maps/dir/?api=1&origin=Little%20Yeldham%2C%20Essex&destination=Pudsey%2C%20Leeds&waypoints=Lavenham%2C%20Suffolk%7CStamford%2C%20Lincolnshire%7CLincoln%20Cathedral&travelmode=driving"><span>▶</span> FULL SATURDAY ROUTE<small>All four stops in one Google Maps route</small></a>
-
-        <div class="card ac">
-          <div class="cap">Lavenham</div><div class="sub">First stop · Suffolk</div>
-          <div class="btnrow">
-            <a class="btn g" href="https://www.google.com/maps/dir/?api=1&destination=Lavenham%2C%20Suffolk&travelmode=driving">Google Maps</a>
-            <a class="btn w" href="https://waze.com/ul?q=Lavenham%2C%20Suffolk&navigate=yes">Waze</a>
-          </div>
-          <div class="walk">
-            <div class="wpt"><span class="wd">1</span><span class="wn">Guildhall &amp; Market Place</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Lavenham%20Guildhall">Map</a></div>
-            <div class="wpt"><span class="wd">2</span><span class="wn">Lady Street — crooked houses</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Lady%20Street%20Lavenham">Map</a></div>
-            <div class="wpt"><span class="wd">3</span><span class="wn">Water Street</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Water%20Street%20Lavenham">Map</a></div>
-            <div class="wpt"><span class="wd">4</span><span class="wn">St Peter &amp; St Paul's church</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham">Map</a></div>
-            <a class="walkbtn" href="https://www.google.com/maps/dir/?api=1&origin=Lavenham%20Guildhall&destination=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham&waypoints=Lady%20Street%20Lavenham%7CWater%20Street%20Lavenham&travelmode=walking">▶ WALK THIS LOOP</a>
-          </div>
-        </div>
-
-        <div class="card ac">
-          <div class="cap">Stamford</div><div class="sub">Lincolnshire · lunch stop</div>
-          <div class="btnrow">
-            <a class="btn g" href="https://www.google.com/maps/dir/?api=1&destination=Stamford%2C%20Lincolnshire&travelmode=driving">Google Maps</a>
-            <a class="btn w" href="https://waze.com/ul?q=Stamford%2C%20Lincolnshire&navigate=yes">Waze</a>
-          </div>
-          <div class="walk">
-            <div class="wpt"><span class="wd">1</span><span class="wn">Red Lion Square &amp; churches</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Red%20Lion%20Square%20Stamford">Map</a></div>
-            <div class="wpt"><span class="wd">2</span><span class="wn">Barn Hill — Georgian street</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Barn%20Hill%20Stamford">Map</a></div>
-            <div class="wpt"><span class="wd">3</span><span class="wn">St Mary's Hill</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=St%20Marys%20Hill%20Stamford">Map</a></div>
-            <div class="wpt"><span class="wd">4</span><span class="wn">Town Bridge &amp; the meadows</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Stamford%20Town%20Bridge">Map</a></div>
-            <a class="walkbtn" href="https://www.google.com/maps/dir/?api=1&origin=Red%20Lion%20Square%20Stamford&destination=Stamford%20Town%20Bridge&waypoints=Barn%20Hill%20Stamford%7CSt%20Marys%20Hill%20Stamford&travelmode=walking">▶ WALK THIS LOOP</a>
-          </div>
-        </div>
-
-        <div class="card ac">
-          <div class="cap">Lincoln</div><div class="sub">Park up top · near Westgate</div>
-          <div class="note">Park near the cathedral so the loop runs downhill — the climb back up Steep Hill is the catch.</div>
-          <div class="btnrow">
-            <a class="btn g" href="https://www.google.com/maps/dir/?api=1&destination=Lincoln%20Cathedral&travelmode=driving">Google Maps</a>
-            <a class="btn w" href="https://waze.com/ul?q=Lincoln%20Cathedral&navigate=yes">Waze</a>
-          </div>
-          <div class="walk">
-            <div class="wpt"><span class="wd">1</span><span class="wn">Lincoln Castle</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Lincoln%20Castle">Map</a></div>
-            <div class="wpt"><span class="wd">2</span><span class="wn">Lincoln Cathedral</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Lincoln%20Cathedral">Map</a></div>
-            <div class="wpt"><span class="wd">3</span><span class="wn">Bailgate</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Bailgate%20Lincoln">Map</a></div>
-            <div class="wpt"><span class="wd">4</span><span class="wn">Steep Hill</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Steep%20Hill%20Lincoln">Map</a></div>
-            <a class="walkbtn" href="https://www.google.com/maps/dir/?api=1&origin=Lincoln%20Castle&destination=Steep%20Hill%20Lincoln&waypoints=Lincoln%20Cathedral%7CBailgate%20Lincoln&travelmode=walking">▶ WALK THIS LOOP</a>
-          </div>
-        </div>
-
-        <div class="card ac">
-          <div class="cap">Pudsey</div><div class="sub">Your friend's place</div>
-          <div class="note">Type your friend's exact address into the app. Buttons below pin Pudsey itself.</div>
-          <div class="btnrow">
-            <a class="btn g" href="https://www.google.com/maps/dir/?api=1&destination=Pudsey%2C%20Leeds&travelmode=driving">Google Maps</a>
-            <a class="btn w" href="https://waze.com/ul?q=Pudsey%2C%20Leeds&navigate=yes">Waze</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- DAY 2 -->
-      <div class="day d2">
-        <div class="dh"><span class="dn">Day 2</span><span class="dd">Sun 24 May</span>
-          <span class="dr">Pudsey → York → Bakewell (overnight)</span></div>
-        <a class="full" href="https://www.google.com/maps/dir/?api=1&origin=Pudsey%2C%20Leeds&destination=Bakewell%2C%20Derbyshire&waypoints=Askham%20Bar%20Park%20and%20Ride%2C%20York&travelmode=driving"><span>▶</span> FULL SUNDAY ROUTE<small>Pudsey → York → Bakewell in one route</small></a>
-
-        <div class="card ac">
-          <div class="cap">York</div><div class="sub">Park &amp; Ride — don't drive in</div>
-          <div class="note">Driving inside the walls is slow. Park at the edge; the bus drops you in the centre.</div>
-          <div class="btnrow">
-            <a class="btn g" href="https://www.google.com/maps/dir/?api=1&destination=Askham%20Bar%20Park%20and%20Ride%2C%20York&travelmode=driving">Google Maps</a>
-            <a class="btn w" href="https://waze.com/ul?q=Askham%20Bar%20Park%20and%20Ride%20York&navigate=yes">Waze</a>
-          </div>
-          <div class="walk">
-            <div class="wpt"><span class="wd">1</span><span class="wn">York Minster</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=York%20Minster">Map</a></div>
-            <div class="wpt"><span class="wd">2</span><span class="wn">The Shambles</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=The%20Shambles%20York">Map</a></div>
-            <div class="wpt"><span class="wd">3</span><span class="wn">Clifford's Tower</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Cliffords%20Tower%20York">Map</a></div>
-            <div class="wpt"><span class="wd">4</span><span class="wn">Museum Gardens &amp; River Ouse</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=York%20Museum%20Gardens">Map</a></div>
-            <a class="walkbtn" href="https://www.google.com/maps/dir/?api=1&origin=York%20Minster&destination=York%20Museum%20Gardens&waypoints=The%20Shambles%20York%7CCliffords%20Tower%20York&travelmode=walking">▶ WALK THIS LOOP</a>
-            <div class="note">The City Walls join by the Minster at Bootham Bar — climb up for an elevated walk.</div>
-          </div>
-        </div>
-
-        <div class="card ac">
-          <div class="cap">Bakewell</div><div class="sub">Your overnight stay</div>
-          <div class="note">Type your accommodation address in once booked. Buttons pin Bakewell town.</div>
-          <div class="btnrow">
-            <a class="btn g" href="https://www.google.com/maps/dir/?api=1&destination=Bakewell%2C%20Derbyshire&travelmode=driving">Google Maps</a>
-            <a class="btn w" href="https://waze.com/ul?q=Bakewell%2C%20Derbyshire&navigate=yes">Waze</a>
-          </div>
-          <div class="walk">
-            <div class="wpt"><span class="wd">1</span><span class="wn">Bakewell Bridge over the Wye</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Bakewell%20Bridge">Map</a></div>
-            <div class="wpt"><span class="wd">2</span><span class="wn">Rutland Square &amp; market town</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Rutland%20Square%20Bakewell">Map</a></div>
-            <div class="wpt"><span class="wd">3</span><span class="wn">All Saints' Church</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=All%20Saints%20Church%20Bakewell">Map</a></div>
-            <div class="wpt"><span class="wd">4</span><span class="wn">Riverside &amp; recreation ground</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Bakewell%20Recreation%20Ground">Map</a></div>
-            <a class="walkbtn" href="https://www.google.com/maps/dir/?api=1&origin=Bakewell%20Bridge&destination=Bakewell%20Recreation%20Ground&waypoints=Rutland%20Square%20Bakewell%7CAll%20Saints%20Church%20Bakewell&travelmode=walking">▶ WALK THIS LOOP</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- DAY 3 -->
-      <div class="day d3">
-        <div class="dh"><span class="dn">Day 3</span><span class="dd">Mon 25 May</span>
-          <span class="dr">Bakewell → Castleton → home to Little Yeldham</span></div>
-        <a class="full" href="https://www.google.com/maps/dir/?api=1&origin=Bakewell%2C%20Derbyshire&destination=Little%20Yeldham%2C%20Essex&waypoints=Castleton%2C%20Derbyshire&travelmode=driving"><span>▶</span> FULL MONDAY ROUTE<small>Bakewell → Castleton → home in one route</small></a>
-
-        <div class="card ac">
-          <div class="cap">Castleton</div><div class="sub">Peak District · Winnats Pass</div>
-          <div class="btnrow">
-            <a class="btn g" href="https://www.google.com/maps/dir/?api=1&destination=Castleton%2C%20Derbyshire&travelmode=driving">Google Maps</a>
-            <a class="btn w" href="https://waze.com/ul?q=Castleton%20Derbyshire&navigate=yes">Waze</a>
-          </div>
-          <div class="walk">
-            <div class="note" style="margin-top:0">These three are short drives apart, not a walk.</div>
-            <div class="wpt"><span class="wd">1</span><span class="wn">Winnats Pass — drive the gorge</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Winnats%20Pass">Map</a></div>
-            <div class="wpt"><span class="wd">2</span><span class="wn">Mam Tor — ridge &amp; viewpoint</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Mam%20Tor">Map</a></div>
-            <div class="wpt"><span class="wd">3</span><span class="wn">Castleton village &amp; caves</span><a class="pin" href="https://www.google.com/maps/search/?api=1&query=Castleton%20village%20car%20park">Map</a></div>
-          </div>
-        </div>
-
-        <div class="card ac">
-          <div class="cap">Home</div><div class="sub">Little Yeldham, Essex</div>
-          <div class="note">Type your home address for door-to-door. Buttons pin the village.</div>
-          <div class="btnrow">
-            <a class="btn g" href="https://www.google.com/maps/dir/?api=1&destination=Little%20Yeldham%2C%20Essex&travelmode=driving">Google Maps</a>
-            <a class="btn w" href="https://waze.com/ul?q=Little%20Yeldham%20Essex&navigate=yes">Waze</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ PLAN ============ -->
-    <section class="tab" id="plan">
-      <h2 class="sec">The Plan</h2>
-      <p class="lede">The timed agenda for each day — when to be where, and what to film.</p>
-
-      <!-- DAY 1 -->
-      <div class="day d1">
-        <div class="dh"><span class="dn">Day 1</span><span class="dd">Sat 23 May</span>
-          <span class="dr">The Old-Towns Run · ~5h driving · depart 9:00 AM</span></div>
-        <div class="card">
-          <div class="cap" style="font-size:16px">Lavenham</div>
-          <span class="chip t">9:25–10:40 AM</span><span class="chip lv">LEAVE BY 10:40</span>
-          <div class="mlabel">See</div>
-          <ul><li>Market Place &amp; Guildhall</li><li>Crooked houses, Lady &amp; Water Street</li><li>The wool church</li></ul>
-          <div class="mlabel">Film</div>
-          <ul><li class="f">Cold-open hook — your best line</li><li class="f">Walking piece-to-camera down a crooked street</li><li class="f">Hero shot up at a crooked house</li></ul>
-        </div>
-        <div class="card">
-          <div class="cap" style="font-size:16px">Stamford</div>
-          <span class="chip t">12:40–2:30 PM</span><span class="chip lv">LEAVE BY 2:30</span>
-          <div class="mlabel">See</div>
-          <ul><li>Red Lion Square &amp; medieval churches</li><li>St Mary's Hill, Barn Hill</li><li>The Welland meadows</li></ul>
-          <div class="mlabel">Film</div>
-          <ul><li class="f">Quick light lunch — protect the schedule</li><li class="f">Walking piece-to-camera on a stone street</li><li class="f">Hero shot of a spire above the rooftops</li></ul>
-        </div>
-        <div class="card">
-          <div class="cap" style="font-size:16px">Lincoln</div>
-          <span class="chip t">3:20–4:35 PM</span><span class="chip lv">LEAVE BY 4:35</span>
-          <div class="mlabel">See</div>
-          <ul><li>Steep Hill — cobbled medieval street</li><li>Cathedral &amp; Castle exterior</li><li>Bailgate</li></ul>
-          <div class="mlabel">Film</div>
-          <ul><li class="f">Walking piece-to-camera along Steep Hill</li><li class="f">Wide of the cathedral's west front</li><li class="f">Hero shot back down Steep Hill</li></ul>
-        </div>
-        <div class="card ac"><div class="cap" style="font-size:15px">Arrive Pudsey · ~6:30 PM</div>
-          <p style="font-size:12.5px;margin-top:3px">Meet your friend — text them a 6–7 PM window.</p></div>
-      </div>
-
-      <!-- DAY 2 -->
-      <div class="day d2">
-        <div class="dh"><span class="dn">Day 2</span><span class="dd">Sun 24 May</span>
-          <span class="dr">York, then South · leave Pudsey ~9:00 AM</span></div>
-        <div class="tipbox" style="border-color:var(--ochre)"><b style="color:var(--ochre)">Note</b>Book your Bakewell room now — Bank Holiday weekend, it fills fast.</div>
-        <div class="card">
-          <div class="cap" style="font-size:16px">York</div>
-          <span class="chip t">~9:45 AM – 2:00 PM</span>
-          <div class="mlabel">See</div>
-          <ul><li>York Minster</li><li>The Shambles</li><li>The City Walls</li><li>Museum Gardens &amp; the Ouse</li></ul>
-          <div class="mlabel">Film</div>
-          <ul><li class="f">Walking piece-to-camera up on the City Walls</li><li class="f">Minster — wide, then step inside</li><li class="f">Leave by 2:00 PM to reach the Peak in daylight</li></ul>
-        </div>
-        <div class="card ac"><div class="cap" style="font-size:15px">Arrive Bakewell · ~4:30 PM</div>
-          <p style="font-size:12.5px;margin-top:3px">Check in, then film Bakewell in the evening light.</p></div>
-      </div>
-
-      <!-- DAY 3 -->
-      <div class="day d3">
-        <div class="dh"><span class="dn">Day 3</span><span class="dd">Mon 25 May</span>
-          <span class="dr">The Peak District & Home · set off early</span></div>
-        <div class="tipbox" style="border-color:var(--forest)"><b style="color:var(--forest)">Note</b>Bank Holiday Monday — an early start means quiet roads and the gorge to yourself.</div>
-        <div class="card">
-          <div class="cap" style="font-size:16px">Castleton &amp; Winnats Pass</div>
-          <span class="chip t">~9:30 – 11:30 AM</span>
-          <div class="mlabel">See</div>
-          <ul><li>Winnats Pass — the limestone gorge</li><li>Mam Tor ridge</li><li>Castleton village &amp; show caves</li></ul>
-          <div class="mlabel">Film</div>
-          <ul><li class="f">In-car B-roll through Winnats — camera mounted</li><li class="f">Walking piece-to-camera, valley behind you</li><li class="f">Your closing sign-off — last line on camera</li></ul>
-        </div>
-        <div class="card ac"><div class="cap" style="font-size:15px">Arrive home · ~4:30 PM</div>
-          <p style="font-size:12.5px;margin-top:3px">~3h50 drive south. That's a wrap on Episode 01.</p></div>
-      </div>
-    </section>
-
-    <!-- ============ TALK ============ -->
-    <section class="tab" id="talk">
-      <h2 class="sec">What to Talk About</h2>
-      <p class="lede">Learn two or three points per stop, then say them in your own words — don't read a script.</p>
-
-      <div class="tipbox"><b>On camera</b>You're not presenting — you're telling a mate about your trip. Say what you're about to do, do it, then react. Keep each clip 20–40 seconds. Fluffing your words is fine; pause and go again.</div>
-
-      <div class="card"><div class="cap" style="font-size:16px;color:var(--rust)">Cold open</div>
-        <div class="sub">Film in the car or at Lavenham</div>
-        <ul style="margin-top:7px"><li>Who you are — first-ever episode of WockingTocking</li><li>What this is: Essex to Leeds, three days, the scenic way</li><li>The promise: old towns, a city, the Peak District</li></ul></div>
-
-      <div class="card"><div class="cap" style="font-size:16px;color:var(--rust)">Lavenham</div>
-        <div class="sub">Angle: a perfect medieval town</div>
-        <ul style="margin-top:7px"><li>Point at how wonky it all is — the timber was used unseasoned, so it warped as it dried</li><li>600 years ago this was one of England's richest towns, all on wool</li><li>De Vere House was Godric's Hollow in Harry Potter</li></ul></div>
-
-      <div class="card"><div class="cap" style="font-size:16px;color:var(--rust)">Stamford</div>
-        <div class="sub">Angle: timber to stone</div>
-        <ul style="margin-top:7px"><li>All one honey-coloured limestone — that's why it's so harmonious</li><li>England's first-ever Conservation Area, 1967</li><li>It looks like a film set because it is one — Pride &amp; Prejudice (2005)</li></ul></div>
-
-      <div class="card"><div class="cap" style="font-size:16px;color:var(--rust)">Lincoln</div>
-        <div class="sub">Angle: the big one — and a hill</div>
-        <ul style="margin-top:7px"><li>Steep Hill — make a joke of the climb</li><li>The cathedral was the tallest building in the world for over 200 years, until its spire fell in 1548</li><li>The castle holds an original 1215 Magna Carta</li></ul></div>
-
-      <div class="card"><div class="cap" style="font-size:16px;color:var(--ochre)">York</div>
-        <div class="sub">Angle: a walled city, just you</div>
-        <ul style="margin-top:7px"><li>Lean into the solo tone — calmer, more reflective</li><li>The Shambles is said to have inspired Diagon Alley</li><li>The most complete city walls in England — walk a stretch on camera</li><li>A short honest reflection somewhere quiet: how the trip's going</li></ul></div>
-
-      <div class="card"><div class="cap" style="font-size:16px;color:var(--ochre)">Bakewell</div>
-        <div class="sub">Angle: arrived at the Peak</div>
-        <ul style="margin-top:7px"><li>The Bakewell pudding and the tart are different things — the pudding is the original</li><li>Buy one, try it on camera, react honestly</li></ul></div>
-
-      <div class="card"><div class="cap" style="font-size:16px;color:var(--forest)">Castleton &amp; Winnats Pass</div>
-        <div class="sub">Angle: old towns to ancient land</div>
-        <ul style="margin-top:7px"><li>This limestone formed in a tropical sea — it was all underwater once</li><li>Mam Tor, the "Shivering Mountain" — its old road was abandoned in 1979 as the hill kept slipping</li><li>Castleton is the only place on earth you find Blue John stone</li></ul></div>
-
-      <div class="card"><div class="cap" style="font-size:16px;color:var(--forest)">Closing sign-off</div>
-        <div class="sub">A Peak viewpoint or Bakewell</div>
-        <ul style="margin-top:7px"><li>One-sentence recap and your single highlight</li><li>What it meant — first episode done, you did it</li><li>The ask: like, subscribe — and "where should episode 2 go?"</li></ul></div>
-
-      <h2 class="sec" style="margin-top:20px">Golden rules</h2>
-      <ul style="margin-top:8px">
-        <li>Film more than you think you need</li>
-        <li>Say the place name on camera at every stop</li>
-        <li>Get the establishing shot the moment you arrive</li>
-        <li>Talk like a person, not a tour guide</li>
-        <li>Never film while driving</li>
-      </ul>
-      <p class="note" style="margin:14px 0 4px">Safe travels, Ivan — the footage is in the bag.</p>
-    </section>
-
+    <section class="tab active" id="trip"></section>
+    <section class="tab" id="route"></section>
+    <section class="tab" id="plan"></section>
+    <section class="tab" id="talk"></section>
   </main>
 
   <nav class="tabs">
@@ -508,23 +190,291 @@
 </div>
 
 <script>
-  (function(){
-    var tabs=document.querySelectorAll('nav.tabs button');
-    var secs=document.querySelectorAll('.tab');
-    function show(name){
-      secs.forEach(function(s){s.classList.toggle('active',s.id===name);});
-      tabs.forEach(function(b){b.classList.toggle('on',b.dataset.tab===name);});
-      window.scrollTo(0,0);
-      try{localStorage.setItem('wt_tab',name);}catch(e){}
-    }
-    tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.tab);});});
-    try{var last=localStorage.getItem('wt_tab');if(last&&document.getElementById(last))show(last);}catch(e){}
-    if('serviceWorker' in navigator){
-      window.addEventListener('load',function(){
-        navigator.serviceWorker.register('sw.js').catch(function(){});
+(function () {
+  var TRIPS = null;
+  var TRIP  = null;
+  var ACTIVE = null;
+
+  /* ---------- helpers ---------- */
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  function attr(s) { return esc(s); }
+  function colorVar(c) { return 'var(--' + (c || 'rust') + ')'; }
+  function stop(id) { return TRIP && TRIP.stops && TRIP.stops[id]; }
+
+  /* ---------- tabs ---------- */
+  function showTab(name) {
+    var secs = document.querySelectorAll('.tab');
+    var btns = document.querySelectorAll('nav.tabs button');
+    secs.forEach(function (s) { s.classList.toggle('active', s.id === name); });
+    btns.forEach(function (b) { b.classList.toggle('on', b.dataset.tab === name); });
+    window.scrollTo(0, 0);
+    try { localStorage.setItem('wt_tab', name); } catch (e) {}
+  }
+
+  /* ---------- bootstrap ---------- */
+  function loadTrip(id) {
+    return fetch('trips/' + id + '.json', { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('trip ' + id + ' failed'); return r.json(); })
+      .then(function (t) { TRIP = t; ACTIVE = id; });
+  }
+
+  function renderAll() {
+    renderTrip();
+    renderRoute();
+    renderPlan();
+    renderTalk();
+  }
+
+  function wireTabs() {
+    document.querySelectorAll('nav.tabs button').forEach(function (b) {
+      b.addEventListener('click', function () { showTab(b.dataset.tab); });
+    });
+  }
+
+  function boot() {
+    fetch('trips/index.json', { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('index failed'); return r.json(); })
+      .then(function (idx) {
+        TRIPS = idx;
+        var stored = null;
+        try { stored = localStorage.getItem('wt_trip'); } catch (e) {}
+        var valid = stored && idx.trips.some(function (t) { return t.id === stored; });
+        var id = valid ? stored : idx.default;
+        return loadTrip(id);
+      })
+      .then(function () {
+        renderAll();
+        wireTabs();
+        try {
+          var last = localStorage.getItem('wt_tab');
+          if (last && document.getElementById(last)) showTab(last);
+        } catch (e) {}
+      })
+      .catch(function (err) {
+        var msg = '<div style="padding:20px;border:1.5px solid #b8472a;background:#fbf5e6;margin:14px 0">'
+          + '<b style="font-family:\'Space Mono\',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#b8472a;display:block;margin-bottom:6px">Trips failed to load</b>'
+          + 'Refresh the page when you have a connection. (' + esc(err.message) + ')'
+          + '</div>';
+        document.querySelector('main').innerHTML = msg;
       });
+  }
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('sw.js').catch(function () {});
+    });
+  }
+
+  /* ============================================================
+     Renderers
+     ============================================================ */
+
+  function renderTrip() {
+    var t = TRIP;
+    var glance = t.dayGlance.map(function (g) {
+      return ''
+        + '<div class="glance">'
+        + '<div class="gd" style="background:' + colorVar(g.color) + '">' + esc(g.n) + '</div>'
+        + '<div><div class="gt">' + esc(g.title) + '</div>'
+        + '<div class="gs">' + esc(g.sub) + '</div></div>'
+        + '</div>';
+    }).join('');
+
+    var acts = t.acts.map(function (a) {
+      return ''
+        + '<div class="card act-card" data-act="' + attr(a.id) + '">'
+        + '<div class="cap" style="font-size:15px;color:' + colorVar(a.color) + '">' + esc(a.label) + '</div>'
+        + '<p style="font-size:13px;margin-top:4px">' + esc(a.tagline) + '</p>'
+        + '</div>';
+    }).join('');
+
+    var kit = t.kit.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('');
+    var pre = t.preTrip.map(function (p, i) {
+      return '<div class="ck" data-ck="' + i + '"><b></b><span>' + esc(p) + '</span></div>';
+    }).join('');
+
+    /* Hero title heuristic: split on " to " preserve italic em for the connector */
+    var heroTitle;
+    var parts = t.title.split(' to ');
+    if (parts.length === 2) {
+      heroTitle = esc(parts[0]) + ' <em>to</em> ' + esc(parts[1]);
+    } else {
+      heroTitle = esc(t.title);
     }
-  })();
+
+    var html = ''
+      + '<div class="hero">'
+      +   '<div class="k">' + esc(t.heroKicker) + '</div>'
+      +   '<h1>' + heroTitle + '</h1>'
+      +   '<div class="meta">' + esc(t.subtitle) + '<br>' + esc(t.dates) + '</div>'
+      + '</div>'
+      + '<div class="stripe">'
+      +   '<i style="background:var(--rust)"></i><i style="background:var(--ochre)"></i><i style="background:var(--forest)"></i>'
+      + '</div>'
+      + '<p class="p0">' + esc(t.intro) + '</p>'
+      + '<h2 class="sec">The three days</h2>'
+      + '<div class="lede">Tap <b>Route</b> for navigation, <b>Plan</b> for the timed agenda, <b>Talk</b> for what to say on camera.</div>'
+      + glance
+      + '<h2 class="sec" style="margin-top:22px">The story to film</h2>'
+      + '<div class="lede">Three acts — let the episode build.</div>'
+      + acts
+      + '<h2 class="sec" style="margin-top:22px">Your kit</h2>'
+      + '<ul style="margin-top:8px">' + kit + '</ul>'
+      + '<h2 class="sec" style="margin-top:22px">Before you go</h2>'
+      + '<div style="margin-top:8px">' + pre + '</div>'
+      + '<div class="tipbox" style="margin-top:14px"><b>Golden rule</b>' + esc(t.goldenRule) + '</div>';
+    document.getElementById('trip').innerHTML = html;
+  }
+
+  function routeCardHTML(stopObj) {
+    if (!stopObj || !stopObj.routeCard) return '';
+    var rc = stopObj.routeCard;
+    var walkPts = (rc.walkPoints || []).map(function (w) {
+      return '<div class="wpt"><span class="wd">' + esc(w.n) + '</span>'
+           + '<span class="wn">' + esc(w.name) + '</span>'
+           + '<a class="pin" href="' + attr(w.pinHref) + '">Map</a></div>';
+    }).join('');
+    var walkLoop = rc.walkLoopHref
+      ? '<a class="walkbtn" href="' + attr(rc.walkLoopHref) + '">▶ WALK THIS LOOP</a>'
+      : '';
+    var leadNote   = rc.walkLeadNote ? '<div class="note" style="margin-top:0">' + esc(rc.walkLeadNote) + '</div>' : '';
+    var trailNote  = rc.trailingNote ? '<div class="note">' + esc(rc.trailingNote) + '</div>' : '';
+    var topNote    = rc.note ? '<div class="note">' + esc(rc.note) + '</div>' : '';
+    var walkBlock  = (rc.walkPoints && rc.walkPoints.length)
+      ? '<div class="walk">' + leadNote + walkPts + walkLoop + trailNote + '</div>'
+      : '';
+
+    return ''
+      + '<div class="card ac">'
+      +   '<div class="cap">' + esc(stopObj.name) + '</div>'
+      +   '<div class="sub">' + esc(rc.sub || '') + '</div>'
+      +   topNote
+      +   '<div class="btnrow">'
+      +     '<a class="btn g" href="' + attr(rc.mapsHref) + '">Google Maps</a>'
+      +     '<a class="btn w" href="' + attr(rc.wazeHref) + '">Waze</a>'
+      +   '</div>'
+      +   walkBlock
+      + '</div>';
+  }
+
+  function renderRoute() {
+    var t = TRIP;
+    var days = t.days.map(function (d) {
+      var cards = d.routeStops.map(function (sid) { return routeCardHTML(stop(sid)); }).join('');
+      return ''
+        + '<div class="day d' + esc(d.id.slice(1)) + '" style="--c:' + colorVar(d.color) + '">'
+        +   '<div class="dh"><span class="dn">' + esc(d.label) + '</span>'
+        +     '<span class="dd">' + esc(d.date) + '</span>'
+        +     '<span class="dr">' + esc(d.routeHeader) + '</span></div>'
+        +   '<a class="full" href="' + attr(d.fullRoute.href) + '">'
+        +     '<span>▶</span> ' + esc(d.fullRoute.label)
+        +     '<small>' + esc(d.fullRoute.sub) + '</small></a>'
+        +   cards
+        + '</div>';
+    }).join('');
+
+    var html = ''
+      + '<h2 class="sec">Route &amp; Navigation</h2>'
+      + '<p class="lede">Driving links connect the towns; walking loops connect the sights inside each one. Set destinations while parked — never while moving.</p>'
+      + days;
+    document.getElementById('route').innerHTML = html;
+  }
+
+  function planCardHTML(stopObj) {
+    if (!stopObj || !stopObj.planCard) return '';
+    var p = stopObj.planCard;
+    var leaveChip = p.leaveBy ? '<span class="chip lv">LEAVE BY ' + esc(p.leaveBy) + '</span>' : '';
+    var see  = p.see.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('');
+    var film = p.film.map(function (f) { return '<li class="f">' + esc(f) + '</li>'; }).join('');
+    return ''
+      + '<div class="card">'
+      +   '<div class="cap" style="font-size:16px">' + esc(stopObj.name) + '</div>'
+      +   '<span class="chip t">' + esc(p.time) + '</span>' + leaveChip
+      +   '<div class="mlabel">See</div><ul>' + see + '</ul>'
+      +   '<div class="mlabel">Film</div><ul>' + film + '</ul>'
+      + '</div>';
+  }
+
+  function renderPlan() {
+    var t = TRIP;
+    var days = t.days.map(function (d) {
+      var note = d.planNote
+        ? '<div class="tipbox" style="border-color:' + colorVar(d.planNote.color) + '">'
+        +   '<b style="color:' + colorVar(d.planNote.color) + '">' + esc(d.planNote.kicker) + '</b>' + esc(d.planNote.text)
+        + '</div>'
+        : '';
+      var cards = d.planStops.map(function (sid) { return planCardHTML(stop(sid)); }).join('');
+      var arr = d.planArrival
+        ? '<div class="card ac"><div class="cap" style="font-size:15px">' + esc(d.planArrival.title) + '</div>'
+        +   '<p style="font-size:12.5px;margin-top:3px">' + esc(d.planArrival.note) + '</p></div>'
+        : '';
+      return ''
+        + '<div class="day d' + esc(d.id.slice(1)) + '" style="--c:' + colorVar(d.color) + '">'
+        +   '<div class="dh"><span class="dn">' + esc(d.label) + '</span>'
+        +     '<span class="dd">' + esc(d.date) + '</span>'
+        +     '<span class="dr">' + esc(d.planHeader) + '</span></div>'
+        +   note + cards + arr
+        + '</div>';
+    }).join('');
+
+    var html = ''
+      + '<h2 class="sec">The Plan</h2>'
+      + '<p class="lede">The timed agenda for each day — when to be where, and what to film.</p>'
+      + days;
+    document.getElementById('plan').innerHTML = html;
+  }
+
+  function talkCardHTML(stopObj) {
+    if (!stopObj || stopObj.hideOnTalk) return '';
+    var act = (TRIP.acts || []).filter(function (a) { return a.id === stopObj.actId; })[0];
+    var color = colorVar(act ? act.color : 'rust');
+    var facts = (stopObj.facts || []).map(function (f) { return '<li>' + esc(f) + '</li>'; }).join('');
+    return ''
+      + '<div class="card">'
+      +   '<div class="cap" style="font-size:16px;color:' + color + '">' + esc(stopObj.name) + '</div>'
+      +   '<div class="sub">Angle: ' + esc(stopObj.angle) + '</div>'
+      +   (facts ? '<ul style="margin-top:7px">' + facts + '</ul>' : '')
+      + '</div>';
+  }
+
+  function bookendCardHTML(b) {
+    var facts = (b.facts || []).map(function (f) { return '<li>' + esc(f) + '</li>'; }).join('');
+    return ''
+      + '<div class="card">'
+      +   '<div class="cap" style="font-size:16px;color:' + colorVar(b.color) + '">' + esc(b.title) + '</div>'
+      +   '<div class="sub">' + esc(b.where) + '</div>'
+      +   '<ul style="margin-top:7px">' + facts + '</ul>'
+      + '</div>';
+  }
+
+  function renderTalk() {
+    var t = TRIP;
+    var stops = (t.acts || []).map(function (a) {
+      return (a.stopIds || []).map(function (sid) { return talkCardHTML(stop(sid)); }).join('');
+    }).join('');
+
+    var rules = (t.goldenRules || []).map(function (r) { return '<li>' + esc(r) + '</li>'; }).join('');
+
+    var html = ''
+      + '<h2 class="sec">What to Talk About</h2>'
+      + '<p class="lede">Learn two or three points per stop, then say them in your own words — don\'t read a script.</p>'
+      + '<div class="tipbox"><b>On camera</b>' + esc(t.talkTipbox) + '</div>'
+      + bookendCardHTML(t.coldOpen)
+      + stops
+      + bookendCardHTML(t.signOff)
+      + '<h2 class="sec" style="margin-top:20px">Golden rules</h2>'
+      + '<ul style="margin-top:8px">' + rules + '</ul>'
+      + (t.outro ? '<p class="note" style="margin:14px 0 4px">' + esc(t.outro) + '</p>' : '');
+    document.getElementById('talk').innerHTML = html;
+  }
+
+  /* ---------- go ---------- */
+  boot();
+})();
 </script>
 </body>
 </html>
