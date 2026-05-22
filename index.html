@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>WockingTocking · Trip</title>
 <meta name="theme-color" content="#2b2722">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="WockingTocking">
@@ -309,6 +310,27 @@
   function colorVar(c) { return 'var(--' + (c || 'rust') + ')'; }
   function stop(id) { return TRIP && TRIP.stops && TRIP.stops[id]; }
 
+  function validateTrip(t) {
+    if (!t || !t.stops || !t.acts) return;
+    var ids = Object.keys(t.stops);
+    (t.acts || []).forEach(function (a) {
+      (a.stopIds || []).forEach(function (sid) {
+        if (ids.indexOf(sid) === -1) console.warn('[wt] act ' + a.id + ' references missing stop "' + sid + '"');
+      });
+    });
+    (t.days || []).forEach(function (d) {
+      (d.routeStops || []).concat(d.planStops || []).forEach(function (sid) {
+        if (ids.indexOf(sid) === -1) console.warn('[wt] day ' + d.id + ' references missing stop "' + sid + '"');
+      });
+    });
+    Object.keys(t.stops).forEach(function (sid) {
+      var s = t.stops[sid];
+      if (s.actId && !(t.acts || []).some(function (a) { return a.id === s.actId; })) {
+        console.warn('[wt] stop ' + sid + ' has unknown actId "' + s.actId + '"');
+      }
+    });
+  }
+
   /* ---------- tabs ---------- */
   function showTab(name) {
     var secs = document.querySelectorAll('.tab');
@@ -323,7 +345,7 @@
   function loadTrip(id) {
     return fetch('trips/' + id + '.json', { cache: 'no-store' })
       .then(function (r) { if (!r.ok) throw new Error('trip ' + id + ' failed'); return r.json(); })
-      .then(function (t) { TRIP = t; ACTIVE = id; });
+      .then(function (t) { TRIP = t; ACTIVE = id; validateTrip(t); });
   }
 
   function renderAll() {

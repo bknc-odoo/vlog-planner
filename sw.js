@@ -1,16 +1,18 @@
-/* WockingTocking Ep.01 — minimal offline cache */
-var CACHE = 'wt-ep01-v1';
-var ASSETS = [
+/* WockingTocking — offline cache */
+var CACHE = 'wt-v2';
+var SHELL = [
   './',
   './index.html',
   './manifest.json',
   './icon-192.png',
   './icon-512.png',
-  './apple-touch-icon.png'
+  './apple-touch-icon.png',
+  './trips/index.json',
+  './trips/ep01.json'
 ];
 
 self.addEventListener('install', function (e) {
-  e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(ASSETS); }));
+  e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(SHELL); }));
   self.skipWaiting();
 });
 
@@ -26,13 +28,27 @@ self.addEventListener('activate', function (e) {
 
 self.addEventListener('fetch', function (e) {
   if (e.request.method !== 'GET') return;
+  var url = new URL(e.request.url);
+
+  if (url.pathname.indexOf('/trips/') !== -1 && url.pathname.endsWith('.json')) {
+    e.respondWith(
+      caches.open(CACHE).then(function (cache) {
+        return cache.match(e.request).then(function (cached) {
+          var network = fetch(e.request).then(function (res) {
+            if (res && res.ok) cache.put(e.request, res.clone());
+            return res;
+          }).catch(function () { return cached; });
+          return cached || network;
+        });
+      })
+    );
+    return;
+  }
+
   e.respondWith(
     caches.match(e.request).then(function (hit) {
-      return hit || fetch(e.request).then(function (res) {
-        return res;
-      }).catch(function () {
-        return caches.match('./index.html');
-      });
+      return hit || fetch(e.request).then(function (res) { return res; })
+        .catch(function () { return caches.match('./index.html'); });
     })
   );
 });
