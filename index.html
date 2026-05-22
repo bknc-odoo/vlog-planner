@@ -124,8 +124,13 @@
       color:var(--c);font-family:'Space Mono',monospace;font-size:9px;font-weight:700;
       display:flex;align-items:center;justify-content:center}
   .wn{flex:1;font-size:12.5px;font-weight:500}
-  .wblurb{font-family:'Fraunces',serif;font-weight:400;font-size:13px;line-height:1.5;
-        color:var(--ink);padding:4px 0 8px 27px;border-bottom:1px solid rgba(43,39,34,.09)}
+  .wdetail{padding:4px 0 8px 27px;border-bottom:1px solid rgba(43,39,34,.09)}
+  .wlabel{font-family:'Space Mono',monospace;font-size:9px;font-weight:700;
+        letter-spacing:.15em;text-transform:uppercase;color:var(--c,var(--rust));
+        margin:6px 0 2px}
+  .wlabel:first-child{margin-top:0}
+  .wstory{font-family:'Fraunces',serif;font-weight:400;font-size:13px;line-height:1.5;color:var(--ink)}
+  .wtodo{font-family:'Hanken Grotesk',sans-serif;font-weight:500;font-size:12.5px;line-height:1.5;color:var(--ink)}
   a.pin{flex:none;text-decoration:none;font-family:'Space Mono',monospace;font-size:9.5px;
         font-weight:700;color:var(--c);border:1px solid var(--c);padding:3px 7px}
   a.walkbtn{display:block;text-decoration:none;text-align:center;margin-top:9px;padding:10px;
@@ -162,8 +167,13 @@
         position:relative}
   /* Plan tab: See item with blurb */
   li.b{padding-bottom:8px}
-  .see-blurb{font-family:'Fraunces',serif;font-weight:400;font-size:13px;line-height:1.5;
-        color:var(--ink);margin-top:3px;padding-left:0}
+  .see-detail{margin-top:3px}
+  .see-label{font-family:'Space Mono',monospace;font-size:9px;font-weight:700;
+        letter-spacing:.15em;text-transform:uppercase;color:var(--c,var(--rust));
+        margin:6px 0 2px}
+  .see-label:first-child{margin-top:0}
+  .see-story{font-family:'Fraunces',serif;font-weight:400;font-size:13px;line-height:1.5;color:var(--ink)}
+  .see-todo{font-family:'Hanken Grotesk',sans-serif;font-weight:500;font-size:12.5px;line-height:1.5;color:var(--ink)}
   .ck.on b{background:var(--rust)}
   .ck.on b::after{content:"";position:absolute;left:3px;top:0;width:5px;height:9px;
         border:solid var(--paper);border-width:0 2px 2px 0;transform:rotate(45deg)}
@@ -664,12 +674,28 @@
     if (!stopObj || !stopObj.routeCard) return '';
     var rc = stopObj.routeCard;
     var walkPts = (rc.walkPoints || []).map(function (w) {
-      var hasBlurb = !!(w.blurb && String(w.blurb).trim());
-      var row = '<div class="wpt' + (hasBlurb ? ' b' : '') + '"><span class="wd">' + esc(w.n) + '</span>'
+      var story = (w.story && String(w.story).trim()) ? String(w.story).trim() : '';
+      var todo  = (w.todo  && String(w.todo).trim())  ? String(w.todo).trim()  : '';
+      var legacy = (!story && !todo && w.blurb) ? String(w.blurb).trim() : '';
+      var has = !!(story || todo || legacy);
+      var row = '<div class="wpt' + (has ? ' b' : '') + '"><span class="wd">' + esc(w.n) + '</span>'
               + '<span class="wn">' + esc(w.name) + '</span>'
               + '<a class="pin" href="' + attr(w.pinHref) + '">Map</a></div>';
-      var blurb = hasBlurb ? '<div class="wblurb">' + esc(w.blurb) + '</div>' : '';
-      return row + blurb;
+      var detail = '';
+      if (has) {
+        detail += '<div class="wdetail">';
+        if (story) {
+          detail += '<div class="wlabel">Story</div><div class="wstory">' + esc(story) + '</div>';
+        }
+        if (todo) {
+          detail += '<div class="wlabel">To do</div><div class="wtodo">' + esc(todo) + '</div>';
+        }
+        if (!story && !todo && legacy) {
+          detail += '<div class="wstory">' + esc(legacy) + '</div>';
+        }
+        detail += '</div>';
+      }
+      return row + detail;
     }).join('');
     var walkLoop = rc.walkLoopHref
       ? '<a class="walkbtn" href="' + attr(rc.walkLoopHref) + '">▶ WALK THIS LOOP</a>'
@@ -723,10 +749,17 @@
     var leaveChip = p.leaveBy ? '<span class="chip lv">LEAVE BY ' + esc(p.leaveBy) + '</span>' : '';
     var see  = p.see.map(function (s) {
       if (typeof s === 'string') return '<li>' + esc(s) + '</li>';
-      if (s && s.blurb && String(s.blurb).trim()) {
-        return '<li class="b">' + esc(s.name) + '<div class="see-blurb">' + esc(s.blurb) + '</div></li>';
-      }
-      return '<li>' + esc(s && s.name || '') + '</li>';
+      var name  = s && s.name || '';
+      var story = (s && s.story && String(s.story).trim()) ? String(s.story).trim() : '';
+      var todo  = (s && s.todo  && String(s.todo).trim())  ? String(s.todo).trim()  : '';
+      var legacy = (!story && !todo && s && s.blurb) ? String(s.blurb).trim() : '';
+      if (!story && !todo && !legacy) return '<li>' + esc(name) + '</li>';
+      var detail = '<div class="see-detail">';
+      if (story) detail += '<div class="see-label">Story</div><div class="see-story">' + esc(story) + '</div>';
+      if (todo)  detail += '<div class="see-label">To do</div><div class="see-todo">'  + esc(todo)  + '</div>';
+      if (!story && !todo && legacy) detail += '<div class="see-story">' + esc(legacy) + '</div>';
+      detail += '</div>';
+      return '<li class="b">' + esc(name) + detail + '</li>';
     }).join('');
     var film = p.film.map(function (f) { return '<li class="f">' + esc(f) + '</li>'; }).join('');
     return ''

@@ -184,26 +184,30 @@
           {
             "n": 1,
             "name": "Guildhall & Market Place",
-            "blurb": "In 1545 Henry VIII visited Lavenham and the locals were so rich they paid him to leave. That timber-framed thing on the square is the Guildhall of Corpus Christi — the original 16th-century boardroom of the wool merchants who could afford that gesture. Inside is a small museum; outside is the photographic heart of the village.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lavenham%20Guildhall"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lavenham%20Guildhall",
+            "story": "In 1545 Henry VIII visited Lavenham and the locals were so rich they paid him to leave. That timber-framed thing on the square is the Guildhall of Corpus Christi — the original 16th-century boardroom of the wool merchants who could afford that gesture.",
+            "todo": "Stand in the centre of the square for the establishing shot. If the Guildhall museum is open, the wool-trade exhibits inside run for ten minutes."
           },
           {
             "n": 2,
             "name": "Lady Street — crooked houses",
-            "blurb": "Every single house on this street leans in a different direction. The Tudor merchants here were in such a flashy hurry that they built before their oak had seasoned, and the timber has been drying out for six hundred years since. Look at the cottage on the corner — it tilts so hard it looks like it's bracing against a wind that stopped blowing in 1532.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lady%20Street%20Lavenham"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lady%20Street%20Lavenham",
+            "story": "Every single house on this street leans in a different direction. The Tudor merchants here built in such a flashy hurry that they used unseasoned oak, and the timber has been drying out — and warping — for six hundred years since.",
+            "todo": "Walk to the cottage on the corner that leans the most and frame it from below so the tilt exaggerates on camera."
           },
           {
             "n": 3,
             "name": "Water Street",
-            "blurb": "This is the row that has De Vere House on it — the actual door Voldemort walks through in Deathly Hallows to murder Harry's parents. They didn't dress it for the film; the location scout just turned up. Look up: every upper storey leans out further than the one below — medieval tax avoidance, because property tax was charged on ground-floor footprint.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Water%20Street%20Lavenham"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Water%20Street%20Lavenham",
+            "story": "This is the row that has De Vere House on it — the actual door Voldemort walks through in Deathly Hallows to murder Harry's parents. The location scout just turned up and used the village as it is.",
+            "todo": "Stand by the front door of De Vere House for a piece-to-camera. Look up: every upper storey leans further out than the one below — medieval tax dodge, because the council taxed ground-floor footprint."
           },
           {
             "n": 4,
             "name": "St Peter & St Paul's church",
-            "blurb": "The locals built this in the 15th century to thank God for making them rich on sheep — and they had a lot of thanks. The tower is 141 feet tall, visible from three counties, and so over-the-top that historians call it medieval bragging. Walk to the doors; you can still see the merchants' names cut into the stone.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham",
+            "story": "The locals built this in the 15th century to thank God for making them rich on sheep — and they had a lot of thanks. The tower is 141 feet tall, visible from three counties, and so over-the-top that historians call it medieval bragging.",
+            "todo": "Walk to the doors; you can still see the merchants' names cut into the stone."
           }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Lavenham%20Guildhall&destination=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham&waypoints=Lady%20Street%20Lavenham%7CWater%20Street%20Lavenham&travelmode=walking"
@@ -214,15 +218,18 @@
         "see": [
           {
             "name": "Market Place & Guildhall",
-            "blurb": "In 1545 Henry VIII visited Lavenham and the locals were so rich they paid him to leave. The Guildhall on the square is the original timber boardroom of the wool merchants who could afford that gesture."
+            "story": "In 1545 Henry VIII visited Lavenham and the locals were so rich they paid him to leave. The Guildhall on the square is the original timber boardroom of the wool merchants who could afford that gesture.",
+            "todo": "Stand in the centre of the square — the photographic heart of the village."
           },
           {
             "name": "Crooked houses, Lady & Water Street",
-            "blurb": "Every wall in the village leans differently because the Tudor merchants built before their timber had seasoned. The whole town has been slowly drying out for 600 years. Water Street's De Vere House is the door Voldemort walks through in Harry Potter."
+            "story": "Every wall in the village leans differently because the Tudor merchants built before their timber had seasoned. The whole town has been slowly drying out for 600 years.",
+            "todo": "Walk both streets. On Water Street, stop at De Vere House — that's Godric's Hollow from Harry Potter."
           },
           {
             "name": "The wool church",
-            "blurb": "The locals built St Peter & St Paul's to thank God for making them rich on sheep — and they had a lot of thanks. The tower is 141 feet tall, visible from three counties; historians call it medieval bragging."
+            "story": "The locals built St Peter & St Paul's to thank God for making them rich on sheep — and they had a lot of thanks. The tower is 141 feet tall, visible from three counties; historians call it medieval bragging.",
+            "todo": "Walk to the doors; you can still see the merchants' names cut into the stone."
           }
         ],
         "film": [
@@ -250,26 +257,30 @@
           {
             "n": 1,
             "name": "Red Lion Square & churches",
-            "blurb": "Medieval Stamford had 14 churches packed into a town you can walk across in 15 minutes — more churches per square mile than anywhere else in England. Five of them still stand within a short walk of this square. Either the locals were unusually pious or unusually divided; historians still argue about which.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Red%20Lion%20Square%20Stamford"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Red%20Lion%20Square%20Stamford",
+            "story": "Medieval Stamford had 14 churches packed into a town you can walk across in 15 minutes — more per square mile than anywhere else in England. Five of them still stand within a short walk of this square.",
+            "todo": "Stand in the centre of the square and pan slowly — you can fit three medieval church spires into a single shot from here."
           },
           {
             "n": 2,
             "name": "Barn Hill — Georgian street",
-            "blurb": "This is the BBC's go-to street when they need '1810s Britain' — Pride & Prejudice, Middlemarch, every Austen drama since the 90s. They don't redress a thing; the residents just move their cars away for a week and the cameras roll. Stand at the bottom, squint, and you're in 1814.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Barn%20Hill%20Stamford"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Barn%20Hill%20Stamford",
+            "story": "This is the BBC's go-to street when they need '1810s Britain' — Pride & Prejudice, Middlemarch, every Austen drama since the 90s. The residents just move their cars away for a week and the cameras roll.",
+            "todo": "Walk slowly down the cobbles from the top for a smooth tracking shot — it's a ready-made period scene."
           },
           {
             "n": 3,
             "name": "St Mary's Hill",
-            "blurb": "A medieval stone street descending from St Mary's church towards the river. The view back up the hill towards the spire is one of the most photographed in England — and even the lamp-posts look 200 years old, because most of them are. They never got replaced.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=St%20Marys%20Hill%20Stamford"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=St%20Marys%20Hill%20Stamford",
+            "story": "A medieval stone street descending from St Mary's church towards the river. Even the lamp-posts look 200 years old — because most of them are; they never got replaced.",
+            "todo": "Walk down, then turn and frame the spire from the bottom of the hill for the postcard shot."
           },
           {
             "n": 4,
             "name": "Town Bridge & the meadows",
-            "blurb": "Right beside the medieval bridge over the Welland is common land still grazed by sheep, inside the town, after 800 years of council meetings nobody's ever moved to cancel. Stamford's never quite let go of being a village. A reflective wide shot before getting back in the car.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Stamford%20Town%20Bridge"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Stamford%20Town%20Bridge",
+            "story": "Right beside the medieval bridge over the Welland is common land still grazed by sheep — inside the town, after 800 years of nobody bothering to change the deal.",
+            "todo": "Walk out onto the bridge for a reflective wide shot of the river and meadows. If the sheep are out, get them in frame."
           }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Red%20Lion%20Square%20Stamford&destination=Stamford%20Town%20Bridge&waypoints=Barn%20Hill%20Stamford%7CSt%20Marys%20Hill%20Stamford&travelmode=walking"
@@ -280,15 +291,18 @@
         "see": [
           {
             "name": "Red Lion Square & medieval churches",
-            "blurb": "Medieval Stamford had 14 churches in a town you can cross in 15 minutes — the highest density in England. Five of them still ring this small square."
+            "story": "Medieval Stamford had 14 churches in a town you can cross in 15 minutes — the highest density in England. Five of them still ring this small square.",
+            "todo": "Stand in the centre and pan — you can fit three spires into a single shot."
           },
           {
             "name": "St Mary's Hill, Barn Hill",
-            "blurb": "Barn Hill is what the BBC films when they need '1810s Britain' — Pride & Prejudice, Middlemarch, every Austen drama. The residents just move their cars and the cameras roll."
+            "story": "Barn Hill is what the BBC films when they need '1810s Britain' — Pride & Prejudice, Middlemarch, every Austen drama. The residents just move their cars and the cameras roll.",
+            "todo": "Walk down Barn Hill, then up St Mary's Hill for the spire view from the bottom."
           },
           {
             "name": "The Welland meadows",
-            "blurb": "Medieval common land still grazed by sheep, inside the town boundary, after 800 years of nobody bothering to change the deal."
+            "story": "Medieval common land still grazed by sheep, inside the town boundary, after 800 years of nobody bothering to change the deal.",
+            "todo": "Walk out onto the Town Bridge for the wide shot of meadows and (with luck) sheep."
           }
         ],
         "film": [
@@ -317,26 +331,30 @@
           {
             "n": 1,
             "name": "Lincoln Castle",
-            "blurb": "William the Conqueror built this in 1068, three years after taking England. It's one of only two castles in the country with two separate motte mounds — the second added in case the first one fell. Inside the vault is one of just four surviving copies of the 1215 Magna Carta — the actual sheet of vellum that ended the absolute power of English kings.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Castle"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Castle",
+            "story": "William the Conqueror built this in 1068, three years after taking England. It's one of only two castles in the country with two separate motte mounds — the second added in case the first one fell. Inside the vault is one of just four surviving copies of the 1215 Magna Carta — the actual sheet of vellum that ended the absolute power of English kings.",
+            "todo": "Walk around the outer walls for the establishing shot. Step into the vault if you have time — the Magna Carta is in a glass case, dimly lit, very serious."
           },
           {
             "n": 2,
             "name": "Lincoln Cathedral",
-            "blurb": "For 237 years — from 1311 to 1548 — this cathedral was the tallest building in the entire world. Taller than the Great Pyramid. Then in a 1548 storm the spire blew down, and the world had to wait three hundred more years for anything to overtake it. The west front is one of the most ornate in Europe; step inside if you can, the nave is the moment of awe.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Cathedral"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Cathedral",
+            "story": "For 237 years — from 1311 to 1548 — this cathedral was the tallest building in the entire world. Taller than the Great Pyramid. Then in a 1548 storm the spire blew down, and the world had to wait three hundred years for anything to overtake it.",
+            "todo": "Frame the west front from across the square — the carved facade is one of the most ornate in Europe. Step inside if you can; the soaring nave is the moment of awe."
           },
           {
             "n": 3,
             "name": "Bailgate",
-            "blurb": "At the top of this cobbled street is Newport Arch — a Roman gateway built around 200 AD that cars still drive through every day. Officially the oldest archway in continuous use in Britain. Eighteen centuries of traffic, and every few years a delivery van still bumps its roof on the underside.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bailgate%20Lincoln"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bailgate%20Lincoln",
+            "story": "At the top of this cobbled street is Newport Arch — a Roman gateway built around 200 AD that cars still drive through every day. Officially the oldest archway in continuous use in Britain.",
+            "todo": "Walk up to Newport Arch and wait for a car to drive under it — eighteen centuries of traffic in a single shot."
           },
           {
             "n": 4,
             "name": "Steep Hill",
-            "blurb": "The climb is so brutal that the council had to install a black handrail halfway up — one that nobody will admit to using. Halfway up is the Jew's House, built around 1170 and lived in continuously ever since. Someone has been making tea in that kitchen for 855 years.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Steep%20Hill%20Lincoln"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Steep%20Hill%20Lincoln",
+            "story": "Officially one of the steepest streets in England — the climb is so brutal the council had to install a handrail halfway up. Halfway up is also the Jew's House, built around 1170 and lived in continuously ever since: someone has been making tea in that kitchen for 855 years.",
+            "todo": "Walk down the hill (it's easier) for the piece-to-camera, then frame the Jew's House — small, two windows, looks unremarkable, isn't."
           }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Lincoln%20Castle&destination=Steep%20Hill%20Lincoln&waypoints=Lincoln%20Cathedral%7CBailgate%20Lincoln&travelmode=walking"
@@ -347,15 +365,18 @@
         "see": [
           {
             "name": "Steep Hill — cobbled medieval street",
-            "blurb": "The climb is so brutal that the council installed a handrail halfway up. Halfway up is also the Jew's House, built in 1170 — someone has been making tea in that kitchen for 855 years."
+            "story": "The climb is so brutal that the council installed a handrail halfway up. Halfway up is also the Jew's House, built in 1170 — someone has been making tea in that kitchen for 855 years.",
+            "todo": "Walk down the hill (much easier than up). Stop and frame the Jew's House — small, unremarkable-looking, isn't."
           },
           {
             "name": "Cathedral & Castle exterior",
-            "blurb": "From 1311 to 1548 Lincoln Cathedral was the tallest building in the world — taller than the Pyramids — until its spire blew down. The castle next door holds an original 1215 Magna Carta, one of only four left."
+            "story": "From 1311 to 1548 Lincoln Cathedral was the tallest building in the world — taller than the Pyramids — until its spire blew down. The castle next door holds an original 1215 Magna Carta.",
+            "todo": "Frame the cathedral's west front from across the square. The castle is right next door; walk over for the Magna Carta if you have time."
           },
           {
             "name": "Bailgate",
-            "blurb": "At the top is Newport Arch — a Roman gateway built around 200 AD that cars still drive through every day. The oldest archway in continuous use in Britain."
+            "story": "At the top is Newport Arch — a Roman gateway built around 200 AD that cars still drive through every day. The oldest archway in continuous use in Britain.",
+            "todo": "Walk up to Newport Arch and wait for a car to pass under it — eighteen centuries of traffic in a single shot."
           }
         ],
         "film": [
@@ -402,26 +423,30 @@
           {
             "n": 1,
             "name": "York Minster",
-            "blurb": "The great east window above the altar is the single largest expanse of medieval stained glass anywhere on Earth — the size of a tennis court. A man called John Thornton painted the whole thing in three years, in the early 1400s, for £56 and his expenses. He never delivered on time; the cathedral kept him on the job until he did.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Minster"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Minster",
+            "story": "The great east window above the altar is the single largest expanse of medieval stained glass anywhere on Earth — the size of a tennis court. A man called John Thornton painted the whole thing in three years, in the early 1400s, for £56. He never delivered on time; the cathedral kept him on the job until he did.",
+            "todo": "Frame the Minster wide from the square. Step inside if open and shoot the east window with as much of the nave as you can fit."
           },
           {
             "n": 2,
             "name": "The Shambles",
-            "blurb": "In the 1400s this street was the meat market — 26 butcher shops in a row, with grooves cut into the cobbles to drain the blood away. The iron hooks where the carcasses hung are still above the doors. J.K. Rowling visited as a student, walked down it once, and thought: that. Diagon Alley.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=The%20Shambles%20York"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=The%20Shambles%20York",
+            "story": "In the 1400s this street was the meat market — 26 butcher shops in a row, with grooves cut into the cobbles to drain the blood away. J.K. Rowling visited as a student, walked down it once, and thought: that. Diagon Alley.",
+            "todo": "Walk the length looking up — the iron hooks where carcasses hung are still above the doors. Glance down at the cobbles for the drainage grooves."
           },
           {
             "n": 3,
             "name": "Clifford's Tower",
-            "blurb": "All that's left of York Castle is this stone keep on a Norman mound. It's also where, in 1190, around 150 Jewish residents took refuge from a violent mob and were either killed or chose death rather than be forced to convert. A sobering plaque sits at the base. The view from the top is still one of the best in the city.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Cliffords%20Tower%20York"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Cliffords%20Tower%20York",
+            "story": "All that's left of York Castle is this stone keep on a Norman mound. It's also where, in 1190, around 150 Jewish residents took refuge from a violent mob and were either killed or chose death rather than be forced to convert.",
+            "todo": "Read the plaque at the base before you climb. The view from the top is one of the best in the city."
           },
           {
             "n": 4,
             "name": "Museum Gardens & River Ouse",
-            "blurb": "The ruins scattered through these gardens are what's left of St Mary's Abbey — once one of the wealthiest monasteries in England, until Henry VIII fell out with the Pope and had it torn to the ground in 1539. The arches and walls you see today are simply what his demolition crew didn't get round to finishing off.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Museum%20Gardens"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Museum%20Gardens",
+            "story": "The ruins scattered through these gardens are what's left of St Mary's Abbey — once one of the wealthiest monasteries in England, until Henry VIII fell out with the Pope and had it torn to the ground in 1539.",
+            "todo": "Walk through the gardens, find a quiet bench facing the river, and shoot the solo-day reflection clip there."
           }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=York%20Minster&destination=York%20Museum%20Gardens&waypoints=The%20Shambles%20York%7CCliffords%20Tower%20York&travelmode=walking",
@@ -433,19 +458,23 @@
         "see": [
           {
             "name": "York Minster",
-            "blurb": "The east window is the largest single sheet of medieval stained glass on Earth — the size of a tennis court. One man painted it over three years in the 1400s, for £56."
+            "story": "The east window is the largest single sheet of medieval stained glass on Earth — the size of a tennis court. One man painted it over three years in the 1400s, for £56.",
+            "todo": "Frame the Minster wide from the square. Step inside if open — the east window is behind the altar."
           },
           {
             "name": "The Shambles",
-            "blurb": "In the 1400s this street had 26 butcher shops with grooves cut into the cobbles to drain blood away. The iron hooks for the carcasses are still above the doors. J.K. Rowling walked it once and thought: Diagon Alley."
+            "story": "In the 1400s this street had 26 butcher shops with grooves cut into the cobbles to drain blood away. J.K. Rowling walked it once and thought: Diagon Alley.",
+            "todo": "Walk the length looking up — the iron meat hooks are still above the doors."
           },
           {
             "name": "The City Walls",
-            "blurb": "You can walk almost all the way around the city on top of its medieval walls — three miles of battlements on Roman foundations. The same defensive route soldiers patrolled here in 71 AD."
+            "story": "You can walk almost all the way around the city on top of its medieval walls — three miles of battlements on Roman foundations. The same defensive route soldiers patrolled here in 71 AD.",
+            "todo": "Join the walls at Bootham Bar by the Minster and walk a stretch on camera. The elevated view is the shot."
           },
           {
             "name": "Museum Gardens & the Ouse",
-            "blurb": "The ruins are St Mary's Abbey — once one of the wealthiest monasteries in England, until Henry VIII fell out with the Pope and had it torn down in 1539."
+            "story": "The ruins are St Mary's Abbey — once one of the wealthiest monasteries in England, until Henry VIII fell out with the Pope and had it torn down in 1539.",
+            "todo": "Find a quiet bench by the river. This is where the honest solo-day reflection clip goes."
           }
         ],
         "film": [
@@ -473,26 +502,30 @@
           {
             "n": 1,
             "name": "Bakewell Bridge over the Wye",
-            "blurb": "This 13th-century stone bridge has carried traffic for over 800 years — through the Industrial Revolution, two World Wars, and the invention of HGVs. The trout in the river below are notoriously tame: locals feed them. Lean on the railing and you can watch them just hold position in the current.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Bridge"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Bridge",
+            "story": "This 13th-century stone bridge has carried traffic for over 800 years — through the Industrial Revolution, two World Wars, and the invention of HGVs. The trout in the river below are notoriously tame: locals feed them.",
+            "todo": "Lean on the railing and film the trout — they hold position in the current, don't really move."
           },
           {
             "n": 2,
             "name": "Rutland Square & market town",
-            "blurb": "There's been a market on this spot every Monday since 1254 — that's 770 years and counting, including through the Black Death, two World Wars, and a global pandemic. Half a dozen rival bakeries on the surrounding streets all claim to make the *real* Bakewell pudding. Try at least two and pick a favourite on camera.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Rutland%20Square%20Bakewell"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Rutland%20Square%20Bakewell",
+            "story": "There's been a market on this spot every Monday since 1254 — that's 770 years and counting, including through the Black Death, two World Wars, and a pandemic. Half a dozen rival bakeries on the surrounding streets all claim to make the real Bakewell pudding.",
+            "todo": "Buy two puddings from different bakeries and react to them on camera. Be honest about which you prefer."
           },
           {
             "n": 3,
             "name": "All Saints' Church",
-            "blurb": "Out in the churchyard is the largest collection of Anglo-Saxon and Norman stone crosses anywhere in the north of England — some carved as early as the 8th century. They've stood in the open weather for over 1,200 years. The spire above is the tallest thing in Bakewell, which is how locals navigate.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=All%20Saints%20Church%20Bakewell"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=All%20Saints%20Church%20Bakewell",
+            "story": "In the churchyard is the largest collection of Anglo-Saxon and Norman stone crosses anywhere in the north of England — some carved as early as the 8th century. They've stood in the open weather for over 1,200 years.",
+            "todo": "Walk around the churchyard and find the Saxon crosses — they look like worn standing stones."
           },
           {
             "n": 4,
             "name": "Riverside & recreation ground",
-            "blurb": "The grassy walk along the Wye, with weeping willows, ducks, and shallow water you can paddle in. In summer the river is full of trout; in winter it's full of mist; year-round it's full of dogs. A natural spot for soft, slow B-roll between the historic bits.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Recreation%20Ground"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Recreation%20Ground",
+            "story": "The grassy walk along the Wye, with weeping willows, ducks, and shallow water you can paddle in. Year-round it's full of dogs.",
+            "todo": "Get slow B-roll: water, willows, ducks. Sit on a bench by the river for a quieter beat between historic stops."
           }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Bakewell%20Bridge&destination=Bakewell%20Recreation%20Ground&waypoints=Rutland%20Square%20Bakewell%7CAll%20Saints%20Church%20Bakewell&travelmode=walking"
@@ -518,20 +551,23 @@
           {
             "n": 1,
             "name": "Winnats Pass — drive the gorge",
-            "blurb": "You're driving through what used to be the bottom of a tropical sea. The Peak's limestone is fossilised coral and shells, laid down 350 million years before England even existed as a piece of land. Stop at the top, pick up a rock — there's a real chance it contains the imprint of something that once swam.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Winnats%20Pass"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Winnats%20Pass",
+            "story": "You're driving through what used to be the bottom of a tropical sea. The Peak's limestone is fossilised coral and shells, laid down 350 million years before England even existed as a piece of land.",
+            "todo": "Mount the camera in the car and drive through slowly. Stop at the top, pick up a rock — there's a real chance it contains the imprint of something that once swam."
           },
           {
             "n": 2,
             "name": "Mam Tor — ridge & viewpoint",
-            "blurb": "Locals call it the Shivering Mountain because it never stops moving — soft shale slipping millimetres a year. The old A625 used to run across its east face; engineers rebuilt the road seven times in twenty years before they finally gave up in 1979. You can walk the broken tarmac, fenced off and being slowly eaten by the hillside.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Mam%20Tor"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Mam%20Tor",
+            "story": "Locals call it the Shivering Mountain because it never stops moving — soft shale slipping millimetres a year. The old A625 used to run across its east face; engineers rebuilt the road seven times in twenty years before they finally gave up in 1979.",
+            "todo": "Walk a little way up the ridge for the valley view. Look for the broken old A625 below — you can walk the abandoned tarmac, fenced off, eerily intact."
           },
           {
             "n": 3,
             "name": "Castleton village & caves",
-            "blurb": "Beneath the village are four show caves cut into the limestone, the oldest more than a million years old. One of them — Blue John Cavern — produces a violet-and-yellow banded stone found absolutely nowhere else on Earth. The Romans imported it for vases in 100 AD; you can still buy a fingernail-sized piece in the village shops for a fiver.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Castleton%20village%20car%20park"
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Castleton%20village%20car%20park",
+            "story": "Beneath the village are four show caves cut into the limestone, the oldest more than a million years old. One of them — Blue John Cavern — produces a violet-and-yellow banded stone found absolutely nowhere else on Earth. The Romans imported it for vases in 100 AD.",
+            "todo": "Go down into Blue John Cavern if time allows — guided tours run hourly. Otherwise just buy a fingernail-sized piece of Blue John in a village shop for a fiver."
           }
         ],
         "walkLoopHref": null
@@ -542,15 +578,18 @@
         "see": [
           {
             "name": "Winnats Pass — the limestone gorge",
-            "blurb": "You're driving through the bottom of an ancient tropical sea. The Peak's limestone is fossilised coral, laid down 350 million years before England existed."
+            "story": "You're driving through the bottom of an ancient tropical sea. The Peak's limestone is fossilised coral, laid down 350 million years before England existed.",
+            "todo": "Mount the camera in the car and drive through slowly. Stop at the top, pick up a rock — chance it has a fossil in it."
           },
           {
             "name": "Mam Tor ridge",
-            "blurb": "Locals call it the Shivering Mountain because it never stops moving — soft shale slipping millimetres a year. It defeated the old A625 in 1979; you can still walk the broken tarmac."
+            "story": "Locals call it the Shivering Mountain because it never stops moving — soft shale slipping millimetres a year. It defeated the old A625 in 1979; you can still walk the broken tarmac.",
+            "todo": "Walk a stretch up the ridge for the valley view. Find the abandoned A625 below — fenced but visible, eerily intact."
           },
           {
             "name": "Castleton village & show caves",
-            "blurb": "One of the caves — Blue John Cavern — produces a stone found nowhere else on Earth. The Romans imported Blue John for vases in 100 AD; you can buy a piece in the village shops for a fiver."
+            "story": "One of the caves — Blue John Cavern — produces a stone found nowhere else on Earth. The Romans imported Blue John for vases in 100 AD.",
+            "todo": "Buy a small piece of Blue John in the village shops for a fiver — it has a postcode of its own."
           }
         ],
         "film": [
