@@ -1,0 +1,15 @@
+{
+  "name": "WockingTocking — Episode 01 Trip",
+  "short_name": "WT Ep.01",
+  "description": "Route, plan and on-camera talking points for the WockingTocking Episode 01 road trip.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3e9d6",
+  "theme_color": "#2b2722",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
