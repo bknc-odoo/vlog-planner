@@ -153,8 +153,13 @@
   .tipbox b{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.1em;
             text-transform:uppercase;color:var(--rust);display:block;margin-bottom:3px}
   .ck{display:flex;gap:9px;align-items:flex-start;padding:6px 0;font-size:13px;
-      border-bottom:1px solid var(--line)}
-  .ck b{flex:none;width:15px;height:15px;border:1.5px solid var(--rust);margin-top:2px}
+      border-bottom:1px solid var(--line);cursor:pointer}
+  .ck b{flex:none;width:15px;height:15px;border:1.5px solid var(--rust);margin-top:2px;
+        position:relative}
+  .ck.on b{background:var(--rust)}
+  .ck.on b::after{content:"";position:absolute;left:3px;top:0;width:5px;height:9px;
+        border:solid var(--paper);border-width:0 2px 2px 0;transform:rotate(45deg)}
+  .ck.on span{color:var(--soft);text-decoration:line-through}
 
   /* story (Talk tab) */
   .story{font-family:'Fraunces',serif;font-weight:400;font-size:14.5px;line-height:1.55;
@@ -463,6 +468,13 @@
     var ov = document.getElementById('actOverlay');
     if (ov && ov.classList.contains('on')) hideOverlayPanel();
 
+    if (h.indexOf('#trip/') === 0) {
+      var tid = h.slice(6);
+      if (TRIPS && TRIPS.trips.some(function (t) { return t.id === tid; })) {
+        selectTrip(tid);
+      }
+      return;
+    }
     if (h.indexOf('#tab/') === 0) {
       var name = h.slice(5);
       if (document.getElementById(name)) showTab(name);
@@ -503,6 +515,7 @@
         wireTabs();
         wireOverlay();
         wireHeader();
+        wireChecks();
         wireHash();
         try {
           var last = localStorage.getItem('wt_tab');
@@ -522,6 +535,36 @@
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
       navigator.serviceWorker.register('sw.js').catch(function () {});
+    });
+  }
+
+  /* ---------- checklist persistence ---------- */
+  function readChecks() {
+    try {
+      var all = JSON.parse(localStorage.getItem('wt_check') || '{}');
+      return all[ACTIVE] || {};
+    } catch (e) { return {}; }
+  }
+  function writeChecks(map) {
+    try {
+      var all = JSON.parse(localStorage.getItem('wt_check') || '{}');
+      if (!Object.keys(map).length) delete all[ACTIVE];
+      else all[ACTIVE] = map;
+      localStorage.setItem('wt_check', JSON.stringify(all));
+    } catch (e) {}
+  }
+
+  function wireChecks() {
+    document.getElementById('trip').addEventListener('click', function (e) {
+      var row = e.target.closest('.ck');
+      if (!row) return;
+      var i = row.dataset.ck;
+      if (i == null) return;
+      var map = readChecks();
+      if (map[i]) delete map[i];
+      else map[i] = true;
+      writeChecks(map);
+      row.classList.toggle('on', !!map[i]);
     });
   }
 
@@ -549,8 +592,10 @@
     }).join('');
 
     var kit = t.kit.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('');
+    var checks = readChecks();
     var pre = t.preTrip.map(function (p, i) {
-      return '<div class="ck" data-ck="' + i + '"><b></b><span>' + esc(p) + '</span></div>';
+      var on = checks[i] ? ' on' : '';
+      return '<div class="ck' + on + '" data-ck="' + i + '"><b></b><span>' + esc(p) + '</span></div>';
     }).join('');
 
     /* Hero title heuristic: split on " to " preserve italic em for the connector */
