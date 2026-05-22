@@ -1,0 +1,331 @@
+{
+  "id": "ep01",
+  "title": "Essex to Yorkshire",
+  "subtitle": "Little Yeldham → Pudsey",
+  "dates": "Sat 23 – Mon 25 May 2026",
+  "episode": "EP.01",
+  "heroKicker": "A WockingTocking road trip",
+  "intro": "Drive up through Britain's most beautiful old towns, spend a day exploring York, and take the long way home through the Peak District — your first episode, filmed end to end.",
+
+  "dayGlance": [
+    { "n": 1, "color": "rust",   "title": "The Old-Towns Run",        "sub": "Sat — Lavenham, Stamford & Lincoln, then on to Pudsey." },
+    { "n": 2, "color": "ochre",  "title": "York, then South",         "sub": "Sun — a morning in York, then drive to a Bakewell overnight." },
+    { "n": 3, "color": "forest", "title": "The Peak District & Home", "sub": "Mon — Castleton & Winnats Pass, then the drive home." }
+  ],
+
+  "acts": [
+    {
+      "id": "act1",
+      "color": "rust",
+      "label": "Act 1 · The journey north",
+      "tagline": "The old towns. Each stop a little more wow than the last.",
+      "narrative": "",
+      "stopIds": ["lavenham", "stamford", "lincoln"]
+    },
+    {
+      "id": "act2",
+      "color": "ochre",
+      "label": "Act 2 · A city to yourself",
+      "tagline": "York, solo — calmer, a touch more reflective.",
+      "narrative": "",
+      "stopIds": ["york"]
+    },
+    {
+      "id": "act3",
+      "color": "forest",
+      "label": "Act 3 · The scenic way home",
+      "tagline": "Mountains and gorge — wind the trip down, then sign off.",
+      "narrative": "",
+      "stopIds": ["bakewell", "castleton"]
+    }
+  ],
+
+  "kit": [
+    "Insta360 Ace Pro 2 — flip screen, high frame rate, voice control",
+    "Selfie stick — keep it short, it shows in shot",
+    "AirPods as mic — test first; camera mics as backup",
+    "2–3 spare batteries or a USB-C car charger",
+    "A cleared, high-capacity microSD card"
+  ],
+
+  "preTrip": [
+    "Book a room near Bakewell for Sunday night — Bank Holiday, fills fast",
+    "Charge every battery and your AirPods",
+    "Clear the microSD card",
+    "Test the AirPods as a mic with the camera",
+    "Set phone alarms for Saturday's \"leave by\" times"
+  ],
+
+  "goldenRule": "Never film while driving. Mount the camera before you move; do pieces-to-camera parked.",
+
+  "days": [
+    {
+      "id": "d1", "label": "Day 1", "date": "Sat 23 May", "color": "rust",
+      "routeHeader": "Little Yeldham → Lavenham → Stamford → Lincoln → Pudsey",
+      "fullRoute": {
+        "label": "FULL SATURDAY ROUTE",
+        "sub": "All four stops in one Google Maps route",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Little%20Yeldham%2C%20Essex&destination=Pudsey%2C%20Leeds&waypoints=Lavenham%2C%20Suffolk%7CStamford%2C%20Lincolnshire%7CLincoln%20Cathedral&travelmode=driving"
+      },
+      "planHeader": "The Old-Towns Run · ~5h driving · depart 9:00 AM",
+      "planNote": null,
+      "routeStops": ["lavenham", "stamford", "lincoln", "pudsey"],
+      "planStops": ["lavenham", "stamford", "lincoln"],
+      "planArrival": { "title": "Arrive Pudsey · ~6:30 PM", "note": "Meet your friend — text them a 6–7 PM window." }
+    },
+    {
+      "id": "d2", "label": "Day 2", "date": "Sun 24 May", "color": "ochre",
+      "routeHeader": "Pudsey → York → Bakewell (overnight)",
+      "fullRoute": {
+        "label": "FULL SUNDAY ROUTE",
+        "sub": "Pudsey → York → Bakewell in one route",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Pudsey%2C%20Leeds&destination=Bakewell%2C%20Derbyshire&waypoints=Askham%20Bar%20Park%20and%20Ride%2C%20York&travelmode=driving"
+      },
+      "planHeader": "York, then South · leave Pudsey ~9:00 AM",
+      "planNote": { "kicker": "Note", "color": "ochre", "text": "Book your Bakewell room now — Bank Holiday weekend, it fills fast." },
+      "routeStops": ["york", "bakewell"],
+      "planStops": ["york"],
+      "planArrival": { "title": "Arrive Bakewell · ~4:30 PM", "note": "Check in, then film Bakewell in the evening light." }
+    },
+    {
+      "id": "d3", "label": "Day 3", "date": "Mon 25 May", "color": "forest",
+      "routeHeader": "Bakewell → Castleton → home to Little Yeldham",
+      "fullRoute": {
+        "label": "FULL MONDAY ROUTE",
+        "sub": "Bakewell → Castleton → home in one route",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Bakewell%2C%20Derbyshire&destination=Little%20Yeldham%2C%20Essex&waypoints=Castleton%2C%20Derbyshire&travelmode=driving"
+      },
+      "planHeader": "The Peak District & Home · set off early",
+      "planNote": { "kicker": "Note", "color": "forest", "text": "Bank Holiday Monday — an early start means quiet roads and the gorge to yourself." },
+      "routeStops": ["castleton", "home"],
+      "planStops": ["castleton"],
+      "planArrival": { "title": "Arrive home · ~4:30 PM", "note": "~3h50 drive south. That's a wrap on Episode 01." }
+    }
+  ],
+
+  "stops": {
+    "lavenham": {
+      "name": "Lavenham", "actId": "act1", "angle": "A perfect medieval town",
+      "story": "",
+      "facts": [
+        "Point at how wonky it all is — the timber was used unseasoned, so it warped as it dried",
+        "600 years ago this was one of England's richest towns, all on wool",
+        "De Vere House was Godric's Hollow in Harry Potter"
+      ],
+      "routeCard": {
+        "sub": "First stop · Suffolk",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Lavenham%2C%20Suffolk&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Lavenham%2C%20Suffolk&navigate=yes",
+        "walkPoints": [
+          { "n": 1, "name": "Guildhall & Market Place",     "pinHref": "https://www.google.com/maps/search/?api=1&query=Lavenham%20Guildhall" },
+          { "n": 2, "name": "Lady Street — crooked houses", "pinHref": "https://www.google.com/maps/search/?api=1&query=Lady%20Street%20Lavenham" },
+          { "n": 3, "name": "Water Street",                 "pinHref": "https://www.google.com/maps/search/?api=1&query=Water%20Street%20Lavenham" },
+          { "n": 4, "name": "St Peter & St Paul's church",  "pinHref": "https://www.google.com/maps/search/?api=1&query=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham" }
+        ],
+        "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Lavenham%20Guildhall&destination=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham&waypoints=Lady%20Street%20Lavenham%7CWater%20Street%20Lavenham&travelmode=walking"
+      },
+      "planCard": {
+        "time": "9:25–10:40 AM", "leaveBy": "10:40",
+        "see": ["Market Place & Guildhall", "Crooked houses, Lady & Water Street", "The wool church"],
+        "film": ["Cold-open hook — your best line", "Walking piece-to-camera down a crooked street", "Hero shot up at a crooked house"]
+      }
+    },
+
+    "stamford": {
+      "name": "Stamford", "actId": "act1", "angle": "Timber to stone",
+      "story": "",
+      "facts": [
+        "All one honey-coloured limestone — that's why it's so harmonious",
+        "England's first-ever Conservation Area, 1967",
+        "It looks like a film set because it is one — Pride & Prejudice (2005)"
+      ],
+      "routeCard": {
+        "sub": "Lincolnshire · lunch stop",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Stamford%2C%20Lincolnshire&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Stamford%2C%20Lincolnshire&navigate=yes",
+        "walkPoints": [
+          { "n": 1, "name": "Red Lion Square & churches", "pinHref": "https://www.google.com/maps/search/?api=1&query=Red%20Lion%20Square%20Stamford" },
+          { "n": 2, "name": "Barn Hill — Georgian street","pinHref": "https://www.google.com/maps/search/?api=1&query=Barn%20Hill%20Stamford" },
+          { "n": 3, "name": "St Mary's Hill",             "pinHref": "https://www.google.com/maps/search/?api=1&query=St%20Marys%20Hill%20Stamford" },
+          { "n": 4, "name": "Town Bridge & the meadows",  "pinHref": "https://www.google.com/maps/search/?api=1&query=Stamford%20Town%20Bridge" }
+        ],
+        "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Red%20Lion%20Square%20Stamford&destination=Stamford%20Town%20Bridge&waypoints=Barn%20Hill%20Stamford%7CSt%20Marys%20Hill%20Stamford&travelmode=walking"
+      },
+      "planCard": {
+        "time": "12:40–2:30 PM", "leaveBy": "2:30",
+        "see": ["Red Lion Square & medieval churches", "St Mary's Hill, Barn Hill", "The Welland meadows"],
+        "film": ["Quick light lunch — protect the schedule", "Walking piece-to-camera on a stone street", "Hero shot of a spire above the rooftops"]
+      }
+    },
+
+    "lincoln": {
+      "name": "Lincoln", "actId": "act1", "angle": "The big one — and a hill",
+      "story": "",
+      "facts": [
+        "Steep Hill — make a joke of the climb",
+        "The cathedral was the tallest building in the world for over 200 years, until its spire fell in 1548",
+        "The castle holds an original 1215 Magna Carta"
+      ],
+      "routeCard": {
+        "sub": "Park up top · near Westgate",
+        "note": "Park near the cathedral so the loop runs downhill — the climb back up Steep Hill is the catch.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Lincoln%20Cathedral&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Lincoln%20Cathedral&navigate=yes",
+        "walkPoints": [
+          { "n": 1, "name": "Lincoln Castle",    "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Castle" },
+          { "n": 2, "name": "Lincoln Cathedral", "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Cathedral" },
+          { "n": 3, "name": "Bailgate",          "pinHref": "https://www.google.com/maps/search/?api=1&query=Bailgate%20Lincoln" },
+          { "n": 4, "name": "Steep Hill",        "pinHref": "https://www.google.com/maps/search/?api=1&query=Steep%20Hill%20Lincoln" }
+        ],
+        "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Lincoln%20Castle&destination=Steep%20Hill%20Lincoln&waypoints=Lincoln%20Cathedral%7CBailgate%20Lincoln&travelmode=walking"
+      },
+      "planCard": {
+        "time": "3:20–4:35 PM", "leaveBy": "4:35",
+        "see": ["Steep Hill — cobbled medieval street", "Cathedral & Castle exterior", "Bailgate"],
+        "film": ["Walking piece-to-camera along Steep Hill", "Wide of the cathedral's west front", "Hero shot back down Steep Hill"]
+      }
+    },
+
+    "pudsey": {
+      "name": "Pudsey", "actId": "act1", "angle": "Your friend's place",
+      "story": "",
+      "facts": [],
+      "routeCard": {
+        "sub": "Your friend's place",
+        "note": "Type your friend's exact address into the app. Buttons below pin Pudsey itself.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Pudsey%2C%20Leeds&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Pudsey%2C%20Leeds&navigate=yes",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": null,
+      "hideOnTalk": true
+    },
+
+    "york": {
+      "name": "York", "actId": "act2", "angle": "A walled city, just you",
+      "story": "",
+      "facts": [
+        "Lean into the solo tone — calmer, more reflective",
+        "The Shambles is said to have inspired Diagon Alley",
+        "The most complete city walls in England — walk a stretch on camera",
+        "A short honest reflection somewhere quiet: how the trip's going"
+      ],
+      "routeCard": {
+        "sub": "Park & Ride — don't drive in",
+        "note": "Driving inside the walls is slow. Park at the edge; the bus drops you in the centre.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Askham%20Bar%20Park%20and%20Ride%2C%20York&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Askham%20Bar%20Park%20and%20Ride%20York&navigate=yes",
+        "walkPoints": [
+          { "n": 1, "name": "York Minster",                  "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Minster" },
+          { "n": 2, "name": "The Shambles",                  "pinHref": "https://www.google.com/maps/search/?api=1&query=The%20Shambles%20York" },
+          { "n": 3, "name": "Clifford's Tower",              "pinHref": "https://www.google.com/maps/search/?api=1&query=Cliffords%20Tower%20York" },
+          { "n": 4, "name": "Museum Gardens & River Ouse",   "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Museum%20Gardens" }
+        ],
+        "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=York%20Minster&destination=York%20Museum%20Gardens&waypoints=The%20Shambles%20York%7CCliffords%20Tower%20York&travelmode=walking",
+        "trailingNote": "The City Walls join by the Minster at Bootham Bar — climb up for an elevated walk."
+      },
+      "planCard": {
+        "time": "~9:45 AM – 2:00 PM", "leaveBy": null,
+        "see": ["York Minster", "The Shambles", "The City Walls", "Museum Gardens & the Ouse"],
+        "film": ["Walking piece-to-camera up on the City Walls", "Minster — wide, then step inside", "Leave by 2:00 PM to reach the Peak in daylight"]
+      }
+    },
+
+    "bakewell": {
+      "name": "Bakewell", "actId": "act3", "angle": "Arrived at the Peak",
+      "story": "",
+      "facts": [
+        "The Bakewell pudding and the tart are different things — the pudding is the original",
+        "Buy one, try it on camera, react honestly"
+      ],
+      "routeCard": {
+        "sub": "Your overnight stay",
+        "note": "Type your accommodation address in once booked. Buttons pin Bakewell town.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Bakewell%2C%20Derbyshire&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Bakewell%2C%20Derbyshire&navigate=yes",
+        "walkPoints": [
+          { "n": 1, "name": "Bakewell Bridge over the Wye",  "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Bridge" },
+          { "n": 2, "name": "Rutland Square & market town",  "pinHref": "https://www.google.com/maps/search/?api=1&query=Rutland%20Square%20Bakewell" },
+          { "n": 3, "name": "All Saints' Church",            "pinHref": "https://www.google.com/maps/search/?api=1&query=All%20Saints%20Church%20Bakewell" },
+          { "n": 4, "name": "Riverside & recreation ground", "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Recreation%20Ground" }
+        ],
+        "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Bakewell%20Bridge&destination=Bakewell%20Recreation%20Ground&waypoints=Rutland%20Square%20Bakewell%7CAll%20Saints%20Church%20Bakewell&travelmode=walking"
+      },
+      "planCard": null
+    },
+
+    "castleton": {
+      "name": "Castleton & Winnats Pass", "actId": "act3", "angle": "Old towns to ancient land",
+      "story": "",
+      "facts": [
+        "This limestone formed in a tropical sea — it was all underwater once",
+        "Mam Tor, the \"Shivering Mountain\" — its old road was abandoned in 1979 as the hill kept slipping",
+        "Castleton is the only place on earth you find Blue John stone"
+      ],
+      "routeCard": {
+        "sub": "Peak District · Winnats Pass",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Castleton%2C%20Derbyshire&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Castleton%20Derbyshire&navigate=yes",
+        "walkLeadNote": "These three are short drives apart, not a walk.",
+        "walkPoints": [
+          { "n": 1, "name": "Winnats Pass — drive the gorge", "pinHref": "https://www.google.com/maps/search/?api=1&query=Winnats%20Pass" },
+          { "n": 2, "name": "Mam Tor — ridge & viewpoint",    "pinHref": "https://www.google.com/maps/search/?api=1&query=Mam%20Tor" },
+          { "n": 3, "name": "Castleton village & caves",      "pinHref": "https://www.google.com/maps/search/?api=1&query=Castleton%20village%20car%20park" }
+        ],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "~9:30 – 11:30 AM", "leaveBy": null,
+        "see": ["Winnats Pass — the limestone gorge", "Mam Tor ridge", "Castleton village & show caves"],
+        "film": ["In-car B-roll through Winnats — camera mounted", "Walking piece-to-camera, valley behind you", "Your closing sign-off — last line on camera"]
+      }
+    },
+
+    "home": {
+      "name": "Home", "actId": "act3", "angle": "Little Yeldham, Essex",
+      "story": "",
+      "facts": [],
+      "routeCard": {
+        "sub": "Little Yeldham, Essex",
+        "note": "Type your home address for door-to-door. Buttons pin the village.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Little%20Yeldham%2C%20Essex&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Little%20Yeldham%20Essex&navigate=yes",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": null,
+      "hideOnTalk": true
+    }
+  },
+
+  "coldOpen": {
+    "title": "Cold open", "color": "rust", "where": "Film in the car or at Lavenham",
+    "facts": [
+      "Who you are — first-ever episode of WockingTocking",
+      "What this is: Essex to Leeds, three days, the scenic way",
+      "The promise: old towns, a city, the Peak District"
+    ]
+  },
+
+  "signOff": {
+    "title": "Closing sign-off", "color": "forest", "where": "A Peak viewpoint or Bakewell",
+    "facts": [
+      "One-sentence recap and your single highlight",
+      "What it meant — first episode done, you did it",
+      "The ask: like, subscribe — and \"where should episode 2 go?\""
+    ]
+  },
+
+  "talkTipbox": "You're not presenting — you're telling a mate about your trip. Say what you're about to do, do it, then react. Keep each clip 20–40 seconds. Fluffing your words is fine; pause and go again.",
+
+  "goldenRules": [
+    "Film more than you think you need",
+    "Say the place name on camera at every stop",
+    "Get the establishing shot the moment you arrive",
+    "Talk like a person, not a tour guide",
+    "Never film while driving"
+  ],
+
+  "outro": "Safe travels, Ivan — the footage is in the bag."
+}

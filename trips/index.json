@@ -1,0 +1,12 @@
+{
+  "default": "ep01",
+  "trips": [
+    {
+      "id": "ep01",
+      "title": "Essex to Yorkshire",
+      "subtitle": "Little Yeldham → Pudsey",
+      "dates": "Sat 23 – Mon 25 May 2026",
+      "episode": "EP.01"
+    }
+  ]
+}
