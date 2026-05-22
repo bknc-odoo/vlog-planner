@@ -160,6 +160,10 @@
       border-bottom:1px solid var(--line);cursor:pointer}
   .ck b{flex:none;width:15px;height:15px;border:1.5px solid var(--rust);margin-top:2px;
         position:relative}
+  /* Plan tab: See item with blurb */
+  li.b{padding-bottom:8px}
+  .see-blurb{font-family:'Fraunces',serif;font-weight:400;font-size:13px;line-height:1.5;
+        color:var(--ink);margin-top:3px;padding-left:0}
   .ck.on b{background:var(--rust)}
   .ck.on b::after{content:"";position:absolute;left:3px;top:0;width:5px;height:9px;
         border:solid var(--paper);border-width:0 2px 2px 0;transform:rotate(45deg)}
@@ -717,7 +721,13 @@
     if (!stopObj || !stopObj.planCard) return '';
     var p = stopObj.planCard;
     var leaveChip = p.leaveBy ? '<span class="chip lv">LEAVE BY ' + esc(p.leaveBy) + '</span>' : '';
-    var see  = p.see.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('');
+    var see  = p.see.map(function (s) {
+      if (typeof s === 'string') return '<li>' + esc(s) + '</li>';
+      if (s && s.blurb && String(s.blurb).trim()) {
+        return '<li class="b">' + esc(s.name) + '<div class="see-blurb">' + esc(s.blurb) + '</div></li>';
+      }
+      return '<li>' + esc(s && s.name || '') + '</li>';
+    }).join('');
     var film = p.film.map(function (f) { return '<li class="f">' + esc(f) + '</li>'; }).join('');
     return ''
       + '<div class="card">'

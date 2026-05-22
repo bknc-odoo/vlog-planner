@@ -6,13 +6,26 @@
   "episode": "EP.01",
   "heroKicker": "A WockingTocking road trip",
   "intro": "Drive up through Britain's most beautiful old towns, spend a day exploring York, and take the long way home through the Peak District — your first episode, filmed end to end.",
-
   "dayGlance": [
-    { "n": 1, "color": "rust",   "title": "The Old-Towns Run",        "sub": "Sat — Lavenham, Stamford & Lincoln, then on to Pudsey." },
-    { "n": 2, "color": "ochre",  "title": "York, then South",         "sub": "Sun — a morning in York, then drive to a Bakewell overnight." },
-    { "n": 3, "color": "forest", "title": "The Peak District & Home", "sub": "Mon — Castleton & Winnats Pass, then the drive home." }
+    {
+      "n": 1,
+      "color": "rust",
+      "title": "The Old-Towns Run",
+      "sub": "Sat — Lavenham, Stamford & Lincoln, then on to Pudsey."
+    },
+    {
+      "n": 2,
+      "color": "ochre",
+      "title": "York, then South",
+      "sub": "Sun — a morning in York, then drive to a Bakewell overnight."
+    },
+    {
+      "n": 3,
+      "color": "forest",
+      "title": "The Peak District & Home",
+      "sub": "Mon — Castleton & Winnats Pass, then the drive home."
+    }
   ],
-
   "acts": [
     {
       "id": "act1",
@@ -20,7 +33,11 @@
       "label": "Act 1 · The journey north",
       "tagline": "The old towns. Each stop a little more wow than the last.",
       "narrative": "You start in your own driveway, in a sleepy Essex village no one has heard of, and within an hour you're standing in Lavenham — a town so wonky and so old that it feels staged. From there it just keeps building. Stamford turns the dial up: a whole town carved from one honey-coloured stone, every house in conversation with the next. Then Lincoln, the headliner — a cathedral that was, for two and a half centuries, the tallest thing humans had ever built. The pattern of the day is the pattern of the trip: each stop should feel a little bigger, a little more 'wait, really?' than the one before. By the time you roll into Pudsey in the early evening, you've travelled five hundred years of England in a single day, and the camera has the proof.",
-      "stopIds": ["lavenham", "stamford", "lincoln"]
+      "stopIds": [
+        "lavenham",
+        "stamford",
+        "lincoln"
+      ]
     },
     {
       "id": "act2",
@@ -28,7 +45,9 @@
       "label": "Act 2 · A city to yourself",
       "tagline": "York, solo — calmer, a touch more reflective.",
       "narrative": "Day two is the change of register. After a Saturday spent reacting to one wow after another with your mate's voice off-camera, York is just you and a walled city. That solitude is the story — not a sad one, just a calmer one. You walk the most complete medieval walls in England with no one to perform for. You wander into the Shambles, the narrow lane that whispered the idea of Diagon Alley into J.K. Rowling's head. Somewhere quiet — Museum Gardens by the river works — you turn the camera on yourself and say, honestly, how the trip is going. That short piece is the heart of the episode. Then you point the car south, because the Peak District is waiting and you want to be there before the light goes.",
-      "stopIds": ["york"]
+      "stopIds": [
+        "york"
+      ]
     },
     {
       "id": "act3",
@@ -36,10 +55,12 @@
       "label": "Act 3 · The scenic way home",
       "tagline": "Mountains and gorge — wind the trip down, then sign off.",
       "narrative": "The third day rewinds the clock by a few hundred million years. You've spent two days in places where humans piled stone on stone; now you stand on stone that used to be a tropical sea. Winnats Pass is a limestone gorge a car can drive through, formed underwater long before England existed. Above it sits Mam Tor, the Shivering Mountain — the only A-road in Britain to ever be defeated by a hill, abandoned in 1979 because the slope kept slipping. From here you wind down to Bakewell, taste a pudding that exists because a cook got a recipe wrong in 1820, and then you point the car south for the long quiet drive home. Somewhere on a viewpoint or back in the village, you say the last line of Episode 01 on camera, and that is your wrap.",
-      "stopIds": ["bakewell", "castleton"]
+      "stopIds": [
+        "bakewell",
+        "castleton"
+      ]
     }
   ],
-
   "kit": [
     "Insta360 Ace Pro 2 — flip screen, high frame rate, voice control",
     "Selfie stick — keep it short, it shows in shot",
@@ -47,7 +68,6 @@
     "2–3 spare batteries or a USB-C car charger",
     "A cleared, high-capacity microSD card"
   ],
-
   "preTrip": [
     "Book a room near Bakewell for Sunday night — Bank Holiday, fills fast",
     "Charge every battery and your AirPods",
@@ -55,12 +75,13 @@
     "Test the AirPods as a mic with the camera",
     "Set phone alarms for Saturday's \"leave by\" times"
   ],
-
   "goldenRule": "Never film while driving. Mount the camera before you move; do pieces-to-camera parked.",
-
   "days": [
     {
-      "id": "d1", "label": "Day 1", "date": "Sat 23 May", "color": "rust",
+      "id": "d1",
+      "label": "Day 1",
+      "date": "Sat 23 May",
+      "color": "rust",
       "routeHeader": "Little Yeldham → Lavenham → Stamford → Lincoln → Pudsey",
       "fullRoute": {
         "label": "FULL SATURDAY ROUTE",
@@ -69,12 +90,27 @@
       },
       "planHeader": "The Old-Towns Run · ~5h driving · depart 9:00 AM",
       "planNote": null,
-      "routeStops": ["lavenham", "stamford", "lincoln", "pudsey"],
-      "planStops": ["lavenham", "stamford", "lincoln"],
-      "planArrival": { "title": "Arrive Pudsey · ~6:30 PM", "note": "Meet your friend — text them a 6–7 PM window." }
+      "routeStops": [
+        "lavenham",
+        "stamford",
+        "lincoln",
+        "pudsey"
+      ],
+      "planStops": [
+        "lavenham",
+        "stamford",
+        "lincoln"
+      ],
+      "planArrival": {
+        "title": "Arrive Pudsey · ~6:30 PM",
+        "note": "Meet your friend — text them a 6–7 PM window."
+      }
     },
     {
-      "id": "d2", "label": "Day 2", "date": "Sun 24 May", "color": "ochre",
+      "id": "d2",
+      "label": "Day 2",
+      "date": "Sun 24 May",
+      "color": "ochre",
       "routeHeader": "Pudsey → York → Bakewell (overnight)",
       "fullRoute": {
         "label": "FULL SUNDAY ROUTE",
@@ -82,13 +118,28 @@
         "href": "https://www.google.com/maps/dir/?api=1&origin=Pudsey%2C%20Leeds&destination=Bakewell%2C%20Derbyshire&waypoints=Askham%20Bar%20Park%20and%20Ride%2C%20York&travelmode=driving"
       },
       "planHeader": "York, then South · leave Pudsey ~9:00 AM",
-      "planNote": { "kicker": "Note", "color": "ochre", "text": "Book your Bakewell room now — Bank Holiday weekend, it fills fast." },
-      "routeStops": ["york", "bakewell"],
-      "planStops": ["york"],
-      "planArrival": { "title": "Arrive Bakewell · ~4:30 PM", "note": "Check in, then film Bakewell in the evening light." }
+      "planNote": {
+        "kicker": "Note",
+        "color": "ochre",
+        "text": "Book your Bakewell room now — Bank Holiday weekend, it fills fast."
+      },
+      "routeStops": [
+        "york",
+        "bakewell"
+      ],
+      "planStops": [
+        "york"
+      ],
+      "planArrival": {
+        "title": "Arrive Bakewell · ~4:30 PM",
+        "note": "Check in, then film Bakewell in the evening light."
+      }
     },
     {
-      "id": "d3", "label": "Day 3", "date": "Mon 25 May", "color": "forest",
+      "id": "d3",
+      "label": "Day 3",
+      "date": "Mon 25 May",
+      "color": "forest",
       "routeHeader": "Bakewell → Castleton → home to Little Yeldham",
       "fullRoute": {
         "label": "FULL MONDAY ROUTE",
@@ -96,16 +147,29 @@
         "href": "https://www.google.com/maps/dir/?api=1&origin=Bakewell%2C%20Derbyshire&destination=Little%20Yeldham%2C%20Essex&waypoints=Castleton%2C%20Derbyshire&travelmode=driving"
       },
       "planHeader": "The Peak District & Home · set off early",
-      "planNote": { "kicker": "Note", "color": "forest", "text": "Bank Holiday Monday — an early start means quiet roads and the gorge to yourself." },
-      "routeStops": ["castleton", "home"],
-      "planStops": ["castleton"],
-      "planArrival": { "title": "Arrive home · ~4:30 PM", "note": "~3h50 drive south. That's a wrap on Episode 01." }
+      "planNote": {
+        "kicker": "Note",
+        "color": "forest",
+        "text": "Bank Holiday Monday — an early start means quiet roads and the gorge to yourself."
+      },
+      "routeStops": [
+        "castleton",
+        "home"
+      ],
+      "planStops": [
+        "castleton"
+      ],
+      "planArrival": {
+        "title": "Arrive home · ~4:30 PM",
+        "note": "~3h50 drive south. That's a wrap on Episode 01."
+      }
     }
   ],
-
   "stops": {
     "lavenham": {
-      "name": "Lavenham", "actId": "act1", "angle": "A perfect medieval town",
+      "name": "Lavenham",
+      "actId": "act1",
+      "angle": "A perfect medieval town",
       "story": "Six hundred years ago Lavenham was one of the richest towns in England, and all of it was built on sheep. The wool from East Anglian farms went out through this market and the merchants who handled it built houses that screamed money — three storeys of oak, carved gables, the lot. The catch: they were in such a hurry to flaunt it, they used the timber before it was properly seasoned, and as the wood dried over the centuries it warped. That's why every wall here leans. The whole village is a wonky monument to medieval cash flow. The other thing to know — De Vere House, the timber-framed one on Water Street, was Godric's Hollow in Harry Potter, so you're literally walking through Harry's childhood front garden.",
       "facts": [
         "Point at how wonky it all is — the timber was used unseasoned, so it warped as it dried",
@@ -117,30 +181,61 @@
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Lavenham%2C%20Suffolk&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Lavenham%2C%20Suffolk&navigate=yes",
         "walkPoints": [
-          { "n": 1, "name": "Guildhall & Market Place",
+          {
+            "n": 1,
+            "name": "Guildhall & Market Place",
             "blurb": "The 16th-century timber-framed Guildhall of Corpus Christi presides over the market square, originally built by Lavenham's wool guild. Inside is a small museum about the town's medieval wealth; outside, the square is the photographic centre of the village.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lavenham%20Guildhall" },
-          { "n": 2, "name": "Lady Street — crooked houses",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lavenham%20Guildhall"
+          },
+          {
+            "n": 2,
+            "name": "Lady Street — crooked houses",
             "blurb": "The single most photographed street in the village. Every house on it leans differently because the unseasoned oak warped at its own pace; one cottage tilts so dramatically it looks ready to topple into the next.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lady%20Street%20Lavenham" },
-          { "n": 3, "name": "Water Street",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lady%20Street%20Lavenham"
+          },
+          {
+            "n": 3,
+            "name": "Water Street",
             "blurb": "A row of timbered merchant houses including De Vere House — the actual filming location for Godric's Hollow in Harry Potter and the Deathly Hallows. Walk past the front door; this is where Voldemort murdered Harry's parents on screen.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Water%20Street%20Lavenham" },
-          { "n": 4, "name": "St Peter & St Paul's church",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Water%20Street%20Lavenham"
+          },
+          {
+            "n": 4,
+            "name": "St Peter & St Paul's church",
             "blurb": "Locally called the wool church: built in the 15th and 16th centuries entirely on profits from the wool trade. Its tower is one of the tallest village church towers in England, visible across the Suffolk fields for miles.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham" }
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham"
+          }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Lavenham%20Guildhall&destination=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham&waypoints=Lady%20Street%20Lavenham%7CWater%20Street%20Lavenham&travelmode=walking"
       },
       "planCard": {
-        "time": "9:25–10:40 AM", "leaveBy": "10:40",
-        "see": ["Market Place & Guildhall", "Crooked houses, Lady & Water Street", "The wool church"],
-        "film": ["Cold-open hook — your best line", "Walking piece-to-camera down a crooked street", "Hero shot up at a crooked house"]
+        "time": "9:25–10:40 AM",
+        "leaveBy": "10:40",
+        "see": [
+          {
+            "name": "Market Place & Guildhall",
+            "blurb": "The 16th-century timber-framed Guildhall of Corpus Christi dominates the square, built by Lavenham's wool guild. Inside is a small museum about the town's medieval wealth; outside, it's the photographic centre of the village."
+          },
+          {
+            "name": "Crooked houses, Lady & Water Street",
+            "blurb": "The two most photographed streets in the village — every wall leans differently because the unseasoned oak warped at its own pace. Water Street's De Vere House is Godric's Hollow from Harry Potter and the Deathly Hallows."
+          },
+          {
+            "name": "The wool church",
+            "blurb": "St Peter & St Paul's, built in the 15th and 16th centuries entirely on profits from the wool trade. Its tower is one of the tallest village church towers in England, visible across the Suffolk fields for miles."
+          }
+        ],
+        "film": [
+          "Cold-open hook — your best line",
+          "Walking piece-to-camera down a crooked street",
+          "Hero shot up at a crooked house"
+        ]
       }
     },
-
     "stamford": {
-      "name": "Stamford", "actId": "act1", "angle": "Timber to stone",
+      "name": "Stamford",
+      "actId": "act1",
+      "angle": "Timber to stone",
       "story": "After Lavenham's leaning timbers, Stamford is the same idea in stone. Every wall, every roof, every garden gate is cut from the same honey-coloured Lincolnshire limestone — quarried just up the road — and the result is a town that looks like one continuous, harmonious composition. That harmony is so striking that in 1967 Stamford became the first ever Conservation Area in England — the place that invented the idea that towns themselves are worth protecting. It feels like a film set, and it is one: this is where they shot most of the 2005 Pride & Prejudice. You can walk through Mr Bingley's Meryton in twenty minutes, eat lunch, and be back in the car.",
       "facts": [
         "All one honey-coloured limestone — that's why it's so harmonious",
@@ -152,30 +247,61 @@
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Stamford%2C%20Lincolnshire&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Stamford%2C%20Lincolnshire&navigate=yes",
         "walkPoints": [
-          { "n": 1, "name": "Red Lion Square & churches",
+          {
+            "n": 1,
+            "name": "Red Lion Square & churches",
             "blurb": "A small medieval marketplace ringed by churches — there were once 14 in Stamford, and several still stand within a five-minute walk. A natural anchor point to film yourself arriving in the town centre.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Red%20Lion%20Square%20Stamford" },
-          { "n": 2, "name": "Barn Hill — Georgian street",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Red%20Lion%20Square%20Stamford"
+          },
+          {
+            "n": 2,
+            "name": "Barn Hill — Georgian street",
             "blurb": "A cobbled lane of pristine Georgian townhouses, all in the same honey limestone, fronted by black iron railings. It looks exactly like the 1800s and is one of the most filmed streets in England — almost every Georgian-era period drama ends up using it.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Barn%20Hill%20Stamford" },
-          { "n": 3, "name": "St Mary's Hill",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Barn%20Hill%20Stamford"
+          },
+          {
+            "n": 3,
+            "name": "St Mary's Hill",
             "blurb": "A steep stone street descending from the Welland river towards St Mary's church, lined with antique shops and tearooms. The view back up the hill towards the spire is a postcard shot.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=St%20Marys%20Hill%20Stamford" },
-          { "n": 4, "name": "Town Bridge & the meadows",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=St%20Marys%20Hill%20Stamford"
+          },
+          {
+            "n": 4,
+            "name": "Town Bridge & the meadows",
             "blurb": "The medieval bridge over the River Welland with grassy meadows on either side, often grazed by sheep right inside the town. A good spot for a reflective wide shot before heading back to the car.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Stamford%20Town%20Bridge" }
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Stamford%20Town%20Bridge"
+          }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Red%20Lion%20Square%20Stamford&destination=Stamford%20Town%20Bridge&waypoints=Barn%20Hill%20Stamford%7CSt%20Marys%20Hill%20Stamford&travelmode=walking"
       },
       "planCard": {
-        "time": "12:40–2:30 PM", "leaveBy": "2:30",
-        "see": ["Red Lion Square & medieval churches", "St Mary's Hill, Barn Hill", "The Welland meadows"],
-        "film": ["Quick light lunch — protect the schedule", "Walking piece-to-camera on a stone street", "Hero shot of a spire above the rooftops"]
+        "time": "12:40–2:30 PM",
+        "leaveBy": "2:30",
+        "see": [
+          {
+            "name": "Red Lion Square & medieval churches",
+            "blurb": "A small marketplace ringed by medieval churches — there were once 14 in Stamford, several still standing within a five-minute walk. A natural anchor point for arriving in the town centre."
+          },
+          {
+            "name": "St Mary's Hill, Barn Hill",
+            "blurb": "Two of Stamford's most filmed streets: St Mary's Hill descends in stone steps from the church, and Barn Hill is a Georgian terrace so picture-perfect it appears in nearly every period drama shot here."
+          },
+          {
+            "name": "The Welland meadows",
+            "blurb": "Grassy fields running alongside the River Welland, often grazed by sheep right inside the town. A reflective wide shot before getting back in the car."
+          }
+        ],
+        "film": [
+          "Quick light lunch — protect the schedule",
+          "Walking piece-to-camera on a stone street",
+          "Hero shot of a spire above the rooftops"
+        ]
       }
     },
-
     "lincoln": {
-      "name": "Lincoln", "actId": "act1", "angle": "The big one — and a hill",
+      "name": "Lincoln",
+      "actId": "act1",
+      "angle": "The big one — and a hill",
       "story": "Lincoln is the headliner of day one, and it earns it twice — once for the climb and once for the building at the top. Steep Hill is the spine of the old city; you grind up it past medieval houses and timbered shopfronts, and when you crest the top the cathedral fills the sky. Here's the line on camera: from the year 1311 until 1548, Lincoln Cathedral's spire was the tallest building in the world. For two hundred and thirty-seven years humans had built nothing taller. Then in 1548 the spire collapsed in a storm and the world had to wait three hundred more years for anything to overtake it. Next door, the castle holds one of only four surviving original copies of the 1215 Magna Carta — the actual sheet of vellum that ended the absolute power of English kings. Bring a wide lens and a moment of awe.",
       "facts": [
         "Steep Hill — make a joke of the climb",
@@ -188,30 +314,61 @@
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Lincoln%20Cathedral&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Lincoln%20Cathedral&navigate=yes",
         "walkPoints": [
-          { "n": 1, "name": "Lincoln Castle",
+          {
+            "n": 1,
+            "name": "Lincoln Castle",
             "blurb": "A Norman fortress built by William the Conqueror in 1068, and one of only two castles in England with two motte mounds. The vault inside holds an original 1215 Magna Carta — one of just four surviving copies of the document that ended absolute monarchy.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Castle" },
-          { "n": 2, "name": "Lincoln Cathedral",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Castle"
+          },
+          {
+            "n": 2,
+            "name": "Lincoln Cathedral",
             "blurb": "From 1311 until 1548 this was the tallest building in the world, until the spire blew down in a storm. The west front is one of the most ornate in Europe; step inside if you can, the soaring nave is the moment of awe.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Cathedral" },
-          { "n": 3, "name": "Bailgate",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Cathedral"
+          },
+          {
+            "n": 3,
+            "name": "Bailgate",
             "blurb": "A cobbled medieval street running between castle and cathedral, lined with independent shops. At the north end, Newport Arch has carried traffic since the 3rd century — the oldest archway in Britain that cars still drive through.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bailgate%20Lincoln" },
-          { "n": 4, "name": "Steep Hill",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bailgate%20Lincoln"
+          },
+          {
+            "n": 4,
+            "name": "Steep Hill",
             "blurb": "Officially one of the steepest streets in England, a grinding cobbled climb past medieval timbered and stone-fronted shopfronts. Halfway up is the Jew's House, built around 1170 — one of the oldest inhabited homes in Britain.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Steep%20Hill%20Lincoln" }
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Steep%20Hill%20Lincoln"
+          }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Lincoln%20Castle&destination=Steep%20Hill%20Lincoln&waypoints=Lincoln%20Cathedral%7CBailgate%20Lincoln&travelmode=walking"
       },
       "planCard": {
-        "time": "3:20–4:35 PM", "leaveBy": "4:35",
-        "see": ["Steep Hill — cobbled medieval street", "Cathedral & Castle exterior", "Bailgate"],
-        "film": ["Walking piece-to-camera along Steep Hill", "Wide of the cathedral's west front", "Hero shot back down Steep Hill"]
+        "time": "3:20–4:35 PM",
+        "leaveBy": "4:35",
+        "see": [
+          {
+            "name": "Steep Hill — cobbled medieval street",
+            "blurb": "Officially one of the steepest streets in England, a grinding cobbled climb past medieval timbered shopfronts. Halfway up is the Jew's House, built around 1170 — one of the oldest inhabited homes in Britain."
+          },
+          {
+            "name": "Cathedral & Castle exterior",
+            "blurb": "From 1311 until 1548 Lincoln Cathedral's spire was the tallest building in the world. The Norman castle next door holds an original 1215 Magna Carta, one of only four surviving copies."
+          },
+          {
+            "name": "Bailgate",
+            "blurb": "A cobbled medieval street running between castle and cathedral, lined with independent shops. At its north end, Newport Arch has carried traffic since the 3rd century — the oldest archway in Britain that cars still drive through."
+          }
+        ],
+        "film": [
+          "Walking piece-to-camera along Steep Hill",
+          "Wide of the cathedral's west front",
+          "Hero shot back down Steep Hill"
+        ]
       }
     },
-
     "pudsey": {
-      "name": "Pudsey", "actId": "act1", "angle": "Your friend's place",
+      "name": "Pudsey",
+      "actId": "act1",
+      "angle": "Your friend's place",
       "story": "",
       "facts": [],
       "routeCard": {
@@ -225,9 +382,10 @@
       "planCard": null,
       "hideOnTalk": true
     },
-
     "york": {
-      "name": "York", "actId": "act2", "angle": "A walled city, just you",
+      "name": "York",
+      "actId": "act2",
+      "angle": "A walled city, just you",
       "story": "York is the city of day two and the quiet part of the episode. The walls are the move — almost three miles of medieval defences, the most complete city walls left in England, and the path runs straight along the top of them. You go up at Bootham Bar, walk a stretch overlooking the Minster, and the city lays itself out below you. The Shambles is the other one to film: a narrow cobbled lane of crooked timber-framed shops that has been a street of butchers since before America was a country, and is widely said to have inspired Diagon Alley — J.K. Rowling studied near here. The thing to remember on camera is that this is the solo day. Drop the tour-guide voice; somewhere quiet by the river, look into the lens and say honestly how the trip is going. That single clip will land harder than any wide shot.",
       "facts": [
         "Lean into the solo tone — calmer, more reflective",
@@ -241,31 +399,66 @@
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Askham%20Bar%20Park%20and%20Ride%2C%20York&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Askham%20Bar%20Park%20and%20Ride%20York&navigate=yes",
         "walkPoints": [
-          { "n": 1, "name": "York Minster",
+          {
+            "n": 1,
+            "name": "York Minster",
             "blurb": "The largest medieval Gothic cathedral in northern Europe. Construction took two and a half centuries; the great east window is the largest expanse of medieval stained glass anywhere on Earth.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Minster" },
-          { "n": 2, "name": "The Shambles",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Minster"
+          },
+          {
+            "n": 2,
+            "name": "The Shambles",
             "blurb": "A narrow cobbled lane of overhanging timber-framed shops, often called the most-visited street in Europe. It was a row of butchers' shops in the 14th century, and is widely credited as the visual inspiration for Diagon Alley — J.K. Rowling studied nearby.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=The%20Shambles%20York" },
-          { "n": 3, "name": "Clifford's Tower",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=The%20Shambles%20York"
+          },
+          {
+            "n": 3,
+            "name": "Clifford's Tower",
             "blurb": "All that remains of York Castle: a 13th-century stone keep perched on a Norman motte. It was also the site of a violent antisemitic massacre in 1190 — a sobering history under what is otherwise a great viewpoint over the city.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Cliffords%20Tower%20York" },
-          { "n": 4, "name": "Museum Gardens & River Ouse",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Cliffords%20Tower%20York"
+          },
+          {
+            "n": 4,
+            "name": "Museum Gardens & River Ouse",
             "blurb": "Botanical gardens running down to the river, scattered with the ruins of St Mary's Abbey — a 12th-century Benedictine monastery destroyed during Henry VIII's dissolution. A quiet spot for the solo-day reflection clip.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Museum%20Gardens" }
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Museum%20Gardens"
+          }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=York%20Minster&destination=York%20Museum%20Gardens&waypoints=The%20Shambles%20York%7CCliffords%20Tower%20York&travelmode=walking",
         "trailingNote": "The City Walls join by the Minster at Bootham Bar — climb up for an elevated walk."
       },
       "planCard": {
-        "time": "~9:45 AM – 2:00 PM", "leaveBy": null,
-        "see": ["York Minster", "The Shambles", "The City Walls", "Museum Gardens & the Ouse"],
-        "film": ["Walking piece-to-camera up on the City Walls", "Minster — wide, then step inside", "Leave by 2:00 PM to reach the Peak in daylight"]
+        "time": "~9:45 AM – 2:00 PM",
+        "leaveBy": null,
+        "see": [
+          {
+            "name": "York Minster",
+            "blurb": "The largest medieval Gothic cathedral in northern Europe — construction took 250 years. The east window is the largest expanse of medieval stained glass anywhere on Earth."
+          },
+          {
+            "name": "The Shambles",
+            "blurb": "A narrow cobbled lane of overhanging timber-framed shops, often called the most-visited street in Europe. A row of butchers in the 14th century, widely credited as the visual inspiration for Diagon Alley."
+          },
+          {
+            "name": "The City Walls",
+            "blurb": "Almost three miles of medieval defences, the most complete city walls in England. Join the path at Bootham Bar by the Minster for an elevated walk along the rooftops."
+          },
+          {
+            "name": "Museum Gardens & the Ouse",
+            "blurb": "Botanical gardens running down to the river, scattered with the ruins of 12th-century St Mary's Abbey — destroyed during Henry VIII's dissolution. The quiet spot for the solo-day reflection clip."
+          }
+        ],
+        "film": [
+          "Walking piece-to-camera up on the City Walls",
+          "Minster — wide, then step inside",
+          "Leave by 2:00 PM to reach the Peak in daylight"
+        ]
       }
     },
-
     "bakewell": {
-      "name": "Bakewell", "actId": "act3", "angle": "Arrived at the Peak",
+      "name": "Bakewell",
+      "actId": "act3",
+      "angle": "Arrived at the Peak",
       "story": "The story of Bakewell is the story of a cook who got it wrong. The legend goes that in 1820 the landlady of the White Horse Inn asked her cook to make a strawberry tart, and the cook misread the recipe — instead of stirring the egg-and-almond mixture into the pastry, she poured it on top of the jam. The customers loved the mistake and a thousand bakeries got into a slow-motion fight about what to call it. The original is the Bakewell pudding — soft, slightly wobbly, a hot mess. The neater, almond-iced disc you find in supermarkets is the Bakewell tart — a Victorian remix. Both exist; the pudding is the one you came for. Buy one, bite it on camera, react honestly. The mistake is the point.",
       "facts": [
         "The Bakewell pudding and the tart are different things — the pudding is the original",
@@ -277,26 +470,39 @@
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Bakewell%2C%20Derbyshire&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Bakewell%2C%20Derbyshire&navigate=yes",
         "walkPoints": [
-          { "n": 1, "name": "Bakewell Bridge over the Wye",
+          {
+            "n": 1,
+            "name": "Bakewell Bridge over the Wye",
             "blurb": "A 13th-century stone bridge with five graceful arches, still carrying traffic eight centuries later. The trout in the river beneath are notoriously tame — locals feed them; lean on the railing and you can watch them hold position in the current.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Bridge" },
-          { "n": 2, "name": "Rutland Square & market town",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Bridge"
+          },
+          {
+            "n": 2,
+            "name": "Rutland Square & market town",
             "blurb": "The traditional centre of Bakewell, with markets running here every Monday for more than 700 years. Half a dozen rival bakeries on the surrounding streets sell their own version of the Bakewell pudding — try at least two and pick a favourite on camera.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Rutland%20Square%20Bakewell" },
-          { "n": 3, "name": "All Saints' Church",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Rutland%20Square%20Bakewell"
+          },
+          {
+            "n": 3,
+            "name": "All Saints' Church",
             "blurb": "A 12th-century parish church with one of the finest collections of Saxon and Norman crosses in northern England in its churchyard. The spire is visible from most of Bakewell and works as the orientation point of the whole town.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=All%20Saints%20Church%20Bakewell" },
-          { "n": 4, "name": "Riverside & recreation ground",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=All%20Saints%20Church%20Bakewell"
+          },
+          {
+            "n": 4,
+            "name": "Riverside & recreation ground",
             "blurb": "The grassy walk along the Wye, with weeping willows, ducks, and shallow water you can paddle in. A natural spot for a soft, slow B-roll sequence between the historic bits.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Recreation%20Ground" }
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Recreation%20Ground"
+          }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Bakewell%20Bridge&destination=Bakewell%20Recreation%20Ground&waypoints=Rutland%20Square%20Bakewell%7CAll%20Saints%20Church%20Bakewell&travelmode=walking"
       },
       "planCard": null
     },
-
     "castleton": {
-      "name": "Castleton & Winnats Pass", "actId": "act3", "angle": "Old towns to ancient land",
+      "name": "Castleton & Winnats Pass",
+      "actId": "act3",
+      "angle": "Old towns to ancient land",
       "story": "Castleton flips the timescale. You've spent two days admiring things humans built; now you're standing on rock that built itself, underwater, three hundred and fifty million years ago. The Peak's limestone is fossilised tropical sea floor — the corals, the shells, all still in there. Winnats Pass is the gorge cut through it, a single road squeezed between two limestone walls, dramatic enough that drone shots feel illegal. Above the pass, Mam Tor has its own story: nicknamed the Shivering Mountain because its softer shale layers keep slipping, it defeated an A-road. The old A625 across its eastern face had to be repaired seven times in twenty years and was finally abandoned in 1979 — you can still walk the broken tarmac, fenced off, weirdly cinematic. And one last thing only Castleton has: Blue John, a violet-banded stone mined here and literally nowhere else on Earth. Buy a tiny piece; it's a souvenir with a postcode.",
       "facts": [
         "This limestone formed in a tropical sea — it was all underwater once",
@@ -309,27 +515,55 @@
         "wazeHref": "https://waze.com/ul?q=Castleton%20Derbyshire&navigate=yes",
         "walkLeadNote": "These three are short drives apart, not a walk.",
         "walkPoints": [
-          { "n": 1, "name": "Winnats Pass — drive the gorge",
+          {
+            "n": 1,
+            "name": "Winnats Pass — drive the gorge",
             "blurb": "A narrow limestone gorge cut by water around 350 million years ago, when the Peak District was a tropical sea floor. The road through it is one of the most dramatic in England — slow down, mount the camera, and let the rock walls do the work.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Winnats%20Pass" },
-          { "n": 2, "name": "Mam Tor — ridge & viewpoint",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Winnats%20Pass"
+          },
+          {
+            "n": 2,
+            "name": "Mam Tor — ridge & viewpoint",
             "blurb": "The Shivering Mountain, so called because its soft shale layers keep slipping. Walk a little way up the ridge for a view down into the valley, and look for the broken old A625 below — the road the hill defeated, abandoned in 1979.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Mam%20Tor" },
-          { "n": 3, "name": "Castleton village & caves",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Mam%20Tor"
+          },
+          {
+            "n": 3,
+            "name": "Castleton village & caves",
             "blurb": "Beneath the village are four show caves carved into the limestone — the most famous is Blue John Cavern, the only place on Earth where Blue John, a banded purple-and-yellow fluorite, is mined. Buy a small piece in the village shops; it has a postcode of its own.",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Castleton%20village%20car%20park" }
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Castleton%20village%20car%20park"
+          }
         ],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "~9:30 – 11:30 AM", "leaveBy": null,
-        "see": ["Winnats Pass — the limestone gorge", "Mam Tor ridge", "Castleton village & show caves"],
-        "film": ["In-car B-roll through Winnats — camera mounted", "Walking piece-to-camera, valley behind you", "Your closing sign-off — last line on camera"]
+        "time": "~9:30 – 11:30 AM",
+        "leaveBy": null,
+        "see": [
+          {
+            "name": "Winnats Pass — the limestone gorge",
+            "blurb": "A narrow limestone gorge cut by water around 350 million years ago, when the Peak District was a tropical sea floor. The road through it is one of the most dramatic drives in England."
+          },
+          {
+            "name": "Mam Tor ridge",
+            "blurb": "The Shivering Mountain — named because its soft shale layers keep slipping. From the ridge you can see the broken old A625 below, the road the hill defeated and that had to be abandoned in 1979."
+          },
+          {
+            "name": "Castleton village & show caves",
+            "blurb": "Four show caves are carved into the limestone beneath the village. Blue John Cavern is the only place on Earth where Blue John, a banded purple-and-yellow fluorite, is mined."
+          }
+        ],
+        "film": [
+          "In-car B-roll through Winnats — camera mounted",
+          "Walking piece-to-camera, valley behind you",
+          "Your closing sign-off — last line on camera"
+        ]
       }
     },
-
     "home": {
-      "name": "Home", "actId": "act3", "angle": "Little Yeldham, Essex",
+      "name": "Home",
+      "actId": "act3",
+      "angle": "Little Yeldham, Essex",
       "story": "",
       "facts": [],
       "routeCard": {
@@ -344,27 +578,27 @@
       "hideOnTalk": true
     }
   },
-
   "coldOpen": {
-    "title": "Cold open", "color": "rust", "where": "Film in the car or at Lavenham",
+    "title": "Cold open",
+    "color": "rust",
+    "where": "Film in the car or at Lavenham",
     "facts": [
       "Who you are — first-ever episode of WockingTocking",
       "What this is: Essex to Leeds, three days, the scenic way",
       "The promise: old towns, a city, the Peak District"
     ]
   },
-
   "signOff": {
-    "title": "Closing sign-off", "color": "forest", "where": "A Peak viewpoint or Bakewell",
+    "title": "Closing sign-off",
+    "color": "forest",
+    "where": "A Peak viewpoint or Bakewell",
     "facts": [
       "One-sentence recap and your single highlight",
       "What it meant — first episode done, you did it",
       "The ask: like, subscribe — and \"where should episode 2 go?\""
     ]
   },
-
   "talkTipbox": "You're not presenting — you're telling a mate about your trip. Say what you're about to do, do it, then react. Keep each clip 20–40 seconds. Fluffing your words is fine; pause and go again.",
-
   "goldenRules": [
     "Film more than you think you need",
     "Say the place name on camera at every stop",
@@ -372,6 +606,5 @@
     "Talk like a person, not a tour guide",
     "Never film while driving"
   ],
-
   "outro": "Safe travels, Ivan — the footage is in the bag."
 }
