@@ -117,10 +117,18 @@
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Lavenham%2C%20Suffolk&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Lavenham%2C%20Suffolk&navigate=yes",
         "walkPoints": [
-          { "n": 1, "name": "Guildhall & Market Place",     "pinHref": "https://www.google.com/maps/search/?api=1&query=Lavenham%20Guildhall" },
-          { "n": 2, "name": "Lady Street — crooked houses", "pinHref": "https://www.google.com/maps/search/?api=1&query=Lady%20Street%20Lavenham" },
-          { "n": 3, "name": "Water Street",                 "pinHref": "https://www.google.com/maps/search/?api=1&query=Water%20Street%20Lavenham" },
-          { "n": 4, "name": "St Peter & St Paul's church",  "pinHref": "https://www.google.com/maps/search/?api=1&query=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham" }
+          { "n": 1, "name": "Guildhall & Market Place",
+            "blurb": "The 16th-century timber-framed Guildhall of Corpus Christi presides over the market square, originally built by Lavenham's wool guild. Inside is a small museum about the town's medieval wealth; outside, the square is the photographic centre of the village.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lavenham%20Guildhall" },
+          { "n": 2, "name": "Lady Street — crooked houses",
+            "blurb": "The single most photographed street in the village. Every house on it leans differently because the unseasoned oak warped at its own pace; one cottage tilts so dramatically it looks ready to topple into the next.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lady%20Street%20Lavenham" },
+          { "n": 3, "name": "Water Street",
+            "blurb": "A row of timbered merchant houses including De Vere House — the actual filming location for Godric's Hollow in Harry Potter and the Deathly Hallows. Walk past the front door; this is where Voldemort murdered Harry's parents on screen.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Water%20Street%20Lavenham" },
+          { "n": 4, "name": "St Peter & St Paul's church",
+            "blurb": "Locally called the wool church: built in the 15th and 16th centuries entirely on profits from the wool trade. Its tower is one of the tallest village church towers in England, visible across the Suffolk fields for miles.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham" }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Lavenham%20Guildhall&destination=Church%20of%20St%20Peter%20and%20St%20Paul%20Lavenham&waypoints=Lady%20Street%20Lavenham%7CWater%20Street%20Lavenham&travelmode=walking"
       },
@@ -144,10 +152,18 @@
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Stamford%2C%20Lincolnshire&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Stamford%2C%20Lincolnshire&navigate=yes",
         "walkPoints": [
-          { "n": 1, "name": "Red Lion Square & churches", "pinHref": "https://www.google.com/maps/search/?api=1&query=Red%20Lion%20Square%20Stamford" },
-          { "n": 2, "name": "Barn Hill — Georgian street","pinHref": "https://www.google.com/maps/search/?api=1&query=Barn%20Hill%20Stamford" },
-          { "n": 3, "name": "St Mary's Hill",             "pinHref": "https://www.google.com/maps/search/?api=1&query=St%20Marys%20Hill%20Stamford" },
-          { "n": 4, "name": "Town Bridge & the meadows",  "pinHref": "https://www.google.com/maps/search/?api=1&query=Stamford%20Town%20Bridge" }
+          { "n": 1, "name": "Red Lion Square & churches",
+            "blurb": "A small medieval marketplace ringed by churches — there were once 14 in Stamford, and several still stand within a five-minute walk. A natural anchor point to film yourself arriving in the town centre.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Red%20Lion%20Square%20Stamford" },
+          { "n": 2, "name": "Barn Hill — Georgian street",
+            "blurb": "A cobbled lane of pristine Georgian townhouses, all in the same honey limestone, fronted by black iron railings. It looks exactly like the 1800s and is one of the most filmed streets in England — almost every Georgian-era period drama ends up using it.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Barn%20Hill%20Stamford" },
+          { "n": 3, "name": "St Mary's Hill",
+            "blurb": "A steep stone street descending from the Welland river towards St Mary's church, lined with antique shops and tearooms. The view back up the hill towards the spire is a postcard shot.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=St%20Marys%20Hill%20Stamford" },
+          { "n": 4, "name": "Town Bridge & the meadows",
+            "blurb": "The medieval bridge over the River Welland with grassy meadows on either side, often grazed by sheep right inside the town. A good spot for a reflective wide shot before heading back to the car.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Stamford%20Town%20Bridge" }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Red%20Lion%20Square%20Stamford&destination=Stamford%20Town%20Bridge&waypoints=Barn%20Hill%20Stamford%7CSt%20Marys%20Hill%20Stamford&travelmode=walking"
       },
@@ -172,10 +188,18 @@
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Lincoln%20Cathedral&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Lincoln%20Cathedral&navigate=yes",
         "walkPoints": [
-          { "n": 1, "name": "Lincoln Castle",    "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Castle" },
-          { "n": 2, "name": "Lincoln Cathedral", "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Cathedral" },
-          { "n": 3, "name": "Bailgate",          "pinHref": "https://www.google.com/maps/search/?api=1&query=Bailgate%20Lincoln" },
-          { "n": 4, "name": "Steep Hill",        "pinHref": "https://www.google.com/maps/search/?api=1&query=Steep%20Hill%20Lincoln" }
+          { "n": 1, "name": "Lincoln Castle",
+            "blurb": "A Norman fortress built by William the Conqueror in 1068, and one of only two castles in England with two motte mounds. The vault inside holds an original 1215 Magna Carta — one of just four surviving copies of the document that ended absolute monarchy.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Castle" },
+          { "n": 2, "name": "Lincoln Cathedral",
+            "blurb": "From 1311 until 1548 this was the tallest building in the world, until the spire blew down in a storm. The west front is one of the most ornate in Europe; step inside if you can, the soaring nave is the moment of awe.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Cathedral" },
+          { "n": 3, "name": "Bailgate",
+            "blurb": "A cobbled medieval street running between castle and cathedral, lined with independent shops. At the north end, Newport Arch has carried traffic since the 3rd century — the oldest archway in Britain that cars still drive through.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bailgate%20Lincoln" },
+          { "n": 4, "name": "Steep Hill",
+            "blurb": "Officially one of the steepest streets in England, a grinding cobbled climb past medieval timbered and stone-fronted shopfronts. Halfway up is the Jew's House, built around 1170 — one of the oldest inhabited homes in Britain.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Steep%20Hill%20Lincoln" }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Lincoln%20Castle&destination=Steep%20Hill%20Lincoln&waypoints=Lincoln%20Cathedral%7CBailgate%20Lincoln&travelmode=walking"
       },
@@ -217,10 +241,18 @@
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Askham%20Bar%20Park%20and%20Ride%2C%20York&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Askham%20Bar%20Park%20and%20Ride%20York&navigate=yes",
         "walkPoints": [
-          { "n": 1, "name": "York Minster",                  "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Minster" },
-          { "n": 2, "name": "The Shambles",                  "pinHref": "https://www.google.com/maps/search/?api=1&query=The%20Shambles%20York" },
-          { "n": 3, "name": "Clifford's Tower",              "pinHref": "https://www.google.com/maps/search/?api=1&query=Cliffords%20Tower%20York" },
-          { "n": 4, "name": "Museum Gardens & River Ouse",   "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Museum%20Gardens" }
+          { "n": 1, "name": "York Minster",
+            "blurb": "The largest medieval Gothic cathedral in northern Europe. Construction took two and a half centuries; the great east window is the largest expanse of medieval stained glass anywhere on Earth.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Minster" },
+          { "n": 2, "name": "The Shambles",
+            "blurb": "A narrow cobbled lane of overhanging timber-framed shops, often called the most-visited street in Europe. It was a row of butchers' shops in the 14th century, and is widely credited as the visual inspiration for Diagon Alley — J.K. Rowling studied nearby.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=The%20Shambles%20York" },
+          { "n": 3, "name": "Clifford's Tower",
+            "blurb": "All that remains of York Castle: a 13th-century stone keep perched on a Norman motte. It was also the site of a violent antisemitic massacre in 1190 — a sobering history under what is otherwise a great viewpoint over the city.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Cliffords%20Tower%20York" },
+          { "n": 4, "name": "Museum Gardens & River Ouse",
+            "blurb": "Botanical gardens running down to the river, scattered with the ruins of St Mary's Abbey — a 12th-century Benedictine monastery destroyed during Henry VIII's dissolution. A quiet spot for the solo-day reflection clip.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=York%20Museum%20Gardens" }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=York%20Minster&destination=York%20Museum%20Gardens&waypoints=The%20Shambles%20York%7CCliffords%20Tower%20York&travelmode=walking",
         "trailingNote": "The City Walls join by the Minster at Bootham Bar — climb up for an elevated walk."
@@ -245,10 +277,18 @@
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Bakewell%2C%20Derbyshire&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Bakewell%2C%20Derbyshire&navigate=yes",
         "walkPoints": [
-          { "n": 1, "name": "Bakewell Bridge over the Wye",  "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Bridge" },
-          { "n": 2, "name": "Rutland Square & market town",  "pinHref": "https://www.google.com/maps/search/?api=1&query=Rutland%20Square%20Bakewell" },
-          { "n": 3, "name": "All Saints' Church",            "pinHref": "https://www.google.com/maps/search/?api=1&query=All%20Saints%20Church%20Bakewell" },
-          { "n": 4, "name": "Riverside & recreation ground", "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Recreation%20Ground" }
+          { "n": 1, "name": "Bakewell Bridge over the Wye",
+            "blurb": "A 13th-century stone bridge with five graceful arches, still carrying traffic eight centuries later. The trout in the river beneath are notoriously tame — locals feed them; lean on the railing and you can watch them hold position in the current.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Bridge" },
+          { "n": 2, "name": "Rutland Square & market town",
+            "blurb": "The traditional centre of Bakewell, with markets running here every Monday for more than 700 years. Half a dozen rival bakeries on the surrounding streets sell their own version of the Bakewell pudding — try at least two and pick a favourite on camera.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Rutland%20Square%20Bakewell" },
+          { "n": 3, "name": "All Saints' Church",
+            "blurb": "A 12th-century parish church with one of the finest collections of Saxon and Norman crosses in northern England in its churchyard. The spire is visible from most of Bakewell and works as the orientation point of the whole town.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=All%20Saints%20Church%20Bakewell" },
+          { "n": 4, "name": "Riverside & recreation ground",
+            "blurb": "The grassy walk along the Wye, with weeping willows, ducks, and shallow water you can paddle in. A natural spot for a soft, slow B-roll sequence between the historic bits.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bakewell%20Recreation%20Ground" }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Bakewell%20Bridge&destination=Bakewell%20Recreation%20Ground&waypoints=Rutland%20Square%20Bakewell%7CAll%20Saints%20Church%20Bakewell&travelmode=walking"
       },
@@ -269,9 +309,15 @@
         "wazeHref": "https://waze.com/ul?q=Castleton%20Derbyshire&navigate=yes",
         "walkLeadNote": "These three are short drives apart, not a walk.",
         "walkPoints": [
-          { "n": 1, "name": "Winnats Pass — drive the gorge", "pinHref": "https://www.google.com/maps/search/?api=1&query=Winnats%20Pass" },
-          { "n": 2, "name": "Mam Tor — ridge & viewpoint",    "pinHref": "https://www.google.com/maps/search/?api=1&query=Mam%20Tor" },
-          { "n": 3, "name": "Castleton village & caves",      "pinHref": "https://www.google.com/maps/search/?api=1&query=Castleton%20village%20car%20park" }
+          { "n": 1, "name": "Winnats Pass — drive the gorge",
+            "blurb": "A narrow limestone gorge cut by water around 350 million years ago, when the Peak District was a tropical sea floor. The road through it is one of the most dramatic in England — slow down, mount the camera, and let the rock walls do the work.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Winnats%20Pass" },
+          { "n": 2, "name": "Mam Tor — ridge & viewpoint",
+            "blurb": "The Shivering Mountain, so called because its soft shale layers keep slipping. Walk a little way up the ridge for a view down into the valley, and look for the broken old A625 below — the road the hill defeated, abandoned in 1979.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Mam%20Tor" },
+          { "n": 3, "name": "Castleton village & caves",
+            "blurb": "Beneath the village are four show caves carved into the limestone — the most famous is Blue John Cavern, the only place on Earth where Blue John, a banded purple-and-yellow fluorite, is mined. Buy a small piece in the village shops; it has a postcode of its own.",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Castleton%20village%20car%20park" }
         ],
         "walkLoopHref": null
       },

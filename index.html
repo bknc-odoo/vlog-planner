@@ -119,10 +119,13 @@
   .walk{margin-top:11px;border-top:1px dashed var(--line);padding-top:9px}
   .wpt{display:flex;align-items:center;gap:8px;padding:5px 0;
        border-bottom:1px solid rgba(43,39,34,.09)}
+  .wpt.b{border-bottom:0;padding-bottom:2px}
   .wd{flex:none;width:19px;height:19px;border-radius:50%;border:1.5px solid var(--c);
       color:var(--c);font-family:'Space Mono',monospace;font-size:9px;font-weight:700;
       display:flex;align-items:center;justify-content:center}
   .wn{flex:1;font-size:12.5px;font-weight:500}
+  .wblurb{font-family:'Fraunces',serif;font-weight:400;font-size:13px;line-height:1.5;
+        color:var(--ink);padding:4px 0 8px 27px;border-bottom:1px solid rgba(43,39,34,.09)}
   a.pin{flex:none;text-decoration:none;font-family:'Space Mono',monospace;font-size:9.5px;
         font-weight:700;color:var(--c);border:1px solid var(--c);padding:3px 7px}
   a.walkbtn{display:block;text-decoration:none;text-align:center;margin-top:9px;padding:10px;
@@ -657,9 +660,12 @@
     if (!stopObj || !stopObj.routeCard) return '';
     var rc = stopObj.routeCard;
     var walkPts = (rc.walkPoints || []).map(function (w) {
-      return '<div class="wpt"><span class="wd">' + esc(w.n) + '</span>'
-           + '<span class="wn">' + esc(w.name) + '</span>'
-           + '<a class="pin" href="' + attr(w.pinHref) + '">Map</a></div>';
+      var hasBlurb = !!(w.blurb && String(w.blurb).trim());
+      var row = '<div class="wpt' + (hasBlurb ? ' b' : '') + '"><span class="wd">' + esc(w.n) + '</span>'
+              + '<span class="wn">' + esc(w.name) + '</span>'
+              + '<a class="pin" href="' + attr(w.pinHref) + '">Map</a></div>';
+      var blurb = hasBlurb ? '<div class="wblurb">' + esc(w.blurb) + '</div>' : '';
+      return row + blurb;
     }).join('');
     var walkLoop = rc.walkLoopHref
       ? '<a class="walkbtn" href="' + attr(rc.walkLoopHref) + '">▶ WALK THIS LOOP</a>'
