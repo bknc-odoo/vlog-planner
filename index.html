@@ -72,6 +72,13 @@
          margin-bottom:4px;letter-spacing:-.01em}
   .lede{font-size:13.5px;color:var(--soft);margin-bottom:16px}
   .day{--c:var(--rust)} .day.d2{--c:var(--ochre)} .day.d3{--c:var(--forest)}
+  .day-toggle{cursor:pointer;position:relative;padding-right:26px;user-select:none}
+  .day-toggle::after{content:"▾";position:absolute;right:2px;top:18px;
+        font-family:'Space Mono',monospace;font-size:16px;color:var(--c);
+        transition:transform .18s ease;line-height:1}
+  .day:not(.open) > .day-toggle::after{transform:rotate(-90deg)}
+  .day-body{display:none;animation:fade .25s ease}
+  .day.open > .day-body{display:block}
   .dh{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;
       border-bottom:2.5px solid var(--c);padding:16px 1px 7px;margin-bottom:11px}
   .dh .dn{font-family:'Fraunces',serif;font-weight:900;font-size:18px;color:var(--c)}
@@ -327,7 +334,35 @@
   function colorVar(c) { return 'var(--' + (c || 'rust') + ')'; }
   function stop(id) { return TRIP && TRIP.stops && TRIP.stops[id]; }
 
-  function validateTrip(t) {
+  function parseDayDate(dayDateStr) {
+    // "Sat 23 May" -> { day: 23, month: 4 (May=4) }
+    var m = String(dayDateStr || '').match(/(\d{1,2})\s+([A-Za-z]+)/);
+    if (!m) return null;
+    var months = {jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
+    var mi = months[m[2].slice(0,3).toLowerCase()];
+    if (mi == null) return null;
+    return { day: parseInt(m[1], 10), month: mi };
+  }
+  function getActiveDayId(t) {
+    if (!t || !t.days || !t.days.length) return null;
+    var today = new Date();
+    for (var i = 0; i < t.days.length; i++) {
+      var d = parseDayDate(t.days[i].date);
+      if (d && d.day === today.getDate() && d.month === today.getMonth()) return t.days[i].id;
+    }
+    return t.days[0].id;
+  }
+  function dayIdForActId(t, actId) {
+    if (!t || !t.days || !t.acts) return null;
+    var ai = -1;
+    for (var i = 0; i < t.acts.length; i++) {
+      if (t.acts[i].id === actId) { ai = i; break; }
+    }
+    if (ai < 0) return null;
+    return t.days[ai] ? t.days[ai].id : null;
+  }
+
+    function validateTrip(t) {
     if (!t || !t.stops || !t.acts) return;
     var ids = Object.keys(t.stops);
     (t.acts || []).forEach(function (a) {
@@ -525,6 +560,11 @@
       requestAnimationFrame(function () {
         var s = stop(sid);
         if (!s) return;
+        var did = dayIdForActId(TRIP, s.actId);
+        if (did) {
+          var dayEl = document.querySelector('#talk .day[data-day="' + did + '"]');
+          if (dayEl) dayEl.classList.add('open');
+        }
         var slug = s.name.toLowerCase().replace(/[^a-z]+/g, '-');
         var el = document.getElementById('talk-' + s.actId + '-' + slug);
         if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -533,7 +573,20 @@
     }
   }
 
-  function wireHash() {
+  function wireDays() {
+    ['route', 'plan', 'talk'].forEach(function (tabId) {
+      var root = document.getElementById(tabId);
+      if (!root) return;
+      root.addEventListener('click', function (e) {
+        var hd = e.target.closest('.day-toggle');
+        if (!hd) return;
+        var day = hd.closest('.day');
+        if (day) day.classList.toggle('open');
+      });
+    });
+  }
+
+    function wireHash() {
     window.addEventListener('hashchange', applyHash);
   }
 
@@ -554,7 +607,7 @@
         wireTabs();
         wireOverlay();
         wireHeader();
-        wireChecks();
+        wireDays();
         wireHash();
         try {
           var last = localStorage.getItem('wt_tab');
@@ -631,11 +684,7 @@
     }).join('');
 
     var kit = t.kit.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('');
-    var checks = readChecks();
-    var pre = t.preTrip.map(function (p, i) {
-      var on = checks[i] ? ' on' : '';
-      return '<div class="ck' + on + '" data-ck="' + i + '"><b></b><span>' + esc(p) + '</span></div>';
-    }).join('');
+
 
     /* Hero title heuristic: split on " to " preserve italic em for the connector */
     var heroTitle;
@@ -664,8 +713,6 @@
       + acts
       + '<h2 class="sec" style="margin-top:22px">Your kit</h2>'
       + '<ul style="margin-top:8px">' + kit + '</ul>'
-      + '<h2 class="sec" style="margin-top:22px">Before you go</h2>'
-      + '<div style="margin-top:8px">' + pre + '</div>'
       + '<div class="tipbox" style="margin-top:14px"><b>Golden rule</b>' + esc(t.goldenRule) + '</div>';
     document.getElementById('trip').innerHTML = html;
   }
@@ -722,17 +769,21 @@
 
   function renderRoute() {
     var t = TRIP;
+    var activeId = getActiveDayId(t);
     var days = t.days.map(function (d) {
       var cards = d.routeStops.map(function (sid) { return routeCardHTML(stop(sid)); }).join('');
+      var open = (d.id === activeId) ? ' open' : '';
       return ''
-        + '<div class="day d' + esc(d.id.slice(1)) + '" style="--c:' + colorVar(d.color) + '">'
-        +   '<div class="dh"><span class="dn">' + esc(d.label) + '</span>'
+        + '<div class="day d' + esc(d.id.slice(1)) + open + '" data-day="' + attr(d.id) + '" style="--c:' + colorVar(d.color) + '">'
+        +   '<div class="dh day-toggle"><span class="dn">' + esc(d.label) + '</span>'
         +     '<span class="dd">' + esc(d.date) + '</span>'
         +     '<span class="dr">' + esc(d.routeHeader) + '</span></div>'
-        +   '<a class="full" href="' + attr(d.fullRoute.href) + '">'
-        +     '<span>▶</span> ' + esc(d.fullRoute.label)
-        +     '<small>' + esc(d.fullRoute.sub) + '</small></a>'
-        +   cards
+        +   '<div class="day-body">'
+        +     '<a class="full" href="' + attr(d.fullRoute.href) + '">'
+        +       '<span>▶</span> ' + esc(d.fullRoute.label)
+        +       '<small>' + esc(d.fullRoute.sub) + '</small></a>'
+        +     cards
+        +   '</div>'
         + '</div>';
     }).join('');
 
@@ -773,6 +824,7 @@
 
   function renderPlan() {
     var t = TRIP;
+    var activeId = getActiveDayId(t);
     var days = t.days.map(function (d) {
       var note = d.planNote
         ? '<div class="tipbox" style="border-color:' + colorVar(d.planNote.color) + '">'
@@ -784,12 +836,13 @@
         ? '<div class="card ac"><div class="cap" style="font-size:15px">' + esc(d.planArrival.title) + '</div>'
         +   '<p style="font-size:12.5px;margin-top:3px">' + esc(d.planArrival.note) + '</p></div>'
         : '';
+      var open = (d.id === activeId) ? ' open' : '';
       return ''
-        + '<div class="day d' + esc(d.id.slice(1)) + '" style="--c:' + colorVar(d.color) + '">'
-        +   '<div class="dh"><span class="dn">' + esc(d.label) + '</span>'
+        + '<div class="day d' + esc(d.id.slice(1)) + open + '" data-day="' + attr(d.id) + '" style="--c:' + colorVar(d.color) + '">'
+        +   '<div class="dh day-toggle"><span class="dn">' + esc(d.label) + '</span>'
         +     '<span class="dd">' + esc(d.date) + '</span>'
         +     '<span class="dr">' + esc(d.planHeader) + '</span></div>'
-        +   note + cards + arr
+        +   '<div class="day-body">' + note + cards + arr + '</div>'
         + '</div>';
     }).join('');
 
@@ -839,8 +892,25 @@
 
   function renderTalk() {
     var t = TRIP;
-    var stops = (t.acts || []).map(function (a) {
-      return (a.stopIds || []).map(function (sid) { return talkCardHTML(stop(sid)); }).join('');
+    var activeId = getActiveDayId(t);
+    var days = (t.days || []).map(function (d, i) {
+      var act = (t.acts || [])[i];
+      var bits = [];
+      if (i === 0 && t.coldOpen) bits.push(bookendCardHTML(t.coldOpen));
+      if (act) {
+        (act.stopIds || []).forEach(function (sid) {
+          var card = talkCardHTML(stop(sid));
+          if (card) bits.push(card);
+        });
+      }
+      if (i === (t.days.length - 1) && t.signOff) bits.push(bookendCardHTML(t.signOff));
+      var open = (d.id === activeId) ? ' open' : '';
+      return ''
+        + '<div class="day d' + esc(d.id.slice(1)) + open + '" data-day="' + attr(d.id) + '" style="--c:' + colorVar(d.color) + '">'
+        +   '<div class="dh day-toggle"><span class="dn">' + esc(d.label) + '</span>'
+        +     '<span class="dd">' + esc(d.date) + '</span></div>'
+        +   '<div class="day-body">' + bits.join('') + '</div>'
+        + '</div>';
     }).join('');
 
     var rules = (t.goldenRules || []).map(function (r) { return '<li>' + esc(r) + '</li>'; }).join('');
@@ -849,9 +919,7 @@
       + '<h2 class="sec">What to Talk About</h2>'
       + '<p class="lede">Learn two or three points per stop, then say them in your own words — don\'t read a script.</p>'
       + '<div class="tipbox"><b>On camera</b>' + esc(t.talkTipbox) + '</div>'
-      + bookendCardHTML(t.coldOpen)
-      + stops
-      + bookendCardHTML(t.signOff)
+      + days
       + '<h2 class="sec" style="margin-top:20px">Golden rules</h2>'
       + '<ul style="margin-top:8px">' + rules + '</ul>'
       + (t.outro ? '<p class="note" style="margin:14px 0 4px">' + esc(t.outro) + '</p>' : '');
