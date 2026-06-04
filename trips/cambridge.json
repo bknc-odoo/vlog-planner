@@ -6,13 +6,26 @@
   "episode": "TRIP.02",
   "heroKicker": "An afternoon in Cambridge",
   "intro": "An afternoon walking the colleges, an early evening on the river, and an 8 PM piano concert at Kettle's Yard. One day built so the city slowly unfolds — from the postcard angles in daylight to the quieter night walk back.",
-
   "dayGlance": [
-    { "n": 1, "color": "rust",   "title": "Colleges & The Backs",   "sub": "2 PM — Market Square, King's, punting on the River Cam." },
-    { "n": 2, "color": "ochre",  "title": "Bridges & Streets",      "sub": "Late afternoon — Mathematical Bridge, St John's, Magdalene, dinner." },
-    { "n": 3, "color": "forest", "title": "Concert & Night Walk",   "sub": "Evening — Clare Hammond piano at Kettle's Yard, then walk back." }
+    {
+      "n": 1,
+      "color": "rust",
+      "title": "Colleges & The Backs",
+      "sub": "2 PM — Market Square, King's, punting on the River Cam."
+    },
+    {
+      "n": 2,
+      "color": "ochre",
+      "title": "Bridges & Streets",
+      "sub": "Late afternoon — Mathematical Bridge, St John's, Magdalene, dinner."
+    },
+    {
+      "n": 3,
+      "color": "forest",
+      "title": "Concert & Night Walk",
+      "sub": "Evening — Clare Hammond piano at Kettle's Yard, then walk back."
+    }
   ],
-
   "acts": [
     {
       "id": "act1",
@@ -20,7 +33,12 @@
       "label": "Act 1 · Colleges & The Backs",
       "tagline": "Postcard Cambridge in the afternoon light.",
       "narrative": "Cambridge is one of those rare places that earns being on every itinerary, but the trick is timing it well. Start in Market Square when the city is full but bright; walk King's Parade slowly so the first view of King's College Chapel feels like the opening shot of a film. If the chapel is open, go in. If not, save the emotional payoff for the river — by 3:30 you should be on a punt heading down The Backs, where the colleges show their softer, more cinematic side: lawns, willows, bridges, and the chapel from the water. This is the visual centre of the whole day.",
-      "stopIds": ["market-square", "kings-college", "the-backs", "punting"]
+      "stopIds": [
+        "market-square",
+        "kings-college",
+        "the-backs",
+        "punting"
+      ]
     },
     {
       "id": "act2",
@@ -28,7 +46,12 @@
       "label": "Act 2 · Bridges & Streets",
       "tagline": "Cambridge loosens its tie.",
       "narrative": "After the punt, the day's tone shifts. Queens' College and the Mathematical Bridge are a quick photo stop — the bridge is a puzzle pretending to be a bridge, and the story about how no one could put it back together is more legend than fact, but it survives because it's the kind of story Cambridge should have. St John's and the Bridge of Sighs become a 'try if possible' by late afternoon; the punt already gave you the best angle anyway. Past Magdalene Bridge the city loosens its tie — pubs, narrow streets, students cycling home — and you're already positioned for Kettle's Yard. Eat somewhere quiet near Castle Street and pace yourself for the concert.",
-      "stopIds": ["queens-college", "st-johns", "magdalene", "dinner"]
+      "stopIds": [
+        "queens-college",
+        "st-johns",
+        "magdalene",
+        "dinner"
+      ]
     },
     {
       "id": "act3",
@@ -36,24 +59,26 @@
       "label": "Act 3 · Concert & Night Walk",
       "tagline": "The reason this day exists.",
       "narrative": "Kettle's Yard at 8 PM is the day's centre of gravity. Part house, part gallery, part performance space — the kind of small evening event that turns a sightseeing day into something memorable. Doors are at 7:30; arrive then, not at 8 sharp. After two hours of Clare Hammond on piano, Cambridge is at its best: emptier, darker, the colleges glowing through the gates. Walk back instead of taking transport. End at King's Parade for one last look at the chapel under streetlight, and you've had the full day the city has to offer.",
-      "stopIds": ["kettles-yard", "night-walk"]
+      "stopIds": [
+        "kettles-yard",
+        "night-walk"
+      ]
     }
   ],
-
   "kit": [
     "Phone with camera (Insta360 optional — Cambridge interiors restrict filming in places)",
     "Comfortable walking shoes — the day is miles of cobbles",
     "A light jacket for the river and the late evening",
     "A small notebook for impressions during the concert"
   ],
-
   "preTrip": [],
-
   "goldenRule": "Book Kettle's Yard tickets and your punt in advance, and check King's College Chapel visitor hours for 4 June before you go.",
-
   "days": [
     {
-      "id": "d1", "label": "Afternoon", "date": "Thu 4 Jun · 2 PM", "color": "rust",
+      "id": "d1",
+      "label": "Afternoon",
+      "date": "Thu 4 Jun · 2 PM",
+      "color": "rust",
       "routeHeader": "Market Square → King's College → The Backs → Punting",
       "fullRoute": {
         "label": "AFTERNOON WALKING ROUTE",
@@ -62,12 +87,25 @@
       },
       "planHeader": "Colleges & The Backs · 2:00 – 4:25 PM",
       "planNote": null,
-      "routeStops": ["market-square", "kings-college", "the-backs", "punting"],
-      "planStops": ["market-square", "kings-college", "the-backs", "punting"],
+      "routeStops": [
+        "market-square",
+        "kings-college",
+        "the-backs",
+        "punting"
+      ],
+      "planStops": [
+        "market-square",
+        "kings-college",
+        "the-backs",
+        "punting"
+      ],
       "planArrival": null
     },
     {
-      "id": "d2", "label": "Late afternoon", "date": "Thu 4 Jun · 4:25 PM", "color": "ochre",
+      "id": "d2",
+      "label": "Late afternoon",
+      "date": "Thu 4 Jun · 4:25 PM",
+      "color": "ochre",
       "routeHeader": "Mathematical Bridge → St John's → Magdalene → Castle Street",
       "fullRoute": {
         "label": "EVENING WALKING LOOP",
@@ -80,12 +118,25 @@
         "color": "ochre",
         "text": "St John's grounds may close before you arrive. Don't chase it — you saw the Bridge of Sighs from the punt."
       },
-      "routeStops": ["queens-college", "st-johns", "magdalene", "dinner"],
-      "planStops": ["queens-college", "st-johns", "magdalene", "dinner"],
+      "routeStops": [
+        "queens-college",
+        "st-johns",
+        "magdalene",
+        "dinner"
+      ],
+      "planStops": [
+        "queens-college",
+        "st-johns",
+        "magdalene",
+        "dinner"
+      ],
       "planArrival": null
     },
     {
-      "id": "d3", "label": "Evening", "date": "Thu 4 Jun · 7:30 PM", "color": "forest",
+      "id": "d3",
+      "label": "Evening",
+      "date": "Thu 4 Jun · 7:30 PM",
+      "color": "forest",
       "routeHeader": "Kettle's Yard → night walk back through Cambridge",
       "fullRoute": {
         "label": "TO THE CONCERT",
@@ -98,19 +149,33 @@
         "color": "forest",
         "text": "Clare Hammond, piano, at Kettle's Yard. Doors 7:30 PM, concert 8:00–10:00 PM. £15 / £5 students. Booking required — kettlesyard.cam.ac.uk."
       },
-      "routeStops": ["kettles-yard", "night-walk"],
-      "planStops": ["kettles-yard", "night-walk"],
-      "planArrival": { "title": "End at King's Parade", "note": "One last view of the chapel under streetlight, and the day is wrapped." }
+      "routeStops": [
+        "kettles-yard",
+        "night-walk"
+      ],
+      "planStops": [
+        "kettles-yard",
+        "night-walk"
+      ],
+      "planArrival": {
+        "title": "End at King's Parade",
+        "note": "One last view of the chapel under streetlight, and the day is wrapped."
+      }
     }
   ],
-
   "stops": {
     "market-square": {
       "name": "Market Square & King's Parade",
       "actId": "act1",
       "angle": "Where the town turns into the myth",
       "story": "Cambridge is not one campus but a city stitched together by colleges. Market Square is the working centre; King's Parade is the ceremonial postcard. This is where the town turns into the myth: bikes, gowns, stone gates, chapel towers, tourists, students, and the feeling that everyone is late for a tutorial.",
-      "facts": [],
+      "facts": [
+        "Market Square has had a daily market since the 11th century — about 950 years of trading on the same spot",
+        "Great St Mary's, the church on the square, is the University's official church. Climb its 123 steps for the best aerial view of the colleges.",
+        "Senate House (the white classical building) — designed by James Gibbs, 1722. Where Cambridge graduates still receive their degrees.",
+        "Stephen Hawking, Isaac Newton, Charles Darwin, John Maynard Keynes all walked this exact street as students",
+        "The Corpus Clock, two minutes' walk away, is gold and has no hands — a giant grasshopper 'chronophage' eats time on top of it. Worth the detour."
+      ],
       "routeCard": {
         "sub": "Cambridge · 2:00 PM start",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Market%20Square%2C%20Cambridge&travelmode=walking",
@@ -121,7 +186,11 @@
       "planCard": {
         "time": "2:00–2:25 PM",
         "leaveBy": "2:25",
-        "see": ["Market Square", "King's Parade", "First full view of King's College Chapel"],
+        "see": [
+          "Market Square",
+          "King's Parade",
+          "First full view of King's College Chapel"
+        ],
         "todo": "Start here. Grab coffee or a quick bite, then walk slowly down King's Parade toward King's College Chapel.",
         "film": []
       }
@@ -131,7 +200,14 @@
       "actId": "act1",
       "angle": "Cambridge doing drama in stone",
       "story": "King's College was founded by Henry VI in 1441, and the Chapel became the architectural symbol of Cambridge. It is not just \"a college chapel\"; it is Cambridge doing drama in stone — huge windows, vertical lines, royal ambition, and a fan-vaulted ceiling that looks almost impossible for the 15th–16th century. The college publishes date-specific visiting times, so check the 4 June slot before going in.",
-      "facts": [],
+      "facts": [
+        "Construction took 100 years (1446–1547), spanning five monarchs",
+        "Henry VIII personally funded the completion after Henry VI was overthrown",
+        "The fan vault is the largest single span of fan-vaulted ceiling anywhere in the world",
+        "'Carols from King's' on Christmas Eve is broadcast to over 50 million people worldwide",
+        "The antechapel contains Rubens's painting 'The Adoration of the Magi' (1634)",
+        "Henry VIII's emblems are carved everywhere inside — Tudor roses, portcullises, fleur-de-lis"
+      ],
       "routeCard": {
         "sub": "King's Parade · short walk from Market Square",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Kings%20College%20Chapel%2C%20Cambridge&travelmode=walking",
@@ -142,7 +218,12 @@
       "planCard": {
         "time": "2:25–3:10 PM",
         "leaveBy": "3:10",
-        "see": ["King's College Chapel", "The fan-vaulted ceiling", "Stained glass", "View toward The Backs"],
+        "see": [
+          "King's College Chapel",
+          "The fan-vaulted ceiling",
+          "Stained glass",
+          "View toward The Backs"
+        ],
         "todo": "If it is open, go inside. If not, do not waste time — take the exterior view from King's Parade and save the emotional payoff for the river.",
         "film": []
       }
@@ -152,7 +233,13 @@
       "actId": "act1",
       "angle": "The cinematic angle on the colleges",
       "story": "The Backs are the reason Cambridge looks like Cambridge. The colleges face the city with gates and walls, but they show their softer, more cinematic side to the river: lawns, willow trees, bridges, old stone, and boats drifting past as if the whole place was designed for slow camera movement.",
-      "facts": [],
+      "facts": [
+        "The Backs were laid out in the 18th century as romantic landscape gardens — deliberately staged, not natural",
+        "Roughly 1.5 miles of riverbank running behind six colleges in a row",
+        "The willows weren't here originally — they were planted from the 1820s onwards purely for the cinematic effect",
+        "During WWII this was allotment land — vegetables grew where the lawns are now",
+        "The Cam is only 3–5 feet deep along this stretch; you could wade across it"
+      ],
       "routeCard": {
         "sub": "Riverside lawns behind the colleges",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=The%20Backs%2C%20Cambridge&travelmode=walking",
@@ -163,7 +250,13 @@
       "planCard": {
         "time": "3:10–3:35 PM",
         "leaveBy": "3:35",
-        "see": ["King's College from the river side", "Clare College", "College lawns", "River Cam", "Bridges and punts"],
+        "see": [
+          "King's College from the river side",
+          "Clare College",
+          "College lawns",
+          "River Cam",
+          "Bridges and punts"
+        ],
         "todo": "Walk toward the river and pause for photos. This is the place for the wide establishing shots: chapel, water, green lawns, people punting.",
         "film": []
       }
@@ -173,7 +266,13 @@
       "actId": "act1",
       "angle": "The visual centre of the day",
       "story": "Punting is touristy, yes — but in Cambridge it actually earns its place. From the river, the colleges open up in a way they do not from the street. You pass the famous College Backs, old bridges, chapel views, and the private-looking world of Cambridge from its most beautiful angle. Scudamore's lists 4 June 2026 opening from 9:00 AM, with the last tour at 8:30 PM and closing at 9:30 PM, so an afternoon punt fits easily into the day.",
-      "facts": [],
+      "facts": [
+        "Punting started as a working trade — flat boats for moving goods on shallow rivers. Pleasure punting came later.",
+        "The pole is 16 feet long. Fibreglass now; used to be aluminium; before that, wood.",
+        "Trinity College's bridge still has shrapnel scars from a German bomb that landed nearby in 1942",
+        "Locals call tourists falling in 'the punters' tax' — it happens on every sunny weekend",
+        "A chauffeured tour runs 45–60 minutes; the same loop self-hire takes about 90"
+      ],
       "routeCard": {
         "sub": "Mill Lane or Quayside · Scudamore's punting station",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Scudamores%20Punting%20Cambridge&travelmode=walking",
@@ -184,7 +283,14 @@
       "planCard": {
         "time": "3:35–4:25 PM",
         "leaveBy": "4:25",
-        "see": ["King's College Chapel from the water", "Clare Bridge", "Trinity College", "St John's College", "Bridge of Sighs", "Mathematical Bridge"],
+        "see": [
+          "King's College Chapel from the water",
+          "Clare Bridge",
+          "Trinity College",
+          "St John's College",
+          "Bridge of Sighs",
+          "Mathematical Bridge"
+        ],
         "todo": "Take a guided/chauffeured punt, not self-hire. Sit, look, film, listen. This is the visual centre of the Cambridge day.",
         "film": []
       }
@@ -194,7 +300,13 @@
       "actId": "act2",
       "angle": "A puzzle pretending to be a bridge",
       "story": "Mathematical Bridge looks like a puzzle pretending to be a bridge. The famous story says it was built without bolts, taken apart, and then nobody could put it back together properly. That is more legend than fact, but it survives because it feels exactly like the kind of story Cambridge should have: clever, slightly smug, and photogenic.",
-      "facts": [],
+      "facts": [
+        "The Mathematical Bridge was designed by William Etheridge in 1748, NOT by Newton — Newton died 21 years earlier",
+        "It's currently the third version of the bridge; the previous two were taken down and rebuilt",
+        "Queens' has the apostrophe AFTER the 's' because two queens founded it — Margaret of Anjou (1448) and Elizabeth Woodville (1465)",
+        "Erasmus, the great Dutch humanist, lived and taught here from 1510 to 1514",
+        "The President's Lodge is the oldest building still standing right on the Cam riverbank"
+      ],
       "routeCard": {
         "sub": "Silver Street · short walk from Mill Lane",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Mathematical%20Bridge%2C%20Cambridge&travelmode=walking",
@@ -205,7 +317,12 @@
       "planCard": {
         "time": "4:25–4:55 PM",
         "leaveBy": "4:55",
-        "see": ["Queens' College", "Mathematical Bridge", "Silver Street", "River view from the bridge area"],
+        "see": [
+          "Queens' College",
+          "Mathematical Bridge",
+          "Silver Street",
+          "River view from the bridge area"
+        ],
         "todo": "Walk to the bridge area after punting. Don't overstay — this is a short, sharp stop for photos and atmosphere.",
         "film": []
       }
@@ -215,7 +332,14 @@
       "actId": "act2",
       "angle": "Queen Victoria's favourite view",
       "story": "St John's was founded in 1511 and sells itself very honestly: 500 years of history, famous alumni, riverside walks, and the Bridge of Sighs. Queen Victoria reportedly called the bridge her favourite sight in Cambridge. The college's grounds are generally open to visitors 9:30 AM – 4:30 PM, but can close at short notice, so by late afternoon this is more \"try if possible\" than guaranteed.",
-      "facts": [],
+      "facts": [
+        "The Bridge of Sighs (1831) is a deliberate copy of the original in Venice",
+        "Wordsworth studied at St John's from 1787 to 1791 — he hated it",
+        "Douglas Adams (Hitchhiker's Guide to the Galaxy) attended here in the 1970s",
+        "Second-largest college in Cambridge, after Trinity",
+        "When the rowing team wins May Bumps, they burn an actual boat. Tradition.",
+        "Founded by Lady Margaret Beaufort, Henry VII's mother, in 1511"
+      ],
       "routeCard": {
         "sub": "Wren Bridge area · St John's Street",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=St%20Johns%20College%2C%20Cambridge&travelmode=walking",
@@ -226,7 +350,12 @@
       "planCard": {
         "time": "4:55–5:35 PM",
         "leaveBy": "5:35",
-        "see": ["St John's College", "Courts and riverside grounds", "Bridge of Sighs", "View from the Wren Bridge area"],
+        "see": [
+          "St John's College",
+          "Courts and riverside grounds",
+          "Bridge of Sighs",
+          "View from the Wren Bridge area"
+        ],
         "todo": "If entry still works, go in. If not, don't chase it — you'll already have seen the Bridge of Sighs from the punt, which is often the best angle anyway.",
         "film": []
       }
@@ -236,7 +365,13 @@
       "actId": "act2",
       "angle": "Cambridge loosens its tie",
       "story": "After the polished college zone, Cambridge loosens its tie. Magdalene Bridge and Jesus Green feel more lived-in: less \"famous university\", more evening river city. This is where the route starts shifting from sightseeing into night mood.",
-      "facts": [],
+      "facts": [
+        "'Magdalene' is pronounced MAUDLIN in Cambridge — anyone saying 'Magda-leen' instantly outs themselves as a tourist",
+        "Samuel Pepys studied at Magdalene; his entire diary library is preserved there, including his original handwritten diaries",
+        "Jesus Green has hosted the annual Cambridge Beer Festival since 1974",
+        "The outdoor swimming pool on Jesus Green is a Victorian lido — still open in summer",
+        "Midsummer Common, just upstream, has hosted the Midsummer Fair every year since 1211 — over 800 years of the same fair"
+      ],
       "routeCard": {
         "sub": "North of the college zone · Magdalene Street",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Magdalene%20Bridge%2C%20Cambridge&travelmode=walking",
@@ -247,7 +382,13 @@
       "planCard": {
         "time": "5:35–6:10 PM",
         "leaveBy": "6:10",
-        "see": ["Magdalene Bridge", "River Cam", "Boats", "Jesus Green", "Softer, less formal Cambridge"],
+        "see": [
+          "Magdalene Bridge",
+          "River Cam",
+          "Boats",
+          "Jesus Green",
+          "Softer, less formal Cambridge"
+        ],
         "todo": "Walk slowly toward Jesus Green, then loop back toward Castle Street. This also positions you well for Kettle's Yard later.",
         "film": []
       }
@@ -257,7 +398,13 @@
       "actId": "act2",
       "angle": "The quieter, more textured Cambridge",
       "story": "This part of Cambridge is perfect before the concert because it keeps you close to Kettle's Yard without dragging you across town. The city becomes less postcard-perfect and more textured here: pubs, students, locals, old walls, and that slightly academic evening hush.",
-      "facts": [],
+      "facts": [
+        "Castle Hill is where the Roman fort stood — Cambridge's name comes from the Roman 'Camboritum'",
+        "Cambridge Castle was demolished in 1842; only the grass mound remains",
+        "The Pickerel Inn on Magdalene Street is one of Cambridge's oldest pubs, claiming roots back to the 14th century",
+        "St Peter's on Castle Street is tiny, medieval, and almost ruin-romantic — easy to miss, worth looking up at",
+        "This whole area was once outside the city walls — the 'wrong side' of medieval Cambridge"
+      ],
       "routeCard": {
         "sub": "Castle Street / Bridge Street area",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Castle%20Street%2C%20Cambridge&travelmode=walking",
@@ -268,7 +415,12 @@
       "planCard": {
         "time": "6:10–7:20 PM",
         "leaveBy": "7:15",
-        "see": ["Bridge Street", "Magdalene Street", "Castle Street area", "Old pubs, narrow streets, evening traffic of bikes and walkers"],
+        "see": [
+          "Bridge Street",
+          "Magdalene Street",
+          "Castle Street area",
+          "Old pubs, narrow streets, evening traffic of bikes and walkers"
+        ],
         "todo": "Eat somewhere casual — quick service matters more than the menu. Leave the restaurant by 7:15 PM at the latest to make doors at Kettle's Yard.",
         "film": []
       }
@@ -278,7 +430,14 @@
       "actId": "act3",
       "angle": "The reason this day exists",
       "story": "Kettle's Yard is one of Cambridge's best cultural places: part house, part gallery, part intimate performance space. On Thursday 4 June 2026 they have New Music: Clare Hammond, piano. Doors at 7:30 PM, concert from 8:00 to 10:00 PM. Tickets £15 / £5 students, booking required.",
-      "facts": [],
+      "facts": [
+        "Founded in 1957 by Jim Ede — a curator who wanted a place where art lived alongside everyday objects, not behind ropes",
+        "The house contains original works by Henry Moore, Barbara Hepworth, Ben Nicholson, Joan Miró, Christopher Wood",
+        "Jim and his wife Helen lived in the house and welcomed visitors every afternoon — the 'open house' tradition is still alive",
+        "Part of the University of Cambridge since 1966",
+        "The contemporary gallery wing was added in 2018",
+        "Clare Hammond — tonight's pianist — is a Royal Philharmonic Society award winner who specialises in contemporary repertoire"
+      ],
       "routeCard": {
         "sub": "Castle Street · doors 7:30 PM",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Kettles%20Yard%2C%20Cambridge&travelmode=walking",
@@ -289,7 +448,12 @@
       "planCard": {
         "time": "7:30–10:00 PM",
         "leaveBy": null,
-        "see": ["Kettle's Yard house & gallery", "Evening concert in the house", "Clare Hammond, piano", "Contemporary classical music setting"],
+        "see": [
+          "Kettle's Yard house & gallery",
+          "Evening concert in the house",
+          "Clare Hammond, piano",
+          "Contemporary classical music setting"
+        ],
         "todo": "Book in advance. Arrive for doors at 7:30 PM, not 8:00 sharp. This is the main evening event, not an optional add-on.",
         "film": []
       }
@@ -299,7 +463,13 @@
       "actId": "act3",
       "angle": "Cambridge after dark",
       "story": "Cambridge after dark is quieter and much better than expected. The daytime crowds thin out, the stone turns darker, windows glow, and the city feels less like a tourist attraction and more like a film set with bicycles.",
-      "facts": [],
+      "facts": [
+        "Cambridge has been a city since 1207 — its royal charter was granted by King John",
+        "The Round Church (Holy Sepulchre) on Bridge Street is one of only 4 round Norman churches left in England",
+        "College gates close around 11 PM — students caught outside face fines, traditionally for 'being out after curfew'",
+        "Magdalene Bridge is the oldest crossing of the Cam in the city",
+        "Cambridge has more bicycles per capita than anywhere else in England — about one bike for every person"
+      ],
       "routeCard": {
         "sub": "Through the centre back to where you parked",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Kings%20Parade%2C%20Cambridge&travelmode=walking",
@@ -310,21 +480,24 @@
       "planCard": {
         "time": "After 10:00 PM",
         "leaveBy": null,
-        "see": ["Castle Street", "Magdalene Street", "Bridge Street", "Trinity Street", "King's Parade at night"],
+        "see": [
+          "Castle Street",
+          "Magdalene Street",
+          "Bridge Street",
+          "Trinity Street",
+          "King's Parade at night"
+        ],
         "todo": "Walk back toward the centre instead of taking transport immediately. End at King's Parade if you want the final night view of King's Chapel.",
         "film": []
       }
     }
   },
-
   "talkTipbox": "Cambridge is talkative on its own — let the buildings and the river do the work. Keep your pieces-to-camera short and walking.",
-
   "goldenRules": [
     "Book Kettle's Yard tickets well in advance",
     "Check King's College Chapel visiting hours for the 4 June slot",
     "Book a chauffeured punt, not self-hire",
     "Don't film inside colleges without checking the rules first"
   ],
-
   "outro": "One day, one city, one concert. Slow travel at its tightest."
 }
