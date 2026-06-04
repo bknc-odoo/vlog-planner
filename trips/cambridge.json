@@ -30,36 +30,18 @@
     {
       "id": "act1",
       "color": "rust",
-      "label": "Act 1 · Colleges & The Backs",
-      "tagline": "Postcard Cambridge in the afternoon light.",
-      "narrative": "Cambridge is one of those rare places that earns being on every itinerary, but the trick is timing it well. Start in Market Square when the city is full but bright; walk King's Parade slowly so the first view of King's College Chapel feels like the opening shot of a film. If the chapel is open, go in. If not, save the emotional payoff for the river — by 3:30 you should be on a punt heading down The Backs, where the colleges show their softer, more cinematic side: lawns, willows, bridges, and the chapel from the water. This is the visual centre of the whole day.",
+      "label": "Cambridge · 4 June 2026",
+      "tagline": "Afternoon, evening, concert.",
+      "narrative": "Cambridge is one of those rare places that earns being on every itinerary, but the trick is timing it well. Start in Market Square when the city is full but bright; walk King's Parade slowly so the first view of King's College Chapel feels like the opening shot of a film. If the chapel is open, go in. If not, save the emotional payoff for the river — by 3:30 you should be on a punt heading down The Backs, where the colleges show their softer, more cinematic side: lawns, willows, bridges, and the chapel from the water. This is the visual centre of the whole day.\n\nAfter the punt the day's tone shifts. Queens' College and the Mathematical Bridge are a quick photo stop; St John's and the Bridge of Sighs become a 'try if possible' by late afternoon; past Magdalene Bridge the city loosens its tie. Eat near Castle Street and pace yourself for the concert.\n\nKettle's Yard at 8 PM is the day's centre of gravity. Doors at 7:30, two hours of Clare Hammond on piano, and then the night walk back — Cambridge emptier, darker, the colleges glowing through their gates. End at King's Parade for one last view of the chapel under streetlight, and you've had the full day the city has to offer.",
       "stopIds": [
         "market-square",
         "kings-college",
         "the-backs",
-        "punting"
-      ]
-    },
-    {
-      "id": "act2",
-      "color": "ochre",
-      "label": "Act 2 · Bridges & Streets",
-      "tagline": "Cambridge loosens its tie.",
-      "narrative": "After the punt, the day's tone shifts. Queens' College and the Mathematical Bridge are a quick photo stop — the bridge is a puzzle pretending to be a bridge, and the story about how no one could put it back together is more legend than fact, but it survives because it's the kind of story Cambridge should have. St John's and the Bridge of Sighs become a 'try if possible' by late afternoon; the punt already gave you the best angle anyway. Past Magdalene Bridge the city loosens its tie — pubs, narrow streets, students cycling home — and you're already positioned for Kettle's Yard. Eat somewhere quiet near Castle Street and pace yourself for the concert.",
-      "stopIds": [
+        "punting",
         "queens-college",
         "st-johns",
         "magdalene",
-        "dinner"
-      ]
-    },
-    {
-      "id": "act3",
-      "color": "forest",
-      "label": "Act 3 · Concert & Night Walk",
-      "tagline": "The reason this day exists.",
-      "narrative": "Kettle's Yard at 8 PM is the day's centre of gravity. Part house, part gallery, part performance space — the kind of small evening event that turns a sightseeing day into something memorable. Doors are at 7:30; arrive then, not at 8 sharp. After two hours of Clare Hammond on piano, Cambridge is at its best: emptier, darker, the colleges glowing through the gates. Walk back instead of taking transport. End at King's Parade for one last look at the chapel under streetlight, and you've had the full day the city has to offer.",
-      "stopIds": [
+        "dinner",
         "kettles-yard",
         "night-walk"
       ]
@@ -76,84 +58,42 @@
   "days": [
     {
       "id": "d1",
-      "label": "Afternoon",
-      "date": "Thu 4 Jun · 2 PM",
+      "label": "Cambridge",
+      "date": "Thu 4 June 2026",
       "color": "rust",
-      "routeHeader": "Market Square → King's College → The Backs → Punting",
+      "routeHeader": "Market Square → King's College → punting → Mathematical Bridge → St John's → Magdalene → Castle Street → Kettle's Yard → night walk",
       "fullRoute": {
-        "label": "AFTERNOON WALKING ROUTE",
-        "sub": "From Market Square down to the Backs and the river",
-        "href": "https://www.google.com/maps/dir/?api=1&origin=Market%20Square%2C%20Cambridge&destination=Mill%20Lane%2C%20Cambridge&waypoints=Kings%20College%20Chapel%2C%20Cambridge%7CThe%20Backs%2C%20Cambridge&travelmode=walking"
+        "label": "FULL CAMBRIDGE WALKING ROUTE",
+        "sub": "Market Square to King's Parade via every major stop",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Market%20Square%2C%20Cambridge&destination=Kings%20Parade%2C%20Cambridge&waypoints=Kings%20College%20Chapel%2C%20Cambridge%7CMill%20Lane%2C%20Cambridge%7CMathematical%20Bridge%2C%20Cambridge%7CSt%20Johns%20College%2C%20Cambridge%7CMagdalene%20Bridge%2C%20Cambridge%7CKettles%20Yard%2C%20Cambridge&travelmode=walking"
       },
-      "planHeader": "Colleges & The Backs · 2:00 – 4:25 PM",
-      "planNote": null,
-      "routeStops": [
-        "market-square",
-        "kings-college",
-        "the-backs",
-        "punting"
-      ],
-      "planStops": [
-        "market-square",
-        "kings-college",
-        "the-backs",
-        "punting"
-      ],
-      "planArrival": null
-    },
-    {
-      "id": "d2",
-      "label": "Late afternoon",
-      "date": "Thu 4 Jun · 4:25 PM",
-      "color": "ochre",
-      "routeHeader": "Mathematical Bridge → St John's → Magdalene → Castle Street",
-      "fullRoute": {
-        "label": "EVENING WALKING LOOP",
-        "sub": "Bridges, colleges, and dinner near Castle Street",
-        "href": "https://www.google.com/maps/dir/?api=1&origin=Mathematical%20Bridge%2C%20Cambridge&destination=Castle%20Street%2C%20Cambridge&waypoints=St%20Johns%20College%2C%20Cambridge%7CMagdalene%20Bridge%2C%20Cambridge&travelmode=walking"
-      },
-      "planHeader": "Bridges & Streets · 4:25 – 7:20 PM",
-      "planNote": {
-        "kicker": "Plan",
-        "color": "ochre",
-        "text": "St John's grounds may close before you arrive. Don't chase it — you saw the Bridge of Sighs from the punt."
-      },
-      "routeStops": [
-        "queens-college",
-        "st-johns",
-        "magdalene",
-        "dinner"
-      ],
-      "planStops": [
-        "queens-college",
-        "st-johns",
-        "magdalene",
-        "dinner"
-      ],
-      "planArrival": null
-    },
-    {
-      "id": "d3",
-      "label": "Evening",
-      "date": "Thu 4 Jun · 7:30 PM",
-      "color": "forest",
-      "routeHeader": "Kettle's Yard → night walk back through Cambridge",
-      "fullRoute": {
-        "label": "TO THE CONCERT",
-        "sub": "From Castle Street area to Kettle's Yard",
-        "href": "https://www.google.com/maps/dir/?api=1&origin=Castle%20Street%2C%20Cambridge&destination=Kettles%20Yard%2C%20Cambridge&travelmode=walking"
-      },
-      "planHeader": "Concert & Night Walk · 7:30 PM onwards",
+      "planHeader": "An afternoon, an evening, and a piano concert · 2:00 PM onwards",
       "planNote": {
         "kicker": "Book ahead",
-        "color": "forest",
+        "color": "rust",
         "text": "Clare Hammond, piano, at Kettle's Yard. Doors 7:30 PM, concert 8:00–10:00 PM. £15 / £5 students. Booking required — kettlesyard.cam.ac.uk."
       },
       "routeStops": [
+        "market-square",
+        "kings-college",
+        "the-backs",
+        "punting",
+        "queens-college",
+        "st-johns",
+        "magdalene",
+        "dinner",
         "kettles-yard",
         "night-walk"
       ],
       "planStops": [
+        "market-square",
+        "kings-college",
+        "the-backs",
+        "punting",
+        "queens-college",
+        "st-johns",
+        "magdalene",
+        "dinner",
         "kettles-yard",
         "night-walk"
       ],
@@ -297,7 +237,7 @@
     },
     "queens-college": {
       "name": "Queens' College & Mathematical Bridge",
-      "actId": "act2",
+      "actId": "act1",
       "angle": "A puzzle pretending to be a bridge",
       "story": "Mathematical Bridge looks like a puzzle pretending to be a bridge. The famous story says it was built without bolts, taken apart, and then nobody could put it back together properly. That is more legend than fact, but it survives because it feels exactly like the kind of story Cambridge should have: clever, slightly smug, and photogenic.",
       "facts": [
@@ -329,7 +269,7 @@
     },
     "st-johns": {
       "name": "St John's College & Bridge of Sighs",
-      "actId": "act2",
+      "actId": "act1",
       "angle": "Queen Victoria's favourite view",
       "story": "St John's was founded in 1511 and sells itself very honestly: 500 years of history, famous alumni, riverside walks, and the Bridge of Sighs. Queen Victoria reportedly called the bridge her favourite sight in Cambridge. The college's grounds are generally open to visitors 9:30 AM – 4:30 PM, but can close at short notice, so by late afternoon this is more \"try if possible\" than guaranteed.",
       "facts": [
@@ -362,7 +302,7 @@
     },
     "magdalene": {
       "name": "Magdalene Bridge & Jesus Green",
-      "actId": "act2",
+      "actId": "act1",
       "angle": "Cambridge loosens its tie",
       "story": "After the polished college zone, Cambridge loosens its tie. Magdalene Bridge and Jesus Green feel more lived-in: less \"famous university\", more evening river city. This is where the route starts shifting from sightseeing into night mood.",
       "facts": [
@@ -395,7 +335,7 @@
     },
     "dinner": {
       "name": "Early Dinner near Castle Street",
-      "actId": "act2",
+      "actId": "act1",
       "angle": "The quieter, more textured Cambridge",
       "story": "This part of Cambridge is perfect before the concert because it keeps you close to Kettle's Yard without dragging you across town. The city becomes less postcard-perfect and more textured here: pubs, students, locals, old walls, and that slightly academic evening hush.",
       "facts": [
@@ -427,7 +367,7 @@
     },
     "kettles-yard": {
       "name": "Kettle's Yard — Clare Hammond, piano",
-      "actId": "act3",
+      "actId": "act1",
       "angle": "The reason this day exists",
       "story": "Kettle's Yard is one of Cambridge's best cultural places: part house, part gallery, part intimate performance space. On Thursday 4 June 2026 they have New Music: Clare Hammond, piano. Doors at 7:30 PM, concert from 8:00 to 10:00 PM. Tickets £15 / £5 students, booking required.",
       "facts": [
@@ -460,7 +400,7 @@
     },
     "night-walk": {
       "name": "Night Walk Back Through Cambridge",
-      "actId": "act3",
+      "actId": "act1",
       "angle": "Cambridge after dark",
       "story": "Cambridge after dark is quieter and much better than expected. The daytime crowds thin out, the stone turns darker, windows glow, and the city feels less like a tourist attraction and more like a film set with bicycles.",
       "facts": [
@@ -499,5 +439,7 @@
     "Book a chauffeured punt, not self-hire",
     "Don't film inside colleges without checking the rules first"
   ],
-  "outro": "One day, one city, one concert. Slow travel at its tightest."
+  "outro": "One day, one city, one concert. Slow travel at its tightest.",
+  "dayGlanceTitle": "The day at a glance",
+  "actsLede": "One day, three phases."
 }

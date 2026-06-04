@@ -686,6 +686,15 @@
     var kit = t.kit.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('');
 
 
+    /* Headings that adapt to trip shape (1 day vs N days, 1 act vs N acts) */
+    var DAY_WORD = { 1: 'The day', 2: 'The two days', 3: 'The three days', 4: 'The four days', 5: 'The five days' };
+    var glanceTitle = t.dayGlanceTitle || DAY_WORD[(t.days || []).length] || ('The ' + (t.days || []).length + ' days');
+    var actsLede = t.actsLede;
+    if (!actsLede) {
+      var an = (t.acts || []).length;
+      actsLede = (an === 1) ? "The day's arc." : (an === 3 ? "Three acts — let the episode build." : "");
+    }
+
     /* Hero title heuristic: split on " to " preserve italic em for the connector */
     var heroTitle;
     var parts = t.title.split(' to ');
@@ -705,11 +714,11 @@
       +   '<i style="background:var(--rust)"></i><i style="background:var(--ochre)"></i><i style="background:var(--forest)"></i>'
       + '</div>'
       + '<p class="p0">' + esc(t.intro) + '</p>'
-      + '<h2 class="sec">The three days</h2>'
+      + '<h2 class="sec">' + esc(glanceTitle) + '</h2>'
       + '<div class="lede">Tap <b>Route</b> for navigation, <b>Plan</b> for the timed agenda, <b>Talk</b> for what to say on camera.</div>'
       + glance
       + '<h2 class="sec" style="margin-top:22px">The story to film</h2>'
-      + '<div class="lede">Three acts — let the episode build.</div>'
+      + (actsLede ? '<div class="lede">' + esc(actsLede) + '</div>' : '')
       + acts
       + '<h2 class="sec" style="margin-top:22px">Your kit</h2>'
       + '<ul style="margin-top:8px">' + kit + '</ul>'
