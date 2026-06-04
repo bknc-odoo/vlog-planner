@@ -1,6 +1,13 @@
 {
-  "default": "ep01",
+  "default": "cambridge",
   "trips": [
+    {
+      "id": "cambridge",
+      "title": "Cambridge Afternoon Run",
+      "subtitle": "Colleges → Punting → Kettle's Yard",
+      "dates": "Thu 4 June 2026",
+      "episode": "TRIP.02"
+    },
     {
       "id": "ep01",
       "title": "Essex to Yorkshire",

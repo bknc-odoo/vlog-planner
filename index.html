@@ -798,7 +798,7 @@
     if (!stopObj || !stopObj.planCard) return '';
     var p = stopObj.planCard;
     var leaveChip = p.leaveBy ? '<span class="chip lv">LEAVE BY ' + esc(p.leaveBy) + '</span>' : '';
-    var see  = p.see.map(function (s) {
+    var see  = (p.see || []).map(function (s) {
       if (typeof s === 'string') return '<li>' + esc(s) + '</li>';
       var name  = s && s.name || '';
       var story = (s && s.story && String(s.story).trim()) ? String(s.story).trim() : '';
@@ -812,13 +812,17 @@
       detail += '</div>';
       return '<li class="b">' + esc(name) + detail + '</li>';
     }).join('');
-    var film = p.film.map(function (f) { return '<li class="f">' + esc(f) + '</li>'; }).join('');
+    var film = (p.film || []).map(function (f) { return '<li class="f">' + esc(f) + '</li>'; }).join('');
+    var stopTodo = (p.todo && String(p.todo).trim())
+      ? '<div class="mlabel">To do</div><div class="see-todo">' + esc(String(p.todo).trim()) + '</div>'
+      : '';
     return ''
       + '<div class="card">'
       +   '<div class="cap" style="font-size:16px">' + esc(stopObj.name) + '</div>'
       +   '<span class="chip t">' + esc(p.time) + '</span>' + leaveChip
-      +   '<div class="mlabel">See</div><ul>' + see + '</ul>'
-      +   '<div class="mlabel">Film</div><ul>' + film + '</ul>'
+      +   (see ? '<div class="mlabel">See</div><ul>' + see + '</ul>' : '')
+      +   stopTodo
+      +   (film ? '<div class="mlabel">Film</div><ul>' + film + '</ul>' : '')
       + '</div>';
   }
 
