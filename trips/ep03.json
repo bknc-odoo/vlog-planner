@@ -44,7 +44,7 @@
       "color": "ochre",
       "label": "Act 2 · The water day",
       "tagline": "The nature day — a loch by steamer, a gorge on foot.",
-      "narrative": "Day two is the quiet centre of the trip and the one that's all about water. You take a short, slow, single-track road to Loch Katrine — the loch that, thanks to one Walter Scott poem in 1810, kicked off the first tourism boom Scotland ever had. You cruise it on a steamer that's been sailing here since 1899, because no petrol engines are allowed on a loch that still supplies Glasgow's drinking water by gravity.\n\nAfter lunch by the water you come back to Callander and walk up to Bracklinn Falls — fifteen minutes through the woods to a gorge, a run of falls, and a curved oak bridge built to replace the one a flood tore out in 2004. Keep it short or do the fuller loop; either way you get the sound of it on camera.\n\nNo big drives, no city — just the loch, the falls, and an easy last night in Callander before you drop down to Glasgow.",
+      "narrative": "Day two is the quiet centre of the trip and the one that's all about water. You take a short, slow, single-track road to Loch Katrine — the loch that, thanks to one Walter Scott poem in 1810, kicked off the first tourism boom Scotland ever had. You cruise it on the water — the historic steamer SS Sir Walter Scott still runs the longer sailings — on a loch so protected (it supplies Glasgow's drinking water by gravity) that the boats have always run clean.\n\nAfter lunch by the water you come back to Callander and walk up to Bracklinn Falls — fifteen minutes through the woods to a gorge, a run of falls, and a footbridge that's been rebuilt more than once since a flood tore the old one out in 2004. Keep it short or do the fuller loop; either way you get the sound of it on camera.\n\nNo big drives, no city — just the loch, the falls, and an easy last night in Callander before you drop down to Glasgow.",
       "stopIds": [
         "loch-katrine",
         "bracklinn"
@@ -197,7 +197,7 @@
             "n": 1,
             "name": "The two heads",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=The%20Kelpies%20Falkirk",
-            "story": "The two horses are deliberately different — Baron looking down mid-bow, Duke rearing to the sky — so together they read as one animal moving. Up close the stainless-steel skin catches the light like water.",
+            "story": "The two horses are deliberately different — Duke looking down mid-bow, Baron rearing to the sky — so together they read as one animal moving. Up close the stainless-steel skin catches the light like water.",
             "todo": "Shoot each head from directly below against the sky; the low angle is what sells the scale."
           },
           {
@@ -215,7 +215,8 @@
             "todo": "Grab the coffee; do a quick warm piece-to-camera inside if it's blowing a gale out there."
           }
         ],
-        "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=The%20Kelpies%20Falkirk&destination=Helix%20Park%20Falkirk&travelmode=walking"
+        "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=The%20Kelpies%20Falkirk&destination=Helix%20Park%20Falkirk&travelmode=walking",
+        "trailingNote": "Optional, 10 minutes away: the Falkirk Wheel — the world's only rotating boat lift. Free to walk up and watch it turn (only the boat trip is ticketed). Easy to pair with the Kelpies if you leave Edinburgh a little earlier."
       },
       "planCard": {
         "time": "10:00–11:15 AM",
@@ -279,7 +280,7 @@
             "n": 3,
             "name": "The Chapel Royal",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Stirling%20Castle%20Chapel%20Royal",
-            "story": "Rebuilt by James VI in 1594 in a hurry for his son's christening — the whole thing went up in about seven months. This is roughly where the infant Mary was crowned Queen of Scots in 1543.",
+            "story": "Rebuilt by James VI in 1594 in a hurry for his son's christening — the whole thing went up in about six months. This is roughly where the infant Mary was crowned Queen of Scots in 1543.",
             "todo": "Step inside for the painted frieze; it's a quiet beat between the big rooms."
           },
           {
@@ -391,15 +392,15 @@
       "name": "Loch Katrine",
       "actId": "act2",
       "angle": "The loch that invented Scottish tourism",
-      "story": "Loch Katrine is the reason people started coming to the Highlands for fun. In 1810 Sir Walter Scott set his poem The Lady of the Lake right here, it became a runaway bestseller, and half of Victorian Britain suddenly wanted to see the Trossachs — the first tourism boom Scotland ever had. There's a quieter marvel too: since 1859 this loch has supplied Glasgow's drinking water, running twenty-six miles to the city entirely by gravity, no pumps — a piece of Victorian engineering still working today. Because it's a reservoir, no petrol or diesel boats are allowed, which is why you cruise it on the SS Sir Walter Scott, a steamer that's been sailing this loch since 1899. Take the 45-minute round trip and let the hills do the work.",
+      "story": "Loch Katrine is the reason people started coming to the Highlands for fun. In 1810 Sir Walter Scott set his poem The Lady of the Lake right here, it became a runaway bestseller, and half of Victorian Britain suddenly wanted to see the Trossachs — the first tourism boom Scotland ever had. There's a quieter marvel too: since 1859 this loch has supplied Glasgow's drinking water, running twenty-six miles to the city entirely by gravity, no pumps — a piece of Victorian engineering still working today. Because it's Glasgow's protected water supply, the boats run clean — including the SS Sir Walter Scott, a steamer that's sailed this loch since 1900. The quick 45-minute round trip is on the modern launch; the steamer herself does the longer sailings, if you'd rather ride her. Either way, let the hills do the work.",
       "facts": [
         "Sir Walter Scott's 1810 poem set here kicked off Scotland's first-ever tourism boom",
         "It's supplied Glasgow's water since 1859 — 26 miles, entirely by gravity",
-        "You cruise it on the SS Sir Walter Scott, a steamer running since 1899"
+        "The SS Sir Walter Scott steamer has sailed the loch since 1900"
       ],
       "routeCard": {
         "sub": "Trossachs Pier · book the cruise",
-        "note": "Only about 9 miles from Callander, but it's a slow, scenic single-track road — allow 25–30 minutes. Book the cruise before you go: the whole day is built around the ~11:00 sailing, so if you can only get another time, slide lunch and Bracklinn to match. Sailing times change with the season — check the date.",
+        "note": "About 9 miles from Callander on a narrow, winding A-road (not single-track) — allow 25–30 minutes; sat-nav struggles near the pier, so use the official coordinates. Book ahead. The quick 45-min circular runs roughly hourly (incl. ~11:00) on the modern launch; the historic steamer SS Sir Walter Scott sails at 10:30 (2hr) and 13:00 (1hr) if you'd rather ride her. Slide lunch and Bracklinn to match whichever you book.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Trossachs%20Pier%2C%20Loch%20Katrine&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Trossachs%20Pier%20Loch%20Katrine&navigate=yes",
         "walkPoints": [
@@ -414,7 +415,7 @@
             "n": 2,
             "name": "The cruise",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Loch%20Katrine%20cruise",
-            "story": "Forty-five minutes out and back on the water, the hills of the Trossachs rising on both sides, no engine noise but the steamer. Sailings run through the day — the ~11:00 fits the plan.",
+            "story": "Forty-five minutes out and back on the water, the hills of the Trossachs rising on both sides. The quick circular at ~11:00 runs on the modern launch; the historic steamer SS Sir Walter Scott does the longer sailings if you'd rather ride her.",
             "todo": "Shoot wide from the deck, keep the horizon level, mind the wind on the mic. Grab a piece-to-camera with the wake behind you."
           },
           {
@@ -425,7 +426,8 @@
             "todo": "Slow B-roll of the loch, then eat."
           }
         ],
-        "walkLoopHref": null
+        "walkLoopHref": null,
+        "trailingNote": "Optional, if you want a hill and a view: Ben A'an sits right on this road at Loch Achray — a short, steep 1.5–2.5 hr climb to arguably the best view in the Trossachs. Slot it before or after the cruise."
       },
       "planCard": {
         "time": "10:15 AM – 1:15 PM",
@@ -438,7 +440,7 @@
           },
           {
             "name": "The 45-minute cruise",
-            "story": "A round trip on the SS Sir Walter Scott, steaming since 1899, on a loch that waters Glasgow by gravity.",
+            "story": "A 45-min round trip on the modern launch (the historic SS Sir Walter Scott, sailing since 1900, does the longer runs), on a loch that waters Glasgow by gravity.",
             "todo": "Wide from the deck, horizon level, wind off the mic. Piece-to-camera with the wake behind you."
           },
           {
@@ -458,11 +460,11 @@
       "name": "Bracklinn Falls",
       "actId": "act2",
       "angle": "The gorge above Callander",
-      "story": "Just above Callander, the Keltie Water throws itself through a rocky gorge in a run of falls called Bracklinn — a fifteen-minute walk through the woods from the car park. The Victorians loved it; Sir Walter Scott put it in his writing and Queen Victoria came to see it. The bridge is its own small drama: the original footbridge was ripped out by a flood in 2004, and what replaced it in 2010 is a curved span of Scottish oak and steel, built to look like it grew there. You can keep it short — walk to the main viewpoint and back — or, if it's dry and you've got the legs, do the fuller loop. You don't need boots, but you do need closed shoes with grip.",
+      "story": "Just above Callander, the Keltie Water throws itself through a rocky gorge in a run of falls called Bracklinn — a fifteen-minute walk through the woods from the car park. The Victorians put it on the map — the old iron bridge here was said to be built for a visit by Queen Victoria. The bridge is its own small drama: the footbridge was ripped out by a flood in 2004, an award-winning timber span went up in 2010 but wore out, and the one you cross now is a sturdy metal bridge from 2023. You can keep it short — walk to the main viewpoint and back — or, if it's dry and you've got the legs, do the fuller loop. You don't need boots, but you do need closed shoes with grip.",
       "facts": [
         "A run of waterfalls on the Keltie Water in a rocky gorge above Callander",
-        "The 2004 flood destroyed the footbridge; the 2010 replacement is curved Scottish oak",
-        "The Victorians made it famous — Scott wrote it up, Queen Victoria came to see it"
+        "The 2004 flood destroyed the footbridge; today's metal span (2023) is the latest to cross the gorge",
+        "The Victorians made it famous — the old iron bridge was said to be built for a Queen Victoria visit"
       ],
       "routeCard": {
         "sub": "15-min walk from the car park",
@@ -479,9 +481,9 @@
           },
           {
             "n": 2,
-            "name": "The oak bridge",
+            "name": "The gorge bridge",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Bracklinn%20Falls%20Bridge",
-            "story": "The curved oak-and-steel footbridge that replaced the one the 2004 flood tore away. It arcs over the gorge at the falls' loudest point.",
+            "story": "The footbridge over the gorge at the falls' loudest point — the latest of several here, a metal span from 2023 that replaced an award-winning timber bridge worn out by the weather.",
             "todo": "Shoot the bridge from the bank, then from on it looking down into the gorge — mind your footing."
           },
           {
@@ -504,8 +506,8 @@
             "todo": "B-roll of light through the trees on the way in."
           },
           {
-            "name": "The oak bridge",
-            "story": "Curved Scottish oak and steel, built in 2010 to replace the bridge a flood destroyed in 2004.",
+            "name": "The gorge bridge",
+            "story": "The current metal footbridge (2023) over the gorge — the latest of several since the 2004 flood.",
             "todo": "Shoot it from the bank, then from on it looking into the gorge."
           },
           {
@@ -516,7 +518,7 @@
         ],
         "film": [
           "B-roll of the woodland approach",
-          "The oak bridge over the gorge",
+          "The footbridge over the gorge",
           "Hero shot at the falls"
         ]
       }
@@ -555,8 +557,8 @@
             "n": 3,
             "name": "Luss Parish Church",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Luss%20Parish%20Church",
-            "story": "In the churchyard are hogback stones — carved Viking grave-markers over a thousand years old, from when Norse settlers were here on the loch.",
-            "todo": "Find the hogback stones by the church — worn, whale-backed, easy to walk past."
+            "story": "In the churchyard is a hogback stone — an 11th-century Anglo-Scandinavian grave-marker, from when Norse settlers were here on the loch.",
+            "todo": "Find the hogback stone by the church — worn, whale-backed, easy to walk past."
           },
           {
             "n": 4,
@@ -583,9 +585,9 @@
             "todo": "Walk to the pier's end for the wide shot with the islands."
           },
           {
-            "name": "Viking hogback stones",
-            "story": "Thousand-year-old Norse grave-markers sit in the parish churchyard.",
-            "todo": "Find the whale-backed stones by the church — easy to miss."
+            "name": "A Viking hogback stone",
+            "story": "An 11th-century Anglo-Scandinavian grave-marker sits in the parish churchyard.",
+            "todo": "Find the whale-backed stone by the church — easy to miss."
           },
           {
             "name": "A long lakeside lunch",
@@ -671,7 +673,7 @@
       "name": "Glasgow",
       "actId": "act3",
       "angle": "The dear green place, after dark",
-      "story": "Glasgow is the finish line, and you're arriving as the light goes — which suits it. The museums have shut, so tonight isn't about galleries; it's the city with its lights on. The name means 'dear green place,' but modern Glasgow is Victorian sandstone and swagger: George Square and the floodlit City Chambers, a marble palace built when the Clyde shipyards were launching a fifth of the world's ships; the Duke of Wellington outside the Gallery of Modern Art, wearing the traffic cone Glaswegians have kept on his head for forty years because the council finally gave up removing it; the mural trail brightening the lanes of Merchant City. Eat well, walk it off through the centre, and take your closing line down to the River Clyde at night. That's a wrap on Episode 03.",
+      "story": "Glasgow is the finish line, and you're arriving as the light goes — which suits it. The museums have shut, so tonight isn't about galleries; it's the city in the evening. The name is fondly translated as 'dear green place,' but modern Glasgow is Victorian sandstone and swagger: George Square and the City Chambers, an 1888 pile with a marble-and-gold interior, built when the Clyde shipyards were launching a fifth of the world's ships; the Duke of Wellington outside the Gallery of Modern Art, wearing the traffic cone Glaswegians have kept on his head for forty years because the council finally gave up removing it; the mural trail brightening the lanes of Merchant City. Eat well, walk it off through the centre, and take your closing line down to the River Clyde at night. That's a wrap on Episode 03.",
       "facts": [
         "Glasgow's name means \"dear green place\" (Gaelic Glaschu)",
         "The Duke of Wellington statue has worn a traffic cone for 40 years — the council gave up removing it",
@@ -679,7 +681,7 @@
       ],
       "routeCard": {
         "sub": "Evening in the city · arrive ~6:15 PM · ~2h, unhurried",
-        "note": "Museums are shut by now, so this is a walking evening — park central near your room and go on foot; the centre is compact. If you eat in the West End first, the SPT Subway (Hillhead ↔ Buchanan Street) beats driving in.",
+        "note": "Museums are shut by now, so this is a walking evening — park central near your room and go on foot; the centre is compact. Best base for dinner is Merchant City (steps from the murals and George Square). Two July heads-ups: mid-July sunset is ~9:50 PM, so you're mostly in daylight and dusk — lean into golden hour, the true floodlit look only comes near closing; and George Square is finishing a £20m revamp, so its south side may still be fenced on 15 July (the City Chambers and the Wellington cone are unaffected).",
         "walkLeadNote": "Arrive ~6:15 and check in, then keep it easy: dinner, then one short floodlit loop — George Square down to the Clyde is about an hour on foot, everything a few minutes apart. It's the wind-down, so stop when you're done; there's a meeting in the morning.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=George%20Square%2C%20Glasgow&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=George%20Square%20Glasgow&navigate=yes",
@@ -695,7 +697,7 @@
             "n": 2,
             "name": "George Square — Chambers & the cone",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Glasgow%20City%20Chambers",
-            "story": "The civic heart, floodlit at night: the City Chambers, an over-the-top Victorian marble palace from the 1880s built at the height of Glasgow's shipbuilding wealth — and two minutes round the corner at the Gallery of Modern Art, the Duke of Wellington under the traffic cone Glaswegians won't let the council remove.",
+            "story": "The civic heart: the City Chambers, an over-the-top Victorian pile (opened 1888) with a marble-and-gold interior, built at the height of Glasgow's shipbuilding wealth — and two minutes round the corner at the Gallery of Modern Art, the Duke of Wellington under the traffic cone Glaswegians won't let the council remove.",
             "todo": "Two shots, same square: the lit-up City Chambers façade, and the Wellington cone — the city in one frame."
           },
           {
@@ -719,7 +721,7 @@
           },
           {
             "name": "George Square — Chambers & cone",
-            "story": "The floodlit City Chambers (Victorian marble palace) and the traffic-coned Duke of Wellington — both on the one square, two minutes apart.",
+            "story": "The City Chambers (Victorian, 1888, marble-and-gold inside) and the traffic-coned Duke of Wellington — both on the one square, two minutes apart.",
             "todo": "Two shots, same square: the lit-up Chambers and the Wellington cone."
           },
           {
@@ -749,7 +751,7 @@
   "signOff": {
     "title": "Closing sign-off",
     "color": "forest",
-    "where": "Down by the River Clyde in Glasgow, at night",
+    "where": "Down by the River Clyde in Glasgow, in the evening",
     "facts": [
       "One-sentence recap and your single highlight",
       "What it meant — Scotland in three days, in the bag",
