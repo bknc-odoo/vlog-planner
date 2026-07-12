@@ -22,8 +22,8 @@
     {
       "n": 3,
       "color": "forest",
-      "title": "Down to the City",
-      "sub": "Wed — Luss on Loch Lomond, then Glasgow."
+      "title": "The Bonnie Banks",
+      "sub": "Wed — a slow day on Loch Lomond, then Glasgow after dark."
     }
   ],
   "acts": [
@@ -53,11 +53,12 @@
     {
       "id": "act3",
       "color": "forest",
-      "label": "Act 3 · Down to the city",
-      "tagline": "The bonnie banks, then Glasgow — wind the trip down and sign off.",
-      "narrative": "The last day trades hills for a city, but gently. You start on the bonnie banks themselves: Luss, a row of slate cottages on the west shore of Loch Lomond, the biggest stretch of fresh water in Britain. It's the village from the song — the one whose cheerful tune hides a story about the road of the dead — and your last nature beat before the tarmac takes over.\n\nThen Glasgow, the 'dear green place,' which surprises everyone who expected grey. Kelvingrove is a free Victorian museum with a Dalí in it; the university up the hill was founded in 1451 and hides film-set cloisters; the city centre has a Duke of Wellington who has worn a traffic cone for forty years because Glaswegians won't allow otherwise.\n\nEat, wander the West End, and shoot your closing line down by the Clyde. You stay central tonight — there's a work meeting first thing on the 16th — and that's a wrap on Episode 03.",
+      "label": "Act 3 · The bonnie banks",
+      "tagline": "Loch Lomond all day, then Glasgow with its lights on — wind the trip down and sign off.",
+      "narrative": "The last day slows right down. There's no dash for the city — you've all day on Loch Lomond and only need to be in Glasgow by nightfall. You start on the bonnie banks at Luss, a row of slate cottages on Britain's biggest stretch of fresh water, and take it slowly: the pier, the churchyard's thousand-year-old Viking stones, a long lunch by the water.\n\nThen you drift south to the foot of the loch at Balloch — Loch Lomond Shores, the last paddle steamer in Britain moored at the pier, and a Victorian country park rolling down to the shore. It's the trip's final loch, and a gentle one; an easy afternoon before the tarmac takes over.\n\nYou reach Glasgow after six, as the light goes — which suits the 'dear green place.' The museums have shut, so tonight is the city with its lights on: dinner, the floodlit City Chambers on George Square, the traffic-coned Duke of Wellington, the murals of Merchant City, and a closing line down by the River Clyde. Stay central — there's a work meeting first thing on the 16th — and that's a wrap on Episode 03.",
       "stopIds": [
         "luss",
+        "balloch",
         "glasgow"
       ]
     }
@@ -148,29 +149,31 @@
       "label": "Day 3",
       "date": "Wed 15 Jul",
       "color": "forest",
-      "routeHeader": "Callander → Luss, Loch Lomond → Glasgow",
+      "routeHeader": "Callander → Luss & Balloch, Loch Lomond → Glasgow",
       "fullRoute": {
         "label": "FULL WEDNESDAY ROUTE",
-        "sub": "Callander → Luss → Glasgow in one route",
-        "href": "https://www.google.com/maps/dir/?api=1&origin=Callander%2C%20Scotland&destination=Glasgow&waypoints=Luss%2C%20Loch%20Lomond&travelmode=driving"
+        "sub": "Callander → Luss → Balloch → Glasgow in one route",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Callander%2C%20Scotland&destination=Glasgow&waypoints=Luss%2C%20Loch%20Lomond%7CLoch%20Lomond%20Shores%2C%20Balloch&travelmode=driving"
       },
-      "planHeader": "Down to the City · ~1h30 driving · depart Callander 9:00 AM",
+      "planHeader": "The Bonnie Banks · a slow loch day · Glasgow after dark · depart Callander ~9:30 AM",
       "planNote": {
-        "kicker": "Weather",
+        "kicker": "Easy day",
         "color": "forest",
-        "text": "Callander to +23°C and sunny, Glasgow up to +26°C, around +14°C overnight. Do Kelvingrove FIRST — it's free but shuts at 5. Two hours there is plenty; keep the city-centre evening flexible, you've a work meeting in the morning."
+        "text": "Callander to +23°C and sunny, Glasgow up to +26°C, around +14°C overnight. No rush today — you've all day for the loch and only need Glasgow by nightfall. Arriving after 6 means the museums are shut, so tonight is dinner, a floodlit city walk and the Clyde. Book a central room (meeting on the 16th)."
       },
       "routeStops": [
         "luss",
+        "balloch",
         "glasgow"
       ],
       "planStops": [
         "luss",
+        "balloch",
         "glasgow"
       ],
       "planArrival": {
         "title": "Overnight in Glasgow",
-        "note": "Stay central — there's a work meeting first thing on the 16th. That's a wrap on Episode 03."
+        "note": "Central and done — a work meeting first thing on the 16th. That's a wrap on Episode 03."
       }
     }
   ],
@@ -566,8 +569,8 @@
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Luss%20Village&destination=Luss%20Pier&waypoints=Luss%20Parish%20Church&travelmode=walking"
       },
       "planCard": {
-        "time": "10:00 AM – 12:00 PM",
-        "leaveBy": "12:00",
+        "time": "10:30 AM – 2:00 PM",
+        "leaveBy": "2:00",
         "see": [
           {
             "name": "The slate cottages",
@@ -583,87 +586,159 @@
             "name": "Viking hogback stones",
             "story": "Thousand-year-old Norse grave-markers sit in the parish churchyard.",
             "todo": "Find the whale-backed stones by the church — easy to miss."
+          },
+          {
+            "name": "A long lakeside lunch",
+            "story": "No rush today — this is the day's main event now, not a quick stop.",
+            "todo": "Take a proper lunch by the water before drifting south to Balloch."
           }
         ],
         "film": [
           "Tracking shot down the cottage lane",
           "Wide of the loch from the pier",
-          "Last-nature-beat piece-to-camera"
+          "Relaxed piece-to-camera over lunch"
+        ]
+      }
+    },
+    "balloch": {
+      "name": "Balloch & Loch Lomond Shores",
+      "actId": "act3",
+      "angle": "The foot of the loch",
+      "story": "Balloch sits at the southern tip of Loch Lomond, where the loch narrows and pours out into the River Leven — the busy, easygoing foot of the loch after Luss's postcard calm. This is the family end: Loch Lomond Shores, a waterfront of shops and cafés with the Maid of the Loch, Britain's last paddle steamer, moored at the pier; and Balloch Castle Country Park, two hundred acres of Victorian parkland and gardens rolling down to the water, a castle of 1808 at the top. It's an easy, unhurried afternoon on the way south — stretch your legs by the water, grab a coffee or a loch cruise, and let the trip wind down before the city. Last loch of the trip.",
+      "facts": [
+        "The foot of Loch Lomond, where it drains into the River Leven",
+        "The Maid of the Loch — Britain's last paddle steamer — is moored at Loch Lomond Shores",
+        "Balloch Castle Country Park runs 200 acres of gardens down to the water"
+      ],
+      "routeCard": {
+        "sub": "South tip of Loch Lomond · on the way to Glasgow",
+        "note": "About 20 minutes south of Luss, and roughly 30–40 minutes on to Glasgow from here.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Loch%20Lomond%20Shores%2C%20Balloch&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Loch%20Lomond%20Shores%20Balloch&navigate=yes",
+        "walkPoints": [
+          {
+            "n": 1,
+            "name": "Loch Lomond Shores",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Loch%20Lomond%20Shores%20Balloch",
+            "story": "The waterfront complex at the foot of the loch — shops, cafés, an aquarium, and boat trips out onto the water. Moored at the pier is the Maid of the Loch, the last paddle steamer built in Britain, slowly being restored.",
+            "todo": "Get the Maid of the Loch at the pier and a wide of the loch opening out to the north."
+          },
+          {
+            "n": 2,
+            "name": "Balloch Castle Country Park",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Balloch%20Castle%20Country%20Park",
+            "story": "Two hundred acres of Victorian parkland sloping down to the loch, with a castle of 1808 at the top and walled gardens below. Free to wander.",
+            "todo": "Walk down to the shoreline for the last loch B-roll; the lawns frame the water nicely."
+          },
+          {
+            "n": 3,
+            "name": "The pier & a loch cruise",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Balloch%20pier%20Loch%20Lomond",
+            "story": "Cruises run from Balloch out onto the southern loch and its islands — an optional last hour on the water if you fancy it.",
+            "todo": "Optional: a short cruise. Otherwise a coffee by the pier and a relaxed piece-to-camera."
+          }
+        ],
+        "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Loch%20Lomond%20Shores%20Balloch&destination=Balloch%20Castle%20Country%20Park&travelmode=walking"
+      },
+      "planCard": {
+        "time": "2:30–5:00 PM",
+        "leaveBy": "5:15",
+        "see": [
+          {
+            "name": "Loch Lomond Shores",
+            "story": "The waterfront at the foot of the loch, with Britain's last paddle steamer moored at the pier.",
+            "todo": "The Maid of the Loch and a wide of the loch opening north."
+          },
+          {
+            "name": "Balloch Castle Country Park",
+            "story": "200 acres of Victorian parkland and gardens rolling down to the water, an 1808 castle at the top.",
+            "todo": "Walk down to the shore for the last loch B-roll."
+          },
+          {
+            "name": "The pier (optional cruise)",
+            "story": "Short cruises run out onto the southern loch and its islands.",
+            "todo": "Optional last hour on the water, or a coffee and a relaxed piece-to-camera."
+          }
+        ],
+        "film": [
+          "Wide of Loch Lomond opening north",
+          "The Maid of the Loch at the pier",
+          "Relaxed piece-to-camera — last loch of the trip"
         ]
       }
     },
     "glasgow": {
       "name": "Glasgow",
       "actId": "act3",
-      "angle": "The dear green place",
-      "story": "Glasgow is the wind-down and the finish line. The name comes from Gaelic for 'dear green place,' and after three days of hills the city surprises people — grand Victorian sandstone, a world-class free museum, and a swagger the guidebooks undersell. Kelvingrove is the anchor: free to walk into, opened in 1901, and home to a Salvador Dalí that Glasgow bought in 1952 to a chorus of outrage and now can't imagine life without. Up the hill, the University of Glasgow — founded in 1451, older than most countries' oldest anything — has a cloistered undercroft so atmospheric it doubles as a film set. Then the city centre: George Square, the ridiculous marble palace of the City Chambers, the murals, and the Duke of Wellington statue that has worn a traffic cone on its head for forty years because Glaswegians refuse to let the council take it down. Eat, wander, and shoot your sign-off by the Clyde.",
+      "angle": "The dear green place, after dark",
+      "story": "Glasgow is the finish line, and you're arriving as the light goes — which suits it. The museums have shut, so tonight isn't about galleries; it's the city with its lights on. The name means 'dear green place,' but modern Glasgow is Victorian sandstone and swagger: George Square and the floodlit City Chambers, a marble palace built when the Clyde shipyards were launching a fifth of the world's ships; the Duke of Wellington outside the Gallery of Modern Art, wearing the traffic cone Glaswegians have kept on his head for forty years because the council finally gave up removing it; the mural trail brightening the lanes of Merchant City. Eat well, walk it off through the centre, and take your closing line down to the River Clyde at night. That's a wrap on Episode 03.",
       "facts": [
-        "Kelvingrove is free and holds Dalí's \"Christ of Saint John of the Cross\"",
-        "The University of Glasgow (1451) is one of the oldest in the English-speaking world",
-        "The Duke of Wellington statue has worn a traffic cone for 40 years — the council gave up removing it"
+        "Glasgow's name means \"dear green place\" (Gaelic Glaschu)",
+        "The Duke of Wellington statue has worn a traffic cone for 40 years — the council gave up removing it",
+        "The Clyde shipyards once built around a fifth of all the world's ships"
       ],
       "routeCard": {
-        "sub": "West End → city centre",
-        "note": "Don't drive between the West End and the centre — park once near Kelvingrove and take the SPT Subway (Kelvinhall/Hillhead ↔ Buchanan Street, a few minutes). Chasing city-centre parking in the evening eats the time.",
-        "walkLeadNote": "These are a few stops across the city — West End first, then the centre; short hops, not one walk.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Kelvingrove%20Art%20Gallery%20and%20Museum&travelmode=driving",
-        "wazeHref": "https://waze.com/ul?q=Kelvingrove%20Art%20Gallery%20and%20Museum&navigate=yes",
+        "sub": "Evening in the city · arrive ~6:15 PM",
+        "note": "Museums are shut by now, so this is a walking evening — park central near your room and go on foot; the centre is compact. If you eat in the West End first, the SPT Subway (Hillhead ↔ Buchanan Street) beats driving in.",
+        "walkLeadNote": "An evening on foot through the centre — dinner, the lit-up squares, then the Clyde.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=George%20Square%2C%20Glasgow&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=George%20Square%20Glasgow&navigate=yes",
         "walkPoints": [
           {
             "n": 1,
-            "name": "Kelvingrove Art Gallery",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Kelvingrove%20Art%20Gallery%20and%20Museum",
-            "story": "A vast red-sandstone museum, free since it opened in 1901. Legend says the architect jumped from a tower when he saw it built back-to-front; he didn't, and it wasn't, but the story stuck. Inside: the Dalí, a Mackintosh room, a Spitfire overhead, and an organ they still play at lunchtime.",
-            "todo": "Do this stop first — Kelvingrove shuts at 5. Shoot the west-front exterior wide, then be selective inside — the Dalí and the Mackintosh room. Don't do every hall; two hours is plenty."
+            "name": "Dinner — West End or Merchant City",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Merchant%20City%20Glasgow%20restaurants",
+            "story": "Two good options: the West End around Byres Road (lively, studenty, endless choice) or Merchant City in the centre (grander, closer to the night walk). Either works.",
+            "todo": "Eat first — you've earned it. Keep any to-camera short and warm."
           },
           {
             "n": 2,
-            "name": "University of Glasgow & the cloisters",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=University%20of%20Glasgow",
-            "story": "Founded in 1451, the fourth-oldest university in the English-speaking world. The Gilbert Scott tower is the postcard, but the undercroft cloisters underneath are the shot — stone vaults that have stood in for film after film.",
-            "todo": "Frame the tower from University Avenue, then get the cloisters — a slow walk through the vaults, they're made for it."
+            "name": "George Square & City Chambers",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Glasgow%20City%20Chambers",
+            "story": "The civic heart, floodlit at night. The City Chambers is an over-the-top Victorian marble palace from the 1880s, built to show off a city then at the height of its shipbuilding wealth.",
+            "todo": "Shoot the City Chambers façade lit up, then a wide across the square."
           },
           {
             "n": 3,
-            "name": "Kelvingrove Park & the West End",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Kelvingrove%20Park%20Glasgow",
-            "story": "The park runs below the university, and the streets around Byres Road are the West End at its best — bars, bookshops, tenements, students.",
-            "todo": "Golden-hour B-roll through the park and a walking piece-to-camera in the West End streets."
+            "name": "The Wellington cone & Merchant City",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Duke%20of%20Wellington%20statue%20Glasgow",
+            "story": "Round the corner at the Gallery of Modern Art, the Duke of Wellington sits on his horse under a traffic cone that has become the city's unofficial emblem. The lanes of Merchant City nearby carry the mural trail.",
+            "todo": "The cone is the city in one shot. Grab a mural or two on the way through Merchant City."
           },
           {
             "n": 4,
-            "name": "George Square & the city centre",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=George%20Square%20Glasgow",
-            "story": "The civic heart — the over-the-top marble City Chambers, the murals a few streets over, Merchant City, and Wellington on his horse wearing the traffic cone Glasgow refuses to remove.",
-            "todo": "Get the Wellington cone (it's the city in one shot), the City Chambers front, and a mural. Save the sign-off for the Clyde if you've got the light."
+            "name": "The River Clyde at night",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=River%20Clyde%20Glasgow",
+            "story": "The river that built Glasgow, quiet and lit at night — the bridges, the old quays, the water that once launched a fifth of the world's ships.",
+            "todo": "Your closing sign-off — last line of Episode 03, down by the Clyde."
           }
         ],
-        "walkLoopHref": null
+        "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=George%20Square%20Glasgow&destination=River%20Clyde%20Glasgow&waypoints=Duke%20of%20Wellington%20statue%20Glasgow%7CMerchant%20City%20Glasgow&travelmode=walking"
       },
       "planCard": {
-        "time": "2:00–8:00 PM",
+        "time": "6:15 PM onwards",
         "leaveBy": null,
         "see": [
           {
-            "name": "Kelvingrove (free)",
-            "story": "Red-sandstone museum, free since 1901, with a Dalí Glasgow bought to outrage in 1952.",
-            "todo": "Do this first — it shuts at 5. Wide of the west front, then just the Dalí and the Mackintosh room. Two hours, not every hall."
+            "name": "Dinner — West End or Merchant City",
+            "story": "West End (Byres Road) for buzz, or Merchant City for grandeur and proximity to the night walk.",
+            "todo": "Eat first; keep to-camera short and warm."
           },
           {
-            "name": "University cloisters",
-            "story": "Founded 1451; the undercroft cloisters below the tower are a stone-vaulted film set.",
-            "todo": "Tower from University Avenue, then a slow walk through the cloisters."
+            "name": "George Square, floodlit",
+            "story": "The civic heart and the City Chambers — a Victorian marble palace from the height of Glasgow's shipbuilding wealth.",
+            "todo": "The lit-up City Chambers façade, then a wide across the square."
           },
           {
-            "name": "George Square & the cone",
-            "story": "City Chambers, the murals, Merchant City — and Wellington in the traffic cone the council gave up removing.",
-            "todo": "The Wellington cone, the Chambers front, a mural, dinner, then sign off by the Clyde. Keep it flexible — meeting in the morning, so stop when you're done."
+            "name": "Wellington cone & the Clyde",
+            "story": "The traffic-coned Duke, the Merchant City murals, and the river that launched a fifth of the world's ships.",
+            "todo": "The cone, a mural, then your closing sign-off down by the Clyde at night."
           }
         ],
         "film": [
-          "Kelvingrove west front, wide",
-          "Slow walk through the university cloisters",
-          "Your closing sign-off — last line, by the Clyde"
+          "City Chambers floodlit on George Square",
+          "The Wellington cone — the city in one shot",
+          "Closing sign-off by the Clyde at night"
         ]
       }
     }
@@ -681,7 +756,7 @@
   "signOff": {
     "title": "Closing sign-off",
     "color": "forest",
-    "where": "The West End or down on the Clyde in Glasgow",
+    "where": "Down by the River Clyde in Glasgow, at night",
     "facts": [
       "One-sentence recap and your single highlight",
       "What it meant — Scotland in three days, in the bag",
