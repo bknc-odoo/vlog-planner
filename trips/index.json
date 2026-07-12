@@ -1,6 +1,13 @@
 {
-  "default": "cambridge",
+  "default": "ep03",
   "trips": [
+    {
+      "id": "ep03",
+      "title": "Edinburgh to Glasgow",
+      "subtitle": "Kelpies → Trossachs → Glasgow",
+      "dates": "Mon 13 – Wed 15 July 2026",
+      "episode": "EP.03"
+    },
     {
       "id": "cambridge",
       "title": "Cambridge Afternoon Run",

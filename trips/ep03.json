@@ -1,0 +1,698 @@
+{
+  "id": "ep03",
+  "title": "Edinburgh to Glasgow",
+  "subtitle": "Edinburgh → Glasgow, through the Trossachs",
+  "dates": "Mon 13 – Wed 15 July 2026",
+  "episode": "EP.03",
+  "heroKicker": "A WockingTocking road trip",
+  "intro": "Drive out of Edinburgh into the edge of the Highlands, spend a day on the water in the Trossachs, then roll down to Glasgow the scenic way — three days, filmed end to end.",
+  "dayGlance": [
+    {
+      "n": 1,
+      "color": "rust",
+      "title": "The Highlands' Edge",
+      "sub": "Mon — the Kelpies, Stirling Castle, then west to Callander."
+    },
+    {
+      "n": 2,
+      "color": "ochre",
+      "title": "The Water Day",
+      "sub": "Tue — a cruise on Loch Katrine and the falls at Bracklinn."
+    },
+    {
+      "n": 3,
+      "color": "forest",
+      "title": "Down to the City",
+      "sub": "Wed — Luss on Loch Lomond, then Glasgow."
+    }
+  ],
+  "acts": [
+    {
+      "id": "act1",
+      "color": "rust",
+      "label": "Act 1 · The Highlands' edge",
+      "tagline": "Two giant horses, a castle that holds Scotland, then the mountains open up.",
+      "narrative": "You leave Edinburgh and within the hour you're standing under two thirty-metre steel horses on the side of a canal, which is a strong way to start any film. The Kelpies are the biggest thing of their kind on Earth and named after a myth designed to frighten children away from water — the day's first 'wait, really?'\n\nFrom there it climbs. Stirling Castle sits on a volcanic crag above the lowest crossing of the Forth, the pinch-point every army had to pass, which is why the old line runs 'hold Stirling, hold Scotland.' Wallace and Bruce both won the country back within sight of these walls. Give it the full two and a half hours.\n\nThen the Lowlands run out. You drive west into Callander, the Victorian gateway to the Trossachs, drop your bags for two nights, and walk it off by the river as the light goes. Day one has carried you from a modern myth to a medieval one to the actual edge of the hills — and the camera has all three.",
+      "stopIds": [
+        "kelpies",
+        "stirling",
+        "callander"
+      ]
+    },
+    {
+      "id": "act2",
+      "color": "ochre",
+      "label": "Act 2 · The water day",
+      "tagline": "The nature day — a loch by steamer, a gorge on foot.",
+      "narrative": "Day two is the quiet centre of the trip and the one that's all about water. You take a short, slow, single-track road to Loch Katrine — the loch that, thanks to one Walter Scott poem in 1810, kicked off the first tourism boom Scotland ever had. You cruise it on a steamer that's been sailing here since 1899, because no petrol engines are allowed on a loch that still supplies Glasgow's drinking water by gravity.\n\nAfter lunch by the water you come back to Callander and walk up to Bracklinn Falls — fifteen minutes through the woods to a gorge, a run of falls, and a curved oak bridge built to replace the one a flood tore out in 2004. Keep it short or do the fuller loop; either way you get the sound of it on camera.\n\nNo big drives, no city — just the loch, the falls, and an easy last night in Callander before you drop down to Glasgow.",
+      "stopIds": [
+        "loch-katrine",
+        "bracklinn"
+      ]
+    },
+    {
+      "id": "act3",
+      "color": "forest",
+      "label": "Act 3 · Down to the city",
+      "tagline": "The bonnie banks, then Glasgow — wind the trip down and sign off.",
+      "narrative": "The last day trades hills for a city, but gently. You start on the bonnie banks themselves: Luss, a row of slate cottages on the west shore of Loch Lomond, the biggest stretch of fresh water in Britain. It's the village from the song — the one whose cheerful tune hides a story about the road of the dead — and your last nature beat before the tarmac takes over.\n\nThen Glasgow, the 'dear green place,' which surprises everyone who expected grey. Kelvingrove is a free Victorian museum with a Dalí in it; the university up the hill was founded in 1451 and hides film-set cloisters; the city centre has a Duke of Wellington who has worn a traffic cone for forty years because Glaswegians won't allow otherwise.\n\nEat, wander the West End, and shoot your closing line down by the Clyde. You stay central tonight — there's a work meeting first thing on the 16th — and that's a wrap on Episode 03.",
+      "stopIds": [
+        "luss",
+        "glasgow"
+      ]
+    }
+  ],
+  "kit": [
+    "Insta360 Ace Pro 2 — flip screen, high frame rate, voice control",
+    "Selfie stick — keep it short, it shows in shot",
+    "AirPods as mic — test first; camera mics as backup",
+    "A light windproof — for the Loch Katrine cruise and Bracklinn",
+    "2–3 spare batteries or a USB-C car charger",
+    "A cleared, high-capacity microSD card"
+  ],
+  "preTrip": [
+    "Book the Loch Katrine cruise in advance — aim for the ~11:00 sailing",
+    "Pre-book Stirling Castle tickets for a late-morning slot",
+    "Book two nights in Callander and a central Glasgow room (work meeting on the 16th)",
+    "Charge every battery and your AirPods",
+    "Clear the microSD card",
+    "Pack closed shoes with grippy soles for Bracklinn Falls",
+    "Set phone alarms for each day's \"leave by\" times"
+  ],
+  "goldenRule": "Never film while driving. Mount the camera before you move; do pieces-to-camera parked.",
+  "days": [
+    {
+      "id": "d1",
+      "label": "Day 1",
+      "date": "Mon 13 Jul",
+      "color": "rust",
+      "routeHeader": "Edinburgh → The Kelpies → Stirling Castle → Callander",
+      "fullRoute": {
+        "label": "FULL MONDAY ROUTE",
+        "sub": "Edinburgh → Kelpies → Stirling → Callander in one route",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Edinburgh&destination=Callander%2C%20Scotland&waypoints=The%20Kelpies%2C%20Falkirk%7CStirling%20Castle&travelmode=driving"
+      },
+      "planHeader": "The Highlands' Edge · ~1h40 driving · depart Edinburgh 9:00 AM",
+      "planNote": {
+        "kicker": "Weather",
+        "color": "rust",
+        "text": "Edinburgh up to +18°C and cloudy, Stirling around +20°C, Callander to +20°C and down to +8°C overnight. Pre-book Stirling Castle for a late-morning slot."
+      },
+      "routeStops": [
+        "kelpies",
+        "stirling",
+        "callander"
+      ],
+      "planStops": [
+        "kelpies",
+        "stirling",
+        "callander"
+      ],
+      "planArrival": {
+        "title": "Two nights in Callander",
+        "note": "No more driving today — dinner in town, rest, and an early-ish night before the water day."
+      }
+    },
+    {
+      "id": "d2",
+      "label": "Day 2",
+      "date": "Tue 14 Jul",
+      "color": "ochre",
+      "routeHeader": "Callander → Loch Katrine → Bracklinn Falls → Callander",
+      "fullRoute": {
+        "label": "FULL TUESDAY ROUTE",
+        "sub": "The Trossachs loop from Callander and back",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Callander%2C%20Scotland&destination=Callander%2C%20Scotland&waypoints=Trossachs%20Pier%2C%20Loch%20Katrine%7CBracklinn%20Falls%20Car%20Park&travelmode=driving"
+      },
+      "planHeader": "The Water Day · short drives · depart Callander 9:45 AM",
+      "planNote": {
+        "kicker": "On the water",
+        "color": "ochre",
+        "text": "Trossachs up to +21°C, sun in patches, around +10°C overnight. Book the Loch Katrine cruise ahead and take a light windproof — it's cooler out on the loch."
+      },
+      "routeStops": [
+        "loch-katrine",
+        "bracklinn"
+      ],
+      "planStops": [
+        "loch-katrine",
+        "bracklinn"
+      ],
+      "planArrival": {
+        "title": "Back in Callander · evening",
+        "note": "No extra driving — dinner in town and a quiet last night before the drive down to Glasgow."
+      }
+    },
+    {
+      "id": "d3",
+      "label": "Day 3",
+      "date": "Wed 15 Jul",
+      "color": "forest",
+      "routeHeader": "Callander → Luss, Loch Lomond → Glasgow",
+      "fullRoute": {
+        "label": "FULL WEDNESDAY ROUTE",
+        "sub": "Callander → Luss → Glasgow in one route",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Callander%2C%20Scotland&destination=Glasgow&waypoints=Luss%2C%20Loch%20Lomond&travelmode=driving"
+      },
+      "planHeader": "Down to the City · ~1h30 driving · depart Callander 9:00 AM",
+      "planNote": {
+        "kicker": "Weather",
+        "color": "forest",
+        "text": "Callander to +23°C and sunny, Glasgow up to +26°C, around +14°C overnight. Kelvingrove is free and open till 5 — get there by 2."
+      },
+      "routeStops": [
+        "luss",
+        "glasgow"
+      ],
+      "planStops": [
+        "luss",
+        "glasgow"
+      ],
+      "planArrival": {
+        "title": "Overnight in Glasgow",
+        "note": "Stay central — there's a work meeting first thing on the 16th. That's a wrap on Episode 03."
+      }
+    }
+  ],
+  "stops": {
+    "kelpies": {
+      "name": "The Kelpies",
+      "actId": "act1",
+      "angle": "Two giant horses of legend",
+      "story": "The Kelpies are the biggest horse sculptures on the planet — thirty metres of steel each, the height of a ten-storey building, rearing up beside the canal at Helix Park. Sculptor Andy Scott modelled them on two real Clydesdales, Duke and Baron, the heavy working horses that once hauled barges along Scotland's canals. But the name is darker than the tribute: a kelpie is a shape-shifting water spirit from Scottish folklore, a horse that lures you onto its back and drags you down to drown. So you're standing under two monuments to a myth built to keep children away from the water. Wide lens, look up, let them fill the frame.",
+      "facts": [
+        "The tallest equine sculptures in the world — 30 metres, around 300 tonnes of steel each",
+        "Named after the kelpie, a shape-shifting water-horse of legend that drowned its riders",
+        "Modelled on two real Clydesdales, Duke and Baron"
+      ],
+      "routeCard": {
+        "sub": "First stop · Helix Park, Falkirk",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=The%20Kelpies%2C%20Falkirk&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=The%20Kelpies%20Falkirk&navigate=yes",
+        "walkPoints": [
+          {
+            "n": 1,
+            "name": "The two heads",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=The%20Kelpies%20Falkirk",
+            "story": "The two horses are deliberately different — Baron looking down mid-bow, Duke rearing to the sky — so together they read as one animal moving. Up close the stainless-steel skin catches the light like water.",
+            "todo": "Shoot each head from directly below against the sky; the low angle is what sells the scale."
+          },
+          {
+            "n": 2,
+            "name": "The canal basin",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Helix%20Park%20Falkirk",
+            "story": "The Kelpies stand on an extension of the Forth & Clyde Canal — the very waterway the real Clydesdales once towed boats along. A short loop runs round the reflecting basin.",
+            "todo": "Walk to the far side of the water for the mirror shot — both horses and their reflection in one frame."
+          },
+          {
+            "n": 3,
+            "name": "Visitor Centre",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Kelpies%20Visitor%20Centre",
+            "story": "Open daily, roughly 9:30–5. Coffee, the story of how they were built, and warmth if the wind is up off the canal.",
+            "todo": "Grab the coffee; do a quick warm piece-to-camera inside if it's blowing a gale out there."
+          }
+        ],
+        "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=The%20Kelpies%20Falkirk&destination=Helix%20Park%20Falkirk&travelmode=walking"
+      },
+      "planCard": {
+        "time": "10:00–11:15 AM",
+        "leaveBy": "11:15",
+        "see": [
+          {
+            "name": "The two Kelpies",
+            "story": "Thirty metres of steel each, the biggest horse sculptures on Earth, named after a water-spirit that drowned its riders.",
+            "todo": "Shoot from directly below against the sky — the low angle sells the scale."
+          },
+          {
+            "name": "The canal basin",
+            "story": "They stand on the Forth & Clyde Canal, the waterway the real Clydesdales once towed barges along.",
+            "todo": "Walk to the far side for the reflection shot — both horses mirrored in the water."
+          },
+          {
+            "name": "Visitor Centre & coffee",
+            "story": "Open daily from around 9:30, with the build story and a warm café off the canal wind.",
+            "todo": "Coffee, quick warm-up, then back on the road to Stirling."
+          }
+        ],
+        "film": [
+          "Cold-open hook — your best line",
+          "Low-angle hero shot up at a Kelpie",
+          "Walking piece-to-camera by the canal"
+        ]
+      }
+    },
+    "stirling": {
+      "name": "Stirling Castle",
+      "actId": "act1",
+      "angle": "The castle that holds Scotland",
+      "story": "There's an old line: whoever holds Stirling, holds Scotland. The castle sits on a plug of volcanic rock above the lowest bridging point of the River Forth — the pinch between Lowlands and Highlands — so for centuries every army heading north or south had to get past it. Two of the most famous battles in Scottish history were fought within sight of these walls: Stirling Bridge, where William Wallace wrecked an English army in 1297, and Bannockburn, where Robert the Bruce did it again in 1314. Inside, Mary Queen of Scots was crowned here as a nine-month-old baby, and James V built a Renaissance palace so show-off that the Great Hall was limewashed in gold. Give it two and a half hours; it earns them.",
+      "facts": [
+        "\"Hold Stirling, hold Scotland\" — it guards the lowest crossing of the Forth",
+        "Mary Queen of Scots was crowned here aged nine months",
+        "Wallace's Stirling Bridge (1297) and Bruce's Bannockburn (1314) were both fought in sight of the walls"
+      ],
+      "routeCard": {
+        "sub": "Old Town · top of the crag",
+        "note": "Park on the castle esplanade or below in the Old Town — the last stretch up is steep.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Stirling%20Castle&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Stirling%20Castle&navigate=yes",
+        "walkLeadNote": "These are all inside the one castle — a walk, not drives.",
+        "walkPoints": [
+          {
+            "n": 1,
+            "name": "The Great Hall",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Stirling%20Castle%20Great%20Hall",
+            "story": "The largest medieval banqueting hall in Scotland — and when they restored it they put back the original limewash, a bright golden ochre that horrified people used to grey ruins. It was meant to shout money and power. It does.",
+            "todo": "Shoot the golden exterior harling for the colour, then the hammerbeam roof inside — the biggest of its kind in Scotland."
+          },
+          {
+            "n": 2,
+            "name": "The Royal Palace",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Stirling%20Castle%20Royal%20Palace",
+            "story": "James V's Renaissance palace, built in the 1540s to impress a French wife. The ceiling of the King's Presence Chamber was studded with carved oak roundels — the Stirling Heads — faces of kings, nobles and jesters.",
+            "todo": "Find the Stirling Heads (replicas on the ceiling, originals in the gallery). Slow pan across the carved faces."
+          },
+          {
+            "n": 3,
+            "name": "The Chapel Royal",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Stirling%20Castle%20Chapel%20Royal",
+            "story": "Rebuilt by James VI in 1594 in a hurry for his son's christening — the whole thing went up in about seven months. This is roughly where the infant Mary was crowned Queen of Scots in 1543.",
+            "todo": "Step inside for the painted frieze; it's a quiet beat between the big rooms."
+          },
+          {
+            "n": 4,
+            "name": "The ramparts",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Stirling%20Castle",
+            "story": "From the walls you can see the Wallace Monument, the Ochil Hills, and the loops of the Forth where the battles were fought. On a clear day the whole gateway to the Highlands lays itself out.",
+            "todo": "Walking piece-to-camera along the ramparts with the Wallace Monument over your shoulder."
+          }
+        ],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "11:45 AM – 2:30 PM",
+        "leaveBy": "2:30",
+        "see": [
+          {
+            "name": "The golden Great Hall",
+            "story": "The biggest medieval hall in Scotland, limewashed back to its original shout-out-loud gold. Meant to intimidate; still does.",
+            "todo": "Shoot the ochre exterior, then the huge hammerbeam roof inside."
+          },
+          {
+            "name": "James V's Renaissance Palace",
+            "story": "A 1540s palace built to impress a French queen, its ceiling once studded with the carved-oak Stirling Heads.",
+            "todo": "Pan slowly across the Stirling Heads — kings, nobles and jesters in wood."
+          },
+          {
+            "name": "The ramparts",
+            "story": "From the walls you see the Wallace Monument and the Forth loops where Wallace and Bruce won Scotland back.",
+            "todo": "Walking piece-to-camera with the Wallace Monument over your shoulder."
+          }
+        ],
+        "film": [
+          "Establishing wide of the castle on its crag",
+          "Walking piece-to-camera on the ramparts",
+          "Then lunch in Stirling before the drive west"
+        ]
+      }
+    },
+    "callander": {
+      "name": "Callander",
+      "actId": "act1",
+      "angle": "Gateway to the Highlands",
+      "story": "Callander is where the road runs out of Lowlands and the Highlands properly begin — the little town that's been the tourist gateway to the Trossachs since the Victorians. The River Teith runs through it, the main street is a row of stone shops and cafés, and it's your base for two nights. If it looks oddly familiar, it might be the telly: in the 1960s the BBC filmed Dr Finlay's Casebook here and turned Callander into the fictional town of Tannochbrae. Tonight is easy — no more driving. Walk the main street, down to the river, find dinner, and let the day settle.",
+      "facts": [
+        "The Victorian gateway to the Trossachs and the Highlands",
+        "The River Teith runs right through the middle",
+        "It played the fictional town of Tannochbrae in the BBC's Dr Finlay's Casebook"
+      ],
+      "routeCard": {
+        "sub": "Your base for two nights",
+        "note": "Type your accommodation address in once booked. Buttons pin Callander town.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Callander%2C%20Scotland&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Callander%20Scotland&navigate=yes",
+        "walkPoints": [
+          {
+            "n": 1,
+            "name": "The main street",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Callander%20Main%20Street",
+            "story": "The A84 runs straight through as Callander's high street — Victorian shopfronts, tearooms, and the kind of outdoor shops that tell you you've reached hill country.",
+            "todo": "Slow walking B-roll down the street in the evening light."
+          },
+          {
+            "n": 2,
+            "name": "River Teith & the bridge",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Callander%20Bridge%20River%20Teith",
+            "story": "The Teith is one of the best salmon rivers in Scotland; from the old bridge you can sometimes watch fish holding in the current below.",
+            "todo": "Stand on the bridge for a calm end-of-day wide shot of the water."
+          },
+          {
+            "n": 3,
+            "name": "Dinner",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Callander%20restaurants",
+            "story": "Plenty of pubs and small restaurants along the main street — this is the relaxed evening, not a schedule.",
+            "todo": "Pick somewhere with a window; keep any to-camera short and low-key."
+          }
+        ],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "5:00–7:00 PM",
+        "leaveBy": null,
+        "see": [
+          {
+            "name": "The main street",
+            "story": "Callander's Victorian high street of tearooms and hill-shops — you've reached the edge of the Highlands.",
+            "todo": "Slow evening B-roll down the street."
+          },
+          {
+            "name": "River Teith & bridge",
+            "story": "One of Scotland's great salmon rivers; from the old bridge you can watch fish hold in the current.",
+            "todo": "Calm wide shot of the water from the bridge."
+          },
+          {
+            "name": "Dinner in town",
+            "story": "Easy pubs and restaurants along the main street — the unhurried evening after a big first day.",
+            "todo": "Keep any to-camera short; this is the wind-down."
+          }
+        ],
+        "film": [
+          "Evening B-roll down the main street",
+          "Wide of the River Teith from the bridge",
+          "Optional low-key reflection on day one"
+        ]
+      }
+    },
+    "loch-katrine": {
+      "name": "Loch Katrine",
+      "actId": "act2",
+      "angle": "The loch that invented Scottish tourism",
+      "story": "Loch Katrine is the reason people started coming to the Highlands for fun. In 1810 Sir Walter Scott set his poem The Lady of the Lake right here, it became a runaway bestseller, and half of Victorian Britain suddenly wanted to see the Trossachs — the first tourism boom Scotland ever had. There's a quieter marvel too: since 1859 this loch has supplied Glasgow's drinking water, running twenty-six miles to the city entirely by gravity, no pumps — a piece of Victorian engineering still working today. Because it's a reservoir, no petrol or diesel boats are allowed, which is why you cruise it on the SS Sir Walter Scott, a steamer that's been sailing this loch since 1899. Take the 45-minute round trip and let the hills do the work.",
+      "facts": [
+        "Sir Walter Scott's 1810 poem set here kicked off Scotland's first-ever tourism boom",
+        "It's supplied Glasgow's water since 1859 — 26 miles, entirely by gravity",
+        "You cruise it on the SS Sir Walter Scott, a steamer running since 1899"
+      ],
+      "routeCard": {
+        "sub": "Trossachs Pier · book the cruise",
+        "note": "Only about 9 miles from Callander, but it's a slow, scenic single-track road — allow 25–30 minutes.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Trossachs%20Pier%2C%20Loch%20Katrine&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Trossachs%20Pier%20Loch%20Katrine&navigate=yes",
+        "walkPoints": [
+          {
+            "n": 1,
+            "name": "Trossachs Pier",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Trossachs%20Pier%20Loch%20Katrine",
+            "story": "The jetty, a café, and a viewpoint looking down the loch. This is where Scott's tourists first stepped off the coach two hundred years ago.",
+            "todo": "Get the establishing shot down the loch from the pier before you board."
+          },
+          {
+            "n": 2,
+            "name": "The cruise",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Loch%20Katrine%20cruise",
+            "story": "Forty-five minutes out and back on the water, the hills of the Trossachs rising on both sides, no engine noise but the steamer. Sailings run through the day — the ~11:00 fits the plan.",
+            "todo": "Shoot wide from the deck, keep the horizon level, mind the wind on the mic. Grab a piece-to-camera with the wake behind you."
+          },
+          {
+            "n": 3,
+            "name": "Lunch by the water",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Loch%20Katrine%20cafe",
+            "story": "Back at the pier there's food and a bench with a loch view — an easy break before Bracklinn.",
+            "todo": "Slow B-roll of the loch, then eat."
+          }
+        ],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "10:15 AM – 1:15 PM",
+        "leaveBy": "1:15",
+        "see": [
+          {
+            "name": "Trossachs Pier",
+            "story": "Café, viewpoint and the jetty where Scott's Victorian tourists first arrived.",
+            "todo": "Establishing shot down the loch before you board."
+          },
+          {
+            "name": "The 45-minute cruise",
+            "story": "A round trip on the SS Sir Walter Scott, steaming since 1899, on a loch that waters Glasgow by gravity.",
+            "todo": "Wide from the deck, horizon level, wind off the mic. Piece-to-camera with the wake behind you."
+          },
+          {
+            "name": "Lunch at the loch",
+            "story": "Food and a bench with a loch view back at the pier — the easy break before the falls.",
+            "todo": "Slow B-roll of the water, then eat."
+          }
+        ],
+        "film": [
+          "Establishing shot down the loch",
+          "Deck piece-to-camera, wake behind you",
+          "Then drive back to Callander for Bracklinn"
+        ]
+      }
+    },
+    "bracklinn": {
+      "name": "Bracklinn Falls",
+      "actId": "act2",
+      "angle": "The gorge above Callander",
+      "story": "Just above Callander, the Keltie Water throws itself through a rocky gorge in a run of falls called Bracklinn — a fifteen-minute walk through the woods from the car park. The Victorians loved it; Sir Walter Scott put it in his writing and Queen Victoria came to see it. The bridge is its own small drama: the original footbridge was ripped out by a flood in 2004, and what replaced it in 2010 is a curved span of Scottish oak and steel, built to look like it grew there. You can keep it short — walk to the main viewpoint and back — or, if it's dry and you've got the legs, do the fuller loop. You don't need boots, but you do need closed shoes with grip.",
+      "facts": [
+        "A run of waterfalls on the Keltie Water in a rocky gorge above Callander",
+        "The 2004 flood destroyed the footbridge; the 2010 replacement is curved Scottish oak",
+        "The Victorians made it famous — Scott wrote it up, Queen Victoria came to see it"
+      ],
+      "routeCard": {
+        "sub": "15-min walk from the car park",
+        "note": "Closed shoes with grippy soles — the path is rooty and can be slick. Not full boots, just not worn-out trainers.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Bracklinn%20Falls%20Car%20Park&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Bracklinn%20Falls%20Car%20Park&navigate=yes",
+        "walkPoints": [
+          {
+            "n": 1,
+            "name": "The woodland path",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bracklinn%20Falls%20path",
+            "story": "A short trail through birch and oak from the car park down towards the sound of water — you hear the falls before you see them.",
+            "todo": "B-roll of the light through the trees on the way in; it sets up the reveal."
+          },
+          {
+            "n": 2,
+            "name": "The oak bridge",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bracklinn%20Falls%20Bridge",
+            "story": "The curved oak-and-steel footbridge that replaced the one the 2004 flood tore away. It arcs over the gorge at the falls' loudest point.",
+            "todo": "Shoot the bridge from the bank, then from on it looking down into the gorge — mind your footing."
+          },
+          {
+            "n": 3,
+            "name": "The falls & viewpoint",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bracklinn%20Falls",
+            "story": "The Keltie Water drops through a series of ledges into a dark pool — more power than height, and loud after rain.",
+            "todo": "Main viewpoint for the hero shot. Piece-to-camera with the falls behind you; you'll have to talk up over the noise."
+          }
+        ],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "2:30–5:00 PM",
+        "leaveBy": null,
+        "see": [
+          {
+            "name": "The woodland path",
+            "story": "A 15-minute trail through birch and oak — you hear the falls before you see them.",
+            "todo": "B-roll of light through the trees on the way in."
+          },
+          {
+            "name": "The oak bridge",
+            "story": "Curved Scottish oak and steel, built in 2010 to replace the bridge a flood destroyed in 2004.",
+            "todo": "Shoot it from the bank, then from on it looking into the gorge."
+          },
+          {
+            "name": "The falls",
+            "story": "The Keltie Water drops through dark ledges — more power than height, loud after rain.",
+            "todo": "Hero shot from the viewpoint; piece-to-camera over the noise."
+          }
+        ],
+        "film": [
+          "B-roll of the woodland approach",
+          "The oak bridge over the gorge",
+          "Hero shot at the falls"
+        ]
+      }
+    },
+    "luss": {
+      "name": "Luss & Loch Lomond",
+      "actId": "act3",
+      "angle": "The bonnie banks",
+      "story": "Luss is the picture-postcard village on the west shore of Loch Lomond — a neat row of slate-and-sandstone cottages that were actually built as workers' housing for the local slate quarries in the 1800s, then quietly became one of the prettiest villages in Scotland. The loch behind them is the biggest stretch of fresh water in Britain by area. This is the 'bonnie banks o' Loch Lomond' of the song — and the cheerful tune hides a grim story: 'ye'll tak' the high road and I'll tak' the low road' is said to be a captured Jacobite soldier telling his friend that he'll get home first, because the 'low road' is the road of the dead. Like Callander, Luss has a TV past too — it was the village of Glendarroch in the soap Take the High Road for over twenty years. Last nature stop before the city: no hiking, no rush.",
+      "facts": [
+        "Loch Lomond is the largest area of fresh water in Britain",
+        "The cottages were built for slate-quarry workers, not for the postcards",
+        "The \"low road\" in the Loch Lomond song is said to mean the road of the dead"
+      ],
+      "routeCard": {
+        "sub": "West shore of Loch Lomond",
+        "note": "About 37 miles from Callander, 45–50 minutes.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Luss%2C%20Loch%20Lomond&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Luss%20Loch%20Lomond&navigate=yes",
+        "walkPoints": [
+          {
+            "n": 1,
+            "name": "The slate cottages",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Luss%20Village",
+            "story": "The famous row of low cottages, built around 1800 for the men working the Luss slate quarries up the hill. The slate roofs are local; the roses out front came much later, for the tourists.",
+            "todo": "Walk the lane slowly for a tracking shot; the cottages line up like a set."
+          },
+          {
+            "n": 2,
+            "name": "The pier & shore",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Luss%20Pier",
+            "story": "A short stone pier reaches out into Loch Lomond — the classic bonnie-banks view, islands scattered down the water.",
+            "todo": "Walk to the end of the pier for the wide loch shot; get the islands in frame."
+          },
+          {
+            "n": 3,
+            "name": "Luss Parish Church",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Luss%20Parish%20Church",
+            "story": "In the churchyard are hogback stones — carved Viking grave-markers over a thousand years old, from when Norse settlers were here on the loch.",
+            "todo": "Find the hogback stones by the church — worn, whale-backed, easy to walk past."
+          },
+          {
+            "n": 4,
+            "name": "Coffee with a view",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Luss%20cafe",
+            "story": "A café or two by the shore for a last Highland coffee before Glasgow.",
+            "todo": "Quick warm piece-to-camera — the last nature beat of the trip."
+          }
+        ],
+        "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Luss%20Village&destination=Luss%20Pier&waypoints=Luss%20Parish%20Church&travelmode=walking"
+      },
+      "planCard": {
+        "time": "10:00 AM – 12:00 PM",
+        "leaveBy": "12:00",
+        "see": [
+          {
+            "name": "The slate cottages",
+            "story": "Built around 1800 for slate-quarry workers, now one of Scotland's prettiest rows.",
+            "todo": "Slow tracking shot down the lane — they line up like a set."
+          },
+          {
+            "name": "The pier & bonnie banks",
+            "story": "A stone pier into Loch Lomond, Britain's largest stretch of fresh water, islands down the loch.",
+            "todo": "Walk to the pier's end for the wide shot with the islands."
+          },
+          {
+            "name": "Viking hogback stones",
+            "story": "Thousand-year-old Norse grave-markers sit in the parish churchyard.",
+            "todo": "Find the whale-backed stones by the church — easy to miss."
+          }
+        ],
+        "film": [
+          "Tracking shot down the cottage lane",
+          "Wide of the loch from the pier",
+          "Last-nature-beat piece-to-camera"
+        ]
+      }
+    },
+    "glasgow": {
+      "name": "Glasgow",
+      "actId": "act3",
+      "angle": "The dear green place",
+      "story": "Glasgow is the wind-down and the finish line. The name comes from Gaelic for 'dear green place,' and after three days of hills the city surprises people — grand Victorian sandstone, a world-class free museum, and a swagger the guidebooks undersell. Kelvingrove is the anchor: free to walk into, opened in 1901, and home to a Salvador Dalí that Glasgow bought in 1952 to a chorus of outrage and now can't imagine life without. Up the hill, the University of Glasgow — founded in 1451, older than most countries' oldest anything — has a cloistered undercroft so atmospheric it doubles as a film set. Then the city centre: George Square, the ridiculous marble palace of the City Chambers, the murals, and the Duke of Wellington statue that has worn a traffic cone on its head for forty years because Glaswegians refuse to let the council take it down. Eat, wander, and shoot your sign-off by the Clyde.",
+      "facts": [
+        "Kelvingrove is free and holds Dalí's \"Christ of Saint John of the Cross\"",
+        "The University of Glasgow (1451) is one of the oldest in the English-speaking world",
+        "The Duke of Wellington statue has worn a traffic cone for 40 years — the council gave up removing it"
+      ],
+      "routeCard": {
+        "sub": "West End → city centre",
+        "walkLeadNote": "These are a few stops across the city — West End first, then the centre; short hops, not one walk.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Kelvingrove%20Art%20Gallery%20and%20Museum&travelmode=driving",
+        "wazeHref": "https://waze.com/ul?q=Kelvingrove%20Art%20Gallery%20and%20Museum&navigate=yes",
+        "walkPoints": [
+          {
+            "n": 1,
+            "name": "Kelvingrove Art Gallery",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Kelvingrove%20Art%20Gallery%20and%20Museum",
+            "story": "A vast red-sandstone museum, free since it opened in 1901. Legend says the architect jumped from a tower when he saw it built back-to-front; he didn't, and it wasn't, but the story stuck. Inside: the Dalí, a Mackintosh room, a Spitfire overhead, and an organ they still play at lunchtime.",
+            "todo": "Shoot the west-front exterior wide, then be selective inside — the Dalí and the Mackintosh room. Don't do every hall; two hours is plenty."
+          },
+          {
+            "n": 2,
+            "name": "University of Glasgow & the cloisters",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=University%20of%20Glasgow",
+            "story": "Founded in 1451, the fourth-oldest university in the English-speaking world. The Gilbert Scott tower is the postcard, but the undercroft cloisters underneath are the shot — stone vaults that have stood in for film after film.",
+            "todo": "Frame the tower from University Avenue, then get the cloisters — a slow walk through the vaults, they're made for it."
+          },
+          {
+            "n": 3,
+            "name": "Kelvingrove Park & the West End",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=Kelvingrove%20Park%20Glasgow",
+            "story": "The park runs below the university, and the streets around Byres Road are the West End at its best — bars, bookshops, tenements, students.",
+            "todo": "Golden-hour B-roll through the park and a walking piece-to-camera in the West End streets."
+          },
+          {
+            "n": 4,
+            "name": "George Square & the city centre",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=George%20Square%20Glasgow",
+            "story": "The civic heart — the over-the-top marble City Chambers, the murals a few streets over, Merchant City, and Wellington on his horse wearing the traffic cone Glasgow refuses to remove.",
+            "todo": "Get the Wellington cone (it's the city in one shot), the City Chambers front, and a mural. Save the sign-off for the Clyde if you've got the light."
+          }
+        ],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "2:00–9:00 PM",
+        "leaveBy": null,
+        "see": [
+          {
+            "name": "Kelvingrove (free)",
+            "story": "Red-sandstone museum, free since 1901, with a Dalí Glasgow bought to outrage in 1952.",
+            "todo": "Wide of the west front, then just the Dalí and the Mackintosh room. Two hours, not every hall."
+          },
+          {
+            "name": "University cloisters",
+            "story": "Founded 1451; the undercroft cloisters below the tower are a stone-vaulted film set.",
+            "todo": "Tower from University Avenue, then a slow walk through the cloisters."
+          },
+          {
+            "name": "George Square & the cone",
+            "story": "City Chambers, the murals, Merchant City — and Wellington in the traffic cone the council gave up removing.",
+            "todo": "The Wellington cone, the Chambers front, a mural — then sign off by the Clyde."
+          }
+        ],
+        "film": [
+          "Kelvingrove west front, wide",
+          "Slow walk through the university cloisters",
+          "Your closing sign-off — last line, by the Clyde"
+        ]
+      }
+    }
+  },
+  "coldOpen": {
+    "title": "Cold open",
+    "color": "rust",
+    "where": "Film in the car leaving Edinburgh, or at the Kelpies",
+    "facts": [
+      "Who you are — Episode 03 of WockingTocking",
+      "What this is: Edinburgh to Glasgow, three days, through the Trossachs",
+      "The promise: two giant horses, a castle, a loch, and the bonnie banks"
+    ]
+  },
+  "signOff": {
+    "title": "Closing sign-off",
+    "color": "forest",
+    "where": "The West End or down on the Clyde in Glasgow",
+    "facts": [
+      "One-sentence recap and your single highlight",
+      "What it meant — Scotland in three days, in the bag",
+      "The ask: like, subscribe — and \"where should episode 4 go?\""
+    ]
+  },
+  "talkTipbox": "You're not presenting — you're telling a mate about your trip. Say what you're about to do, do it, then react. Keep each clip 20–40 seconds. Fluffing your words is fine; pause and go again.",
+  "goldenRules": [
+    "Film more than you think you need",
+    "Say the place name on camera at every stop",
+    "Get the establishing shot the moment you arrive",
+    "On the water, keep the horizon level and mind the wind on the mic",
+    "Never film while driving"
+  ],
+  "outro": "Safe travels, Ivan — the footage is in the bag."
+}

@@ -1,5 +1,5 @@
 /* WockingTocking — offline cache */
-var CACHE = 'wt-v10';
+var CACHE = 'wt-v11';
 var SHELL = [
   './',
   './index.html',
@@ -9,7 +9,8 @@ var SHELL = [
   './apple-touch-icon.png',
   './trips/index.json',
   './trips/ep01.json',
-  './trips/cambridge.json'
+  './trips/cambridge.json',
+  './trips/ep03.json'
 ];
 
 self.addEventListener('install', function (e) {
