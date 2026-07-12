@@ -96,7 +96,7 @@
       "planNote": {
         "kicker": "Weather",
         "color": "rust",
-        "text": "Edinburgh up to +18°C and cloudy, Stirling around +20°C, Callander to +20°C and down to +8°C overnight. Pre-book Stirling Castle for a late-morning slot."
+        "text": "Edinburgh up to +18°C and cloudy, Stirling around +20°C, Callander to +20°C and down to +8°C overnight. Pre-book Stirling Castle for a late-morning slot. Optional film-set detour: Doune Castle (Outlander / Monty Python / Game of Thrones) sits on the A84 between Stirling and Callander — see the Route tab."
       },
       "routeStops": [
         "kelpies",
@@ -128,7 +128,7 @@
       "planNote": {
         "kicker": "On the water",
         "color": "ochre",
-        "text": "Trossachs up to +21°C, sun in patches, around +10°C overnight. Book the Loch Katrine cruise ahead and take a light windproof — it's cooler out on the loch."
+        "text": "Trossachs up to +21°C, sun in patches, around +10°C overnight. Book the Loch Katrine cruise ahead and take a light windproof — it's cooler out on the loch. If it's wet: the falls are better for it, but the cruise deck is exposed, so pack a dry top too."
       },
       "routeStops": [
         "loch-katrine",
@@ -158,7 +158,7 @@
       "planNote": {
         "kicker": "Weather",
         "color": "forest",
-        "text": "Callander to +23°C and sunny, Glasgow up to +26°C, around +14°C overnight. Kelvingrove is free and open till 5 — get there by 2."
+        "text": "Callander to +23°C and sunny, Glasgow up to +26°C, around +14°C overnight. Do Kelvingrove FIRST — it's free but shuts at 5. Two hours there is plenty; keep the city-centre evening flexible, you've a work meeting in the morning."
       },
       "routeStops": [
         "luss",
@@ -287,7 +287,8 @@
             "todo": "Walking piece-to-camera along the ramparts with the Wallace Monument over your shoulder."
           }
         ],
-        "walkLoopHref": null
+        "walkLoopHref": null,
+        "trailingNote": "Optional, and pure vlog gold: Doune Castle is 8 miles on toward Callander, right on the A84. It's Castle Leoch in Outlander, Winterfell in the Game of Thrones pilot, and the castle from Monty Python and the Holy Grail. Adds ~45–60 min — trim Stirling or the Callander evening to fit."
       },
       "planCard": {
         "time": "11:45 AM – 2:30 PM",
@@ -395,7 +396,7 @@
       ],
       "routeCard": {
         "sub": "Trossachs Pier · book the cruise",
-        "note": "Only about 9 miles from Callander, but it's a slow, scenic single-track road — allow 25–30 minutes.",
+        "note": "Only about 9 miles from Callander, but it's a slow, scenic single-track road — allow 25–30 minutes. Book the cruise before you go: the whole day is built around the ~11:00 sailing, so if you can only get another time, slide lunch and Bracklinn to match. Sailing times change with the season — check the date.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Trossachs%20Pier%2C%20Loch%20Katrine&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Trossachs%20Pier%20Loch%20Katrine&navigate=yes",
         "walkPoints": [
@@ -603,6 +604,7 @@
       ],
       "routeCard": {
         "sub": "West End → city centre",
+        "note": "Don't drive between the West End and the centre — park once near Kelvingrove and take the SPT Subway (Kelvinhall/Hillhead ↔ Buchanan Street, a few minutes). Chasing city-centre parking in the evening eats the time.",
         "walkLeadNote": "These are a few stops across the city — West End first, then the centre; short hops, not one walk.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Kelvingrove%20Art%20Gallery%20and%20Museum&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Kelvingrove%20Art%20Gallery%20and%20Museum&navigate=yes",
@@ -612,7 +614,7 @@
             "name": "Kelvingrove Art Gallery",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Kelvingrove%20Art%20Gallery%20and%20Museum",
             "story": "A vast red-sandstone museum, free since it opened in 1901. Legend says the architect jumped from a tower when he saw it built back-to-front; he didn't, and it wasn't, but the story stuck. Inside: the Dalí, a Mackintosh room, a Spitfire overhead, and an organ they still play at lunchtime.",
-            "todo": "Shoot the west-front exterior wide, then be selective inside — the Dalí and the Mackintosh room. Don't do every hall; two hours is plenty."
+            "todo": "Do this stop first — Kelvingrove shuts at 5. Shoot the west-front exterior wide, then be selective inside — the Dalí and the Mackintosh room. Don't do every hall; two hours is plenty."
           },
           {
             "n": 2,
@@ -639,13 +641,13 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "2:00–9:00 PM",
+        "time": "2:00–8:00 PM",
         "leaveBy": null,
         "see": [
           {
             "name": "Kelvingrove (free)",
             "story": "Red-sandstone museum, free since 1901, with a Dalí Glasgow bought to outrage in 1952.",
-            "todo": "Wide of the west front, then just the Dalí and the Mackintosh room. Two hours, not every hall."
+            "todo": "Do this first — it shuts at 5. Wide of the west front, then just the Dalí and the Mackintosh room. Two hours, not every hall."
           },
           {
             "name": "University cloisters",
@@ -655,7 +657,7 @@
           {
             "name": "George Square & the cone",
             "story": "City Chambers, the murals, Merchant City — and Wellington in the traffic cone the council gave up removing.",
-            "todo": "The Wellington cone, the Chambers front, a mural — then sign off by the Clyde."
+            "todo": "The Wellington cone, the Chambers front, a mural, dinner, then sign off by the Clyde. Keep it flexible — meeting in the morning, so stop when you're done."
           }
         ],
         "film": [
