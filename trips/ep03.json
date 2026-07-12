@@ -44,7 +44,7 @@
       "color": "ochre",
       "label": "Act 2 · The water day",
       "tagline": "The nature day — a loch by steamer, a gorge on foot.",
-      "narrative": "Day two is the quiet centre of the trip and the one that's all about water. You take a short, slow, single-track road to Loch Katrine — the loch that, thanks to one Walter Scott poem in 1810, kicked off the first tourism boom Scotland ever had. You cruise it on the water — the historic steamer SS Sir Walter Scott still runs the longer sailings — on a loch so protected (it supplies Glasgow's drinking water by gravity) that the boats have always run clean.\n\nAfter lunch by the water you come back to Callander and walk up to Bracklinn Falls — fifteen minutes through the woods to a gorge, a run of falls, and a footbridge that's been rebuilt more than once since a flood tore the old one out in 2004. Keep it short or do the fuller loop; either way you get the sound of it on camera.\n\nNo big drives, no city — just the loch, the falls, and an easy last night in Callander before you drop down to Glasgow.",
+      "narrative": "Day two is the quiet centre of the trip and the one that's all about water. You take a short, slow, single-track road to Loch Katrine — the loch that, thanks to one Walter Scott poem in 1810, kicked off the first tourism boom Scotland ever had. You cruise it on the historic steamer, the SS Sir Walter Scott — the 10:30 sailing up to Stronachlachar — on a loch so protected (it supplies Glasgow's drinking water by gravity) that the boats have always run clean.\n\nAfter lunch by the water you come back to Callander and walk up to Bracklinn Falls — fifteen minutes through the woods to a gorge, a run of falls, and a footbridge that's been rebuilt more than once since a flood tore the old one out in 2004. Keep it short or do the fuller loop; either way you get the sound of it on camera.\n\nNo big drives, no city — just the loch, the falls, and an easy last night in Callander before you drop down to Glasgow.",
       "stopIds": [
         "loch-katrine",
         "bracklinn"
@@ -125,11 +125,11 @@
         "sub": "The Trossachs loop from Callander and back",
         "href": "https://www.google.com/maps/dir/?api=1&origin=Callander%2C%20Scotland&destination=Callander%2C%20Scotland&waypoints=Trossachs%20Pier%2C%20Loch%20Katrine%7CBracklinn%20Falls%20Car%20Park&travelmode=driving"
       },
-      "planHeader": "The Water Day · short drives · depart Callander 9:45 AM",
+      "planHeader": "The Water Day · short drives · depart Callander 9:30 AM (10:30 steamer)",
       "planNote": {
         "kicker": "On the water",
         "color": "ochre",
-        "text": "Trossachs up to +21°C, sun in patches, around +10°C overnight. Book the Loch Katrine cruise ahead and take a light windproof — it's cooler out on the loch. If it's wet: the falls are better for it, but the cruise deck is exposed, so pack a dry top too."
+        "text": "Trossachs up to +21°C, sun in patches, around +10°C overnight. Book the SS Sir Walter Scott (10:30 steamer) ahead and take a light windproof — it's cooler out on the loch, and two hours afloat feels it. If it's wet: the falls are better for it, but the open deck is exposed, so pack a dry top too."
       },
       "routeStops": [
         "loch-katrine",
@@ -392,15 +392,15 @@
       "name": "Loch Katrine",
       "actId": "act2",
       "angle": "The loch that invented Scottish tourism",
-      "story": "Loch Katrine is the reason people started coming to the Highlands for fun. In 1810 Sir Walter Scott set his poem The Lady of the Lake right here, it became a runaway bestseller, and half of Victorian Britain suddenly wanted to see the Trossachs — the first tourism boom Scotland ever had. There's a quieter marvel too: since 1859 this loch has supplied Glasgow's drinking water, running twenty-six miles to the city entirely by gravity, no pumps — a piece of Victorian engineering still working today. Because it's Glasgow's protected water supply, the boats run clean — including the SS Sir Walter Scott, a steamer that's sailed this loch since 1900. The quick 45-minute round trip is on the modern launch; the steamer herself does the longer sailings, if you'd rather ride her. Either way, let the hills do the work.",
+      "story": "Loch Katrine is the reason people started coming to the Highlands for fun. In 1810 Sir Walter Scott set his poem The Lady of the Lake right here, it became a runaway bestseller, and half of Victorian Britain suddenly wanted to see the Trossachs — the first tourism boom Scotland ever had. There's a quieter marvel too: since 1859 this loch has supplied Glasgow's drinking water, running twenty-six miles to the city entirely by gravity, no pumps — a piece of Victorian engineering still working today. Because it's Glasgow's protected water supply, the boats run clean — including the SS Sir Walter Scott, a steamer that's sailed this loch since 1900. You're riding her: the 10:30 sailing up the loch to Stronachlachar and back, about two hours afloat with the old steam engine thudding below deck. Let the hills do the work.",
       "facts": [
         "Sir Walter Scott's 1810 poem set here kicked off Scotland's first-ever tourism boom",
         "It's supplied Glasgow's water since 1859 — 26 miles, entirely by gravity",
         "The SS Sir Walter Scott steamer has sailed the loch since 1900"
       ],
       "routeCard": {
-        "sub": "Trossachs Pier · book the cruise",
-        "note": "About 9 miles from Callander on a narrow, winding A-road (not single-track) — allow 25–30 minutes; sat-nav struggles near the pier, so use the official coordinates. Book ahead. The quick 45-min circular runs roughly hourly (incl. ~11:00) on the modern launch; the historic steamer SS Sir Walter Scott sails at 10:30 (2hr) and 13:00 (1hr) if you'd rather ride her. Slide lunch and Bracklinn to match whichever you book.",
+        "sub": "Trossachs Pier · book the steamer",
+        "note": "About 9 miles from Callander on a narrow, winding A-road (not single-track) — allow 25–30 minutes; sat-nav struggles near the pier, so use the official coordinates. Book the steamer ahead: the SS Sir Walter Scott sails at 10:30 (two hours, up to Stronachlachar) — get there by ~10:00. Prefer less time afloat? She also does a 1-hour circular at 13:00 (slide lunch and Bracklinn later to match). Confirm exact 2026 times when you book.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Trossachs%20Pier%2C%20Loch%20Katrine&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=Trossachs%20Pier%20Loch%20Katrine&navigate=yes",
         "walkPoints": [
@@ -409,13 +409,13 @@
             "name": "Trossachs Pier",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Trossachs%20Pier%20Loch%20Katrine",
             "story": "The jetty, a café, and a viewpoint looking down the loch. This is where Scott's tourists first stepped off the coach two hundred years ago.",
-            "todo": "Get the establishing shot down the loch from the pier before you board."
+            "todo": "Get the establishing shot down the loch, then board by ~10:20 for the 10:30 steamer."
           },
           {
             "n": 2,
-            "name": "The cruise",
+            "name": "The steamer",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Loch%20Katrine%20cruise",
-            "story": "Forty-five minutes out and back on the water, the hills of the Trossachs rising on both sides. The quick circular at ~11:00 runs on the modern launch; the historic steamer SS Sir Walter Scott does the longer sailings if you'd rather ride her.",
+            "story": "Two hours aboard the SS Sir Walter Scott, up the loch to Stronachlachar and back — the hills of the Trossachs rising on both sides and the steam engine thudding below deck. This is the one to ride; book the 10:30.",
             "todo": "Shoot wide from the deck, keep the horizon level, mind the wind on the mic. Grab a piece-to-camera with the wake behind you."
           },
           {
@@ -427,20 +427,20 @@
           }
         ],
         "walkLoopHref": null,
-        "trailingNote": "Optional, if you want a hill and a view: Ben A'an sits right on this road at Loch Achray — a short, steep 1.5–2.5 hr climb to arguably the best view in the Trossachs. Slot it before or after the cruise."
+        "trailingNote": "Optional, if you want a hill and a view: Ben A'an sits right on this road at Loch Achray — a short, steep 1.5–2.5 hr climb to arguably the best view in the Trossachs. Note the two-hour steamer eats the morning, so this fits better as an afternoon swap for Bracklinn."
       },
       "planCard": {
-        "time": "10:15 AM – 1:15 PM",
-        "leaveBy": "1:15",
+        "time": "10:00 AM – 1:30 PM",
+        "leaveBy": "1:30",
         "see": [
           {
             "name": "Trossachs Pier",
             "story": "Café, viewpoint and the jetty where Scott's Victorian tourists first arrived.",
-            "todo": "Establishing shot down the loch before you board."
+            "todo": "Establishing shot down the loch, then board by ~10:20 for the 10:30 steamer."
           },
           {
-            "name": "The 45-minute cruise",
-            "story": "A 45-min round trip on the modern launch (the historic SS Sir Walter Scott, sailing since 1900, does the longer runs), on a loch that waters Glasgow by gravity.",
+            "name": "The steamer (2 hrs)",
+            "story": "The 10:30 SS Sir Walter Scott (sailing since 1900) up to Stronachlachar and back — two hours on a loch that waters Glasgow by gravity.",
             "todo": "Wide from the deck, horizon level, wind off the mic. Piece-to-camera with the wake behind you."
           },
           {
