@@ -736,7 +736,7 @@
       var has = !!(story || todo || legacy);
       var row = '<div class="wpt' + (has ? ' b' : '') + '"><span class="wd">' + esc(w.n) + '</span>'
               + '<span class="wn">' + esc(w.name) + '</span>'
-              + '<a class="pin" href="' + attr(w.pinHref) + '">Map</a></div>';
+              + '<a class="pin" target="_blank" rel="noopener" href="' + attr(w.pinHref) + '">Map</a></div>';
       var detail = '';
       if (has) {
         detail += '<div class="wdetail">';
@@ -754,7 +754,7 @@
       return row + detail;
     }).join('');
     var walkLoop = rc.walkLoopHref
-      ? '<a class="walkbtn" href="' + attr(rc.walkLoopHref) + '">▶ WALK THIS LOOP</a>'
+      ? '<a class="walkbtn" target="_blank" rel="noopener" href="' + attr(rc.walkLoopHref) + '">▶ WALK THIS LOOP</a>'
       : '';
     var leadNote   = rc.walkLeadNote ? '<div class="note" style="margin-top:0">' + esc(rc.walkLeadNote) + '</div>' : '';
     var trailNote  = rc.trailingNote ? '<div class="note">' + esc(rc.trailingNote) + '</div>' : '';
@@ -769,8 +769,8 @@
       +   '<div class="sub">' + esc(rc.sub || '') + '</div>'
       +   topNote
       +   '<div class="btnrow">'
-      +     '<a class="btn g" href="' + attr(rc.mapsHref) + '">Google Maps</a>'
-      +     '<a class="btn w" href="' + attr(rc.wazeHref) + '">Waze</a>'
+      +     '<a class="btn g" target="_blank" rel="noopener" href="' + attr(rc.mapsHref) + '">Google Maps</a>'
+      +     '<a class="btn w" target="_blank" rel="noopener" href="' + attr(rc.wazeHref) + '">Waze</a>'
       +   '</div>'
       +   walkBlock
       + '</div>';
@@ -788,7 +788,7 @@
         +     '<span class="dd">' + esc(d.date) + '</span>'
         +     '<span class="dr">' + esc(d.routeHeader) + '</span></div>'
         +   '<div class="day-body">'
-        +     '<a class="full" href="' + attr(d.fullRoute.href) + '">'
+        +     '<a class="full" target="_blank" rel="noopener" href="' + attr(d.fullRoute.href) + '">'
         +       '<span>▶</span> ' + esc(d.fullRoute.label)
         +       '<small>' + esc(d.fullRoute.sub) + '</small></a>'
         +     cards

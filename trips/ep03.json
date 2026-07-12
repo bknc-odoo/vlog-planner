@@ -641,7 +641,7 @@
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=Loch%20Lomond%20Shores%20Balloch&destination=Balloch%20Castle%20Country%20Park&travelmode=walking"
       },
       "planCard": {
-        "time": "2:30–5:00 PM",
+        "time": "2:30–5:15 PM",
         "leaveBy": "5:15",
         "see": [
           {
@@ -678,9 +678,9 @@
         "The Clyde shipyards once built around a fifth of all the world's ships"
       ],
       "routeCard": {
-        "sub": "Evening in the city · arrive ~6:15 PM",
+        "sub": "Evening in the city · arrive ~6:15 PM · ~2h, unhurried",
         "note": "Museums are shut by now, so this is a walking evening — park central near your room and go on foot; the centre is compact. If you eat in the West End first, the SPT Subway (Hillhead ↔ Buchanan Street) beats driving in.",
-        "walkLeadNote": "An evening on foot through the centre — dinner, the lit-up squares, then the Clyde.",
+        "walkLeadNote": "Arrive ~6:15 and check in, then keep it easy: dinner, then one short floodlit loop — George Square down to the Clyde is about an hour on foot, everything a few minutes apart. It's the wind-down, so stop when you're done; there's a meeting in the morning.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=George%20Square%2C%20Glasgow&travelmode=driving",
         "wazeHref": "https://waze.com/ul?q=George%20Square%20Glasgow&navigate=yes",
         "walkPoints": [
@@ -688,51 +688,44 @@
             "n": 1,
             "name": "Dinner — West End or Merchant City",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Merchant%20City%20Glasgow%20restaurants",
-            "story": "Two good options: the West End around Byres Road (lively, studenty, endless choice) or Merchant City in the centre (grander, closer to the night walk). Either works.",
+            "story": "Two good options: the West End around Byres Road (lively, studenty, endless choice) or Merchant City in the centre (grander, and right by the night walk). Either works.",
             "todo": "Eat first — you've earned it. Keep any to-camera short and warm."
           },
           {
             "n": 2,
-            "name": "George Square & City Chambers",
+            "name": "George Square — Chambers & the cone",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Glasgow%20City%20Chambers",
-            "story": "The civic heart, floodlit at night. The City Chambers is an over-the-top Victorian marble palace from the 1880s, built to show off a city then at the height of its shipbuilding wealth.",
-            "todo": "Shoot the City Chambers façade lit up, then a wide across the square."
+            "story": "The civic heart, floodlit at night: the City Chambers, an over-the-top Victorian marble palace from the 1880s built at the height of Glasgow's shipbuilding wealth — and two minutes round the corner at the Gallery of Modern Art, the Duke of Wellington under the traffic cone Glaswegians won't let the council remove.",
+            "todo": "Two shots, same square: the lit-up City Chambers façade, and the Wellington cone — the city in one frame."
           },
           {
             "n": 3,
-            "name": "The Wellington cone & Merchant City",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Duke%20of%20Wellington%20statue%20Glasgow",
-            "story": "Round the corner at the Gallery of Modern Art, the Duke of Wellington sits on his horse under a traffic cone that has become the city's unofficial emblem. The lanes of Merchant City nearby carry the mural trail.",
-            "todo": "The cone is the city in one shot. Grab a mural or two on the way through Merchant City."
-          },
-          {
-            "n": 4,
             "name": "The River Clyde at night",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=River%20Clyde%20Glasgow",
-            "story": "The river that built Glasgow, quiet and lit at night — the bridges, the old quays, the water that once launched a fifth of the world's ships.",
-            "todo": "Your closing sign-off — last line of Episode 03, down by the Clyde."
+            "story": "A ten-minute walk down through Merchant City's mural-painted lanes brings you to the river that built Glasgow — quiet and lit at night, the water that once launched a fifth of the world's ships.",
+            "todo": "Grab a mural on the way down, then your closing sign-off by the Clyde — last line of Episode 03."
           }
         ],
         "walkLoopHref": "https://www.google.com/maps/dir/?api=1&origin=George%20Square%20Glasgow&destination=River%20Clyde%20Glasgow&waypoints=Duke%20of%20Wellington%20statue%20Glasgow%7CMerchant%20City%20Glasgow&travelmode=walking"
       },
       "planCard": {
-        "time": "6:15 PM onwards",
+        "time": "~6:30–9:00 PM",
         "leaveBy": null,
         "see": [
           {
             "name": "Dinner — West End or Merchant City",
             "story": "West End (Byres Road) for buzz, or Merchant City for grandeur and proximity to the night walk.",
-            "todo": "Eat first; keep to-camera short and warm."
+            "todo": "Eat first (~1h); keep to-camera short and warm."
           },
           {
-            "name": "George Square, floodlit",
-            "story": "The civic heart and the City Chambers — a Victorian marble palace from the height of Glasgow's shipbuilding wealth.",
-            "todo": "The lit-up City Chambers façade, then a wide across the square."
+            "name": "George Square — Chambers & cone",
+            "story": "The floodlit City Chambers (Victorian marble palace) and the traffic-coned Duke of Wellington — both on the one square, two minutes apart.",
+            "todo": "Two shots, same square: the lit-up Chambers and the Wellington cone."
           },
           {
-            "name": "Wellington cone & the Clyde",
-            "story": "The traffic-coned Duke, the Merchant City murals, and the river that launched a fifth of the world's ships.",
-            "todo": "The cone, a mural, then your closing sign-off down by the Clyde at night."
+            "name": "The Clyde sign-off",
+            "story": "A ten-minute walk down through Merchant City's murals to the river that launched a fifth of the world's ships.",
+            "todo": "A mural on the way, then your closing sign-off by the Clyde at night."
           }
         ],
         "film": [
