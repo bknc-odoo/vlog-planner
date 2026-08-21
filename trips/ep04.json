@@ -32,7 +32,7 @@
       "color": "rust",
       "label": "Act 1 · The Norman beginning",
       "tagline": "1068. An earth mound and a decision.",
-      "narrative": "Start outside at Castle Bridge — best view of the castle and it costs nothing. Caesar's Tower comes straight up out of the river, with the arches of the abandoned medieval bridge sitting in the water below.\n\nThen go in and climb the Mound first, because that is literally where the story starts. In 1068 William the Conqueror had been king for two years and still didn't control the Midlands, so he had a mound and a wooden tower thrown up here to hold the road north. Everything else on this site was built on top of that one decision.",
+      "narrative": "Set the day up outside at Castle Bridge, then go in and climb the Mound first — because that mound IS the original castle. In 1066 William of Normandy invaded from France, killed the English king and took the crown. Two years later he ordered this built. A few thousand Normans were holding down two million English, and castles were how they did it.",
       "stopIds": [
         "castle-bridge",
         "the-mound"
@@ -43,7 +43,7 @@
       "color": "rust",
       "label": "Act 2 · The fortress",
       "tagline": "Three hundred years later, the Beauchamps build in stone.",
-      "narrative": "The trebuchet at 10:45 makes one point better than any explanation could: medieval violence was slow. Eighteen metres, twenty-two tonnes, a crew of men and several minutes of winching for a single shot. That was a siege — months of waiting, not battle.\n\nThen the towers. Caesar's Tower and Guy's Tower went up in the 1300s, three hundred years after the mound, when the Beauchamp earls had become one of the richest families in England. They are the reason the place still reads as a fortress from the road.",
+      "narrative": "The trebuchet at 10:45 explains medieval war better than any caption: a few rocks an hour never knocked a castle down, so sieges were months of starvation with a machine making noise.\n\nThen the towers, and the good bit — who paid. Thomas Beauchamp built both between 1330 and 1360 with ransom money from French noblemen he captured at Crécy and Poitiers. Caesar's Tower is also called Poitiers Tower: the prisoners were held in the basement and their ransoms built the walls around them.",
       "stopIds": [
         "trebuchet",
         "towers"
@@ -54,7 +54,7 @@
       "color": "ochre",
       "label": "Act 3 · The Kingmaker",
       "tagline": "One earl, two kings deposed, dead at 42.",
-      "narrative": "This is the centre of the story. Richard Neville, Earl of Warwick, put two kings on the throne and took two off it, which is how he ended up remembered as the Kingmaker. He was probably richer than the king he served. He was killed at Barnet in 1471, and four hundred years of family power ended with him.\n\nFalconry at 12:30 closes the outdoor half of the day, and it belongs here more than it first looks — hunting with birds is what earls actually did with their afternoons for five centuries.",
+      "narrative": "Explain the Wars of the Roses before you explain the Kingmaker, or the Kingmaker means nothing. Thirty years of civil war, 1455 to 1485, two branches of one royal family, red rose against white.\n\nRichard Neville, Earl of Warwick, was the richest man in England. He put Edward the Fourth on the throne in 1461, fell out with him, then switched sides and restored Henry the Sixth in 1470. England had no standing army — kings borrowed soldiers from nobles — so the richest noble picked the king. He died at Barnet in 1471 and took four centuries of family power with him.",
       "stopIds": [
         "jousting",
         "falconry"
@@ -65,7 +65,7 @@
       "color": "ochre",
       "label": "Act 4 · The long afterlife",
       "tagline": "1604 to 1978: fortress, stately home, attraction.",
-      "narrative": "A castle stays a castle only while somebody needs to defend it. The Grevilles took Warwick in 1604 and spent nearly four hundred years turning a fortress into a house. The Great Hall and State Rooms are that process made visible — and largely a Victorian rebuild, because a fire gutted part of the range in 1871. In 1978 the family sold the whole thing to a waxwork company.\n\nThen the Mill and Engine House down by the river: the least famous thing on the site, where Victorian engineers wired a medieval fortress for electric light.",
+      "narrative": "A castle stays a castle only while somebody needs to defend it. Gunpowder made tall walls pointless and England stopped fighting itself, so the Greville family spent 374 years turning a fortress into a house — and sold it to a waxwork company in 1978.\n\nThen the Mill and Engine House: the only part of the site built to do a job, where Victorian engineers wired a medieval castle for electric light before the town had any.",
       "stopIds": [
         "lunch",
         "state-rooms",
@@ -77,7 +77,7 @@
       "color": "forest",
       "label": "Act 5 · The tombs",
       "tagline": "You walked their rooms. Now stand at their graves.",
-      "narrative": "Leave the castle at 2:40 and walk into town. The Lord Leycester is a row of crooked timber buildings that began as 14th-century guildhalls; in 1571 Robert Dudley, Elizabeth I's favourite, turned them into a home for wounded and retired soldiers. It still is one, 455 years later. They survived the Great Fire of 1694 that flattened the rest of the centre, which is why they look nothing like the Georgian brick around them.\n\nThen the ending. The Beauchamp Chapel took twenty-one years to build, purely to hold Richard Beauchamp's tomb. Robert Dudley is buried in there too — the same man whose almshouse you walked out of twenty minutes earlier. You spend a whole day inside the rooms these men built and fought over, and then you stand at their graves.",
+      "narrative": "Walk into town at 2:40 and introduce Robert Dudley at the Lord Leycester, because you'll be at his grave within the hour. Dudley is the man Elizabeth the First probably loved and never married. In 1571 he turned medieval guild buildings here into a home for wounded soldiers — and it still is one.\n\nThen the ending. The gilded tomb in the Beauchamp Chapel holds Richard Beauchamp, the English commander at Rouen who oversaw Joan of Arc's trial and execution in 1431. Dudley is buried in the same room. You spend a day in the rooms these men built, and finish standing over both of them.",
       "stopIds": [
         "lord-leycester",
         "beauchamp-chapel"
@@ -153,12 +153,12 @@
     "castle-bridge": {
       "name": "Castle Bridge & the River Avon",
       "actId": "act1",
-      "angle": "Set the scene before you go in",
-      "story": "Best view of the castle, and it's free. Caesar's Tower comes straight up out of the river, and the broken arches sitting in the water are the old medieval bridge. Say what the day is: one castle, 958 years, and it ends at their tombs.",
+      "angle": "Set up the whole day before you go in",
+      "story": "Best view of the castle and it costs nothing. Say what the day is: one castle, one town, 958 years — from a pile of mud to a gold tomb. Then point at the tower and start.",
       "facts": [
-        "There's been a castle on this rock since 1068 — 958 years. Interesting because almost every other English castle fell into ruin; this one never stopped being lived in.",
-        "Caesar's Tower has nothing to do with Caesar. The name was made up later because it sounded impressive — medieval marketing.",
-        "Those broken arches in the river are the old bridge, abandoned in 1793. They just built a new one next to it and left the old one standing in the water."
+        "There's been a castle on this rock for 958 years, since 1068. Almost every other English castle is a ruin today — this one survived because people never stopped living in it. A family was still here until 1978.",
+        "That big tower has been nicknamed Caesar's Tower for centuries, but Caesar never came near England's midlands. Someone invented the name later because it sounded grand. Its real name is Poitiers Tower, after a battle in France in 1356 — and I'll show you why that matters.",
+        "Those broken stone arches sticking out of the river are the old medieval bridge. When it wore out in 1793 nobody demolished it. They built a new bridge next door and left the old one standing in the water."
       ],
       "routeCard": {
         "sub": "Castle Bridge, Banbury Road · 9:20 AM · free",
@@ -176,19 +176,19 @@
           "The ruined medieval bridge arches",
           "The castle's south front in morning light"
         ],
-        "todo": "Open the video here. One line: this castle made two kings and unmade two. Then walk up to the gate for 10:00.",
+        "todo": "Open the video here. Then walk up to the gate for 10:00.",
         "film": []
       }
     },
     "the-mound": {
       "name": "The Mound",
       "actId": "act1",
-      "angle": "1068 — where the whole thing starts",
-      "story": "This mound is the original castle. William the Conqueror had it thrown up in 1068 to hold the road north, and everything else on the site was built on top of it. Say that and you've set up the next 900 years.",
+      "angle": "1068 — the castle before the castle",
+      "story": "This lump of earth IS the original castle. Everything else on this site was built later, on top of it. If you get this bit across, the rest of the day makes sense.",
       "facts": [
-        "William the Conqueror ordered this in 1068 — two years after Hastings, because he still hadn't got control of the Midlands.",
-        "A mound like this went up in weeks, not years: pile earth, put a wooden tower on top, done. Speed was the whole Norman trick — build fast, hold the ground.",
-        "Nothing else you can see from up here is Norman. The stone castle came 300 years later, so this mound is the only original piece left."
+        "In 1066 William, Duke of Normandy — that's northern France — sailed across the Channel, killed the English king in battle and took the crown by force. Two years later, in 1068, he ordered this mound built. He was a foreign king ruling a country that hated him.",
+        "And there were only a few thousand Normans holding down around two million English. Castles were how they managed it — you can't rebel against a fortress you can't get inside. William built a chain of them across the country, and this is one.",
+        "A castle like this went up in weeks, not years: make the locals pile up earth, stick a wooden tower on top, done. Every stone building you can see around you came 300 years later. This mound of dirt is the only piece of the original 1068 castle left standing."
       ],
       "routeCard": {
         "sub": "Inside the castle grounds · gates open 10:00",
@@ -206,19 +206,19 @@
           "Views over the whole castle site",
           "The grounds Capability Brown landscaped from 1749"
         ],
-        "todo": "Climb it first, before the site fills up. This is the beginning of the story — keep it to one idea: 1068, one decision, everything follows.",
+        "todo": "Climb it first, before the site fills up. One idea only: 1068, a foreign king, and a country he had to hold down.",
         "film": []
       }
     },
     "trebuchet": {
       "name": "The Legend of the Trebuchet",
       "actId": "act2",
-      "angle": "What a siege was actually like",
-      "story": "One of the biggest working siege engines in the world. The interesting part isn't the shot, it's how long it takes to load — that's the real story of medieval warfare.",
+      "angle": "Why sieges took months, not days",
+      "story": "The show is called The Legend of the Trebuchet and there's no legend attached to this particular machine — it's a modern rebuild from medieval drawings. But there IS a famous trebuchet story, and it's worth telling while you wait for them to load it.",
       "facts": [
-        "18 metres tall and 22 tonnes, built from medieval drawings — one of the largest working siege machines anywhere.",
-        "It takes a crew several minutes to load one shot. That tells you what a siege really was: months of sitting around, not battle.",
-        "Trebuchets didn't only throw stones — they threw dead animals over the walls to spread disease. Biological warfare, 700 years early."
+        "A trebuchet is basically a giant see-saw. You winch a huge weight up on the short end, drop it, and the long arm whips round and slings a rock. This one is 18 metres tall and weighs 22 tonnes — the biggest working one in the world.",
+        "Here's the story worth telling. In 1304 King Edward I built the largest trebuchet ever made to attack Stirling Castle in Scotland and nicknamed it Warwolf. It took about 50 men three months to build and 30 wagons to move. The 30 defenders inside tried to surrender before it was even finished — and Edward refused to let them, because he wanted to see it work first.",
+        "Watch how long the crew take to load one single shot. That's the whole point: a few rocks an hour never knocked a castle down. The machine was there to terrify people and wear them out. What actually beat a castle was starvation, and that takes months."
       ],
       "routeCard": {
         "sub": "River bank, below the castle · 10:45 show",
@@ -236,19 +236,19 @@
           "The firing",
           "Riverside setting below the towers"
         ],
-        "todo": "Get there for 10:45. Watch the loading, not just the launch — that's the point you want to make.",
+        "todo": "Be there for 10:45. Tell the Warwolf story while they winch it up — that's the dead time.",
         "film": []
       }
     },
     "towers": {
       "name": "Guy's Tower, Caesar's Tower & the Ramparts",
       "actId": "act2",
-      "angle": "300 years later, the family gets rich",
-      "story": "Caesar's Tower and Guy's Tower are the reason the place still looks like a fortress. They went up in the 1300s when the Beauchamp earls had the money to build in stone. Climb both and walk the wall between them.",
+      "angle": "French prisoners paid for these walls",
+      "story": "This is where the castle stops being mud and wood and becomes the fortress you see from the road. The interesting part is who paid for it. Thomas Beauchamp, Earl of Warwick, built both towers between 1330 and 1360, and he funded it with the profits of war in France — he commanded at the Battle of Crécy in 1346 and fought at Poitiers in 1356. He rebuilt the town church with ransom money too, from a French archbishop he captured.",
       "facts": [
-        "Both towers are 14th century — 300 years after the mound. They got built when the Beauchamp family became one of the richest in England.",
-        "Caesar's Tower has a dungeon in the basement that held French knights captured at Poitiers in 1356. Prisoners weren't enemies, they were ransom money.",
-        "Guy's Tower is twelve-sided, not square. Corners could be undermined by attackers, so the shape itself was a defence."
+        "Both towers went up between 1330 and 1360, built by Thomas Beauchamp, Earl of Warwick — 300 years after that mound of earth, once his family had become seriously rich.",
+        "And here's how medieval war actually worked: if you captured a French nobleman you didn't kill him, you held him until his family paid to get him back. That ransom money built these towers. Caesar's Tower's other name is Poitiers Tower, because prisoners from that battle were kept in the basement — their ransoms paid for the walls they were locked inside.",
+        "Look at Guy's Tower: twelve sides, not four. Attackers used to dig away a square tower's corner until the whole thing collapsed. Take the corners away and there's nothing to dig at. The shape itself is the defence."
       ],
       "routeCard": {
         "sub": "Ramparts walk · inside the castle",
@@ -289,19 +289,19 @@
           "Caesar's Tower",
           "Views over the Avon and the courtyard"
         ],
-        "todo": "Both towers and the wall between them in 30 minutes. Steep, narrow stairs. Be down and seated for the jousting at 11:45.",
+        "todo": "Both towers and the wall between them in 30 minutes. Steep narrow stairs — take it slowly. Be seated for the jousting at 11:45.",
         "film": []
       }
     },
     "jousting": {
       "name": "Wars of the Roses LIVE",
       "actId": "act3",
-      "angle": "The man who made and unmade kings",
-      "story": "This is the centre of the whole story. Richard Neville, Earl of Warwick, is remembered as the Kingmaker because he put two kings on the throne and took two off it. Tell that before the show starts, then let the horses do the rest.",
+      "angle": "The man who chose the King of England — twice",
+      "story": "Centre of the whole story, so set it up properly before the show starts. People need to know what the Wars of the Roses even were before the Kingmaker means anything.",
       "facts": [
-        "Richard Neville, Earl of Warwick, deposed two kings and installed two others. That's literally why they call him the Kingmaker.",
-        "He was probably richer than the king he served — which is exactly how one subject ends up powerful enough to swap monarchs.",
-        "He was killed at the Battle of Barnet in 1471, and Warwick's power died with him. One battle ended 400 years of family dominance."
+        "First, what the Wars of the Roses actually were: a civil war that ran on and off for 30 years, 1455 to 1485, between two branches of the same royal family. The Lancastrians used a red rose as their badge, the Yorkists a white one. Cousins killing cousins over the crown.",
+        "Now the man from this castle. Richard Neville, Earl of Warwick, was the richest nobleman in England. In 1461 he put Edward the Fourth on the throne. Then Edward crossed him — so in 1470 Warwick changed sides and put the old king, Henry the Sixth, back. He made two kings and broke two. People started calling him the Kingmaker.",
+        "How can one earl do that? Because England had no standing army. When a king went to war he had to ask his nobles to bring their men — and Warwick had more land, more money and more soldiers than anybody. Whoever he backed, won. He was killed at the Battle of Barnet in 1471, and 400 years of Warwick power died with him."
       ],
       "routeCard": {
         "sub": "River Arena, south front · 11:45 show",
@@ -320,7 +320,7 @@
           "Effects",
           "The castle's south front as backdrop"
         ],
-        "todo": "Tell the Kingmaker story before it starts, while the arena is filling. Then watch.",
+        "todo": "Tell all three of these before it starts, while the arena fills up. Then just watch.",
         "film": []
       }
     },
@@ -328,11 +328,11 @@
       "name": "The Falconer's Quest",
       "actId": "act3",
       "angle": "The most expensive hobby in medieval Europe",
-      "story": "Biggest bird of prey display in the country. It isn't part of the castle's story exactly, but hunting with birds is what earls actually did all afternoon for 500 years, so it fits.",
+      "story": "Not strictly part of the castle's story, but hunting with birds is what earls actually did with their afternoons for 500 years. The language angle is the one people remember.",
       "facts": [
-        "Falconry was ranked by law — the bird you were allowed to fly depended on your rank. An eagle for a king, a kestrel for a servant.",
-        "A trained hawk could cost more than a horse. This was the most expensive thing a medieval noble did for fun.",
-        "'Fed up', 'hoodwinked' and 'under his thumb' are all falconry terms. They're still in everyday English 500 years later."
+        "Falconry was ranked by law. A 15th-century English handbook lists exactly which bird you were allowed to fly according to your rank — an eagle for an emperor, a peregrine for an earl, a kestrel for a servant. The bird on your arm announced your status before you said a word.",
+        "A trained hawk could cost more than a horse, and taming one took months of daily work. It was the most expensive hobby in medieval Europe, which is precisely why nobles did it.",
+        "Three phrases you use all the time come from this. 'Hoodwinked' — falcons wear a little leather hood over the eyes to keep them calm, so to hoodwink someone was literally to blindfold them. 'Bated breath' — a tethered hawk that panics and beats its wings is bating, so waiting with bated breath is holding yourself still out of nerves. And 'haggard' — a haggard was a wild adult hawk you could never fully tame, which is why it now means someone who looks worn out."
       ],
       "routeCard": {
         "sub": "Riverside arena · 12:30 show",
@@ -350,7 +350,7 @@
           "The falconers working the arena",
           "River and castle backdrop"
         ],
-        "todo": "Last outdoor stop. After this the weather stops mattering for the rest of the day.",
+        "todo": "Last outdoor stop. After this the weather stops mattering.",
         "film": []
       }
     },
@@ -381,12 +381,12 @@
     "state-rooms": {
       "name": "Great Hall & State Rooms",
       "actId": "act4",
-      "angle": "When a fortress stops being a fortress",
-      "story": "A castle only stays a castle while somebody needs to defend it. The Greville family took over in 1604 and spent nearly 400 years turning it into a house. This is where the story stops being about war and starts being about money and showing off.",
+      "angle": "When a fortress stops needing to be one",
+      "story": "A castle only stays a castle while somebody needs to defend it. This is the room where that stops being true and the whole place turns into a rich family's house.",
       "facts": [
-        "The Greville family held this castle for 374 years, from 1604 to 1978. Nobody needed to defend it any more, so they turned it into a home.",
-        "A fire in 1871 gutted part of it, so a lot of what you walk through is Victorian rebuild pretending to be much older.",
-        "In 1978 they sold it to Madame Tussauds — the waxwork company. That's how a Norman fortress ended up a visitor attraction."
+        "The Greville family owned this castle for 374 years, from 1604 to 1978. By their time nobody needed to defend it — gunpowder had made tall stone walls pointless, and England had stopped fighting itself. So they turned a fortress into a very grand home.",
+        "A fire in 1871 burned out part of this range. What they put back was built to look old, so a good deal of what you're walking through is Victorian work pretending to be medieval.",
+        "In 1978 the family ran out of money and sold the entire castle to Madame Tussauds, the waxwork museum company. That is how a Norman fortress ended up as a tourist attraction with a jousting show."
       ],
       "routeCard": {
         "sub": "Inside the castle · indoor, weather-proof",
@@ -405,19 +405,19 @@
           "Arms and armour",
           "The 1871 rebuild"
         ],
-        "todo": "Say the turn out loud: this is the point the castle stops being a weapon and becomes a house.",
+        "todo": "Say the turn out loud: this is where the castle stops being a weapon and becomes a house.",
         "film": []
       }
     },
     "mill-engine": {
       "name": "Mill & Engine House",
       "actId": "act4",
-      "angle": "The only part built for work",
-      "story": "Down by the river under Caesar's Tower. The Victorians put generators in here to light the castle. Least famous thing on the site and one of the most interesting.",
+      "angle": "The only part built to do a job",
+      "story": "Down by the river under the big tower. Least visited corner of the site and genuinely one of the most interesting.",
       "facts": [
-        "The Victorians installed generators here, so the castle had electric light before most of Warwick town did.",
-        "The mill site itself is medieval — the same spot powered by water, then by electricity, 700 years apart.",
-        "It's the only part of the castle built for work rather than war or for show."
+        "This is the only part of the castle built to do actual work rather than for war or for showing off. There's been a mill on this spot since the Middle Ages, using the river to grind grain.",
+        "In the 1890s the family installed generators in here and wired the castle for electric light — years before most of the town of Warwick had any. If you were rich enough, you got electricity first.",
+        "Same building, same river, 700 years apart: water power, then electric power. Nobody knocked it down, they just kept finding new uses for it."
       ],
       "routeCard": {
         "sub": "River level, below Caesar's Tower",
@@ -435,19 +435,19 @@
           "Caesar's Tower from below",
           "The medieval bridge arches from the far bank"
         ],
-        "todo": "Quick stop. The broken bridge arches from this morning are right outside — same subject from the other bank.",
+        "todo": "Quick stop. The broken bridge arches from this morning are right outside, seen from the other bank.",
         "film": []
       }
     },
     "lord-leycester": {
       "name": "The Lord Leycester",
       "actId": "act5",
-      "angle": "The other man in this story",
-      "story": "Ten minutes' walk from the gate. A row of crooked timber buildings that Robert Dudley turned into a home for old soldiers in 1571. You need to introduce him here, because you're about to stand at his tomb.",
+      "angle": "The man who nearly married the Queen",
+      "story": "Ten minutes' walk from the castle gate. You have to introduce Robert Dudley properly here, because in half an hour you'll be standing at his grave and the name needs to mean something by then.",
       "facts": [
-        "Robert Dudley founded this in 1571 as a home for wounded soldiers — and it still houses ex-servicemen 455 years later.",
-        "Dudley was Elizabeth I's favourite and probably hoped to marry her. A public good deed like this was how you built a reputation at court.",
-        "The buildings are 14th-century guildhalls that survived the Great Fire of 1694. That's why everything around them is Georgian brick and these are timber."
+        "Start with who he was. Robert Dudley is the man Queen Elizabeth the First probably loved. She ruled England from 1558 to 1603 and never married anybody — and for years the whole country assumed she would marry Dudley. She never did. He stayed close to her his entire life and never quite got there.",
+        "In 1571 Dudley took a set of 200-year-old guild buildings here and turned them into a home for wounded soldiers. Careful with the word: back then a 'hospital' didn't mean medicine, it meant a charitable house that took people in. And it still does the job — retired servicemen live here today, 455 years later.",
+        "Look at this timber, then look at the brick buildings on either side. In 1694 a fire burned down most of the centre of Warwick and this survived it. That's why it's the odd one out — everything around it had to be rebuilt afterwards."
       ],
       "routeCard": {
         "sub": "High Street · open till 5, last admission 4",
@@ -466,19 +466,19 @@
           "The Master's Garden",
           "The Brethren's Kitchen"
         ],
-        "todo": "Show your Warwick Castle ticket at the desk for 25% off — £9 instead of £12. Introduce Dudley here.",
+        "todo": "Show your Warwick Castle ticket at the desk for 25% off — £9 instead of £12.",
         "film": []
       }
     },
     "beauchamp-chapel": {
       "name": "St Mary's — The Beauchamp Chapel",
       "actId": "act5",
-      "angle": "The ending — they're all in this one room",
-      "story": "This is where the day ends. The chapel was built to hold one man's tomb, and Robert Dudley is in here too — the same man whose almshouse you just left. You've spent the day in the rooms these men built, and now you're standing at their graves. Say that, then stop.",
+      "angle": "The ending — the man who burned Joan of Arc",
+      "story": "This is the payoff for the whole day, and it's a big one. The man in the gold tomb ran Joan of Arc's trial. Tell that, then link back to the castle you started at this morning, and stop.",
       "facts": [
-        "This chapel took 21 years to build, 1443 to 1464, purely to house one man's tomb — Richard Beauchamp, Earl of Warwick.",
-        "His effigy is gilt bronze with the hands raised but not joined together. That's deliberate: he's shown seeing a vision, not praying.",
-        "Robert Dudley is buried here too — the man whose almshouse you walked out of twenty minutes ago. The whole day ends in one room."
+        "The man in the gilded tomb is Richard Beauchamp, Earl of Warwick, from the same family that built those towers. In 1431 he was the English commander in charge of Rouen in France — and Rouen is where Joan of Arc was held prisoner. He oversaw her trial and he was there when they burned her. He even sent his own doctor to keep her alive long enough to be tried.",
+        "He died in France in 1439 and his body was brought home. This chapel was then built specially to hold him: 21 years of work, from 1443 to 1464, at enormous cost. His effigy is gilt bronze, and notice the hands — raised, but not pressed together. That's deliberate. He's meant to be looking at a vision, not praying.",
+        "And Robert Dudley is buried in this same room — the man whose soldiers' home you walked out of half an hour ago. His little son is here too, dead at three years old. Two men, four centuries of this one town, in a room you can cross in five steps."
       ],
       "routeCard": {
         "sub": "Old Square · Saturday 10:30–5 · chapel £5",
@@ -497,7 +497,7 @@
           "The Noble Imp",
           "The chapel vault and glass"
         ],
-        "todo": "Pay the £5 for the chapel — this is the ending, not an extra. Say your closing line here and finish.",
+        "todo": "Pay the £5 for the chapel. Say your closing line here and finish. Camera down.",
         "film": []
       }
     }
@@ -507,22 +507,22 @@
     "color": "rust",
     "where": "Castle Bridge, before you go in — 9:20 AM",
     "facts": [
-      "The hook: 'this castle made two kings, and unmade two kings'",
-      "What this is: one castle, one day, 958 years",
-      "The promise: by the end of this video you'll be standing at their graves"
+      "The hook: 'this castle chose the King of England — twice'",
+      "What this is: one castle, one town, one day. From a pile of mud in 1068 to a solid gold tomb finished in 1464.",
+      "The promise: 'and it ends ten minutes' walk from here, at the tomb of the man who sent Joan of Arc to the stake'"
     ]
   },
   "signOff": {
     "title": "Closing sign-off",
     "color": "forest",
-    "where": "In the Beauchamp Chapel, or on the church steps — 3:55 PM",
+    "where": "In the Beauchamp Chapel — 3:55 PM",
     "facts": [
-      "One sentence: whose tomb this is and why he mattered",
-      "The link back: 'that's the castle we started at this morning'",
+      "Where you are: standing over the man who ran Joan of Arc's trial — and he's from the castle you started at this morning",
+      "The shape of the day: a mud mound at ten this morning, a gold tomb at four this afternoon. Four hundred years, one town, one walk.",
       "The ask: like, subscribe — and where should the next one go?"
     ]
   },
-  "talkTipbox": "Three facts per stop, and you only need to land the one that interests you most. Say the date, say what happened, say why it's odd or surprising — then move on. You're walking, talking and recording at the same time, so short beats complete every time.",
+  "talkTipbox": "Assume your viewer knows none of this. Every time you say a name — Dudley, Beauchamp, the Kingmaker — give them one line on who that is before you go on, or it means nothing. Three facts a stop, and you only need to land the one that grabbed you. Date, what happened, why it's surprising. Then move.",
   "goldenRules": [
     "Three fixed show times: 10:45 trebuchet, 11:45 jousting, 12:30 falconry. Everything bends around them.",
     "Confirm those times on the board at the gate — they do move.",
