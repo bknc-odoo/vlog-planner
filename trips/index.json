@@ -1,6 +1,13 @@
 {
-  "default": "ep03",
+  "default": "ep04",
   "trips": [
+    {
+      "id": "ep04",
+      "title": "The Castle That Made Kings",
+      "subtitle": "Warwick Castle → Lord Leycester → the Beauchamp Chapel",
+      "dates": "Sat 22 August 2026",
+      "episode": "EP.04"
+    },
     {
       "id": "ep03",
       "title": "Edinburgh to Glasgow",
