@@ -903,19 +903,40 @@
       + '</div>';
   }
 
+  function actHeadingHTML(a) {
+    var c = colorVar(a.color);
+    return ''
+      + '<div style="margin:20px 0 10px">'
+      +   '<div class="cap" style="font-size:16px;color:' + c + '">' + esc(a.label) + '</div>'
+      +   (a.tagline ? '<div class="sub">' + esc(a.tagline) + '</div>' : '')
+      + '</div>';
+  }
+
+  /* Acts are the story spine, days are calendar days — usually 1:1, but a single-day trip can
+     span several acts. One act per day by index, with the LAST day taking any leftovers.
+     3 acts/3 days is unchanged; 5 acts/1 day puts all five under that day. */
+  function actsForDay(t, i) {
+    var acts = t.acts || [];
+    var lastDay = ((t.days || []).length - 1);
+    return (i === lastDay) ? acts.slice(i) : [acts[i]].filter(Boolean);
+  }
+
   function renderTalk() {
     var t = TRIP;
     var activeId = getActiveDayId(t);
     var days = (t.days || []).map(function (d, i) {
-      var act = (t.acts || [])[i];
       var bits = [];
       if (i === 0 && t.coldOpen) bits.push(bookendCardHTML(t.coldOpen));
-      if (act) {
-        (act.stopIds || []).forEach(function (sid) {
-          var card = talkCardHTML(stop(sid));
-          if (card) bits.push(card);
-        });
-      }
+      var dayActs = actsForDay(t, i);
+      dayActs.forEach(function (act) {
+        var cards = (act.stopIds || []).map(function (sid) { return talkCardHTML(stop(sid)); })
+                      .filter(Boolean);
+        if (!cards.length) return;
+        /* Only label acts when one day carries more than one, so 1-act-per-day trips
+           (ep01, ep03, cambridge) render exactly as they did before. */
+        if (dayActs.length > 1) bits.push(actHeadingHTML(act));
+        bits.push(cards.join(''));
+      });
       if (i === (t.days.length - 1) && t.signOff) bits.push(bookendCardHTML(t.signOff));
       var open = (d.id === activeId) ? ' open' : '';
       return ''
