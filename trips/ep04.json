@@ -5,7 +5,7 @@
   "dates": "Sat 22 August 2026",
   "episode": "EP.04",
   "heroKicker": "One castle, 958 years",
-  "intro": "One castle, one day, and a story that runs from a Norman earth mound in 1068 to a pair of gilt-bronze tombs a ten-minute walk away. Five acts, three live shows, every outdoor stop filmed while the sun is out — and a hard stop at 4 PM.",
+  "intro": "One castle, one day, 958 years. Five acts from a Norman earth mound in 1068 to a pair of tombs a ten-minute walk away — three facts to talk about at every stop, and a hard stop at 4 PM.",
   "dayGlance": [
     {
       "n": 1,
@@ -32,7 +32,7 @@
       "color": "rust",
       "label": "Act 1 · The Norman beginning",
       "tagline": "1068. An earth mound and a decision.",
-      "narrative": "Start outside, before you own a ticket. Castle Bridge gives you Caesar's Tower rising straight out of the River Avon with the broken arches of the medieval bridge in the water below, and at twenty past nine the sun is still in the east — the best light you will get all day, for free.\n\nThen go in and climb the Mound first, because that is literally where the story starts. In 1068 William the Conqueror had been king for two years and the Midlands were not settled, so he ordered a motte-and-bailey thrown up at Warwick to hold the road north. The mound under your feet is it. Everything else on this site — every tower, every state room, every gift shop — sits on top of that one decision.",
+      "narrative": "Start outside at Castle Bridge — best view of the castle and it costs nothing. Caesar's Tower comes straight up out of the river, with the arches of the abandoned medieval bridge sitting in the water below.\n\nThen go in and climb the Mound first, because that is literally where the story starts. In 1068 William the Conqueror had been king for two years and still didn't control the Midlands, so he had a mound and a wooden tower thrown up here to hold the road north. Everything else on this site was built on top of that one decision.",
       "stopIds": [
         "castle-bridge",
         "the-mound"
@@ -43,7 +43,7 @@
       "color": "rust",
       "label": "Act 2 · The fortress",
       "tagline": "Three hundred years later, the Beauchamps build in stone.",
-      "narrative": "The trebuchet at 10:45 is your first set-piece and it does a job for you: it makes medieval violence feel slow. Eighteen metres, twenty-two tonnes, a crew of men and several minutes to load one shot. That was a siege — enormous effort, enormous force, very little speed.\n\nThen climb. Caesar's Tower and Guy's Tower went up in the 14th century under Thomas Beauchamp, three hundred years after the Conqueror's earth mound, and they are the reason the castle looks the way it does from the road. Walk the ramparts between them. Film going up the spiral stairs, not coming down.",
+      "narrative": "The trebuchet at 10:45 makes one point better than any explanation could: medieval violence was slow. Eighteen metres, twenty-two tonnes, a crew of men and several minutes of winching for a single shot. That was a siege — months of waiting, not battle.\n\nThen the towers. Caesar's Tower and Guy's Tower went up in the 1300s, three hundred years after the mound, when the Beauchamp earls had become one of the richest families in England. They are the reason the place still reads as a fortress from the road.",
       "stopIds": [
         "trebuchet",
         "towers"
@@ -54,7 +54,7 @@
       "color": "ochre",
       "label": "Act 3 · The Kingmaker",
       "tagline": "One earl, two kings deposed, dead at 42.",
-      "narrative": "This is the centre of the film. Richard Neville, 16th Earl of Warwick, is remembered as Warwick the Kingmaker and he earned the name: he helped put Edward IV on the throne, fell out with him, switched sides and put Henry VI back. Two kings installed, two kings unmade, by one man who was probably richer than the crown he propped up. He was killed at the Battle of Barnet on 14 April 1471 and the family's power died with him.\n\nTell that story, and then let the 11:45 show illustrate it — it is called Wars of the Roses LIVE, which is about as on-the-nose as an itinerary ever gets. Falconry at 12:30 closes the outdoor half of the day.",
+      "narrative": "This is the centre of the story. Richard Neville, Earl of Warwick, put two kings on the throne and took two off it, which is how he ended up remembered as the Kingmaker. He was probably richer than the king he served. He was killed at Barnet in 1471, and four hundred years of family power ended with him.\n\nFalconry at 12:30 closes the outdoor half of the day, and it belongs here more than it first looks — hunting with birds is what earls actually did with their afternoons for five centuries.",
       "stopIds": [
         "jousting",
         "falconry"
@@ -65,7 +65,7 @@
       "color": "ochre",
       "label": "Act 4 · The long afterlife",
       "tagline": "1604 to 1978: fortress, stately home, attraction.",
-      "narrative": "A castle stays a castle only while somebody needs to defend it. The Grevilles took Warwick in 1604 and spent the next three hundred and seventy years turning a fortress into a house. The Great Hall and State Rooms are that process made visible — and largely a rebuild, because a serious fire gutted part of the range in 1871. This is where the story stops being about war and starts being about money, taste and keeping up appearances.\n\nThen go down to the Mill and Engine House by the river, the least famous thing on site and one of the best: a medieval fortress wired for electric light by Victorian engineers in overalls. It also gives you the strongest low angle on Caesar's Tower anywhere in the grounds.",
+      "narrative": "A castle stays a castle only while somebody needs to defend it. The Grevilles took Warwick in 1604 and spent nearly four hundred years turning a fortress into a house. The Great Hall and State Rooms are that process made visible — and largely a Victorian rebuild, because a fire gutted part of the range in 1871. In 1978 the family sold the whole thing to a waxwork company.\n\nThen the Mill and Engine House down by the river: the least famous thing on the site, where Victorian engineers wired a medieval fortress for electric light.",
       "stopIds": [
         "lunch",
         "state-rooms",
@@ -77,7 +77,7 @@
       "color": "forest",
       "label": "Act 5 · The tombs",
       "tagline": "You walked their rooms. Now stand at their graves.",
-      "narrative": "Leave the castle at 2:40 and walk into town. The Lord Leycester is a row of crooked timber buildings that began as 14th-century guildhalls; in 1571 Robert Dudley, Earl of Leicester and Elizabeth I's favourite, turned them into a home for broken and retired soldiers. It still is one, 455 years later. They survived the Great Fire of 1694 that flattened the rest of the centre, which is why they look nothing like the Georgian brick around them.\n\nThen the ending. The Beauchamp Chapel at St Mary's was built between 1443 and 1464 to hold Richard Beauchamp, 13th Earl of Warwick, and it took twenty-one years because nobody was willing to do it cheaply. His effigy is gilt bronze. Robert Dudley is in there too — the same man whose almshouse you just walked out of. So you spend a whole day inside the rooms these men built and fought over, and then you stand at their graves. Say that on camera, and stop talking.",
+      "narrative": "Leave the castle at 2:40 and walk into town. The Lord Leycester is a row of crooked timber buildings that began as 14th-century guildhalls; in 1571 Robert Dudley, Elizabeth I's favourite, turned them into a home for wounded and retired soldiers. It still is one, 455 years later. They survived the Great Fire of 1694 that flattened the rest of the centre, which is why they look nothing like the Georgian brick around them.\n\nThen the ending. The Beauchamp Chapel took twenty-one years to build, purely to hold Richard Beauchamp's tomb. Robert Dudley is buried in there too — the same man whose almshouse you walked out of twenty minutes earlier. You spend a whole day inside the rooms these men built and fought over, and then you stand at their graves.",
       "stopIds": [
         "lord-leycester",
         "beauchamp-chapel"
@@ -85,10 +85,9 @@
     }
   ],
   "kit": [
-    "Phone or camera — handheld only. Warwick allows personal filming but not commercial rigs; a tripod or gimbal can get you stopped.",
-    "Spare battery and a spare card — six and a half hours of filming will kill one battery",
-    "AirPods or a clip mic — the arenas are open, loud and windy",
-    "Shoes you can climb in: two tower climbs on narrow spiral stairs, plus 163 more if you do the church tower",
+    "Phone or camera, plus a spare battery — you're recording on and off for six and a half hours",
+    "A clip mic or AirPods if you have them — the show arenas are open and windy",
+    "Shoes you can climb two towers in",
     "A light layer — 12°C at 9 AM, 20°C by mid-afternoon",
     "Contactless for parking (£10), Lord Leycester (£9) and the chapel (£5)"
   ],
@@ -154,13 +153,12 @@
     "castle-bridge": {
       "name": "Castle Bridge & the River Avon",
       "actId": "act1",
-      "angle": "The shot that opens the film",
-      "story": "Film the cold open here, before you own a ticket. Castle Bridge gives you the classic view: Caesar's Tower rising straight out of the Avon, with the broken arches of the abandoned medieval bridge sitting in the water underneath it. At 9:20 the sun is still in the east and the castle's river front is lit, which makes this the best light of the entire day — and it is free and always open.",
+      "angle": "Set the scene before you go in",
+      "story": "Best view of the castle, and it's free. Caesar's Tower comes straight up out of the river, and the broken arches sitting in the water are the old medieval bridge. Say what the day is: one castle, 958 years, and it ends at their tombs.",
       "facts": [
-        "There has been a castle on this rock above the Avon since 1068 — 958 years",
-        "Caesar's Tower is roughly 44m / 147ft, and has never had anything whatsoever to do with Caesar",
-        "The broken arches in the river are the medieval bridge, abandoned when this one opened in 1793",
-        "Mill Garden, at the end of Mill Street, has an even better version of this view for a small fee — but it doesn't open until 10:00"
+        "There's been a castle on this rock since 1068 — 958 years. Interesting because almost every other English castle fell into ruin; this one never stopped being lived in.",
+        "Caesar's Tower has nothing to do with Caesar. The name was made up later because it sounded impressive — medieval marketing.",
+        "Those broken arches in the river are the old bridge, abandoned in 1793. They just built a new one next to it and left the old one standing in the water."
       ],
       "routeCard": {
         "sub": "Castle Bridge, Banbury Road · 9:20 AM · free",
@@ -178,24 +176,19 @@
           "The ruined medieval bridge arches",
           "The castle's south front in morning light"
         ],
-        "todo": "Sun behind you. Get the wide establishing shot first, then the cold open piece-to-camera. Then walk up to the gate for 10:00 opening.",
-        "film": [
-          "Cold open — castle behind you, one line: this castle made two kings and unmade two",
-          "Wide establishing shot of tower + river + broken arches",
-          "Slow tilt up Caesar's Tower from the waterline"
-        ]
+        "todo": "Open the video here. One line: this castle made two kings and unmade two. Then walk up to the gate for 10:00.",
+        "film": []
       }
     },
     "the-mound": {
       "name": "The Mound",
       "actId": "act1",
-      "angle": "Where it all starts — 1068",
-      "story": "Climb this first, because the whole story begins here. In 1068 William the Conqueror had been king for two years and the Midlands were still not settled, so he ordered a motte-and-bailey thrown up at Warwick to hold the road north. The motte is the mound you are standing on. Everything else on this site — every tower, every state room, every gift shop — was built on top of that single decision. You also get the layout of the whole castle from the top, which is useful this early in the film.",
+      "angle": "1068 — where the whole thing starts",
+      "story": "This mound is the original castle. William the Conqueror had it thrown up in 1068 to hold the road north, and everything else on the site was built on top of it. Say that and you've set up the next 900 years.",
       "facts": [
-        "1068 — two years after Hastings, with the Conqueror still nailing England down",
-        "A motte-and-bailey went up fast: earth mound, timber tower, wooden palisade. Weeks, not years.",
-        "Nothing visible from up here is Norman — the stone castle came three hundred years later",
-        "Warwick sat on the road north; hold Warwick and you hold the route into the Midlands"
+        "William the Conqueror ordered this in 1068 — two years after Hastings, because he still hadn't got control of the Midlands.",
+        "A mound like this went up in weeks, not years: pile earth, put a wooden tower on top, done. Speed was the whole Norman trick — build fast, hold the ground.",
+        "Nothing else you can see from up here is Norman. The stone castle came 300 years later, so this mound is the only original piece left."
       ],
       "routeCard": {
         "sub": "Inside the castle grounds · gates open 10:00",
@@ -213,24 +206,19 @@
           "Views over the whole castle site",
           "The grounds Capability Brown landscaped from 1749"
         ],
-        "todo": "Straight in and up the mound before the site fills. This is Act 1 — keep it to one idea: 1068, one decision, everything else follows.",
-        "film": [
-          "Piece-to-camera on top of the mound, castle in the background",
-          "Pan across the site from the summit — use it as your orientation shot",
-          "Low shot looking up the mound to show it is man-made"
-        ]
+        "todo": "Climb it first, before the site fills up. This is the beginning of the story — keep it to one idea: 1068, one decision, everything follows.",
+        "film": []
       }
     },
     "trebuchet": {
       "name": "The Legend of the Trebuchet",
       "actId": "act2",
-      "angle": "Set-piece one — medieval violence, in slow motion",
-      "story": "The trebuchet on the river bank is one of the largest working siege machines in the world: about eighteen metres, twenty-two tonnes, built from medieval engineering drawings. What makes it good on camera is not the shot, it is the loading — a crew of men, several minutes, enormous effort for one throw. That is what a siege actually was. Two shows a day, 10:45 and 14:00; you want the 10:45 so the afternoon stays free.",
+      "angle": "What a siege was actually like",
+      "story": "One of the biggest working siege engines in the world. The interesting part isn't the shot, it's how long it takes to load — that's the real story of medieval warfare.",
       "facts": [
-        "Roughly 18m tall and 22 tonnes, built to medieval designs",
-        "A trebuchet is a counterweight machine — drop the weight, the arm swings, the shot flies",
-        "It takes a crew and several minutes to load one shot. Sieges were slow.",
-        "Range is a few hundred metres — enough to break a gate, or lob something unpleasant over a wall"
+        "18 metres tall and 22 tonnes, built from medieval drawings — one of the largest working siege machines anywhere.",
+        "It takes a crew several minutes to load one shot. That tells you what a siege really was: months of sitting around, not battle.",
+        "Trebuchets didn't only throw stones — they threw dead animals over the walls to spread disease. Biological warfare, 700 years early."
       ],
       "routeCard": {
         "sub": "River bank, below the castle · 10:45 show",
@@ -248,28 +236,23 @@
           "The firing",
           "Riverside setting below the towers"
         ],
-        "todo": "Arrive by 10:40 and stand side-on, not behind — you want the arm's arc across frame. Film the loading, not just the launch.",
-        "film": [
-          "The crew winching — this is the shot people don't get",
-          "The launch, wide, arm crossing frame",
-          "Reaction piece-to-camera straight after"
-        ]
+        "todo": "Get there for 10:45. Watch the loading, not just the launch — that's the point you want to make.",
+        "film": []
       }
     },
     "towers": {
       "name": "Guy's Tower, Caesar's Tower & the Ramparts",
       "actId": "act2",
-      "angle": "Act two — the Beauchamps build in stone",
-      "story": "Three hundred years after the Conqueror's earth mound, the Beauchamp earls turned Warwick into serious stone. Thomas Beauchamp raised Caesar's Tower and Guy's Tower in the 14th century and they are the reason the castle still looks like a fortress from the road. Guy's is twelve-sided and about 39 metres; Caesar's is around 44. Climb both and walk the ramparts between them — it is the best elevated footage on the whole site.",
+      "angle": "300 years later, the family gets rich",
+      "story": "Caesar's Tower and Guy's Tower are the reason the place still looks like a fortress. They went up in the 1300s when the Beauchamp earls had the money to build in stone. Climb both and walk the wall between them.",
       "facts": [
-        "Caesar's Tower about 44m/147ft; Guy's Tower about 39m/128ft and twelve-sided",
-        "Both 14th century, built under Thomas Beauchamp — the family that made Warwick powerful",
-        "Caesar's Tower had a basement dungeon that held French prisoners taken at Poitiers in 1356",
-        "Narrow spiral stairs and no lift — the ramparts walk between the towers is the money shot"
+        "Both towers are 14th century — 300 years after the mound. They got built when the Beauchamp family became one of the richest in England.",
+        "Caesar's Tower has a dungeon in the basement that held French knights captured at Poitiers in 1356. Prisoners weren't enemies, they were ransom money.",
+        "Guy's Tower is twelve-sided, not square. Corners could be undermined by attackers, so the shape itself was a defence."
       ],
       "routeCard": {
         "sub": "Ramparts walk · inside the castle",
-        "note": "Steep, narrow, one-way in places. Not somewhere to be fiddling with a camera bag.",
+        "note": "Steep, narrow spiral stairs and no lift. Take it slowly.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Warwick%20Castle&travelmode=walking",
         "wazeHref": "https://waze.com/ul?q=Warwick%20Castle&navigate=yes",
         "walkPoints": [
@@ -278,21 +261,21 @@
             "name": "Guy's Tower",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Guy%27s%20Tower%20Warwick%20Castle",
             "story": "Twelve-sided, about 39 metres, five storeys of guest chambers stacked above each other. Built to impress as much as defend.",
-            "todo": "Climb it first while your legs are fresh. Film going up — the spiral reads well on camera."
+            "todo": "Climb this one first while your legs are fresh."
           },
           {
             "n": 2,
             "name": "The ramparts",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Warwick%20Castle%20ramparts",
             "story": "The curtain wall walk linking the two great towers, looking down into the courtyard on one side and out over the Avon on the other.",
-            "todo": "Walk it slowly with the camera low and level. Best elevated shot of the day."
+            "todo": "Walk it slowly — best views over the river and down into the courtyard."
           },
           {
             "n": 3,
             "name": "Caesar's Tower",
             "pinHref": "https://www.google.com/maps/search/?api=1&query=Caesar%27s%20Tower%20Warwick%20Castle",
             "story": "The taller of the two at roughly 44 metres, with a dungeon in the basement that held French knights captured at Poitiers in 1356.",
-            "todo": "Mention the dungeon and the prisoners — it lands better than the height does."
+            "todo": "Mention the dungeon and the French prisoners. It lands better than the height does."
           }
         ],
         "walkLoopHref": null
@@ -306,25 +289,19 @@
           "Caesar's Tower",
           "Views over the Avon and the courtyard"
         ],
-        "todo": "Both towers and the wall between them in thirty minutes. Move — you have to be seated for the jousting at 11:45.",
-        "film": [
-          "Climbing the spiral stairs",
-          "Walking the ramparts, camera low and level",
-          "Piece-to-camera on the wall with the courtyard behind you"
-        ]
+        "todo": "Both towers and the wall between them in 30 minutes. Steep, narrow stairs. Be down and seated for the jousting at 11:45.",
+        "film": []
       }
     },
     "jousting": {
       "name": "Wars of the Roses LIVE",
       "actId": "act3",
-      "angle": "Act three — the man who made and unmade kings",
-      "story": "This is the centre of the film, and the show is your illustration for it. Richard Neville, 16th Earl of Warwick, is remembered as Warwick the Kingmaker: he helped put Edward IV on the throne, fell out with him, switched sides and put Henry VI back. Two kings installed, two kings unmade, by one earl who was probably richer than the crown he propped up. He was killed at the Battle of Barnet on 14 April 1471 and the family's power died with him. Tell that first, then let the horses do the rest.",
+      "angle": "The man who made and unmade kings",
+      "story": "This is the centre of the whole story. Richard Neville, Earl of Warwick, is remembered as the Kingmaker because he put two kings on the throne and took two off it. Tell that before the show starts, then let the horses do the rest.",
       "facts": [
-        "Richard Neville, 16th Earl of Warwick — 'the Kingmaker' — deposed two kings and installed two",
-        "At his peak he was probably wealthier and more powerful than the king he served",
-        "Killed at the Battle of Barnet, 14 April 1471, aged about 42",
-        "The Wars of the Roses ran 1455–1487 — York against Lancaster, white rose against red",
-        "The show runs in a purpose-built River Arena against the castle's south front"
+        "Richard Neville, Earl of Warwick, deposed two kings and installed two others. That's literally why they call him the Kingmaker.",
+        "He was probably richer than the king he served — which is exactly how one subject ends up powerful enough to swap monarchs.",
+        "He was killed at the Battle of Barnet in 1471, and Warwick's power died with him. One battle ended 400 years of family dominance."
       ],
       "routeCard": {
         "sub": "River Arena, south front · 11:45 show",
@@ -343,24 +320,19 @@
           "Effects",
           "The castle's south front as backdrop"
         ],
-        "todo": "Do the Kingmaker piece-to-camera BEFORE the show starts, while the arena is filling — then the show becomes your B-roll instead of competing with you.",
-        "film": [
-          "Kingmaker piece-to-camera with the arena behind you, before it starts",
-          "The charge, wide, castle in frame",
-          "Close on hooves and lances if you can get a low angle"
-        ]
+        "todo": "Tell the Kingmaker story before it starts, while the arena is filling. Then watch.",
+        "film": []
       }
     },
     "falconry": {
       "name": "The Falconer's Quest",
       "actId": "act3",
-      "angle": "Set-piece three — the birds",
-      "story": "The UK's largest bird of prey display, up to sixty species, flown in an arena over the Avon. It is not strictly part of the castle's story, but hunting with birds is what earls actually did with their afternoons for five hundred years, so it is not a bolt-on either. Visually it is the best moving footage you will get all day. Shows at 12:30 and 16:30 — take the 12:30, because 16:30 is past your stop.",
+      "angle": "The most expensive hobby in medieval Europe",
+      "story": "Biggest bird of prey display in the country. It isn't part of the castle's story exactly, but hunting with birds is what earls actually did all afternoon for 500 years, so it fits.",
       "facts": [
-        "Up to 60 species flown over the river — the largest display of its kind in the UK",
-        "Falconry was ranked: the bird you were permitted to fly was fixed by your social rank",
-        "Birds won't fly in heavy rain or strong wind, so this is the show most likely to be pulled",
-        "Vultures and eagles come in low over the crowd — stay wide, they are faster than you expect"
+        "Falconry was ranked by law — the bird you were allowed to fly depended on your rank. An eagle for a king, a kestrel for a servant.",
+        "A trained hawk could cost more than a horse. This was the most expensive thing a medieval noble did for fun.",
+        "'Fed up', 'hoodwinked' and 'under his thumb' are all falconry terms. They're still in everyday English 500 years later."
       ],
       "routeCard": {
         "sub": "Riverside arena · 12:30 show",
@@ -378,25 +350,16 @@
           "The falconers working the arena",
           "River and castle backdrop"
         ],
-        "todo": "Last outdoor stop of the day — after this the sun stops mattering. Stay wide and let them fly into frame rather than chasing them.",
-        "film": [
-          "Birds coming in low over the crowd, wide",
-          "Falconer with bird on the glove, close",
-          "One line to camera: that's the outdoor half done"
-        ]
+        "todo": "Last outdoor stop. After this the weather stops mattering for the rest of the day.",
+        "film": []
       }
     },
     "lunch": {
       "name": "Lunch — thirty minutes",
       "actId": "act4",
       "angle": "Halfway, and the hard part is already filmed",
-      "story": "You are at the halfway point with all three set-pieces in the bag and the sun-dependent half of the day behind you. Eat fast, swap the battery, check you actually got the jousting audio. Everything from here is indoors, which means the sky can do what it likes.",
-      "facts": [
-        "All three outdoor shows are done by 1:05 PM — the weather can't hurt the film after this",
-        "Everything remaining is inside: State Rooms, the Mill, Lord Leycester, the chapel",
-        "Castle food is expensive; the town is better and cheaper but a 10-minute walk each way",
-        "Swap the battery now, not when you're halfway up the church tower"
-      ],
+      "story": "Halfway. All three shows are done and the outdoor half of the day is behind you. Everything from here is indoors.",
+      "facts": [],
       "routeCard": {
         "sub": "Inside the castle grounds · 30 minutes, no longer",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Warwick%20Castle&travelmode=walking",
@@ -410,20 +373,20 @@
         "see": [
           "Somewhere to sit down for half an hour"
         ],
-        "todo": "Thirty minutes, not an hour. Battery swap, card check, spot-check the jousting audio while you can still refilm a line.",
+        "todo": "Thirty minutes, not an hour. Sit down properly — you've been on your feet since 9:20.",
         "film": []
-      }
+      },
+      "hideOnTalk": true
     },
     "state-rooms": {
       "name": "Great Hall & State Rooms",
       "actId": "act4",
-      "angle": "Act four — fortress becomes a stately home",
-      "story": "A castle only stays a castle while somebody still needs to defend it. The Greville family took Warwick in 1604 and spent the next three hundred and seventy years turning a fortress into a house. The Great Hall and State Rooms are that process made visible — and largely a rebuild, because a serious fire gutted part of the range in 1871. This is where the story stops being about war and starts being about money, taste, and keeping up appearances.",
+      "angle": "When a fortress stops being a fortress",
+      "story": "A castle only stays a castle while somebody needs to defend it. The Greville family took over in 1604 and spent nearly 400 years turning it into a house. This is where the story stops being about war and starts being about money and showing off.",
       "facts": [
-        "The Grevilles held Warwick from 1604 until 1978 — 374 years",
-        "A major fire in 1871 gutted part of the range; much of what you walk through is the rebuild",
-        "In 1978 the family sold the castle to Madame Tussauds — fortress, to stately home, to attraction",
-        "Capability Brown landscaped the grounds from 1749, one of his earliest independent commissions"
+        "The Greville family held this castle for 374 years, from 1604 to 1978. Nobody needed to defend it any more, so they turned it into a home.",
+        "A fire in 1871 gutted part of it, so a lot of what you walk through is Victorian rebuild pretending to be much older.",
+        "In 1978 they sold it to Madame Tussauds — the waxwork company. That's how a Norman fortress ended up a visitor attraction."
       ],
       "routeCard": {
         "sub": "Inside the castle · indoor, weather-proof",
@@ -442,24 +405,19 @@
           "Arms and armour",
           "The 1871 rebuild"
         ],
-        "todo": "This is the turn in the story — say out loud that the castle stops being a weapon here and starts being a house.",
-        "film": [
-          "Walk-through of the Great Hall, slow and steady",
-          "Detail shots: armour, furniture, portraits",
-          "Piece-to-camera on the 1604–1978 Greville arc"
-        ]
+        "todo": "Say the turn out loud: this is the point the castle stops being a weapon and becomes a house.",
+        "film": []
       }
     },
     "mill-engine": {
       "name": "Mill & Engine House",
       "actId": "act4",
-      "angle": "The Victorian machine under a medieval fortress",
-      "story": "Down by the river under Caesar's Tower is the Mill and Engine House, where the Victorians put in generators to give the castle electric light. It is the least famous thing on site and one of the most interesting: a medieval fortress wired up by engineers in overalls. It also hands you the best low angle on Caesar's Tower anywhere in the grounds, and the broken bridge arches you filmed this morning are right outside — same subject, opposite bank, six hours apart. That cuts together well.",
+      "angle": "The only part built for work",
+      "story": "Down by the river under Caesar's Tower. The Victorians put generators in here to light the castle. Least famous thing on the site and one of the most interesting.",
       "facts": [
-        "The mill site is medieval; the machinery is Victorian — hydroelectric power for the castle",
-        "The castle had electric light before most of the town did",
-        "The ruined medieval bridge arches sit just outside — the same ones from your opening shot",
-        "Best low-angle view of Caesar's Tower on the entire site"
+        "The Victorians installed generators here, so the castle had electric light before most of Warwick town did.",
+        "The mill site itself is medieval — the same spot powered by water, then by electricity, 700 years apart.",
+        "It's the only part of the castle built for work rather than war or for show."
       ],
       "routeCard": {
         "sub": "River level, below Caesar's Tower",
@@ -477,25 +435,19 @@
           "Caesar's Tower from below",
           "The medieval bridge arches from the far bank"
         ],
-        "todo": "Get the low angle on Caesar's Tower and the reverse of your opening shot. Then leave the castle — 10-minute walk to Lord Leycester.",
-        "film": [
-          "Low angle up Caesar's Tower",
-          "The Victorian machinery, close and mechanical",
-          "Reverse of the morning bridge shot — bookend for the edit"
-        ]
+        "todo": "Quick stop. The broken bridge arches from this morning are right outside — same subject from the other bank.",
+        "film": []
       }
     },
     "lord-leycester": {
       "name": "The Lord Leycester",
       "actId": "act5",
       "angle": "The other man in this story",
-      "story": "Ten minutes from the castle gate is a row of crooked timber buildings that started life as 14th-century guildhalls. In 1571 Robert Dudley, Earl of Leicester and Elizabeth I's favourite, turned them into a home for wounded and retired soldiers. It still is one — the Brethren have lived here for 455 years. They also survived the Great Fire of Warwick in 1694, which flattened most of the town centre, and that is exactly why they look nothing like the Georgian brick all around them.",
+      "story": "Ten minutes' walk from the gate. A row of crooked timber buildings that Robert Dudley turned into a home for old soldiers in 1571. You need to introduce him here, because you're about to stand at his tomb.",
       "facts": [
-        "Founded 1571 by Robert Dudley, Earl of Leicester, Elizabeth I's favourite",
-        "Still houses ex-servicemen — the Brethren — 455 years on",
-        "The buildings are 14th-century guildhalls; Dudley repurposed them, he didn't build them",
-        "Survived the Great Fire of 1694 — which is why the rest of the centre is Queen Anne brick",
-        "Show your Warwick Castle ticket at the desk: 25% off, £9 instead of £12, and a year's free return"
+        "Robert Dudley founded this in 1571 as a home for wounded soldiers — and it still houses ex-servicemen 455 years later.",
+        "Dudley was Elizabeth I's favourite and probably hoped to marry her. A public good deed like this was how you built a reputation at court.",
+        "The buildings are 14th-century guildhalls that survived the Great Fire of 1694. That's why everything around them is Georgian brick and these are timber."
       ],
       "routeCard": {
         "sub": "High Street · open till 5, last admission 4",
@@ -514,26 +466,19 @@
           "The Master's Garden",
           "The Brethren's Kitchen"
         ],
-        "todo": "Show the castle ticket for 25% off. Set up the Dudley link here — you're about to stand at his tomb, and the audience needs to know who he is first.",
-        "film": [
-          "Courtyard wide — the timber framing is the shot",
-          "Piece-to-camera introducing Dudley: 1571, still a soldiers' home",
-          "Street-level shot showing timber against the Georgian brick either side"
-        ]
+        "todo": "Show your Warwick Castle ticket at the desk for 25% off — £9 instead of £12. Introduce Dudley here.",
+        "film": []
       }
     },
     "beauchamp-chapel": {
       "name": "St Mary's — The Beauchamp Chapel",
       "actId": "act5",
-      "angle": "Act five — the ending. They're all in here.",
-      "story": "This is where the film ends. The Beauchamp Chapel was built between 1443 and 1464 to hold Richard Beauchamp, 13th Earl of Warwick, and it took twenty-one years because nobody was prepared to do it cheaply. His effigy is gilt bronze, hands raised. Robert Dudley is buried here too — the same man whose almshouse you walked out of twenty minutes ago — and so is his little son, who died at three. So you spend an entire day inside the rooms these men built and fought over, and then you stand at their graves. Say that on camera, and stop talking.",
+      "angle": "The ending — they're all in this one room",
+      "story": "This is where the day ends. The chapel was built to hold one man's tomb, and Robert Dudley is in here too — the same man whose almshouse you just left. You've spent the day in the rooms these men built, and now you're standing at their graves. Say that, then stop.",
       "facts": [
-        "Built 1443–1464 — twenty-one years — for Richard Beauchamp, 13th Earl, who died in 1439",
-        "His effigy is gilt bronze, one of the finest medieval tombs in Europe",
-        "Robert Dudley, Earl of Leicester, is buried here — the founder of the Lord Leycester",
-        "So is Dudley's son, who died aged three, known as the 'Noble Imp'",
-        "Church entry is free by donation; the chapel and chancel are £5; the tower is another £5 and 163 steps",
-        "The tower was rebuilt after the Great Fire of 1694"
+        "This chapel took 21 years to build, 1443 to 1464, purely to house one man's tomb — Richard Beauchamp, Earl of Warwick.",
+        "His effigy is gilt bronze with the hands raised but not joined together. That's deliberate: he's shown seeing a vision, not praying.",
+        "Robert Dudley is buried here too — the man whose almshouse you walked out of twenty minutes ago. The whole day ends in one room."
       ],
       "routeCard": {
         "sub": "Old Square · Saturday 10:30–5 · chapel £5",
@@ -552,12 +497,8 @@
           "The Noble Imp",
           "The chapel vault and glass"
         ],
-        "todo": "Pay the £5 for the chapel — this is the ending, not an optional extra. Film the sign-off in here, then put the camera down. Hard stop.",
-        "film": [
-          "Slow push in on the gilt-bronze effigy — your closing shot",
-          "Dudley's tomb, with the line back to the Lord Leycester",
-          "Sign-off piece-to-camera in the chapel or on the church steps"
-        ]
+        "todo": "Pay the £5 for the chapel — this is the ending, not an extra. Say your closing line here and finish.",
+        "film": []
       }
     }
   },
@@ -581,14 +522,13 @@
       "The ask: like, subscribe — and where should the next one go?"
     ]
   },
-  "talkTipbox": "You're telling this one yourself, so give each stop ONE idea, not five. Say the date, say what happened, say why it matters — then stop. 20–40 seconds a clip. Fluffing a line is fine: pause, breathe, go again. The edit will never show it.",
+  "talkTipbox": "Three facts per stop, and you only need to land the one that interests you most. Say the date, say what happened, say why it's odd or surprising — then move on. You're walking, talking and recording at the same time, so short beats complete every time.",
   "goldenRules": [
-    "Book the castle ticket online — cheaper, and it's your Rainy Day Promise insurance",
-    "Keep the physical castle ticket: it's the key to 25% off Lord Leycester",
-    "Confirm show times on the board at the gate — they move",
-    "Outdoor stops before 1:05 PM while the sun's out; everything after is indoors",
-    "Do each piece-to-camera BEFORE the show starts, not over the top of it",
-    "Handheld only — no tripod or gimbal without permission",
+    "Three fixed show times: 10:45 trebuchet, 11:45 jousting, 12:30 falconry. Everything bends around them.",
+    "Confirm those times on the board at the gate — they do move.",
+    "Keep your castle ticket on you: it's 25% off at Lord Leycester (£9 not £12).",
+    "£5 cash or card for the Beauchamp Chapel — that's the ending, don't skip it.",
+    "Talk before each show starts, not over the top of it.",
     "Hard stop at 4 PM. Lord Leycester's last admission is 4; St Mary's shuts at 5."
   ],
   "outro": "One castle, 958 years, and you finish standing at their tombs. That's a film, not a tour.",
