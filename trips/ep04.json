@@ -5,25 +5,25 @@
   "dates": "Sat 22 August 2026",
   "episode": "EP.04",
   "heroKicker": "One castle, 958 years",
-  "intro": "One castle, one day, 958 years. Five acts from a Norman earth mound in 1068 to a pair of tombs a ten-minute walk away — three facts to talk about at every stop, and a hard stop at 4 PM.",
+  "intro": "One castle, one town, 958 years — from a pile of mud in 1068 to a gold tomb finished in 1464. Five acts, three live shows, three things to say at every stop. Leave at 9:30, camera down by 4:45.",
   "dayGlance": [
     {
       "n": 1,
       "color": "rust",
       "title": "Origins & the Fortress",
-      "sub": "9:20 AM — Castle Bridge, the Norman mound, the trebuchet, the towers."
+      "sub": "10:30 AM — the Norman mound, then the great towers."
     },
     {
       "n": 2,
       "color": "ochre",
       "title": "The Kingmaker & the House",
-      "sub": "11:45 AM — jousting, falconry, the State Rooms, the Mill."
+      "sub": "11:45 AM — jousting, falconry, the trebuchet at 2, then the State Rooms."
     },
     {
       "n": 3,
       "color": "forest",
       "title": "Dudley & the Tombs",
-      "sub": "2:50 PM — Lord Leycester, then the Beauchamp Chapel. Stop at 4."
+      "sub": "3:25 PM — Lord Leycester, the Beauchamp Chapel, then the river. Done by 4:45."
     }
   ],
   "acts": [
@@ -105,47 +105,47 @@
       "label": "Warwick",
       "date": "Sat 22 August 2026",
       "color": "rust",
-      "routeHeader": "Birmingham → Castle Bridge → Warwick Castle → Lord Leycester → St Mary's → Birmingham",
+      "routeHeader": "Mariner Avenue → Warwick Castle → Lord Leycester → St Mary's → Castle Bridge → home",
       "fullRoute": {
-        "label": "DRIVE OUT & BACK",
-        "sub": "Birmingham to Warwick Castle, M40 J15 — about 40 minutes",
-        "href": "https://www.google.com/maps/dir/?api=1&origin=Birmingham&destination=Warwick%20Castle%2C%20Warwick&travelmode=driving"
+        "label": "DRIVE OUT",
+        "sub": "70 Mariner Avenue to Warwick Castle — about 45 minutes via the M42 and M40",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=70%20Mariner%20Avenue%2C%20Birmingham&destination=Warwick%20Castle%2C%20Warwick&travelmode=driving"
       },
-      "planHeader": "One castle, five acts · 8:30 AM – 4:00 PM",
+      "planHeader": "One castle, five acts · 9:30 AM – 4:45 PM",
       "planNote": {
-        "kicker": "Sun & shows",
+        "kicker": "Leaving 9:30",
         "color": "rust",
-        "text": "Met Office for Warwick: sunny intervals right through 8 AM to 6 PM, 12→20°C, under 5% rain all day. Every outdoor stop is scheduled before 1:05 PM while the light is best; everything after lunch is indoors, so cloud can't hurt you. Fixed show times: trebuchet 10:45, jousting 11:45, falconry 12:30. Hard stop at 4 PM — Lord Leycester's last admission is 4 PM and St Mary's closes at 5. Park at the Stables car park, CV34 4QU, £10, right beside the castle."
+        "text": "Out of Mariner Avenue at 9:30, about 45 minutes, park at the Stables car park (CV34 4QU, £10) around 10:15. Two changes because of the later start: the trebuchet is now the 2 PM show instead of 10:45, and the river shot moves to the end of the day at 4:35 — which is better light anyway. Fixed times you must hit: jousting 11:45, falconry 12:30, trebuchet 2:00. Met Office for Warwick: sunny intervals 8 AM to 6 PM, 12 up to 20°C, under 5% rain. Lord Leycester's last admission is 4 PM and St Mary's shuts at 5 — the plan gets you into both with room to spare."
       },
       "routeStops": [
-        "castle-bridge",
         "the-mound",
-        "trebuchet",
         "towers",
         "jousting",
         "falconry",
         "lunch",
+        "trebuchet",
         "state-rooms",
         "mill-engine",
         "lord-leycester",
-        "beauchamp-chapel"
+        "beauchamp-chapel",
+        "castle-bridge"
       ],
       "planStops": [
-        "castle-bridge",
         "the-mound",
-        "trebuchet",
         "towers",
         "jousting",
         "falconry",
         "lunch",
+        "trebuchet",
         "state-rooms",
         "mill-engine",
         "lord-leycester",
-        "beauchamp-chapel"
+        "beauchamp-chapel",
+        "castle-bridge"
       ],
       "planArrival": {
-        "title": "Hard stop at 4 PM",
-        "note": "Camera down at the chapel. Eight-minute walk back to the Stables car park, 40 minutes home, in by about 4:50."
+        "title": "Camera down at 4:45 PM",
+        "note": "Five minutes back to the Stables car park, about 45 minutes home. In by roughly 5:35 — seven hours door to door."
       }
     }
   ],
@@ -153,30 +153,30 @@
     "castle-bridge": {
       "name": "Castle Bridge & the River Avon",
       "actId": "act1",
-      "angle": "Set up the whole day before you go in",
-      "story": "Best view of the castle and it costs nothing. Say what the day is: one castle, one town, 958 years — from a pile of mud to a gold tomb. Then point at the tower and start.",
+      "angle": "Your opening shot — filmed last",
+      "story": "This is the shot the video opens with, and you're filming it at the end of the day. That's normal — shooting order and edit order are different things. It's also better light: the low afternoon sun comes round onto the river front, which you'd never get at half nine in the morning. Stand here, say the opening lines, and you're done.",
       "facts": [
         "There's been a castle on this rock for 958 years, since 1068. Almost every other English castle is a ruin today — this one survived because people never stopped living in it. A family was still here until 1978.",
         "That big tower has been nicknamed Caesar's Tower for centuries, but Caesar never came near England's midlands. Someone invented the name later because it sounded grand. Its real name is Poitiers Tower, after a battle in France in 1356 — and I'll show you why that matters.",
         "Those broken stone arches sticking out of the river are the old medieval bridge. When it wore out in 1793 nobody demolished it. They built a new bridge next door and left the old one standing in the water."
       ],
       "routeCard": {
-        "sub": "Castle Bridge, Banbury Road · 9:20 AM · free",
-        "note": "Park first at the Stables car park (CV34 4QU, £10) and walk down — about 5 minutes.",
+        "sub": "Castle Bridge, Banbury Road · 4:35 PM · free",
+        "note": "Five minutes' walk from the Stables car park, so it costs you almost nothing on the way out.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Castle%20Bridge%2C%20Warwick&travelmode=walking",
         "wazeHref": "https://waze.com/ul?q=Warwick%20Castle%20Stables%20Car%20Park&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "9:20–9:55 AM",
-        "leaveBy": "9:55",
+        "time": "4:35–4:45 PM",
+        "leaveBy": null,
         "see": [
           "Caesar's Tower from the river",
           "The ruined medieval bridge arches",
           "The castle's south front in morning light"
         ],
-        "todo": "Open the video here. Then walk up to the gate for 10:00.",
+        "todo": "Last stop, on the walk back to the car. Film your opening here — the hook, what the day is, and the promise about Joan of Arc's tomb. Then finish.",
         "film": []
       }
     },
@@ -199,14 +199,14 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "10:00–10:40 AM",
-        "leaveBy": "10:40",
+        "time": "10:30–11:15 AM",
+        "leaveBy": "11:15",
         "see": [
           "The original Norman motte",
           "Views over the whole castle site",
           "The grounds Capability Brown landscaped from 1749"
         ],
-        "todo": "Climb it first, before the site fills up. One idea only: 1068, a foreign king, and a country he had to hold down.",
+        "todo": "First thing in. One idea only: 1068, a foreign king, and a country he had to hold down. Don't rush this one — it sets up everything else.",
         "film": []
       }
     },
@@ -221,7 +221,7 @@
         "Watch how long the crew take to load one single shot. That's the whole point: a few rocks an hour never knocked a castle down. The machine was there to terrify people and wear them out. What actually beat a castle was starvation, and that takes months."
       ],
       "routeCard": {
-        "sub": "River bank, below the castle · 10:45 show",
+        "sub": "River bank, below the castle · 2:00 PM show",
         "note": "Included in your day ticket. Get there 5 minutes early for a clear sightline.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Warwick%20Castle&travelmode=walking",
         "wazeHref": "https://waze.com/ul?q=Warwick%20Castle&navigate=yes",
@@ -229,14 +229,14 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "10:45–11:05 AM",
-        "leaveBy": "11:05",
+        "time": "1:50–2:15 PM",
+        "leaveBy": "2:15",
         "see": [
           "The trebuchet loading crew",
           "The firing",
           "Riverside setting below the towers"
         ],
-        "todo": "Be there for 10:45. Tell the Warwolf story while they winch it up — that's the dead time.",
+        "todo": "The 2 PM show. Be there by 1:50. Tell the Warwolf story while they winch it up — that's the dead time. In the edit this belongs back with the towers, before the jousting.",
         "film": []
       }
     },
@@ -281,7 +281,7 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "11:10–11:40 AM",
+        "time": "11:15–11:40 AM",
         "leaveBy": "11:40",
         "see": [
           "Guy's Tower",
@@ -368,12 +368,12 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "1:05–1:35 PM",
-        "leaveBy": "1:35",
+        "time": "1:05–1:40 PM",
+        "leaveBy": "1:45",
         "see": [
           "Somewhere to sit down for half an hour"
         ],
-        "todo": "Thirty minutes, not an hour. Sit down properly — you've been on your feet since 9:20.",
+        "todo": "Sit down properly for 35 minutes. The trebuchet is at 2, so you've got time.",
         "film": []
       },
       "hideOnTalk": true
@@ -397,8 +397,8 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "1:35–2:20 PM",
-        "leaveBy": "2:20",
+        "time": "2:20–3:00 PM",
+        "leaveBy": "3:00",
         "see": [
           "The Great Hall",
           "The State Rooms",
@@ -428,8 +428,8 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "2:20–2:40 PM",
-        "leaveBy": "2:40",
+        "time": "3:00–3:15 PM",
+        "leaveBy": "3:15",
         "see": [
           "Victorian generators and machinery",
           "Caesar's Tower from below",
@@ -458,8 +458,8 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "2:50–3:25 PM",
-        "leaveBy": "3:25",
+        "time": "3:25–3:55 PM",
+        "leaveBy": "3:55",
         "see": [
           "The timber-framed courtyard",
           "The Great Hall",
@@ -489,15 +489,15 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "3:30–4:00 PM",
-        "leaveBy": "4:00",
+        "time": "4:00–4:35 PM",
+        "leaveBy": "4:35",
         "see": [
           "Richard Beauchamp's gilt-bronze effigy",
           "Robert Dudley's tomb",
           "The Noble Imp",
           "The chapel vault and glass"
         ],
-        "todo": "Pay the £5 for the chapel. Say your closing line here and finish. Camera down.",
+        "todo": "Pay the £5 for the chapel — this is the ending. Say your closing line here. Then one short walk to the river for the opening shot and you're finished.",
         "film": []
       }
     }
@@ -524,12 +524,13 @@
   },
   "talkTipbox": "Assume your viewer knows none of this. Every time you say a name — Dudley, Beauchamp, the Kingmaker — give them one line on who that is before you go on, or it means nothing. Three facts a stop, and you only need to land the one that grabbed you. Date, what happened, why it's surprising. Then move.",
   "goldenRules": [
-    "Three fixed show times: 10:45 trebuchet, 11:45 jousting, 12:30 falconry. Everything bends around them.",
-    "Confirm those times on the board at the gate — they do move.",
+    "Three fixed show times: jousting 11:45, falconry 12:30, trebuchet 2:00. Everything bends around them.",
+    "Confirm those on the board at the gate — they do move.",
     "Keep your castle ticket on you: it's 25% off at Lord Leycester (£9 not £12).",
-    "£5 cash or card for the Beauchamp Chapel — that's the ending, don't skip it.",
+    "£5 for the Beauchamp Chapel — that's the ending, don't skip it.",
+    "Be at Lord Leycester by 3:55 at the latest. Last admission is 4 PM, no exceptions.",
     "Talk before each show starts, not over the top of it.",
-    "Hard stop at 4 PM. Lord Leycester's last admission is 4; St Mary's shuts at 5."
+    "The river shot is last, at 4:35 — but it's the opening of the video."
   ],
   "outro": "One castle, 958 years, and you finish standing at their tombs. That's a film, not a tour.",
   "dayGlanceTitle": "The day at a glance",
