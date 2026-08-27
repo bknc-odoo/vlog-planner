@@ -1,6 +1,13 @@
 {
-  "default": "ep04",
+  "default": "ep05",
   "trips": [
+    {
+      "id": "ep05",
+      "title": "The Rock, the Toll and the Legend",
+      "subtitle": "St. Goar → the Loreley → Bacharach → Burg Stahleck",
+      "dates": "Thu 27 August 2026",
+      "episode": "EP.05"
+    },
     {
       "id": "ep04",
       "title": "The Castle That Made Kings",
