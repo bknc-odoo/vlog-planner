@@ -101,7 +101,7 @@
       "planNote": {
         "kicker": "Pier 16:55",
         "color": "rust",
-        "text": "Plan B and it's the better day. Everything before the boat flexes around whenever you actually land in Bacharach — the times below assume roughly 2 PM, so slide them. The ONE fixed point: be standing on the KD stage at 16:55 for the 17:15, and buy your ticket through to BOPPARD, not St. Goar. There is no later boat. Downstream is the fast direction, so the gorge unrolls quickly: Kaub 5:25, Oberwesel 5:41, the Loreley 5:57, St. Goar 6:00, into Boppard about 6:50 — confirm that arrival time at the kiosk, it's my estimate not their timetable. Sit on the LEFT going down for the Loreley and St. Goar. Then Boppard: Roman fort, dinner, and the promenade for golden hour at 7:40 and sunset at 8:24. Home is easy and late — Boppard to Koblenz about 15 minutes (last around 22:51), then a DIRECT train Koblenz to Brühl, about 53 minutes (last around 23:26)."
+        "text": "Plan B and it's the better day. Everything before the boat flexes around whenever you actually land in Bacharach — the times below assume roughly 2 PM, so slide them. The ONE fixed point: be standing on the KD stage at 16:55 for the 17:15, and buy your ticket through to BOPPARD, not St. Goar. There is no later boat. Downstream is the fast direction, so the gorge unrolls quickly: Kaub 5:25, Oberwesel 5:41, the Loreley 5:57, St. Goar 6:00, into Boppard about 6:50 — confirm that arrival time at the kiosk, it's my estimate not their timetable. Sit on the LEFT going down for the Loreley and St. Goar. Escape hatch if you change your mind on the water: the boat calls at St. Goar about 18:01 and you can just get off there instead — Rheinfels is shut by then (closes 6, last admission 5) but the climb up and the castle terrace restaurant are open, and trains home run from there too. Otherwise stay on. Then Boppard: Roman fort, dinner, and the promenade for golden hour at 7:40 and sunset at 8:24. Home is easy and late — Boppard to Koblenz about 15 minutes (last around 22:51), then a DIRECT train Koblenz to Brühl, about 53 minutes (last around 23:26)."
       },
       "routeStops": [
         "old-town",
@@ -442,7 +442,7 @@
       ],
       "routeCard": {
         "sub": "From the deck · about 6:00 PM",
-        "note": "Rheinfels on your left, Katz and Maus on your right going downstream.",
+        "note": "Rheinfels on your left, Katz and Maus on your right going downstream. The boat calls here about 18:01 — this is your last chance to get off short of Boppard if you'd rather.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Burg%20Rheinfels%20St.%20Goar&travelmode=walking",
         "wazeHref": "https://waze.com/ul?q=Burg%20Rheinfels%20St.%20Goar&navigate=yes",
         "walkPoints": [],
