@@ -4,8 +4,8 @@
   "subtitle": "Bacharach on foot → downstream through the gorge → Boppard at sunset",
   "dates": "Thu 27 August 2026",
   "episode": "EP.05",
-  "heroKicker": "Plan B, and it's better",
-  "intro": "We missed the morning boat, so the day flipped: train to Bacharach for 2:10, the town and the castle above it on foot, then the 17:15 boat DOWN the gorge in evening light — Kaub, Oberwesel, the Loreley, St. Goar — off at Boppard for sunset. Two fixed times: off the hill at 4:30, on the pier at 4:55.",
+  "heroKicker": "One town, one boat, one sunset",
+  "intro": "An afternoon in a medieval wine town, then the last boat of the day down the most famous stretch of the Rhine — Kaub, Oberwesel, the Loreley, St. Goar — landing at Boppard for sunset. Two fixed times all day: off the hill at 4:30, on the pier at 4:55.",
   "dayGlanceTitle": "The day at a glance",
   "dayGlance": [
     {
@@ -47,8 +47,8 @@
       "id": "act2",
       "color": "rust",
       "label": "Act 2 · Down the gorge",
-      "tagline": "Everything you missed this morning, in better light.",
-      "narrative": "Going downstream you're with the current, so it's quicker and the whole gorge unrolls in about ninety minutes: Kaub at 5:25, Oberwesel at 5:41, the Loreley at 5:57 and St. Goar at 6:00.\n\nThis is the better version of the morning plan. Evening light, the current doing the work, and you've already stood in the town the Loreley legend was written about — so when the rock comes up you can point back upstream and say so. Stay on deck the whole way.",
+      "tagline": "The whole gorge from the water, in evening light.",
+      "narrative": "Going downstream you're with the current, so the gorge unrolls quickly: Kaub at 5:25, Oberwesel at 5:41, the Loreley at 5:57 and St. Goar at 6:00.\n\nEvening is the right time to do this. The light is low and warm on the vineyard terraces, and you've already spent the afternoon standing in the town the Loreley legend was written about — so when the rock comes up you can point back upstream and say so. Stay on deck the whole way; it comes faster than you think.",
       "stopIds": [
         "bacharach-pier",
         "kaub",
@@ -144,7 +144,7 @@
       "name": "The Loreley",
       "actId": "act2",
       "angle": "The legend is 225 years old, not medieval",
-      "story": "Forty minutes down from Bacharach, on your right. You get it in evening light coming downstream, which is better than you'd have had this morning. Everyone films the rock; almost nobody knows the story is a modern invention — and it was written about the town you just spent the afternoon in.",
+      "story": "Forty minutes down from Bacharach, on your right, and the low evening light is the best you'll get on it all day. Everyone films the rock; almost nobody knows the story is a modern invention — and it was written about the town you just spent the afternoon in.",
       "facts": [
         "A wall of slate 132 metres above the water, and right here the Rhine squeezes down to 113 metres wide — the narrowest point on the whole navigable river. Fast, deep, and it genuinely used to wreck boats. The danger was real. The girl was not.",
         "Nobody in the Middle Ages told stories about a woman on this rock. A writer called Clemens Brentano invented her in 1801, in a ballad called 'Zu Bacharach am Rheine' — Bacharach on the Rhine. He set it in the town we spent this afternoon in, back upstream.",
@@ -408,7 +408,7 @@
       "name": "Bacharach — boarding the boat",
       "actId": "act2",
       "angle": "The one fixed time left in the day",
-      "story": "This is the whole day's deadline. The 17:15 is the last boat down, and there is no later one — miss it and you're on a train instead. Be standing on the stage at 16:55. Buy the ticket to BOPPARD, not St. Goar, and check with the kiosk what time it actually gets in.",
+      "story": "This is the day's one hard deadline. The 17:15 is the last boat down, so there's no second chance at it. Be standing on the stage at 16:55. Buy the ticket to BOPPARD, not St. Goar, and check with the kiosk what time it actually gets in.",
       "facts": [],
       "routeCard": {
         "sub": "KD Anlegestelle Bacharach · be there 16:55 · boat 17:15",
@@ -434,7 +434,7 @@
       "name": "St. Goar & Rheinfels, from the water",
       "actId": "act2",
       "angle": "The castle you were supposed to start at",
-      "story": "You sail straight past the town you missed this morning — which is a better shot than standing in it. Rheinfels is the huge ruin on the left bank; Katz and Maus are the two small castles on the right.",
+      "story": "St. Goar and the biggest castle ruin on the whole river, taken from the water — which is a better angle on it than you'd ever get standing in the town. Rheinfels is the huge ruin on the left bank; Katz and Maus are the two small castles on the right.",
       "facts": [
         "That enormous ruin on the left is Burg Rheinfels. It was once the biggest castle on this river, and in 1692 it held out against a French army of around 28,000 men — the only castle on the Middle Rhine that didn't fall that war.",
         "It survived the siege and then lost anyway: about a century later, in 1797, French troops simply blew it up. What you're looking at is roughly a third of what used to be there.",
@@ -456,7 +456,7 @@
           "Burg Katz and Burg Maus",
           "St. Goar and St. Goarshausen facing each other"
         ],
-        "todo": "Say it out loud: this is the town we missed this morning, and we're getting the better angle on it. Turns the mistake into a bit of the story.",
+        "todo": "Rheinfels is enormous and it reads much better from the river than from the road. Get it wide, and tell the siege story while it's still in frame.",
         "film": []
       }
     },
@@ -499,7 +499,7 @@
       "facts": [
         "Boppard sits on the sharpest bend in the whole Rhine — the river does a near U-turn here, which is why the view opens up so wide compared to the narrow gorge you just came down.",
         "That slope of vines across the water is the Bopparder Hamm: 75 hectares, the largest single vineyard on the Middle Rhine, and almost all of it Riesling. Same grape, same slate, same river as Bacharach.",
-        "And that's the day: we missed the boat we planned, took a train instead, and ended up seeing the whole gorge in evening light from the water. Better than the plan."
+        "And that's the day: a wine town in the afternoon, a castle above it, and the whole gorge from the water in the best light there is."
       ],
       "routeCard": {
         "sub": "Rheinallee, Boppard · 7:40 PM · free",
@@ -553,9 +553,9 @@
     "color": "ochre",
     "where": "Bacharach market square — on arrival",
     "facts": [
-      "The hook: 'we missed our boat this morning — so we're doing the whole thing backwards, and it's going to be better'",
-      "What this is: an afternoon in a medieval wine town, then the last boat of the day down the most famous stretch of the Rhine in evening light.",
-      "The promise: 'and the rock everyone comes here for was made famous by a poem set in THIS town — we'll get to it at about six o'clock'"
+      "The hook: 'the most famous rock in Germany was made famous by a poem — and the poem is set in this town, right here'",
+      "What this is: an afternoon in Bacharach, one of the best-preserved medieval towns on the Rhine, then the last boat of the day down the gorge in evening light.",
+      "The promise: 'and we'll be sailing right under that rock at about six o'clock'"
     ]
   },
   "signOff": {
@@ -564,13 +564,13 @@
     "where": "Boppard promenade — about 8:15 PM",
     "facts": [
       "Where you are: on the sharpest bend in the Rhine, watching the sun go down over the biggest vineyard on the river",
-      "The shape of the day: we missed a boat, caught a train, walked a town, and then came down the whole gorge in the best light of the day. The plan failing was the best thing that happened.",
+      "The shape of the day: a wine town at two, a castle above it at four, the whole gorge from the water at six, and the sun going down at half eight.",
       "The ask: like, subscribe — and where should the next one go?"
     ]
   },
   "talkTipbox": "Assume your viewer knows none of this — and assume you don't either until you've said it out loud once. Every single time a name comes up, give one plain line on who or what that is before you carry on: not 'the Count Palatine' but 'the man who ran this stretch of river for the king'. Same for places, same for dates. Three facts a stop, and you only need the one that grabbed you. What happened, when, and why it's surprising. The Wernerkapelle is the exception — say that one plainly, no flourish, and don't rush it.",
   "goldenRules": [
-    "Be at the Bacharach pier at 16:55. The 17:15 is the last boat down — miss it and the day ends on a train.",
+    "Be at the Bacharach pier at 16:55. The 17:15 is the last boat down — there is no later one.",
     "Eat in Bacharach. Next food is Boppard at about 7 PM.",
     "Buy the ticket through to BOPPARD, not St. Goar. Confirm the arrival time at the kiosk.",
     "Going downstream, sit on the LEFT: that's the side for the Loreley and for St. Goar.",
@@ -579,5 +579,5 @@
     "Boppard: Roman fort first while there's light on it, then the promenade for sunset at 8:24.",
     "Home is late and easy — Koblenz then a direct train to Brühl. No rush tonight."
   ],
-  "outro": "We missed the boat and got a better day. Bacharach on foot, the gorge in evening light, and the sun going down at Boppard."
+  "outro": "A wine town on foot, the whole gorge from the water at golden hour, and the sun going down at Boppard."
 }
