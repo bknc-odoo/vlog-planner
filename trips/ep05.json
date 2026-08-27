@@ -94,8 +94,8 @@
       "routeHeader": "Bacharach on foot → Burg Stahleck → 17:15 boat downstream → Boppard → Koblenz → Brühl",
       "fullRoute": {
         "label": "TO THE PIER",
-        "sub": "Bacharach market square to the KD landing stage — about 5 minutes on foot",
-        "href": "https://www.google.com/maps/dir/?api=1&origin=Marktplatz%20Bacharach&destination=KD%20Anlegestelle%20Bacharach&travelmode=walking"
+        "sub": "Bacharach station to the KD landing stage — about 6 minutes on foot",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=50.05625%2C7.76934&destination=50.05995%2C7.77093&travelmode=walking"
       },
       "planHeader": "Town, then water, then sunset · until late",
       "planNote": {
@@ -152,9 +152,9 @@
       ],
       "routeCard": {
         "sub": "From the deck, right-hand side · about 5:57 PM",
-        "note": "Going downstream the Loreley is on your RIGHT, about 40 minutes out of Bacharach. This is the one you came for — do not be inside when it arrives.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Loreley&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Loreley&navigate=yes",
+        "note": "Seen from the deck — nothing to navigate to. The map pin is the Loreley rock itself if you want to look it up. Going downstream the Loreley is on your RIGHT, about 40 minutes out of Bacharach. This is the one you came for — do not be inside when it arrives.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.13913%2C7.72886&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.13913%2C7.72886&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -182,9 +182,9 @@
       ],
       "routeCard": {
         "sub": "From the deck, left-hand side · about 5:41 PM",
-        "note": "Going downstream, Oberwesel is on your LEFT. Schönburg is the castle on the hill above the town.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Schönburg%20Oberwesel&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Schoenburg%20Oberwesel&navigate=yes",
+        "note": "Seen from the deck — nothing to navigate to. The map pin is Schönburg, above Oberwesel if you want to look it up. Going downstream, Oberwesel is on your LEFT. Schönburg is the castle on the hill above the town.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.10118%2C7.73225&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.10118%2C7.73225&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -212,9 +212,9 @@
       ],
       "routeCard": {
         "sub": "From the deck, right-hand side · about 5:25 PM",
-        "note": "Going downstream now, so Kaub is on your RIGHT. It comes up about ten minutes after casting off.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Burg%20Pfalzgrafenstein&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Burg%20Pfalzgrafenstein%20Kaub&navigate=yes",
+        "note": "Seen from the deck — nothing to navigate to. The map pin is Pfalzgrafenstein, mid-river at Kaub if you want to look it up. Going downstream now, so Kaub is on your RIGHT. It comes up about ten minutes after casting off.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.08313%2C7.76552&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.08313%2C7.76552&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -243,29 +243,29 @@
       "routeCard": {
         "sub": "Marktplatz and the walls · 3:30 PM · free",
         "note": "Lunch stop as well as a sight. Anywhere on the market square. Keep it to 35 minutes — the hill is the thing you don't want to rush.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Marktplatz%20Bacharach&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Bacharach%20Marktplatz&navigate=yes",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.0599%2C7.7682&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.0599%2C7.7682&navigate=yes",
         "walkPoints": [
           {
             "n": 1,
-            "name": "Marktplatz",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Marktplatz%20Bacharach",
-            "story": "The market square — Marktplatz, if you're reading a sign. It was the centre of the wine trade, and it's still the centre of the town.",
-            "todo": "Start here. Wide shot of the square before it fills up."
+            "name": "The market square",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=50.0599%2C7.7682",
+            "story": "The centre of the old town, on Oberstraße. Everything in Bacharach is within a few minutes of here.",
+            "todo": "Start here. Eat, and film the square while you wait."
           },
           {
             "n": 2,
-            "name": "The town wall & Marktturm",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Stadtmauer%20Bacharach",
-            "story": "Nearly the full medieval ring, towers and gates included — unusual on the Rhine.",
-            "todo": "Walk a stretch of it. Good place to say the wine-money line."
+            "name": "Altes Haus & Oberstraße",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=50.06036%2C7.76794",
+            "story": "The 1368 house, two minutes up the main street.",
+            "todo": "The postcard shot of the town."
           },
           {
             "n": 3,
-            "name": "The Rhine quay",
-            "pinHref": "https://www.google.com/maps/search/?api=1&query=Bacharach%20Rheinufer",
-            "story": "Where the wine actually left from, and where you landed an hour ago.",
-            "todo": "Look back at the river you came up. Nice cutaway."
+            "name": "The Rhine quay & KD pier",
+            "pinHref": "https://www.google.com/maps/search/?api=1&query=50.05995%2C7.77093",
+            "story": "Where the wine left from, and where your boat goes from at 5:15.",
+            "todo": "Walk down and look at it now so you know exactly where you're going at 4:55."
           }
         ],
         "walkLoopHref": null
@@ -295,8 +295,8 @@
       "routeCard": {
         "sub": "Oberstraße 61, Bacharach · 4:00 PM · free from outside",
         "note": "Two minutes off the market square. Best light on the front is later in the afternoon, which is when you'll be there.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Altes%20Haus%20Bacharach&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Altes%20Haus%20Bacharach&navigate=yes",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.06036%2C7.76794&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.06036%2C7.76794&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -324,9 +324,9 @@
       ],
       "routeCard": {
         "sub": "Blücherstraße, by the market square · 4:20 PM · free",
-        "note": "Interiors on the Rhine usually shut around 6 PM — get inside before then, because after that you're on the hill.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=St.%20Peter%20Kirche%20Bacharach&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=St.%20Peter%20Bacharach&navigate=yes",
+        "note": "Right on the market square, a minute from where you eat. Interiors on the Rhine usually shut around 6 PM.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.0599%2C7.7682&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.0599%2C7.7682&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -356,8 +356,8 @@
       "routeCard": {
         "sub": "On the castle path above the town · 5:55 PM · free, open ruin",
         "note": "About 15 minutes uphill from the market square, directly on the way to the castle. Steps and a steady climb from here on.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Wernerkapelle%20Bacharach&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Wernerkapelle%20Bacharach&navigate=yes",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.05959%2C7.76718&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.05959%2C7.76718&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -386,8 +386,8 @@
       "routeCard": {
         "sub": "Above Bacharach · 6:40 PM · 15 min further up from the chapel",
         "note": "Another 15 minutes of steps up from the chapel. LEAVE THE TOP AT 4:30 — 20 minutes down, 5 to the pier, boat at 5:15 and there is no later one. Running late? The viewpoint just below the castle has the same view and saves you the last climb.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Burg%20Stahleck%20Bacharach&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Burg%20Stahleck&navigate=yes",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.05857%2C7.76605&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.05857%2C7.76605&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -413,8 +413,8 @@
       "routeCard": {
         "sub": "KD Anlegestelle Bacharach · be there 16:55 · boat 17:15",
         "note": "Five minutes down from the market square. Buy a ticket through to Boppard and confirm the arrival time at the kiosk — my estimate is about 18:50 but they have the real timetable.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=KD%20Anlegestelle%20Bacharach&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=KD%20Anlegestelle%20Bacharach&navigate=yes",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.05995%2C7.77093&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.05995%2C7.77093&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -442,9 +442,9 @@
       ],
       "routeCard": {
         "sub": "From the deck · about 6:00 PM",
-        "note": "Rheinfels on your left, Katz and Maus on your right going downstream. The boat calls here about 18:01 — this is your last chance to get off short of Boppard if you'd rather.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Burg%20Rheinfels%20St.%20Goar&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Burg%20Rheinfels%20St.%20Goar&navigate=yes",
+        "note": "Seen from the deck — nothing to navigate to. The map pin is Burg Rheinfels at St. Goar if you want to look it up. Rheinfels on your left, Katz and Maus on your right going downstream. The boat calls here about 18:01 — this is your last chance to get off short of Boppard if you'd rather.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.15424%2C7.70464&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.15424%2C7.70464&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -473,8 +473,8 @@
       "routeCard": {
         "sub": "Old town & Archäologischer Park · about 10 min from the landing stage · free",
         "note": "Roman fort on Angertstraße, open air and free. Market square and the Severuskirche are two minutes further.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Arch%C3%A4ologischer%20Park%20Boppard&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Arch%C3%A4ologischer%20Park%20Boppard&navigate=yes",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.23108%2C7.59013&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.23108%2C7.59013&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -504,8 +504,8 @@
       "routeCard": {
         "sub": "Rheinallee, Boppard · 7:40 PM · free",
         "note": "Sunset 8:24 PM, light until about 9. It cools down fast by the water.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Rheinallee%20Boppard&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Rheinallee%20Boppard&navigate=yes",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.23279%2C7.59077&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.23279%2C7.59077&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -531,8 +531,8 @@
       "routeCard": {
         "sub": "Boppard Hbf · a few minutes from the Rheinallee",
         "note": "Boppard → Koblenz is about 15 minutes and runs late (last around 22:51). Koblenz → Brühl is roughly 53 minutes and DIRECT, with the last one about 23:26. Total around 75–85 minutes. Loads of slack — check DB Navigator for exact times.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Boppard%20Hauptbahnhof&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Boppard%20Hauptbahnhof&navigate=yes",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.23167%2C7.58641&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?ll=50.23167%2C7.58641&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
