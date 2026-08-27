@@ -1,81 +1,72 @@
 {
   "id": "ep05",
   "title": "The Rock, the Toll and the Legend",
-  "subtitle": "St. Goar → the Loreley → Bacharach → Burg Stahleck",
+  "subtitle": "Bacharach on foot → downstream through the gorge → Boppard at sunset",
   "dates": "Thu 27 August 2026",
   "episode": "EP.05",
-  "heroKicker": "One river, 700 years of tolls",
-  "intro": "One boat, one town, one hill — and a legend that was invented about the place you end up standing in. On the water at 1:20, land at 2:30, climb at 5:40, and let the sun go down at 8:24 from the best terrace on the Rhine. Nothing after the boat is fixed.",
+  "heroKicker": "Plan B, and it's better",
+  "intro": "We missed the morning boat, so the day flipped: train to Bacharach, the town on foot all afternoon, then the 17:15 boat DOWN the gorge in evening light — past Kaub, Oberwesel, the Loreley and St. Goar — getting off at Boppard for sunset. One fixed time in the whole day: 16:55 at the Bacharach pier.",
   "dayGlanceTitle": "The day at a glance",
   "dayGlance": [
     {
       "n": 1,
-      "color": "rust",
-      "title": "Up the Gorge",
-      "sub": "1:20 PM — the Loreley, then the toll castles."
+      "color": "ochre",
+      "title": "Bacharach on foot",
+      "sub": "All afternoon — the town, the chapel, the castle above it."
     },
     {
       "n": 2,
-      "color": "ochre",
-      "title": "Bacharach",
-      "sub": "2:30 PM — late lunch, the old town, a glass of Riesling."
+      "color": "rust",
+      "title": "Down the gorge",
+      "sub": "5:15 PM — Kaub, Oberwesel, the Loreley at 5:57, St. Goar at 6:00."
     },
     {
       "n": 3,
       "color": "forest",
-      "title": "The Hill & the Light",
-      "sub": "5:40 PM — the chapel, the castle, sunset at 8:24."
+      "title": "Boppard & the light",
+      "sub": "6:50 PM — a Roman fort, then sunset at 8:24 on the promenade."
     }
   ],
-  "actsLede": "One afternoon, four acts, water to sunset.",
+  "actsLede": "Three acts: the town, the water, the light.",
   "acts": [
     {
       "id": "act1",
-      "color": "rust",
-      "label": "Act 1 · Up the gorge",
-      "tagline": "Seventy minutes against the current, past the most famous rock in Germany.",
-      "narrative": "Open at the pier, before you board, with Burg Katz on the hill opposite. Then the boat turns upstream and you have barely six minutes before the Loreley comes up on your left — the rock is only a kilometre away. Do not sit down.\n\nThe thing to land: the Loreley is not an old legend. Nobody in the Middle Ages told stories about a girl on that rock. A writer called Clemens Brentano made her up in 1801, in a ballad titled 'Zu Bacharach am Rheine' — Bacharach on the Rhine. He set the story in the exact town this boat is taking you to. So say it on the water and pay it off on land.",
+      "color": "ochre",
+      "label": "Act 1 · Bacharach on foot",
+      "tagline": "The whole afternoon in one small town.",
+      "narrative": "You've got the town to yourself until late afternoon, so do it properly: the walls and the market square, the 1368 house, the church that changes style as you look up, then the climb.\n\nThe climb is the part worth protecting. The chapel and the castle are on the same path, about fifteen minutes up and fifteen more, and the view from the top is the best in the valley. Work backwards from 16:55 at the pier: leave the top by 16:25 at the latest.",
       "stopIds": [
-        "st-goar-pier",
-        "loreley"
+        "old-town",
+        "altes-haus",
+        "st-peters",
+        "wernerkapelle",
+        "stahleck"
       ]
     },
     {
       "id": "act2",
       "color": "rust",
-      "label": "Act 2 · Who owned the river",
-      "tagline": "Every castle you can see is a tollbooth.",
-      "narrative": "This is the part that makes the whole valley make sense. There are more castles per mile here than anywhere in the world, and it is not romance — it is money. There was no Germany, just dozens of small rulers, and each one owned a stretch of the only motorway in Europe. Stop the boats, take a cut, let them go.\n\nOberwesel and Schönburg first, then Kaub — where a castle sits in the middle of the water for no reason except to collect a toll, and never once got taken.",
+      "label": "Act 2 · Down the gorge",
+      "tagline": "Everything you missed this morning, in better light.",
+      "narrative": "Going downstream you're with the current, so it's quicker and the whole gorge unrolls in about ninety minutes: Kaub at 5:25, Oberwesel at 5:41, the Loreley at 5:57 and St. Goar at 6:00.\n\nThis is the better version of the morning plan. Evening light, the current doing the work, and you've already stood in the town the Loreley legend was written about — so when the rock comes up you can point back upstream and say so. Stay on deck the whole way.",
       "stopIds": [
+        "bacharach-pier",
+        "kaub",
         "oberwesel",
-        "kaub"
+        "loreley",
+        "st-goar-water"
       ]
     },
     {
       "id": "act3",
-      "color": "ochre",
-      "label": "Act 3 · The town the legend was written about",
-      "tagline": "Timber-fronted houses, a wall that survived, and the wine that paid for it.",
-      "narrative": "You land at half past two in the town named in the title of that 1801 poem. Eat first, properly — you have nowhere to be.\n\nThen the town itself, and one idea holding it together: wine. Bacharach was one of the great wine names of Europe, and wine from the whole region got shipped out under its name because that name sold. The walls, the towers, the 1368 house, the four-storey church — all of it is wine money that never got knocked down.",
-      "stopIds": [
-        "lunch",
-        "old-town",
-        "altes-haus",
-        "st-peters",
-        "riesling"
-      ]
-    },
-    {
-      "id": "act4",
       "color": "forest",
-      "label": "Act 4 · Up the hill, into the light",
-      "tagline": "A chapel built on a lie, a castle rebuilt from rubble, and the last hour of sun.",
-      "narrative": "One climb, three beats, and they are on the same path so there is no doubling back.\n\nThe Wernerkapelle first, and do not soften it: it is a beautiful ruin built to venerate a boy whose 1287 death was blamed on Jews — an accusation that was invented and completely untrue — and what followed was a wave of massacres up and down this river. Say that plainly and move on. Then Stahleck — blown up by the French in 1689, ruined for two hundred years, rebuilt in the 1920s, a youth hostel now. Then stop talking and shoot the light.",
+      "label": "Act 3 · Boppard & the light",
+      "tagline": "A Roman wall, a river bend, and the sun going down.",
+      "narrative": "Off at Boppard around 18:50. It's a bigger, more workaday town than Bacharach and it has the one thing Bacharach hasn't: a standing Roman fort wall in a public park, free, that you can walk up to.\n\nThen the promenade. Boppard sits on the sharpest bend in the Rhine, so the view opens right up after the narrow gorge. Golden hour 19:40, sunset 20:24. Sign off there, then Koblenz and a direct train to Brühl.",
       "stopIds": [
-        "wernerkapelle",
-        "stahleck",
-        "golden-hour",
-        "bahnhof"
+        "boppard-town",
+        "boppard-sunset",
+        "boppard-bahnhof"
       ]
     }
   ],
@@ -93,119 +84,89 @@
     "Ask at the Stahleck desk whether day visitors can use the terrace — if not, the public viewpoint below is free and it's the same view",
     "Screenshot this plan — phone signal in the gorge is patchy"
   ],
-  "goldenRule": "The 13:20 boat is the only fixed time in the whole day. Be at the pier by 13:05. Everything after that bends.",
+  "goldenRule": "One fixed time in the whole day: 16:55 on the Bacharach KD stage for the 17:15 boat. There is no later one.",
   "days": [
     {
       "id": "d1",
       "label": "Rhine",
       "date": "Thu 27 August 2026",
       "color": "rust",
-      "routeHeader": "St. Goar pier → boat upstream → Bacharach → old town → Wernerkapelle → Burg Stahleck → Bahnhof",
+      "routeHeader": "Bacharach on foot → Burg Stahleck → 17:15 boat downstream → Boppard → Koblenz → Brühl",
       "fullRoute": {
         "label": "TO THE PIER",
-        "sub": "St. Goar station to the KD landing stage — about 5 minutes on foot",
-        "href": "https://www.google.com/maps/dir/?api=1&origin=Bahnhof%20St.%20Goar&destination=KD%20Anlegestelle%20St.%20Goar&travelmode=walking"
+        "sub": "Bacharach market square to the KD landing stage — about 5 minutes on foot",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Marktplatz%20Bacharach&destination=KD%20Anlegestelle%20Bacharach&travelmode=walking"
       },
-      "planHeader": "One boat, one town, one hill · 1:00 PM until late",
+      "planHeader": "Town, then water, then sunset · until late",
       "planNote": {
-        "kicker": "Boat 13:20",
+        "kicker": "Pier 16:55",
         "color": "rust",
-        "text": "Arrive St. Goar 1:00 PM, five minutes to the KD pier, standing there by 1:05 for the 1:20 upstream departure — into Bacharach at 2:30. Upstream is the slow direction: about 70 minutes up, 45 back down, because you're pushing against the current. After that nothing is fixed. Late lunch, the old town while the interiors are still open, wine around 5, then the climb. Golden hour starts 7:40 PM and sunset is 8:24 — be on the Stahleck terrace for both, and note that down in the town the sun drops behind the west wall of the gorge well before that. Light until roughly 9. One job over lunch: check DB Navigator for the last useful train to Köln. RB26 runs hourly to Koblenz (about 37 minutes) and on to Köln Hbf in roughly 2h15 direct, or about 1h50 if you change to an IC at Koblenz. Evening service thins out — know your last train before you climb, not after."
+        "text": "Plan B and it's the better day. Everything before the boat flexes around whenever you actually land in Bacharach — the times below assume roughly 2 PM, so slide them. The ONE fixed point: be standing on the KD stage at 16:55 for the 17:15, and buy your ticket through to BOPPARD, not St. Goar. There is no later boat. Downstream is the fast direction, so the gorge unrolls quickly: Kaub 5:25, Oberwesel 5:41, the Loreley 5:57, St. Goar 6:00, into Boppard about 6:50 — confirm that arrival time at the kiosk, it's my estimate not their timetable. Sit on the LEFT going down for the Loreley and St. Goar. Then Boppard: Roman fort, dinner, and the promenade for golden hour at 7:40 and sunset at 8:24. Home is easy and late — Boppard to Koblenz about 15 minutes (last around 22:51), then a DIRECT train Koblenz to Brühl, about 53 minutes (last around 23:26)."
       },
       "routeStops": [
-        "st-goar-pier",
-        "loreley",
-        "oberwesel",
-        "kaub",
-        "lunch",
         "old-town",
         "altes-haus",
         "st-peters",
-        "riesling",
         "wernerkapelle",
         "stahleck",
-        "golden-hour",
-        "bahnhof"
+        "bacharach-pier",
+        "kaub",
+        "oberwesel",
+        "loreley",
+        "st-goar-water",
+        "boppard-town",
+        "boppard-sunset",
+        "boppard-bahnhof"
       ],
       "planStops": [
-        "st-goar-pier",
-        "loreley",
-        "oberwesel",
-        "kaub",
-        "lunch",
         "old-town",
         "altes-haus",
         "st-peters",
-        "riesling",
         "wernerkapelle",
         "stahleck",
-        "golden-hour",
-        "bahnhof"
+        "bacharach-pier",
+        "kaub",
+        "oberwesel",
+        "loreley",
+        "st-goar-water",
+        "boppard-town",
+        "boppard-sunset",
+        "boppard-bahnhof"
       ],
       "planArrival": {
-        "title": "Down the hill whenever you want",
-        "note": "Twenty minutes down to the Marktplatz, eight more to the Bahnhof. Dinner in town first if you fancy it — the whole point of tonight is that nothing is chasing you. Just don't outrun the last train."
+        "title": "Brühl by about 10:15 PM if you leave Boppard at 8:45",
+        "note": "And you can leave much later if you want — the last connection out of Boppard is around 22:51. Check DB Navigator, but there's no squeeze tonight."
       }
     }
   ],
   "stops": {
-    "st-goar-pier": {
-      "name": "St. Goar — the KD pier",
-      "actId": "act1",
-      "angle": "Cold open, before you board",
-      "story": "Film the opening here, on the stage, with the river behind you and Burg Katz up on the hill opposite. You have about fifteen minutes and you only need two. Set up the promise: a rock, a made-up legend, and the town the legend was written about — which is where this boat is going.",
-      "facts": [
-        "This whole 65-kilometre stretch of river is on the UN's World Heritage list — the same protected-forever list as the Pyramids and the Grand Canyon. There are more castles packed along here than anywhere else on earth, and in a minute I'll tell you why, because it isn't romance.",
-        "That castle on the hill opposite is Burg Katz, built in 1371 by the Counts of Katzenelnbogen. They got rich doing exactly one thing: stopping boats on this river and charging them to carry on. 'Katz' is just short for the family name.",
-        "We're going upstream, against the current — that's why it takes seventy minutes up and only about forty-five coming back down. The Rhine here moves fast, and that matters for the next story."
-      ],
-      "routeCard": {
-        "sub": "KD Anlegestelle, St. Goar · be there 1:05 PM · boat 1:20",
-        "note": "Five minutes on foot from the station. KD ask you to be at the stage 15 minutes before departure — buy the ticket at the kiosk.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=KD%20Anlegestelle%20St.%20Goar&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=St.%20Goar%20Anlegestelle&navigate=yes",
-        "walkPoints": [],
-        "walkLoopHref": null
-      },
-      "planCard": {
-        "time": "1:00–1:20 PM",
-        "leaveBy": "1:20",
-        "see": [
-          "Burg Katz across the water",
-          "The gorge opening south",
-          "The KD stage"
-        ],
-        "todo": "Cold open here. The hook, the promise, done in two takes. Then get on the boat — this is the one departure you cannot miss.",
-        "film": []
-      }
-    },
     "loreley": {
       "name": "The Loreley",
-      "actId": "act1",
+      "actId": "act2",
       "angle": "The legend is 225 years old, not medieval",
-      "story": "It comes up on your left barely six minutes out of St. Goar — the rock is only about a kilometre upstream of the pier, so there is no settling-in period. Be outside before the boat casts off. Everyone films the rock; almost nobody knows the story is a modern invention. That's your angle — and it pays off later, because the man who invented it set it in Bacharach.",
+      "story": "Forty minutes down from Bacharach, on your right. You get it in evening light coming downstream, which is better than you'd have had this morning. Everyone films the rock; almost nobody knows the story is a modern invention — and it was written about the town you just spent the afternoon in.",
       "facts": [
         "A wall of slate 132 metres above the water, and right here the Rhine squeezes down to 113 metres wide — the narrowest point on the whole navigable river. Fast, deep, and it genuinely used to wreck boats. The danger was real. The girl was not.",
-        "Nobody in the Middle Ages told stories about a woman on this rock. A writer called Clemens Brentano invented her in 1801, in a ballad called 'Zu Bacharach am Rheine' — Bacharach on the Rhine. He set it in the town this boat is taking us to. We land there in an hour.",
+        "Nobody in the Middle Ages told stories about a woman on this rock. A writer called Clemens Brentano invented her in 1801, in a ballad called 'Zu Bacharach am Rheine' — Bacharach on the Rhine. He set it in the town we spent this afternoon in, back upstream.",
         "A German poet called Heinrich Heine wrote the famous version in 1824, and it became one of those poems every German child learns at school. Here's the part people don't know: when the Nazis took power they wanted it gone, because Heine was Jewish. It was too popular to ban — so they kept printing it in schoolbooks and credited it to 'author unknown'."
       ],
       "routeCard": {
-        "sub": "From the deck, left-hand side · about 1:26 PM",
-        "note": "Left-hand side going upstream, and it comes fast — roughly six minutes after casting off. Be on deck before the boat leaves, not after.",
+        "sub": "From the deck, right-hand side · about 5:57 PM",
+        "note": "Going downstream the Loreley is on your RIGHT, about 40 minutes out of Bacharach. This is the one you came for — do not be inside when it arrives.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Loreley&travelmode=walking",
         "wazeHref": "https://waze.com/ul?q=Loreley&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "≈1:26 PM",
+        "time": "≈5:57 PM",
         "leaveBy": null,
         "see": [
           "The 132 m slate cliff",
           "The river at its narrowest",
           "Vineyard terraces above"
         ],
-        "todo": "Do NOT sit down when you board. The rock is up in about six minutes. Shoot it, then say the 1801 line straight to camera — that's the thread the whole video hangs on.",
+        "todo": "THE shot of the day. Be on deck from 5:50. Film the rock, then say the 1801 line — the poem was set in Bacharach, where you've just come from. That's your whole story in one sentence.",
         "film": []
       }
     },
@@ -213,22 +174,22 @@
       "name": "Oberwesel & Schönburg",
       "actId": "act2",
       "angle": "The town that kept its towers",
-      "story": "About twenty-five minutes past the Loreley, on your right. Oberwesel is called the town of towers and you can count them from the water. Schönburg sits above it — and its story is the whole valley's story in miniature: built to tax the river, burned by the French, left as a ruin, bought back.",
+      "story": "About fifteen minutes past Kaub, on your left. Oberwesel is called the town of towers and you can count them from the water. Schönburg sits above it — and its story is the whole valley's story in miniature: built to tax the river, burned by the French, left as a ruin, bought back.",
       "facts": [
         "Oberwesel kept 16 of its 21 medieval wall towers. Most Rhine towns pulled theirs down in the 1800s to make room for roads and the railway — this one didn't, and you can see the whole defensive ring from the boat.",
         "Schönburg up there wasn't a house, it was a walled village. At its peak in the 1300s about 250 people from 24 different families lived inside it at once — the castle got subdivided between heirs until it was basically a stone tower block.",
         "In 1689 it was burned down by the army of the French king Louis XIV, who sent his soldiers up this valley to torch it town by town. It stayed a ruin for about 200 years, until a German-American businessman spent a fortune rebuilding it before 1914. The town bought it back off his son in 1950."
       ],
       "routeCard": {
-        "sub": "From the deck, right-hand side · about 1:50 PM",
-        "note": "Right-hand side going upstream. Schönburg is the castle on the hill above the town.",
+        "sub": "From the deck, left-hand side · about 5:41 PM",
+        "note": "Going downstream, Oberwesel is on your LEFT. Schönburg is the castle on the hill above the town.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Schönburg%20Oberwesel&travelmode=walking",
         "wazeHref": "https://waze.com/ul?q=Schoenburg%20Oberwesel&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "≈1:50 PM",
+        "time": "≈5:41 PM",
         "leaveBy": null,
         "see": [
           "The medieval wall and its towers",
@@ -243,61 +204,35 @@
       "name": "Kaub — Pfalzgrafenstein & Gutenfels",
       "actId": "act2",
       "angle": "A castle parked in the middle of a river to take your money",
-      "story": "The best five minutes on the water, about fifteen minutes before you land. A stone ship moored midstream with a castle on the hill behind it — a two-part trap, and the clearest possible picture of what every castle in this valley was actually for.",
+      "story": "Ten minutes after you leave Bacharach, on your right. A stone ship moored midstream with a castle on the hill behind it — a two-part trap, and the clearest possible picture of what every castle in this valley was actually for.",
       "facts": [
         "That white castle sitting in the middle of the river is called Pfalzgrafenstein, and it was built in 1326 by the man who was king of Germany at the time, Ludwig of Bavaria. It had exactly one purpose: a chain stretched across the water, and a toll. Pay, or you don't go past. It was still taking money off passing boats until 1867.",
         "And it was never taken and never destroyed — the only castle on this river you can say that about. Everything else here got burned at some point. It survived because it sits on a rock in a fast river and nobody could be bothered.",
         "One more thing happened right here. Napoleon had spent years conquering most of Europe, and in 1813 he finally lost a massive battle in Germany and began retreating home to France. On New Year's night, a general from Prussia — the state that later grew into Germany — chased him across the Rhine at this exact spot, over a floating bridge of boats tied to that island. Fifty to sixty thousand men, fifteen thousand horses and 182 cannon, over several days."
       ],
       "routeCard": {
-        "sub": "From the deck, left-hand side · about 2:14 PM",
-        "note": "Left-hand side going upstream. Pfalzgrafenstein is mid-river; Gutenfels is the castle on the hill above Kaub.",
+        "sub": "From the deck, right-hand side · about 5:25 PM",
+        "note": "Going downstream now, so Kaub is on your RIGHT. It comes up about ten minutes after casting off.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Burg%20Pfalzgrafenstein&travelmode=walking",
         "wazeHref": "https://waze.com/ul?q=Burg%20Pfalzgrafenstein%20Kaub&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "≈2:14 PM",
+        "time": "≈5:25 PM",
         "leaveBy": null,
         "see": [
           "Pfalzgrafenstein mid-river",
           "Burg Gutenfels above Kaub",
           "The narrow channel between them"
         ],
-        "todo": "Best shot of the boat trip. Get it wide first, then talk over it: the chain, the toll, never taken. Then start packing up — Bacharach is 15 minutes off.",
+        "todo": "Comes up fast — stay on deck from the off. Get it wide first, then talk over it: the chain, the toll, never taken.",
         "film": []
       }
     },
-    "lunch": {
-      "name": "Late lunch, Bacharach",
-      "actId": "act3",
-      "angle": "You've got nowhere to be",
-      "story": "The pier is about five minutes from the market square. Sit somewhere you can see the old timber-fronted houses and take the full hour — the rest of the day has no deadlines in it.",
-      "facts": [],
-      "routeCard": {
-        "sub": "Marktplatz, Bacharach · 5 minutes from the landing stage",
-        "note": "Walk in off the pier, under the railway, and you're in the old town.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Marktplatz%20Bacharach&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Bacharach%20Marktplatz&navigate=yes",
-        "walkPoints": [],
-        "walkLoopHref": null
-      },
-      "planCard": {
-        "time": "2:30–3:30 PM",
-        "leaveBy": "3:30",
-        "see": [
-          "The market square",
-          "Old timber-fronted houses"
-        ],
-        "todo": "Eat properly. While you're sitting down, open DB Navigator and pick your last train home — that's the only admin of the day.",
-        "film": []
-      },
-      "hideOnTalk": true
-    },
     "old-town": {
       "name": "The old town & the walls",
-      "actId": "act3",
+      "actId": "act1",
       "angle": "Wine money that never got knocked down",
       "story": "Bacharach is small enough to walk in twenty minutes and it still has almost its entire medieval wall. That's the unusual bit — most Rhine towns demolished theirs in the 1800s for roads and the railway. Here they just built around it.",
       "facts": [
@@ -336,8 +271,8 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "3:30–4:00 PM",
-        "leaveBy": "4:00",
+        "time": "2:05–2:40 PM",
+        "leaveBy": "2:40",
         "see": [
           "The market square",
           "The medieval wall and towers",
@@ -349,7 +284,7 @@
     },
     "altes-haus": {
       "name": "Altes Haus (1368)",
-      "actId": "act3",
+      "actId": "act1",
       "angle": "The postcard, and why it's still standing",
       "story": "The oldest house in town and the shot everyone comes for. It's what people call half-timbered — you can see the dark wooden beams criss-crossing the front with pale plaster filled in between. Worth thirty seconds on how that actually works, because it explains why a building that visibly leans has been fine for six and a half centuries.",
       "facts": [
@@ -366,8 +301,8 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "4:00–4:20 PM",
-        "leaveBy": "4:20",
+        "time": "2:40–3:00 PM",
+        "leaveBy": "3:00",
         "see": [
           "The 1368 timber front",
           "The leaded windows",
@@ -379,7 +314,7 @@
     },
     "st-peters": {
       "name": "St. Peter's Church",
-      "actId": "act3",
+      "actId": "act1",
       "angle": "Watch the architecture change as you look up",
       "story": "Two hundred years to build, and you can see every one of them. Start at the bottom with the heavy round arches and follow your eye up until they go pointed. It's a building that changes style halfway through, in public.",
       "facts": [
@@ -396,8 +331,8 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "4:20–5:00 PM",
-        "leaveBy": "5:00",
+        "time": "3:00–3:25 PM",
+        "leaveBy": "3:25",
         "see": [
           "Round, heavy arches low down",
           "Pointed, taller arches higher up",
@@ -408,38 +343,9 @@
         "film": []
       }
     },
-    "riesling": {
-      "name": "A glass of Riesling on the square",
-      "actId": "act3",
-      "angle": "Do this now, not squeezed against a train",
-      "story": "Sit down in the square with a glass of the local white while the town is still busy. This is deliberately before the climb, not after — coming down hot at half eight and rushing a drink would waste the scene.",
-      "facts": [
-        "This is Riesling country and has been for centuries. The vines grow on slate terraces so steep they have to be worked by hand — no machine can get up them.",
-        "The slate is the point: it holds the day's heat and pushes it back at the grapes overnight, and it's where that flinty, mineral edge in the glass is supposed to come from.",
-        "There's far less of it than there used to be. Hand-working a vertical vineyard doesn't pay, so terraces up and down this valley have gone back to scrub. What's in the glass is a shrinking thing."
-      ],
-      "routeCard": {
-        "sub": "Marktplatz, Bacharach · 5:00 PM",
-        "note": "Any of the wine bars round the square — Weinstube is the word you'll see on the signs. Pick one with outside tables facing the church.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Marktplatz%20Bacharach&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Bacharach%20Marktplatz&navigate=yes",
-        "walkPoints": [],
-        "walkLoopHref": null
-      },
-      "planCard": {
-        "time": "5:00–5:40 PM",
-        "leaveBy": "5:40",
-        "see": [
-          "The square in late-afternoon light",
-          "A glass of Middle Rhine Riesling"
-        ],
-        "todo": "Sit down properly. One relaxed piece to camera about the slate and the hand-worked terraces, then put the phone away for ten minutes.",
-        "film": []
-      }
-    },
     "wernerkapelle": {
       "name": "The Wernerkapelle",
-      "actId": "act4",
+      "actId": "act1",
       "angle": "The prettiest ruin on the hill is a monument to a lie",
       "story": "It's on the path up to the castle, so you pass it whether you plan to or not. Don't film it as scenery. It is a beautiful unfinished stone shell — pointed arches, empty windows, no roof — and it exists because of an accusation that got people killed. The honest thirty seconds you spend on that will be the strongest part of the video.\n\nSay it simply, don't editorialise, don't linger. Then keep walking.",
       "facts": [
@@ -449,15 +355,15 @@
       ],
       "routeCard": {
         "sub": "On the castle path above the town · 5:55 PM · free, open ruin",
-        "note": "About 15 minutes uphill from the market square, and directly on the way to the castle — no detour. Steps and a steady climb from here on.",
+        "note": "About 15 minutes uphill from the market square, directly on the way to the castle. Steps and a steady climb from here on.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Wernerkapelle%20Bacharach&travelmode=walking",
         "wazeHref": "https://waze.com/ul?q=Wernerkapelle%20Bacharach&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "5:55–6:25 PM",
-        "leaveBy": "6:25",
+        "time": "3:40–4:00 PM",
+        "leaveBy": "4:00",
         "see": [
           "The unfinished stone shell",
           "Empty window frames against the sky",
@@ -469,7 +375,7 @@
     },
     "stahleck": {
       "name": "Burg Stahleck",
-      "actId": "act4",
+      "actId": "act1",
       "angle": "Blown up, forgotten for 200 years, now a youth hostel",
       "story": "Twenty-five minutes of steady climbing from the town and the view arrives all at once. The castle is the seat of the men who ran this stretch of the Rhine, and what happened to it afterwards is almost funnier than its history.",
       "facts": [
@@ -479,78 +385,164 @@
       ],
       "routeCard": {
         "sub": "Above Bacharach · 6:40 PM · 15 min further up from the chapel",
-        "note": "Another 10–15 minutes of steps up from the chapel (about 25 minutes if you climbed straight from the town). There's a bistro and terrace with cheap beer and wine — ask at the desk whether day visitors can use it. If not, the public viewpoint just below is free and it's the same gorge.",
+        "note": "Another 10–15 minutes of steps up from the chapel. LEAVE THE TOP BY 4:25 — it's about 20 minutes down and 5 more to the pier, and the boat will not wait. If you're running late, the viewpoint below the castle has the same view and saves you 15 minutes.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Burg%20Stahleck%20Bacharach&travelmode=walking",
         "wazeHref": "https://waze.com/ul?q=Burg%20Stahleck&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "6:40–7:30 PM",
-        "leaveBy": "7:30",
+        "time": "4:10–4:25 PM",
+        "leaveBy": "4:25",
         "see": [
           "The gorge opening both ways",
           "The castle walls and tower",
           "Bacharach's roofs directly below",
           "The terrace"
         ],
-        "todo": "Arrive, get your breath, then film the reveal of the view before you say anything. Settle in — you're staying up here for the light.",
+        "todo": "The big view of the day. Get the reveal on camera before you say anything — then watch the clock. Down by 4:25, no argument.",
         "film": []
       }
     },
-    "golden-hour": {
-      "name": "Golden hour & sunset from the terrace",
-      "actId": "act4",
-      "angle": "The closing shot — and the reason you're up here",
-      "story": "This is why the day got rearranged. Golden hour starts at 7:40 and the sun goes down at 8:24, and from up here you keep the light long after the streets below have gone into shadow — the gorge walls take the sun off the town first. Stop talking, shoot it, and sign off when it's nearly gone.",
-      "facts": [
-        "Sunset tonight is 8:24 PM, golden hour runs from about 7:40, and it stays properly light until around 9. Down in the town the sun disappears behind the west wall of the gorge well before that — which is the entire reason to be standing up here instead.",
-        "From this terrace you can see the whole shape of the day at once: the river you came up, the toll castles downstream, the hand-worked terraces, and the town the Loreley legend was written about.",
-        "And that's the whole day in one view: up the river past the castles that taxed it, into the town where the legend was written, and up here above all of it watching the light go."
-      ],
+    "bacharach-pier": {
+      "name": "Bacharach — boarding the boat",
+      "actId": "act2",
+      "angle": "The one fixed time left in the day",
+      "story": "This is the whole day's deadline. The 17:15 is the last boat down, and there is no later one — miss it and you're on a train instead. Be standing on the stage at 16:55. Buy the ticket to BOPPARD, not St. Goar, and check with the kiosk what time it actually gets in.",
+      "facts": [],
       "routeCard": {
-        "sub": "Stahleck terrace or the viewpoint below · 7:30–8:30 PM · free",
-        "note": "Sunset 8:24 PM, light until roughly 9. Bring the layer — it drops quickly once the sun is off the gorge.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Burg%20Stahleck%20Bacharach&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Burg%20Stahleck&navigate=yes",
+        "sub": "KD Anlegestelle Bacharach · be there 16:55 · boat 17:15",
+        "note": "Five minutes down from the market square. Buy a ticket through to Boppard and confirm the arrival time at the kiosk — my estimate is about 18:50 but they have the real timetable.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=KD%20Anlegestelle%20Bacharach&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?q=KD%20Anlegestelle%20Bacharach&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "7:30–8:30 PM",
+        "time": "4:55–5:15 PM",
+        "leaveBy": "5:15",
+        "see": [
+          "The stage",
+          "The boat coming in"
+        ],
+        "todo": "Hard deadline. Ticket to Boppard. Then get a seat on the LEFT going down for the Loreley.",
+        "film": []
+      },
+      "hideOnTalk": true
+    },
+    "st-goar-water": {
+      "name": "St. Goar & Rheinfels, from the water",
+      "actId": "act2",
+      "angle": "The castle you were supposed to start at",
+      "story": "You sail straight past the town you missed this morning — which is a better shot than standing in it. Rheinfels is the huge ruin on the left bank; Katz and Maus are the two small castles on the right.",
+      "facts": [
+        "That enormous ruin on the left is Burg Rheinfels. It was once the biggest castle on this river, and in 1692 it held out against a French army of around 28,000 men — the only castle on the Middle Rhine that didn't fall that war.",
+        "It survived the siege and then lost anyway: about a century later, in 1797, French troops simply blew it up. What you're looking at is roughly a third of what used to be there.",
+        "The two castles on the other bank are nicknamed Katz and Maus — cat and mouse. Rival lords built them within sight of each other, and the bigger one got named 'the cat' because it sat there watching the little one."
+      ],
+      "routeCard": {
+        "sub": "From the deck · about 6:00 PM",
+        "note": "Rheinfels on your left, Katz and Maus on your right going downstream.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Burg%20Rheinfels%20St.%20Goar&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?q=Burg%20Rheinfels%20St.%20Goar&navigate=yes",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "≈6:00 PM",
+        "leaveBy": null,
+        "see": [
+          "Burg Rheinfels",
+          "Burg Katz and Burg Maus",
+          "St. Goar and St. Goarshausen facing each other"
+        ],
+        "todo": "Say it out loud: this is the town we missed this morning, and we're getting the better angle on it. Turns the mistake into a bit of the story.",
+        "film": []
+      }
+    },
+    "boppard-town": {
+      "name": "Boppard — the Roman fort & old town",
+      "actId": "act3",
+      "angle": "A Roman wall you can walk up to, for free",
+      "story": "You land about ten minutes' walk from the middle of town. Boppard is bigger and less chocolate-box than Bacharach, and it has something Bacharach hasn't: a genuine Roman fort, standing, in a park, that you can walk right up to and touch.",
+      "facts": [
+        "The Romans built a fort here in the 300s AD, when this river was the hard border of their empire — everything on the far bank was outside it. The wall was about eight metres high with 28 towers, and big stretches of it are still standing in a park in the middle of town.",
+        "It's one of the best-preserved Roman forts anywhere on this river, it's in the open air on Angertstraße, and it costs nothing to walk in.",
+        "The twin-towered church on the market square has Roman baths underneath it — they found them digging in the 1960s. The Romans were here, then a church went up on top, and the town just kept building on the same spot for 1,700 years."
+      ],
+      "routeCard": {
+        "sub": "Old town & Archäologischer Park · about 10 min from the landing stage · free",
+        "note": "Roman fort on Angertstraße, open air and free. Market square and the Severuskirche are two minutes further.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Arch%C3%A4ologischer%20Park%20Boppard&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?q=Arch%C3%A4ologischer%20Park%20Boppard&navigate=yes",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "6:50–7:40 PM",
+        "leaveBy": "7:40",
+        "see": [
+          "The Roman fort walls",
+          "The market square",
+          "The twin-towered Severuskirche",
+          "Half-timbered streets"
+        ],
+        "todo": "Eat here if you're hungry — plenty on the market square. Film the Roman wall while there's still direct light on it.",
+        "film": []
+      }
+    },
+    "boppard-sunset": {
+      "name": "The Rhine promenade at sunset",
+      "actId": "act3",
+      "angle": "Closing shot — and the biggest vineyard on the river",
+      "story": "The promenade runs right along the water and the town sits inside the Rhine's biggest bend, so you get a long open view in both directions. Golden hour starts 7:40 and the sun goes at 8:24. This is your ending.",
+      "facts": [
+        "Boppard sits on the sharpest bend in the whole Rhine — the river does a near U-turn here, which is why the view opens up so wide compared to the narrow gorge you just came down.",
+        "That slope of vines across the water is the Bopparder Hamm: 75 hectares, the largest single vineyard on the Middle Rhine, and almost all of it Riesling. Same grape, same slate, same river as Bacharach.",
+        "And that's the day: we missed the boat we planned, took a train instead, and ended up seeing the whole gorge in evening light from the water. Better than the plan."
+      ],
+      "routeCard": {
+        "sub": "Rheinallee, Boppard · 7:40 PM · free",
+        "note": "Sunset 8:24 PM, light until about 9. It cools down fast by the water.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Rheinallee%20Boppard&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?q=Rheinallee%20Boppard&navigate=yes",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "7:40–8:30 PM",
         "leaveBy": "8:30",
         "see": [
           "Golden hour from 7:40",
           "Sunset at 8:24",
-          "The gorge in shadow below you",
-          "Lights coming on in the town"
+          "The Bopparder Hamm vineyard opposite",
+          "The river bend"
         ],
-        "todo": "Closing shot of the episode. Film the light first, talk second. Get a long steady wide of the valley — that's what the outro plays over.",
+        "todo": "Closing shot. Film the light first, talk second. Long steady wide of the bend for the outro.",
         "film": []
       }
     },
-    "bahnhof": {
-      "name": "Bacharach Bahnhof",
-      "actId": "act4",
-      "angle": "Home when you feel like it",
-      "story": "Twenty minutes down the hill to the market square, eight more to the station. Dinner in town first if you want it.",
+    "boppard-bahnhof": {
+      "name": "Boppard Hbf → Brühl",
+      "actId": "act3",
+      "angle": "Home, with plenty of slack",
+      "story": "Boppard station is a few minutes from the promenade. Change at Koblenz and there are direct trains all the way to Brühl.",
       "facts": [],
       "routeCard": {
-        "sub": "Bacharach Bf — the railway station · about 8 minutes from the market square",
-        "note": "RB26 hourly to Koblenz (about 37 min), on to Köln Hbf in roughly 2h15 direct — or about 1h50 changing to an IC at Koblenz. Evening service thins out: use the last train you checked at lunch.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Bahnhof%20Bacharach&travelmode=walking",
-        "wazeHref": "https://waze.com/ul?q=Bahnhof%20Bacharach&navigate=yes",
+        "sub": "Boppard Hbf · a few minutes from the Rheinallee",
+        "note": "Boppard → Koblenz is about 15 minutes and runs late (last around 22:51). Koblenz → Brühl is roughly 53 minutes and DIRECT, with the last one about 23:26. Total around 75–85 minutes. Loads of slack — check DB Navigator for exact times.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Boppard%20Hauptbahnhof&travelmode=walking",
+        "wazeHref": "https://waze.com/ul?q=Boppard%20Hauptbahnhof&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "8:50 PM onwards",
+        "time": "8:45 PM onwards",
         "leaveBy": null,
         "see": [
-          "The town after dark",
-          "Dinner, if you want it"
+          "The town after dark"
         ],
-        "todo": "Nothing left to film. Eat if you're hungry, then take the train you picked at lunchtime.",
+        "todo": "Nothing left to film. Change at Koblenz, direct train to Brühl from there.",
         "film": []
       },
       "hideOnTalk": true
@@ -558,33 +550,33 @@
   },
   "coldOpen": {
     "title": "Cold open",
-    "color": "rust",
-    "where": "The KD pier, St. Goar — 1:10 PM",
+    "color": "ochre",
+    "where": "Bacharach market square — on arrival",
     "facts": [
-      "The hook: 'the most famous rock in Germany is behind me, and the legend attached to it is younger than the United States'",
-      "What this is: one boat ride, one town, one hill. Up the Rhine gorge past the castles that taxed it, into the town the Loreley was invented about.",
-      "The promise: 'and we finish at sunset, on a terrace above all of it'"
+      "The hook: 'we missed our boat this morning — so we're doing the whole thing backwards, and it's going to be better'",
+      "What this is: an afternoon in a medieval wine town, then the last boat of the day down the most famous stretch of the Rhine in evening light.",
+      "The promise: 'and the rock everyone comes here for was made famous by a poem set in THIS town — we'll get to it at about six o'clock'"
     ]
   },
   "signOff": {
     "title": "Closing sign-off",
     "color": "forest",
-    "where": "Burg Stahleck terrace — about 8:15 PM",
+    "where": "Boppard promenade — about 8:15 PM",
     "facts": [
-      "Where you are: on the hill above the town that the Loreley poem was set in, watching the light go off the river you came up this afternoon",
-      "The shape of the day: on the water at 1:20, in the town at 2:30, on this hill at 6:15, and the sun going at 8:24. One valley, seven hundred years of people charging money to pass through it.",
+      "Where you are: on the sharpest bend in the Rhine, watching the sun go down over the biggest vineyard on the river",
+      "The shape of the day: we missed a boat, caught a train, walked a town, and then came down the whole gorge in the best light of the day. The plan failing was the best thing that happened.",
       "The ask: like, subscribe — and where should the next one go?"
     ]
   },
   "talkTipbox": "Assume your viewer knows none of this — and assume you don't either until you've said it out loud once. Every single time a name comes up, give one plain line on who or what that is before you carry on: not 'the Count Palatine' but 'the man who ran this stretch of river for the king'. Same for places, same for dates. Three facts a stop, and you only need the one that grabbed you. What happened, when, and why it's surprising. The Wernerkapelle is the exception — say that one plainly, no flourish, and don't rush it.",
   "goldenRules": [
-    "The 13:20 boat is the only fixed time all day. Be at the pier by 13:05.",
-    "Miss it and the 14:20 still works — you're not chasing a train tonight.",
-    "Going upstream: the Loreley is up in SIX minutes, on your left. Kaub also left; Oberwesel and Schönburg on your right.",
-    "St. Peter's and any other interior before 6 PM. After that you're on the hill.",
-    "Don't rush the Wernerkapelle. Thirty honest seconds beats a minute of hedging.",
-    "Golden hour 7:40, sunset 8:24, light until about 9. Be up top for all of it.",
-    "Check the last train to Köln over lunch, not at 8 PM."
+    "Be at the Bacharach pier at 16:55. The 17:15 is the last boat down — miss it and the day ends on a train.",
+    "Buy the ticket through to BOPPARD, not St. Goar. Confirm the arrival time at the kiosk.",
+    "Going downstream, sit on the LEFT: that's the side for the Loreley and for St. Goar.",
+    "Loreley at about 5:57. Be on deck by 5:50 — this is the one you came for.",
+    "Leave the top of Stahleck by 4:25 at the very latest.",
+    "Boppard: Roman fort first while there's light on it, then the promenade for sunset at 8:24.",
+    "Home is late and easy — Koblenz then a direct train to Brühl. No rush tonight."
   ],
-  "outro": "The legend was written about this town. You arrive by water, climb above it, and watch the light go. That's an ending."
+  "outro": "We missed the boat and got a better day. Bacharach on foot, the gorge in evening light, and the sun going down at Boppard."
 }
