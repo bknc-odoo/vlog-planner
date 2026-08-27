@@ -5,14 +5,14 @@
   "dates": "Thu 27 August 2026",
   "episode": "EP.05",
   "heroKicker": "Plan B, and it's better",
-  "intro": "We missed the morning boat, so the day flipped: train to Bacharach, the town on foot all afternoon, then the 17:15 boat DOWN the gorge in evening light — past Kaub, Oberwesel, the Loreley and St. Goar — getting off at Boppard for sunset. One fixed time in the whole day: 16:55 at the Bacharach pier.",
+  "intro": "We missed the morning boat, so the day flipped: train to Bacharach for 2:10, the town and the castle above it on foot, then the 17:15 boat DOWN the gorge in evening light — Kaub, Oberwesel, the Loreley, St. Goar — off at Boppard for sunset. Two fixed times: off the hill at 4:30, on the pier at 4:55.",
   "dayGlanceTitle": "The day at a glance",
   "dayGlance": [
     {
       "n": 1,
       "color": "ochre",
       "title": "Bacharach on foot",
-      "sub": "All afternoon — the town, the chapel, the castle above it."
+      "sub": "2:10 PM — land, eat, the town, then the climb. Off the hill by 4:30."
     },
     {
       "n": 2,
@@ -34,7 +34,7 @@
       "color": "ochre",
       "label": "Act 1 · Bacharach on foot",
       "tagline": "The whole afternoon in one small town.",
-      "narrative": "You've got the town to yourself until late afternoon, so do it properly: the walls and the market square, the 1368 house, the church that changes style as you look up, then the climb.\n\nThe climb is the part worth protecting. The chapel and the castle are on the same path, about fifteen minutes up and fifteen more, and the view from the top is the best in the valley. Work backwards from 16:55 at the pier: leave the top by 16:25 at the latest.",
+      "narrative": "You land at 2:10 with 2 hours 45 minutes before you have to be on the pier. Enough for the town and the hill, but keep moving.\n\nDo lunch and the market square as one thing — you won't eat again until Boppard at about seven. Then the 1368 house and the church, both quick. The climb is what you're protecting: 15 minutes up to the chapel, 15 more to the castle, about 20 back down. Leave the top at 4:30 and you're on the stage at 4:55 with five minutes spare. If you're behind, stop at the viewpoint below the castle — same view, saves the last climb.",
       "stopIds": [
         "old-town",
         "altes-haus",
@@ -101,7 +101,7 @@
       "planNote": {
         "kicker": "Pier 16:55",
         "color": "rust",
-        "text": "Plan B and it's the better day. Everything before the boat flexes around whenever you actually land in Bacharach — the times below assume roughly 2 PM, so slide them. The ONE fixed point: be standing on the KD stage at 16:55 for the 17:15, and buy your ticket through to BOPPARD, not St. Goar. There is no later boat. Downstream is the fast direction, so the gorge unrolls quickly: Kaub 5:25, Oberwesel 5:41, the Loreley 5:57, St. Goar 6:00, into Boppard about 6:50 — confirm that arrival time at the kiosk, it's my estimate not their timetable. Sit on the LEFT going down for the Loreley and St. Goar. Escape hatch if you change your mind on the water: the boat calls at St. Goar about 18:01 and you can just get off there instead — Rheinfels is shut by then (closes 6, last admission 5) but the climb up and the castle terrace restaurant are open, and trains home run from there too. Otherwise stay on. Then Boppard: Roman fort, dinner, and the promenade for golden hour at 7:40 and sunset at 8:24. Home is easy and late — Boppard to Koblenz about 15 minutes (last around 22:51), then a DIRECT train Koblenz to Brühl, about 53 minutes (last around 23:26)."
+        "text": "Landing Bacharach 2:10 PM with 2 hours 45 minutes before the pier. That is enough for the town AND the climb, but it is not loose — the hill is 15 minutes up to the chapel and 15 more to the castle, and about 20 minutes back down. EAT IN BACHARACH: dinner in Boppard won't be until roughly 7 PM. Do lunch and the market square as one 35-minute slot. Two numbers that matter: leave the top of Stahleck at 4:30, and be standing on the KD stage at 4:55 for the 5:15. There is no later boat. Buy the ticket through to BOPPARD, not St. Goar. Downstream the gorge unrolls fast: Kaub 5:25, Oberwesel 5:41, the Loreley 5:57, St. Goar 6:00, into Boppard about 6:50 — confirm that arrival at the kiosk, it's my estimate not their timetable. Sit on the RIGHT going down for the Loreley. Escape hatch if you change your mind on the water: the boat calls at St. Goar about 6:01 and you can get off there instead — Rheinfels is shut by then (closes 6, last admission 5) but the climb and the castle terrace are open, and trains run home from there too. Then Boppard: Roman fort while there's light on it, dinner, and the promenade for golden hour at 7:40 and sunset at 8:24. Home is easy and late — Boppard to Koblenz about 15 minutes (last around 22:51), then a DIRECT train Koblenz to Brühl, about 53 minutes (last around 23:26)."
       },
       "routeStops": [
         "old-town",
@@ -242,7 +242,7 @@
       ],
       "routeCard": {
         "sub": "Marktplatz and the walls · 3:30 PM · free",
-        "note": "A loop of about twenty minutes if you don't stop. Do it slowly instead.",
+        "note": "Lunch stop as well as a sight. Anywhere on the market square. Keep it to 35 minutes — the hill is the thing you don't want to rush.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Marktplatz%20Bacharach&travelmode=walking",
         "wazeHref": "https://waze.com/ul?q=Bacharach%20Marktplatz&navigate=yes",
         "walkPoints": [
@@ -271,14 +271,14 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "2:05–2:40 PM",
-        "leaveBy": "2:40",
+        "time": "2:15–2:50 PM",
+        "leaveBy": "2:50",
         "see": [
           "The market square",
           "The medieval wall and towers",
           "The Rhine quay"
         ],
-        "todo": "Loose walking segment. One idea only: this town is wine money that survived. Don't over-film it — the good stuff is later.",
+        "todo": "This slot is lunch AND the square — do both together. EAT NOW: the next food is Boppard at about 7 PM, nearly five hours away. Order quickly, film the square while you wait, then get moving.",
         "film": []
       }
     },
@@ -301,14 +301,14 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "2:40–3:00 PM",
-        "leaveBy": "3:00",
+        "time": "2:50–3:10 PM",
+        "leaveBy": "3:10",
         "see": [
           "The 1368 timber front",
           "The leaded windows",
           "The lean"
         ],
-        "todo": "Get the clean front-on shot first, then talk. The frame-is-the-structure point is the one worth saying.",
+        "todo": "Two minutes from the square. Clean front-on shot, then the line about the frame being the whole structure. Ten minutes of filming, no more.",
         "film": []
       }
     },
@@ -331,15 +331,15 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "3:00–3:25 PM",
-        "leaveBy": "3:25",
+        "time": "3:10–3:30 PM",
+        "leaveBy": "3:30",
         "see": [
           "Round, heavy arches low down",
           "Pointed, taller arches higher up",
           "The four-storey main hall",
           "Wall paintings"
         ],
-        "todo": "Film a slow tilt up the nave — the shot does the explaining for you. This is the last interior of the day, so don't skip it.",
+        "todo": "Quick one — in, slow tilt up the nave, out. The arches change from round to pointed as you look up and the shot explains itself.",
         "film": []
       }
     },
@@ -362,14 +362,14 @@
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "3:40–4:00 PM",
+        "time": "3:45–4:00 PM",
         "leaveBy": "4:00",
         "see": [
           "The unfinished stone shell",
           "Empty window frames against the sky",
           "The town roofs below"
         ],
-        "todo": "Shoot it, then say the 1287 story straight and plainly — no music, no drama. Thirty seconds. Then move on up the hill and let it sit.",
+        "todo": "Fifteen minutes uphill from the square. Shoot it, then say the 1287 story straight and plainly. Thirty seconds. Then keep climbing.",
         "film": []
       }
     },
@@ -385,22 +385,22 @@
       ],
       "routeCard": {
         "sub": "Above Bacharach · 6:40 PM · 15 min further up from the chapel",
-        "note": "Another 10–15 minutes of steps up from the chapel. LEAVE THE TOP BY 4:25 — it's about 20 minutes down and 5 more to the pier, and the boat will not wait. If you're running late, the viewpoint below the castle has the same view and saves you 15 minutes.",
+        "note": "Another 15 minutes of steps up from the chapel. LEAVE THE TOP AT 4:30 — 20 minutes down, 5 to the pier, boat at 5:15 and there is no later one. Running late? The viewpoint just below the castle has the same view and saves you the last climb.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=Burg%20Stahleck%20Bacharach&travelmode=walking",
         "wazeHref": "https://waze.com/ul?q=Burg%20Stahleck&navigate=yes",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "4:10–4:25 PM",
-        "leaveBy": "4:25",
+        "time": "4:15–4:30 PM",
+        "leaveBy": "4:30",
         "see": [
           "The gorge opening both ways",
           "The castle walls and tower",
           "Bacharach's roofs directly below",
           "The terrace"
         ],
-        "todo": "The big view of the day. Get the reveal on camera before you say anything — then watch the clock. Down by 4:25, no argument.",
+        "todo": "THE HARD TURNAROUND IS 4:30. Get the reveal of the view on camera the moment you arrive, say your piece, and start down at 4:30 whatever happens. It's 20 minutes down and 5 to the pier.",
         "film": []
       }
     },
@@ -571,10 +571,11 @@
   "talkTipbox": "Assume your viewer knows none of this — and assume you don't either until you've said it out loud once. Every single time a name comes up, give one plain line on who or what that is before you carry on: not 'the Count Palatine' but 'the man who ran this stretch of river for the king'. Same for places, same for dates. Three facts a stop, and you only need the one that grabbed you. What happened, when, and why it's surprising. The Wernerkapelle is the exception — say that one plainly, no flourish, and don't rush it.",
   "goldenRules": [
     "Be at the Bacharach pier at 16:55. The 17:15 is the last boat down — miss it and the day ends on a train.",
+    "Eat in Bacharach. Next food is Boppard at about 7 PM.",
     "Buy the ticket through to BOPPARD, not St. Goar. Confirm the arrival time at the kiosk.",
     "Going downstream, sit on the LEFT: that's the side for the Loreley and for St. Goar.",
     "Loreley at about 5:57. Be on deck by 5:50 — this is the one you came for.",
-    "Leave the top of Stahleck by 4:25 at the very latest.",
+    "Leave the top of Stahleck at 4:30. Twenty minutes down, five to the pier — that's the whole margin.",
     "Boppard: Roman fort first while there's light on it, then the promenade for sunset at 8:24.",
     "Home is late and easy — Koblenz then a direct train to Brühl. No rush tonight."
   ],
