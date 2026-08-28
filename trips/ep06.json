@@ -8,9 +8,24 @@
   "intro": "Gamescom is the biggest games event on earth, and you're walking in at midday on a Friday — which means the giant queues are already lost. So don't fight them. Spend the day where you can actually play things and talk to the people who made them, and save one big queue for after six when the crowd thins.",
   "dayGlanceTitle": "The day at a glance",
   "dayGlance": [
-    { "n": 1, "color": "rust", "title": "In, and the scale of it", "sub": "12:00 — the south entrance, then the big-publisher boulevard." },
-    { "n": 2, "color": "ochre", "title": "Where you can actually play", "sub": "1:15 PM — the indie hall, the retro machines, then air and food." },
-    { "n": 3, "color": "forest", "title": "Costumes, then the evening shift", "sub": "4:00 PM — cosplay and cards, then one big demo once the queues drop." }
+    {
+      "n": 1,
+      "color": "rust",
+      "title": "In, and the scale of it",
+      "sub": "12:00 — the south entrance, then the big-publisher boulevard."
+    },
+    {
+      "n": 2,
+      "color": "ochre",
+      "title": "Where you can actually play",
+      "sub": "1:15 PM — the indie hall, the retro machines, then air and food."
+    },
+    {
+      "n": 3,
+      "color": "forest",
+      "title": "Costumes, then the evening shift",
+      "sub": "4:00 PM — cosplay and cards, then one big demo once the queues drop."
+    }
   ],
   "actsLede": "Four acts, one building, no queueing until six.",
   "acts": [
@@ -20,7 +35,10 @@
       "label": "Act 1 · In, and the scale of it",
       "tagline": "Walk the boulevard. Don't join anything.",
       "narrative": "Open outside the south entrance with the crowd behind you, then go in and just walk halls 6 to 9 end to end without stopping for anything.\n\nThis first hour is reconnaissance, not content-gathering. You're doing two things: getting the scale on camera, and deciding which ONE big demo you care enough about to queue for at six o'clock tonight. Everything in these four halls has a two-to-four hour line at lunchtime on a Friday. Walking past all of them is a decision, and it's the right one.",
-      "stopIds": ["south-entrance", "boulevard"]
+      "stopIds": [
+        "south-entrance",
+        "boulevard"
+      ]
     },
     {
       "id": "act2",
@@ -28,7 +46,11 @@
       "label": "Act 2 · Where you can actually play",
       "tagline": "Hall 10, and the best conversations of the day.",
       "narrative": "Hall 10 is the one worth your afternoon. It's double-height and it holds the indie area, the retro machines and the careers section.\n\nThe reason it beats halls 6 to 9 is simple and it's your best line of the day: in the big halls you talk to hired staff in branded T-shirts, and here the person standing next to the screen usually made the game. Short queues, real answers, and people who are genuinely delighted anyone is asking. Then get outside for food at three, not one.",
-      "stopIds": ["indie-arena", "retro-family", "outdoor-break"]
+      "stopIds": [
+        "indie-arena",
+        "retro-family",
+        "outdoor-break"
+      ]
     },
     {
       "id": "act3",
@@ -36,7 +58,11 @@
       "label": "Act 3 · Costumes and collectors",
       "tagline": "Hall 5 — the best-looking hour of the day.",
       "narrative": "Hall 5 is where the show stops being about screens. The Cosplay Village is at the back of the lower floor, the merchandise is downstairs and Cards & Boards is upstairs.\n\nThis is your strongest visual material by a distance — months of work walking around asking to be looked at. One rule and it isn't negotiable: ask before you film anyone. Almost everybody says yes, and the ones who say no have a reason.",
-      "stopIds": ["cosplay-village", "cards-merch", "signings"]
+      "stopIds": [
+        "cosplay-village",
+        "cards-merch",
+        "signings"
+      ]
     },
     {
       "id": "act4",
@@ -44,14 +70,18 @@
       "label": "Act 4 · The evening shift",
       "tagline": "Six o'clock, when the queues finally break.",
       "narrative": "Day visitors start leaving around six and the lines in halls 6 to 9 drop noticeably in the last two hours. This is the window you've been saving all day.\n\nPick the one demo you chose at lunchtime and join it now. One, not three. And film the halls again on the way — the stands are built to be lit, so the same booth looks completely different at seven than it did at one. Sign off inside, before they start pushing everyone out at eight.",
-      "stopIds": ["evening-halls", "signoff", "home"]
+      "stopIds": [
+        "evening-halls",
+        "signoff",
+        "home"
+      ]
     }
   ],
   "kit": [
     "Camera plus TWO spare batteries — eight hours in there and sockets are basically nonexistent",
     "Power bank for the phone; you'll be on the map and the app all day",
-    "A SMALL bag — the show floor limit is around A4 size, and there are lockers if you got it wrong",
-    "Refillable water bottle. It's hot, loud and enormous.",
+    "A backpack is fine — no size limit. But every bag gets searched at the entrance, so a smaller one gets you in faster",
+    "Refillable water bottle — NOT glass. Glass bottles are banned on the fairground.",
     "Earplugs if you own any — six hours of hall noise is genuinely punishing"
   ],
   "preTrip": [
@@ -59,7 +89,7 @@
     "Check whether your gamescom ticket covers VRS travel before you buy a train fare — it usually doubles as a free regional travel pass",
     "Charge everything, clear the card",
     "Decide NOW which single big demo you'd queue an hour for tonight, and write it down",
-    "Pack the bag small enough to walk straight through the security check"
+    "Pack the bag you actually need. Backpacks are allowed at any size; just expect it to be opened and looked through at security."
   ],
   "goldenRule": "Arriving at noon you cannot win the queue game, so stop trying. Play where the lines are short, talk to people who made things, and spend your one queue after 6 PM.",
   "days": [
@@ -78,10 +108,34 @@
       "planNote": {
         "kicker": "In at 12:00",
         "color": "rust",
-        "text": "Get to Köln Messe/Deutz — from Brühl that's roughly 30 minutes, usually via Köln Hbf and then one stop over the river. Check your gamescom ticket first: it normally doubles as a free VRS travel pass for the whole Cologne/Bonn region, so the journey may cost you nothing. The south entrance is about a three-minute signposted walk from the station. Public halls run 10 AM to 8 PM and today is a Friday, which is busy but not Saturday-busy. The single strategic call of the day: at midday the big-publisher demos in halls 6 to 9 are already running two to four hours, so do NOT queue this afternoon — walk them, pick one you actually care about, and come back for it after six when the crowd thins. Spend the middle of the day in hall 10, where the queues are short and the developers themselves are standing at the stands. Bag limit on the show floor is about A4; lockers on site. Eat at three, not at one — the food queues at lunchtime are worse than the game queues. One thing NOT to plan for tonight: the gamescom city festival is Saturday and Sunday only, at the Hohenzollernring and Rudolfplatz, so there's nothing in town this evening."
+        "text": "Get to Köln Messe/Deutz — from Brühl that's roughly 30 minutes, usually via Köln Hbf and then one stop over the river. Check your gamescom ticket first: it normally doubles as a free VRS travel pass for the whole Cologne/Bonn region, so the journey may cost you nothing. The south entrance is about a three-minute signposted walk from the station. Public halls run 10 AM to 8 PM and today is a Friday, which is busy but not Saturday-busy. The single strategic call of the day: at midday the big-publisher demos in halls 6 to 9 are already running two to four hours, so do NOT queue this afternoon — walk them, pick one you actually care about, and come back for it after six when the crowd thins. Spend the middle of the day in hall 10, where the queues are short and the developers themselves are standing at the stands. Backpacks are fine and there's no size limit, but every bag is searched at the entrance so pack it to open easily — and no glass bottles. Eat at three, not at one — the food queues at lunchtime are worse than the game queues. One thing NOT to plan for tonight: the gamescom city festival is Saturday and Sunday only, at the Hohenzollernring and Rudolfplatz, so there's nothing in town this evening."
       },
-      "routeStops": ["south-entrance", "boulevard", "indie-arena", "retro-family", "outdoor-break", "cosplay-village", "cards-merch", "signings", "evening-halls", "signoff", "home"],
-      "planStops": ["south-entrance", "boulevard", "indie-arena", "retro-family", "outdoor-break", "cosplay-village", "cards-merch", "signings", "evening-halls", "signoff", "home"],
+      "routeStops": [
+        "south-entrance",
+        "boulevard",
+        "indie-arena",
+        "retro-family",
+        "outdoor-break",
+        "cosplay-village",
+        "cards-merch",
+        "signings",
+        "evening-halls",
+        "signoff",
+        "home"
+      ],
+      "planStops": [
+        "south-entrance",
+        "boulevard",
+        "indie-arena",
+        "retro-family",
+        "outdoor-break",
+        "cosplay-village",
+        "cards-merch",
+        "signings",
+        "evening-halls",
+        "signoff",
+        "home"
+      ],
       "planArrival": {
         "title": "Halls close at 8 PM",
         "note": "Three minutes back to Köln Messe/Deutz and about half an hour home to Brühl, free again if your ticket covers it. Trains run late; there's no rush once you're out."
@@ -101,7 +155,7 @@
       ],
       "routeCard": {
         "sub": "Köln Messe/Deutz station · south entrance ≈3 min walk · 12:00",
-        "note": "Map pin is the station — the entrance is a short signposted walk from it. Bag limit on the show floor is around A4 size; lockers on site if yours is bigger.",
+        "note": "Map pin is the station — the entrance is a short signposted walk from it. Backpacks are allowed at any size, but every bag is opened and checked, so pack it so it opens easily. Banned: glass bottles, anything sharp or pointed, and real or realistic-looking weapons (which matters for cosplay props).",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.94099%2C6.97513&travelmode=transit",
         "wazeHref": "https://waze.com/ul?ll=50.94099%2C6.97513&navigate=yes",
         "walkPoints": [],
@@ -110,8 +164,12 @@
       "planCard": {
         "time": "12:00–12:20 PM",
         "leaveBy": "12:20",
-        "see": ["The crowd going in", "The scale of the entrance", "Security and bag check"],
-        "todo": "Cold open OUT HERE before security — the crowd is the shot. Two takes, then in.",
+        "see": [
+          "The crowd going in",
+          "The scale of the entrance",
+          "Security and bag check"
+        ],
+        "todo": "Cold open OUT HERE before security — the crowd is the shot. Two takes, then in. Have the bag ready to open.",
         "film": []
       }
     },
@@ -136,7 +194,11 @@
       "planCard": {
         "time": "12:20–1:15 PM",
         "leaveBy": "1:15",
-        "see": ["The main boulevard end to end", "The biggest publisher stands", "The queue lengths — film one honestly"],
+        "see": [
+          "The main boulevard end to end",
+          "The biggest publisher stands",
+          "The queue lengths — film one honestly"
+        ],
         "todo": "Reconnaissance only. Get the scale on camera, film ONE queue and say how long it is, and pick the single demo you'll come back for at six. Then leave. Do not join anything.",
         "film": []
       }
@@ -162,7 +224,11 @@
       "planCard": {
         "time": "1:15–2:45 PM",
         "leaveBy": "2:45",
-        "see": ["The Indie Arena Booth", "Home of Indies", "Games you've never heard of, playable in minutes"],
+        "see": [
+          "The Indie Arena Booth",
+          "Home of Indies",
+          "Games you've never heard of, playable in minutes"
+        ],
         "todo": "Actually PLAY things here — three or four. And talk to at least two developers on camera: ask what it is and why they made it. Best interview material of the day and it costs you no queueing.",
         "film": []
       }
@@ -188,7 +254,11 @@
       "planCard": {
         "time": "2:45–3:15 PM",
         "leaveBy": "3:15",
-        "see": ["Working consoles from the 80s and 90s", "CRT screens", "Kids playing games older than their parents"],
+        "see": [
+          "Working consoles from the 80s and 90s",
+          "CRT screens",
+          "Kids playing games older than their parents"
+        ],
         "todo": "Play one thing you recognise from your own childhood and say so on camera. That's the beat — nostalgia lands better than commentary.",
         "film": []
       }
@@ -214,7 +284,11 @@
       "planCard": {
         "time": "3:15–4:00 PM",
         "leaveBy": "4:00",
-        "see": ["The new outdoor area", "The beach section", "The crowd from outside"],
+        "see": [
+          "The new outdoor area",
+          "The beach section",
+          "The crowd from outside"
+        ],
         "todo": "Eat, drink, sit down. Record any piece-to-camera you've been saving OUT HERE where the audio is usable. Check the battery.",
         "film": []
       }
@@ -231,7 +305,7 @@
       ],
       "routeCard": {
         "sub": "Hall 5, lower floor, rear section · 4:00 PM",
-        "note": "ASK BEFORE FILMING ANYONE. It takes five seconds and it's the difference between being welcome here and not.",
+        "note": "ASK BEFORE FILMING ANYONE. It takes five seconds and it's the difference between being welcome here and not. Worth knowing on camera: props that look like real weapons aren't allowed through the entrance, which is why so much of what you'll see is oversized, brightly coloured or obviously foam.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=50.94350%2C6.98200&travelmode=walking",
         "wazeHref": "https://waze.com/ul?ll=50.94350%2C6.98200&navigate=yes",
         "walkPoints": [],
@@ -240,7 +314,11 @@
       "planCard": {
         "time": "4:00–5:00 PM",
         "leaveBy": "5:00",
-        "see": ["The Cosplay Village", "Costumes months in the making", "People photographing each other"],
+        "see": [
+          "The Cosplay Village",
+          "Costumes months in the making",
+          "People photographing each other"
+        ],
         "todo": "Ask first, every single time. Then ask them what it is and how long it took — that question gets you a real answer and a real face. Best sequence in the video.",
         "film": []
       }
@@ -266,7 +344,11 @@
       "planCard": {
         "time": "5:00–5:30 PM",
         "leaveBy": "5:30",
-        "see": ["Cards & Boards upstairs", "The merchandise hall", "People playing board games at tables"],
+        "see": [
+          "Cards & Boards upstairs",
+          "The merchandise hall",
+          "People playing board games at tables"
+        ],
         "todo": "Quick walk-through. One line to camera on the oddness of cardboard thriving at a video game show. Don't linger — the evening window is the priority.",
         "film": []
       }
@@ -292,7 +374,10 @@
       "planCard": {
         "time": "5:30–6:00 PM",
         "leaveBy": "6:00",
-        "see": ["The signing queues", "Creators meeting their audience"],
+        "see": [
+          "The signing queues",
+          "Creators meeting their audience"
+        ],
         "todo": "Film the scale of the queues and say the line about creators outdrawing the games. Thirty seconds. Then head back to halls 6–9 — your window is opening.",
         "film": []
       }
@@ -318,7 +403,11 @@
       "planCard": {
         "time": "6:00–7:30 PM",
         "leaveBy": "7:30",
-        "see": ["The stands lit up", "Shorter queues", "The demo you actually came for"],
+        "see": [
+          "The stands lit up",
+          "Shorter queues",
+          "The demo you actually came for"
+        ],
         "todo": "Join ONE queue. While you wait, film the boulevard in evening light — it looks nothing like it did at midday. Get the demo itself on camera if they let you.",
         "film": []
       }
@@ -344,7 +433,10 @@
       "planCard": {
         "time": "7:30–7:55 PM",
         "leaveBy": "7:55",
-        "see": ["The boulevard lit up", "The crowd thinning"],
+        "see": [
+          "The boulevard lit up",
+          "The crowd thinning"
+        ],
         "todo": "Closing shot, inside, hall behind you. Then stop filming and walk out before the crush.",
         "film": []
       }
@@ -366,7 +458,9 @@
       "planCard": {
         "time": "8:00 PM onwards",
         "leaveBy": null,
-        "see": ["The exodus"],
+        "see": [
+          "The exodus"
+        ],
         "todo": "Nothing left to film. Let the first wave go, then take the train home.",
         "film": []
       },
@@ -400,9 +494,10 @@
     "Ask before filming anyone, especially cosplayers. Almost everyone says yes.",
     "Your gamescom ticket usually doubles as a free VRS travel pass — check it before buying a train fare from Brühl.",
     "Eat at 3, not at 1. Lunchtime food queues are worse than the game queues.",
-    "Small bag only — show floor limit is about A4. Lockers on site.",
+    "Backpacks are allowed, no size limit — but every bag is searched at the door, so pack it so it opens easily. No glass bottles.",
     "Halls shut at 8. Be filming the sign-off by 7:40, inside, while it's still lit.",
-    "No city festival tonight — that's Saturday and Sunday at the Ring and Rudolfplatz."
+    "No city festival tonight — that's Saturday and Sunday at the Ring and Rudolfplatz.",
+    "Cosplay props: nothing real or realistic-looking as a weapon, nothing sharp or pointed. That rule is enforced at the entrance."
   ],
   "outro": "The biggest games show on earth, walked in at midday with every queue already lost — and it was a better day for it."
 }
