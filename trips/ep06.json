@@ -146,12 +146,12 @@
     "south-entrance": {
       "name": "South entrance & getting in",
       "actId": "act1",
-      "angle": "Cold open, outside, with the crowd",
-      "story": "Film the opening out here before you go through security — the crowd streaming in is the shot, and you won't get it again. Then bag check and in. The south entrance is the one nearest the station and it's signposted the whole way.",
+      "angle": "How big this industry actually is",
+      "story": "Film the opening out here before security — the crowd streaming in is the shot and you won't get it again. Then, once the hook is done, this is where the scale-of-the-industry material goes. Your viewer almost certainly thinks games are a niche hobby. These three numbers fix that in about forty seconds.",
       "facts": [
-        "Gamescom is the biggest games event on the planet measured by how many people turn up — well over 300,000 across five days, from more than a hundred countries. Not the biggest in Europe. The biggest anywhere.",
-        "Eleven halls, all connected, 284,000 square metres of floor — roughly forty football pitches under one roof. You'll walk several kilometres today without ever going outside.",
-        "It's only been in Cologne since 2009. Before that Germany's big games show was in Leipzig, over in the east, and Cologne took it off them — which is still a slightly sore subject if you ask the right person."
+        "Here's what most people don't know: video games are the biggest entertainment industry on the planet. In 2025 the global games market was worth over 200 billion dollars.",
+        "Put that next to the things people assume are bigger. Every cinema on earth took about 33 billion dollars last year. The entire global recorded music industry took about 30 billion. Games are worth roughly three times those two put together.",
+        "And about three and a half billion people play them — close to six out of every ten people alive. This building isn't a niche hobby convention. It's the industry that beat Hollywood."
       ],
       "routeCard": {
         "sub": "Köln Messe/Deutz station · south entrance ≈3 min walk · 12:00",
@@ -169,7 +169,7 @@
           "The scale of the entrance",
           "Security and bag check"
         ],
-        "todo": "Cold open OUT HERE before security — the crowd is the shot. Hit the three lines: the one-day promise, the 300,000 people, then the halls question and 'let's go check it out'. Two takes, then in. Have the bag ready to open.",
+        "todo": "Cold open OUT HERE before security — crowd behind you, three lines, two takes. THEN, separately, the industry numbers piece to camera. Don't merge the two: the hook is short and punchy, the numbers are the follow-up once you're rolling.",
         "film": []
       }
     },
@@ -416,12 +416,8 @@
       "name": "Sign-off, inside the halls",
       "actId": "act4",
       "angle": "Closing shot before they clear the building",
-      "story": "Film your ending inside, with the hall still lit and still busy behind you. They start moving people out at eight and you do not want to be recording your closing line in an empty corridor.",
-      "facts": [
-        "Halls shut at eight, so anything you still want on camera needs shooting before about twenty to.",
-        "Look back down the boulevard as you say it — eight hours ago you walked in at the other end of this building and hadn't seen any of it.",
-        "And the honest summary: the giant queues were never worth it. The day worked because it went where the queues weren't."
-      ],
+      "story": "Film your ending inside, with the hall still lit and still busy behind you. They start clearing the building at eight, and you do not want to be recording your closing line in an empty corridor. The script is on the Closing sign-off card.",
+      "facts": [],
       "routeCard": {
         "sub": "Anywhere on the main boulevard · by 7:40 PM",
         "note": "Film it with the hall behind you while it's still full and lit.",
@@ -439,7 +435,8 @@
         ],
         "todo": "Closing shot, inside, hall behind you. Then stop filming and walk out before the crush.",
         "film": []
-      }
+      },
+      "hideOnTalk": true
     },
     "home": {
       "name": "Köln Messe/Deutz → Brühl",
@@ -482,9 +479,9 @@
     "color": "forest",
     "where": "On the boulevard, halls 6–9 — about 7:40 PM",
     "facts": [
-      "Where you are: the same boulevard you walked down eight hours ago, lit up and finally emptying out",
-      "The shape of the day: eleven halls in one day. Walked past every big queue, played a dozen games nobody's heard of, met the people who actually made them, and spent the one queue at six when it was finally worth it.",
-      "The ask: like, subscribe — and tell me which game I should have queued for."
+      "Line 1, the payoff: 'Eleven halls. One day. Done — and I didn't stand in a single line until six o'clock.'",
+      "Line 2, the honest one: 'And the best bit wasn't the giant stands with the four-hour queues. It was upstairs in hall ten, where the person standing next to the game had actually made it.'",
+      "Line 3, the ask: 'That's the biggest show in games, in a day. Tell me which one I should have queued for — and I'll see you on the next one.'"
     ]
   },
   "talkTipbox": "Assume your viewer has never been to a trade fair and doesn't play games. Explain the words as you use them: indie means small teams, cosplay means costume play, a demo means a slice of a game that isn't out yet. The strongest thread you have is the queue decision — say at the start that you're not queueing and why, then pay it off at six. And in hall 5, ask before you film anyone. Every time.",
