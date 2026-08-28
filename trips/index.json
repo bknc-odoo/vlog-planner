@@ -1,6 +1,13 @@
 {
-  "default": "ep05",
+  "default": "ep06",
   "trips": [
+    {
+      "id": "ep06",
+      "title": "The Biggest Show in Games",
+      "subtitle": "Gamescom 2026 · Koelnmesse, Cologne",
+      "dates": "Fri 28 August 2026",
+      "episode": "EP.06"
+    },
     {
       "id": "ep05",
       "title": "The Rock, the Toll and the Legend",
