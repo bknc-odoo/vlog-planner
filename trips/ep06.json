@@ -5,7 +5,7 @@
   "dates": "Fri 28 August 2026",
   "episode": "EP.06",
   "heroKicker": "Eight halls, eight hours",
-  "intro": "Gamescom is the biggest games event on earth, and you're walking in at midday on a Friday — which means the giant queues are already lost. So don't fight them. Spend the day where you can actually play things and talk to the people who made them, and save one big queue for after six when the crowd thins.",
+  "intro": "Gamescom is the biggest games event on earth, and most people spend it standing in lines. This is the other way to do it: walk past every big queue, spend the day where you can actually play things and talk to the people who made them, and spend one queue at six o'clock when the crowd thins out.",
   "dayGlanceTitle": "The day at a glance",
   "dayGlance": [
     {
@@ -34,7 +34,7 @@
       "color": "rust",
       "label": "Act 1 · In, and the scale of it",
       "tagline": "Walk the boulevard. Don't join anything.",
-      "narrative": "Open outside the south entrance with the crowd behind you, then go in and just walk halls 6 to 9 end to end without stopping for anything.\n\nThis first hour is reconnaissance, not content-gathering. You're doing two things: getting the scale on camera, and deciding which ONE big demo you care enough about to queue for at six o'clock tonight. Everything in these four halls has a two-to-four hour line at lunchtime on a Friday. Walking past all of them is a decision, and it's the right one.",
+      "narrative": "Open outside the south entrance with the crowd behind you, then go in and walk halls 6 to 9 end to end without stopping for anything.\n\nThis first hour is reconnaissance, not content-gathering. You're doing two things: getting the scale on camera, and deciding which ONE big demo you care enough about to queue for tonight. Everything in these four halls runs a two-to-four hour line through the middle of the day. Walking past all of them is a deliberate decision, and it's the right one — say so on camera as you do it.",
       "stopIds": [
         "south-entrance",
         "boulevard"
@@ -69,7 +69,7 @@
       "color": "forest",
       "label": "Act 4 · The evening shift",
       "tagline": "Six o'clock, when the queues finally break.",
-      "narrative": "Day visitors start leaving around six and the lines in halls 6 to 9 drop noticeably in the last two hours. This is the window you've been saving all day.\n\nPick the one demo you chose at lunchtime and join it now. One, not three. And film the halls again on the way — the stands are built to be lit, so the same booth looks completely different at seven than it did at one. Sign off inside, before they start pushing everyone out at eight.",
+      "narrative": "Day visitors start heading home around six and the lines in halls 6 to 9 drop noticeably over the last two hours. This is the window the whole day has been built around.\n\nPick the one demo you chose earlier and join it now. One, not three. And film the halls again on the way — the stands are built to be lit, so the same booth looks completely different at seven than it did at midday. Sign off inside, before they start clearing the building at eight.",
       "stopIds": [
         "evening-halls",
         "signoff",
@@ -91,7 +91,7 @@
     "Decide NOW which single big demo you'd queue an hour for tonight, and write it down",
     "Pack the bag you actually need. Backpacks are allowed at any size; just expect it to be opened and looked through at security."
   ],
-  "goldenRule": "Arriving at noon you cannot win the queue game, so stop trying. Play where the lines are short, talk to people who made things, and spend your one queue after 6 PM.",
+  "goldenRule": "A big-publisher queue costs you three hours for fifteen minutes of playing. Skip them all. Play where the lines are short, talk to people who made things, and spend your one queue after 6 PM.",
   "days": [
     {
       "id": "d1",
@@ -177,10 +177,10 @@
       "name": "Halls 6–9 — the big-publisher boulevard",
       "actId": "act1",
       "angle": "Walk it all. Join nothing.",
-      "story": "Four halls of the companies whose games you've heard of, connected by one long boulevard. Walk the whole thing end to end without stopping. You are here to film the scale and to choose your one demo for tonight — not to stand in anything.",
+      "story": "Four halls of the companies whose games you've heard of, connected by one long boulevard. Walk the whole thing end to end without stopping. You're here to film the scale and to choose your one demo for tonight — not to stand in anything.",
       "facts": [
         "These four halls are the big publishers, and the stands are not cheap. The larger ones cost more to build for five days than most people's houses cost to buy.",
-        "That queue you're looking at is real. A popular demo on a Friday afternoon runs two to four hours — for maybe fifteen minutes of actually playing. Deciding early that you're not doing that is the single best decision of the day.",
+        "That queue you're looking at is real. A popular demo runs two to four hours through the middle of the day — for maybe fifteen minutes of actually playing. Deciding not to do that is the single best decision anyone makes at this show.",
         "And notice what's being sold: almost nothing here is out yet. An entire hall of people being shown things they can't buy for another year. That's what a trade fair is — it was never meant for the public at all, and gamescom letting everyone in is the unusual part."
       ],
       "routeCard": {
@@ -199,7 +199,7 @@
           "The biggest publisher stands",
           "The queue lengths — film one honestly"
         ],
-        "todo": "Reconnaissance only. Get the scale on camera, film ONE queue and say how long it is, and pick the single demo you'll come back for at six. Then leave. Do not join anything.",
+        "todo": "Reconnaissance only. Get the scale on camera, film ONE queue and say how long it is, and pick the single demo you'll come back for at six. Then walk on. Do not join anything.",
         "film": []
       }
     },
@@ -389,7 +389,7 @@
       "story": "This is what you've been saving all day. Day visitors start heading home around six and the lines drop. Join the one demo you picked at lunchtime — and only that one.",
       "facts": [
         "Most day visitors start leaving around six, and the queues in these halls drop noticeably over the last two hours. Same demo, a fraction of the wait.",
-        "So this is the moment to spend your one queue. One, not three — an hour in a line is fine when you've got footage already; three hours is how you end the day with nothing.",
+        "So this is the moment to spend your one queue. One, not three — an hour in a line is fine when you've already got a day of footage; three hours is how people end up going home with nothing.",
         "It also looks better now. These stands are built to be lit, and once the hall lighting takes over the same booth films completely differently than it did at one o'clock."
       ],
       "routeCard": {
@@ -420,7 +420,7 @@
       "facts": [
         "Halls shut at eight, so anything you still want on camera needs shooting before about twenty to.",
         "Look back down the boulevard as you say it — eight hours ago you walked in at the other end of this building and hadn't seen any of it.",
-        "And the honest summary: the giant queues were never winnable arriving at midday. The day worked because it went where the queues weren't."
+        "And the honest summary: the giant queues were never worth it. The day worked because it went where the queues weren't."
       ],
       "routeCard": {
         "sub": "Anywhere on the main boulevard · by 7:40 PM",
@@ -472,9 +472,9 @@
     "color": "rust",
     "where": "Outside the south entrance — 12:00",
     "facts": [
-      "The hook: 'this is the biggest games event on earth, I've arrived four hours late, and every queue in there is already lost'",
-      "What this is: 300,000 people, eight halls, and a plan built entirely around not standing in lines.",
-      "The promise: 'so I'm going to spend the day where nobody else is looking — and queue exactly once, at six o'clock'"
+      "The hook: 'this is the biggest games event on earth, and I'm going to get through the whole thing without standing in a single queue'",
+      "What this is: 300,000 people, eight halls, and a plan built entirely around not waiting in lines.",
+      "The promise: 'I'll spend the day where nobody else is looking — and queue exactly once, at six o'clock, when everyone else goes home'"
     ]
   },
   "signOff": {
@@ -483,11 +483,11 @@
     "where": "On the boulevard, halls 6–9 — about 7:40 PM",
     "facts": [
       "Where you are: the same boulevard you walked down eight hours ago, lit up and finally emptying out",
-      "The shape of the day: walked past every big queue at noon, played a dozen small games nobody's heard of, met the people who made them, and spent the one queue at six when it was worth it.",
+      "The shape of the day: walked past every big queue, played a dozen small games nobody's heard of, met the people who made them, and spent the one queue at six when it was finally worth it.",
       "The ask: like, subscribe — and tell me which game I should have queued for."
     ]
   },
-  "talkTipbox": "Assume your viewer has never been to a trade fair and doesn't play games. Explain the words as you use them: indie means small teams, cosplay means costume play, a demo means a slice of a game that isn't out yet. The strongest thread you have is the queue decision — say out loud at the start that you're not queueing and why, then pay it off at six. And in hall 5, ask before you film anyone. Every time.",
+  "talkTipbox": "Assume your viewer has never been to a trade fair and doesn't play games. Explain the words as you use them: indie means small teams, cosplay means costume play, a demo means a slice of a game that isn't out yet. The strongest thread you have is the queue decision — say at the start that you're not queueing and why, then pay it off at six. And in hall 5, ask before you film anyone. Every time.",
   "goldenRules": [
     "Do not join a big-publisher queue before 6 PM. Three hours standing still is three hours of no footage.",
     "Pick your ONE demo during the midday walk-through, and write it down.",
@@ -499,5 +499,5 @@
     "No city festival tonight — that's Saturday and Sunday at the Ring and Rudolfplatz.",
     "Cosplay props: nothing real or realistic-looking as a weapon, nothing sharp or pointed. That rule is enforced at the entrance."
   ],
-  "outro": "The biggest games show on earth, walked in at midday with every queue already lost — and it was a better day for it."
+  "outro": "The biggest games show on earth, done without standing in a single line until six o'clock."
 }
