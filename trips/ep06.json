@@ -4,8 +4,8 @@
   "subtitle": "Gamescom 2026 · Koelnmesse, Cologne",
   "dates": "Fri 28 August 2026",
   "episode": "EP.06",
-  "heroKicker": "Eight halls, eight hours",
-  "intro": "Gamescom is the biggest games event on earth, and most people spend it standing in lines. This is the other way to do it: walk past every big queue, spend the day where you can actually play things and talk to the people who made them, and spend one queue at six o'clock when the crowd thins out.",
+  "heroKicker": "Eleven halls, one day",
+  "intro": "Gamescom is the biggest games event on earth — eleven halls, 284,000 square metres, 300,000 people. The plan is to get through the whole thing in one day, and the only way that works is to refuse every single queue until six o'clock.",
   "dayGlanceTitle": "The day at a glance",
   "dayGlance": [
     {
@@ -150,7 +150,7 @@
       "story": "Film the opening out here before you go through security — the crowd streaming in is the shot, and you won't get it again. Then bag check and in. The south entrance is the one nearest the station and it's signposted the whole way.",
       "facts": [
         "Gamescom is the biggest games event on the planet measured by how many people turn up — well over 300,000 across five days, from more than a hundred countries. Not the biggest in Europe. The biggest anywhere.",
-        "It's held in the Koelnmesse, one of the largest exhibition centres in the world, with more than a quarter of a million square metres of hall space. You will walk several kilometres today without ever going outside.",
+        "Eleven halls, all connected, 284,000 square metres of floor — roughly forty football pitches under one roof. You'll walk several kilometres today without ever going outside.",
         "It's only been in Cologne since 2009. Before that Germany's big games show was in Leipzig, over in the east, and Cologne took it off them — which is still a slightly sore subject if you ask the right person."
       ],
       "routeCard": {
@@ -169,7 +169,7 @@
           "The scale of the entrance",
           "Security and bag check"
         ],
-        "todo": "Cold open OUT HERE before security — the crowd is the shot. Two takes, then in. Have the bag ready to open.",
+        "todo": "Cold open OUT HERE before security — the crowd is the shot. Hit the three lines: the one-day promise, the 300,000 people, then the halls question and 'let's go check it out'. Two takes, then in. Have the bag ready to open.",
         "film": []
       }
     },
@@ -472,9 +472,9 @@
     "color": "rust",
     "where": "Outside the south entrance — 12:00",
     "facts": [
-      "The hook: 'this is the biggest games event on earth, and I'm going to get through the whole thing without standing in a single queue'",
-      "What this is: 300,000 people, eight halls, and a plan built entirely around not waiting in lines.",
-      "The promise: 'I'll spend the day where nobody else is looking — and queue exactly once, at six o'clock, when everyone else goes home'"
+      "Line 1: 'We're at Gamescom — the biggest games event on earth — and I'm going to get through the whole thing in just one day.'",
+      "Line 2, then the question: '300,000 people come to this, from more than a hundred countries.' — 'So how many halls do you even need for that?'",
+      "Line 3, the answer and the walk-off: 'Eleven. Eleven halls, 284,000 square metres — about forty football pitches, indoors. Let's go check it out.'"
     ]
   },
   "signOff": {
@@ -483,7 +483,7 @@
     "where": "On the boulevard, halls 6–9 — about 7:40 PM",
     "facts": [
       "Where you are: the same boulevard you walked down eight hours ago, lit up and finally emptying out",
-      "The shape of the day: walked past every big queue, played a dozen small games nobody's heard of, met the people who made them, and spent the one queue at six when it was finally worth it.",
+      "The shape of the day: eleven halls in one day. Walked past every big queue, played a dozen games nobody's heard of, met the people who actually made them, and spent the one queue at six when it was finally worth it.",
       "The ask: like, subscribe — and tell me which game I should have queued for."
     ]
   },
@@ -499,5 +499,5 @@
     "No city festival tonight — that's Saturday and Sunday at the Ring and Rudolfplatz.",
     "Cosplay props: nothing real or realistic-looking as a weapon, nothing sharp or pointed. That rule is enforced at the entrance."
   ],
-  "outro": "The biggest games show on earth, done without standing in a single line until six o'clock."
+  "outro": "Eleven halls, 300,000 people, one day — and exactly one queue."
 }
