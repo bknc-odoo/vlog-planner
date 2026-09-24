@@ -5,26 +5,26 @@
   "dates": "Sat 26 – Sun 27 September 2026",
   "episode": "EP.07",
   "heroKicker": "Two days in London",
-  "intro": "The famous London at sunrise, before anyone's awake — then two stories most visitors never hear. Saturday: the river at dawn, a market the people bought back, and a carpenter who beat the scientists at Greenwich. Sunday: the hill above London, where the Victorians buried their dead and a boy on his way out heard the bells call him back.",
+  "intro": "The famous London at sunrise, before the city wakes up. Then two stories most tourists never hear. Saturday: the river at sunrise, a market the local people bought back, and a carpenter who beat the scientists in Greenwich. Sunday: the hill above London, with a huge old cemetery, and the place where a boy leaving London turned back.",
   "dayGlanceTitle": "The weekend at a glance",
   "dayGlance": [
     {
       "n": 1,
       "color": "rust",
       "title": "Dawn on the river",
-      "sub": "7:00 AM Saturday — Big Ben to Tower Bridge on foot, breakfast at Borough Market."
+      "sub": "7:00 Saturday. Walk from Big Ben to Tower Bridge. Breakfast at Borough Market."
     },
     {
       "n": 2,
       "color": "ochre",
       "title": "Greenwich",
-      "sub": "10:25 AM — the boat down the Thames, the Painted Hall, the 1pm time ball, Harrison's clocks."
+      "sub": "10:25. Boat to Greenwich. The Painted Hall, the red ball at 1pm, and Harrison's clocks."
     },
     {
       "n": 3,
       "color": "forest",
       "title": "Highgate",
-      "sub": "10:00 AM Sunday — the cemetery, Waterlow Park, the Whittington Stone."
+      "sub": "10:00 Sunday. The cemetery, Waterlow Park and the Whittington Stone."
     }
   ],
   "actsLede": "Two days, three stories.",
@@ -34,8 +34,8 @@
       "dayId": "d1",
       "color": "rust",
       "label": "Act 1 · Dawn on the river",
-      "tagline": "The London everyone knows, before it wakes up.",
-      "narrative": "Start on Westminster Bridge just after sunrise and walk east along the South Bank with the light behind the city. This is the London everyone has seen — so give each landmark one line nobody expects: the famous bell is cracked, the famous bridge is in Arizona, the famous ravens are a Victorian invention.\n\nIn the middle of it is Borough Market, twice — once while the traders are setting up, once when it opens. A market has stood here for at least 800 years. Parliament shut it down in the 1750s; the people of Southwark bought it back, and they still own it.",
+      "tagline": "The famous London, before it wakes up.",
+      "narrative": "Start on Westminster Bridge just after sunrise. Walk east along the river, in the morning light. Everyone has seen these places. So for each one, say one thing people don't know: the famous bell is cracked, the old London Bridge is in America, and the story of the ravens is not really old.\n\nIn the middle is Borough Market. You visit it twice: once while it's getting ready, and once when it's open. People have sold food here for 800 years. Parliament once closed it. The local people bought it back, and they still own it.",
       "stopIds": [
         "westminster",
         "st-pauls",
@@ -50,8 +50,8 @@
       "dayId": "d1",
       "color": "ochre",
       "label": "Act 2 · Greenwich",
-      "tagline": "A carpenter, a clock, and the line that divides the world.",
-      "narrative": "Take the boat down the river and arrive the way Greenwich was designed to be seen — from the water. The Painted Hall was built as a dining room for old sailors, and it came out so grand they wouldn't eat in it.\n\nThen walk up the hill for the real story. Sailors couldn't tell where they were at sea, ships were wrecked, and Parliament offered a fortune for an answer. The scientists looked to the stars. A self-taught carpenter built a clock — and spent forty years fighting to be paid. His clocks are still ticking at the top of the hill, and you finish standing on the line that divides the planet in two.",
+      "tagline": "A carpenter, a clock, and the line that splits the world.",
+      "narrative": "Take the boat down the river, and arrive at Greenwich from the water, the way it was meant to be seen. The Painted Hall was built as a dining room for old sailors. It was so grand that they didn't want to eat there.\n\nThen walk up the hill for the main story. Sailors couldn't tell where they were at sea, and ships crashed. Parliament offered a big prize. The scientists looked at the stars. A carpenter built a clock. His clocks still work. And you finish standing on the line that splits the world into east and west.",
       "stopIds": [
         "river-boat",
         "painted-hall",
@@ -66,7 +66,7 @@
       "color": "forest",
       "label": "Act 3 · Highgate",
       "tagline": "The hill above London.",
-      "narrative": "Take the Northern line to Archway and go up the hill. By the 1830s London had run out of room for its dead, so the Victorians built a cemetery up here — and made it the most fashionable place in the country to be buried.\n\nAcross the road is a park a Lord Mayor gave away in 1889 as 'a garden for the gardenless', and that's where you tell the story you can't film inside the cemetery. Then walk down the hill to the stone where, in the legend, Dick Whittington was leaving London, heard the bells call him back, and turned round. The real Whittington was no poor boy and had no cat — but he did give his whole fortune to the city.",
+      "narrative": "Take the Northern line to Archway and go up the hill. In the 1800s, London had no more room for its dead, so they built this big cemetery. It became the most fashionable place to be buried.\n\nAcross the road is a park that a Lord Mayor gave to the public in 1889. That's where you tell the story the cemetery doesn't allow. Then walk down the hill to the stone from the story of Dick Whittington: a poor boy leaving London heard the bells and turned back. The real Whittington was rich, and there was no cat. But he gave all his money to the city.",
       "stopIds": [
         "highgate-cemetery",
         "highgate-lunch",
@@ -76,21 +76,21 @@
     }
   ],
   "kit": [
-    "Phone or camera, handheld — no tripods at Borough Market or Highgate",
-    "A power bank — Saturday runs from 7am to after 2pm",
-    "A light jacket for the river at dawn — about 12°C at 7am, 22°C by the afternoon",
-    "Comfortable shoes — around 5 km on foot on Saturday, and Highgate is a hill",
-    "A contactless card — it works on the tube and on the river boat",
-    "Tickets on your phone: Royal Observatory, Painted Hall, Highgate Cemetery"
+    "Phone or camera. No tripod at Borough Market or Highgate.",
+    "A power bank. Saturday is long: 7am to after 2pm.",
+    "A light jacket. It's about 12°C at 7am and 22°C in the afternoon.",
+    "Comfortable shoes. About 5 km of walking on Saturday, and Highgate is on a hill.",
+    "A bank card you can tap. It works on the tube and on the boat.",
+    "Tickets on your phone: Royal Observatory, Painted Hall, Highgate Cemetery."
   ],
   "preTrip": [
-    "Book the Royal Observatory and the Painted Hall for Saturday",
-    "Book Highgate Cemetery for Sunday — £10",
-    "Book your train home from Euston for Sunday, around 4pm — check for engineering works when you book",
-    "Optional: ring Highgate on 020 8347 2472 to confirm personal filming",
-    "Charge everything on Friday night — you're out by 6:30am"
+    "Book the Royal Observatory and the Painted Hall for Saturday.",
+    "Book Highgate Cemetery for Sunday (£10).",
+    "Book your train home from Euston on Sunday, at about 4pm. Check for works on the line when you book.",
+    "If you want to be sure about filming, call Highgate: 020 8347 2472.",
+    "Charge everything on Friday night. You leave at about 6:30am."
   ],
-  "goldenRule": "Two fixed times on Saturday: the 10:25 boat from Tower Pier, and the time ball at exactly 1pm. Everything else bends around them.",
+  "goldenRule": "Saturday has two fixed times: the 10:25 boat and the red ball at exactly 1:00. Plan everything else around them.",
   "days": [
     {
       "id": "d1",
@@ -107,7 +107,7 @@
       "planNote": {
         "kicker": "Sunrise 6:53",
         "color": "rust",
-        "text": "Be on Westminster Bridge by 7:00. The whole morning is on foot along the South Bank, about 4.5 km. Borough Market opens at 9:00 — you pass it at 8:35 during the set-up and come back for breakfast at 9:20. The boat from Tower Pier is at 10:25 (next 10:54), about 20 minutes to Greenwich; tap in with contactless. The time ball drops at exactly 1pm and won't run if it's very windy. Forecast: sunny intervals, 12°C at dawn rising to 22°C, dry."
+        "text": "Be on Westminster Bridge by 7:00. The whole morning is walking along the river, about 4.5 km. Borough Market opens at 9:00. You pass it at 8:35 while it's getting ready, and come back for breakfast at 9:20. The boat leaves Tower Pier at 10:25 (the next one is 10:54). It takes about 20 minutes to Greenwich. Tap your bank card. The red ball drops at exactly 1:00. It doesn't work in strong wind. Weather: some sun, 12°C in the morning, up to 22°C, dry."
       },
       "routeStops": [
         "westminster",
@@ -134,7 +134,7 @@
       ],
       "planArrival": {
         "title": "Done at 2:15 PM",
-        "note": "Walk back down through Greenwich Park. Cutty Sark DLR is about fifteen minutes from the Observatory."
+        "note": "Walk down through the park. Cutty Sark station (DLR) is about 15 minutes away."
       }
     },
     {
@@ -152,7 +152,7 @@
       "planNote": {
         "kicker": "Before you go",
         "color": "forest",
-        "text": "Northern line to Archway, then 15–20 minutes uphill, or a bus up Highgate Hill. Highgate Cemetery is open 10–5, last entry 4:30, £10, and both sides are self-guided. Personal non-commercial filming is allowed — but nothing about ghosts, vampires or the undead inside the cemetery. It's a working cemetery: if there's a funeral, move away. Archway to Euston is about 10 minutes on the Northern line; book a train home around 4pm. Forecast: sunny intervals, up to 21°C, dry."
+        "text": "Take the Northern line to Archway. Then walk 15 to 20 minutes up the hill, or take a bus up Highgate Hill. Highgate Cemetery is open 10:00 to 5:00, last entry 4:30, £10. You can walk around both sides on your own. Filming for yourself is allowed, but no stories about ghosts or vampires inside. It's a real cemetery: if there is a funeral, move away. Archway to Euston is about 10 minutes on the Northern line. Book a train home for about 4pm. Weather: some sun, up to 21°C, dry."
       },
       "routeStops": [
         "highgate-cemetery",
@@ -167,7 +167,7 @@
       ],
       "planArrival": {
         "title": "Home",
-        "note": "Archway station is at the bottom of the hill — Northern line to Euston, about 10 minutes. Train home around 4pm."
+        "note": "Archway station is at the bottom of the hill. Northern line to Euston, about 10 minutes. Train home at about 4pm."
       }
     }
   ],
@@ -175,15 +175,15 @@
     "westminster": {
       "name": "Big Ben & the London Eye",
       "actId": "act1",
-      "angle": "The famous bell is cracked",
-      "story": "Start on Westminster Bridge with Parliament on one side and the London Eye on the other. It's the most famous view in London, so don't describe it — give people the one thing they don't know about it. Most people call the tower Big Ben. Big Ben is the bell inside, and it has been cracked for more than 160 years.",
+      "angle": "Big Ben is a cracked bell",
+      "story": "You are on Westminster Bridge. On one side is Parliament with the famous clock tower. On the other side is the London Eye. Everyone knows this view. So tell people something they don't know: Big Ben is not the tower. It is the bell inside.",
       "facts": [
-        "The Parliament building behind it is younger than it looks. The old one burned down in 1834, because workmen were told to get rid of a pile of old wooden tally sticks the government used for its accounts — and they burned them in a furnace under the House of Lords.",
-        "The London Eye across the river was built for the year 2000 with permission to stand for five years. It's still here 26 years later — 32 capsules, one for each London borough, numbered up to 33 because there's no number 13."
+        "The Parliament building is not as old as it looks. The old one burned down in 1834. For hundreds of years, the government recorded money on wooden sticks. They cut a notch in the stick for every payment. By 1834 nobody used these sticks any more, and there was a huge pile of them. Workers were told to burn them in the heating furnace under Parliament. They burned too many at once. The fire spread, and almost the whole building burned down.",
+        "The London Eye was built for the year 2000. At first, it was only allowed to stand for five years. It's still here, 26 years later. It has 32 capsules, one for each part of London. But the numbers go up to 33, because they skipped number 13."
       ],
       "routeCard": {
         "sub": "Westminster Bridge · 7:00 AM · sunrise 6:53",
-        "note": "Westminster station is at the end of the bridge — Jubilee, District and Circle lines.",
+        "note": "Westminster tube station is at the end of the bridge.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.50087%2C-0.12256&travelmode=transit",
         "walkPoints": [],
         "walkLoopHref": null
@@ -196,24 +196,24 @@
           "The London Eye",
           "Westminster Bridge in the early light"
         ],
-        "todo": "Be on the bridge by 7:00, just after sunrise. Parliament first, then turn round for the Eye. Walk on east along the South Bank at 7:30.",
+        "todo": "Be on the bridge at 7:00, just after sunrise. First film Parliament, then turn around for the London Eye. At 7:30, walk east along the river on the South Bank.",
         "film": []
       },
-      "onCamera": "This is Big Ben — except it isn't. Big Ben is the bell inside that tower. The tower itself is called the Elizabeth Tower.",
-      "closeOnCamera": "And that bell? It's cracked. It first rang in 1859, split two months later, and went silent for four years — until they turned it round and gave it a lighter hammer. The crack is still there. So every time you hear Big Ben, you're hearing a cracked bell."
+      "onCamera": "This is Big Ben. Well, not exactly. Big Ben is not the tower. It's the name of the big bell inside it. The tower is called the Elizabeth Tower.",
+      "closeOnCamera": "And the bell, Big Ben? It's cracked. It first rang in 1859. Two months later, it cracked, and it was silent for four years. Then they turned the bell a little and used a lighter hammer. The crack is still there today. So when you hear Big Ben, you are hearing a cracked bell."
     },
     "st-pauls": {
       "name": "Millennium Bridge & St Paul's",
       "actId": "act1",
-      "angle": "The bridge that wobbled and the dome that survived",
-      "story": "Stand at the south end of the Millennium Bridge and the dome of St Paul's sits right at the far end of it. Two stories in one view: a brand-new bridge that had to be shut after two days, and a 300-year-old cathedral that came through a night when everything around it burned.",
+      "angle": "A bridge that wobbled, a dome that survived",
+      "story": "Stand at the south end of the Millennium Bridge. From here, the big dome of St Paul's Cathedral is right at the end of the bridge. Two stories here: a new bridge that had to close after two days, and an old cathedral that survived the bombs of the Second World War.",
       "facts": [
-        "St Paul's was built after the Great Fire of 1666 burned the old cathedral down. It took 35 years, and its architect, Christopher Wren, lived to see it finished — something that almost never happened with a cathedral.",
-        "On 29 December 1940 German bombs set the City around it alight. Churchill sent word that St Paul's must be saved at all costs, and volunteers stayed on the roof all night putting out firebombs. The photo of the dome above the smoke became the picture of the Blitz."
+        "The old St Paul's burned down in the Great Fire of London in 1666. A man called Christopher Wren designed the new one. It took 35 years to build. Wren lived long enough to see it finished. That almost never happened with a big cathedral.",
+        "In the Second World War, German planes bombed London. On the night of 29 December 1940, the streets around St Paul's were on fire. Churchill, the Prime Minister, said the cathedral must be saved. Volunteers stayed on the roof all night and put out the fire bombs. The next morning, a photo of the dome above the smoke became one of the most famous photos of the war."
       ],
       "routeCard": {
         "sub": "Millennium Bridge, Bankside · 8:00 AM",
-        "note": "About 30 minutes' walk from Westminster Bridge along the South Bank.",
+        "note": "About 30 minutes' walk from Westminster Bridge, along the river.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.50989%2C-0.09851&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -226,24 +226,24 @@
           "The Millennium Bridge",
           "Shakespeare's Globe, on the walk onwards"
         ],
-        "todo": "Stand at the south end, where the dome lines up with the bridge. Walk on east past the Globe and Southwark Cathedral at 8:20.",
+        "todo": "Stand at the south end of the bridge, where the dome is right at the end. At 8:20, keep walking east along the river, past the Globe theatre.",
         "film": []
       },
-      "onCamera": "That dome, at the end of this bridge, survived a night in 1940 when everything around it was on fire.",
-      "closeOnCamera": "And this bridge I'm standing on? It opened in June 2000 — and closed two days later. So many people crossed at once that it started to sway, and everyone's steps fell into rhythm with the sway, which made it worse. It took nearly two years to fix. Londoners still call it the Wobbly Bridge."
+      "onCamera": "See that big dome at the end of the bridge? That's St Paul's Cathedral. In 1940, everything around it was on fire. And it survived.",
+      "closeOnCamera": "And this bridge I'm standing on? It opened in June 2000. Two days later, it had to close. So many people walked on it that it started to swing from side to side. People walked in step with the swing, and that made it worse. It took almost two years to fix. Londoners still call it the Wobbly Bridge."
     },
     "borough-setup": {
       "name": "Borough Market — the set-up",
       "actId": "act1",
       "angle": "The market the people bought back",
-      "story": "Arrive before it opens and watch the market being put together for the day — traders unloading, stalls going up, the halls still empty. This is the moment for its real story: Parliament once shut this market down, and the people of Southwark bought it back.",
+      "story": "Come before the market opens. You can see the traders bringing in food and building their stalls. This is a good moment for the market's big story: Parliament once closed it, and the local people bought it back.",
       "facts": [
-        "The market itself claims to date back to 1014, 'and probably much earlier' — and there's been trading here since at least the 1100s. It's one of the oldest food markets in London.",
-        "Why here? Until 1750 London Bridge was the only bridge across the Thames in central London — Westminster Bridge, where you started this morning, was the next. So for centuries every cart of food coming up from the south squeezed through this spot, and a market grew where the traffic was."
+        "Borough Market says it started in the year 1014, maybe even earlier. We know for sure that people were trading here in the 1100s. It's one of the oldest food markets in London.",
+        "Why here? For hundreds of years, London Bridge was the only bridge across the river in central London. The next one was Westminster Bridge, where we started this morning. It opened in 1750. So all the food coming into London from the south came this way. And the market grew right here, where all the carts passed."
       ],
       "routeCard": {
         "sub": "Borough Market · 8:35 AM · opens 9:00",
-        "note": "Personal filming is allowed without permission — but no tripods or long lenses, and security may ask what it's for.",
+        "note": "You can film for yourself without asking. But no tripod, and security may ask what you are filming.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.50553%2C-0.09044&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -256,24 +256,24 @@
           "The market halls before opening",
           "Stoney Street"
         ],
-        "todo": "Keep to the public streets running through the market — Stoney Street and Bedale Street. Ask traders before filming their stalls; they're working, not selling yet.",
+        "todo": "Stay on the streets that go through the market: Stoney Street and Bedale Street. Ask the traders before you film them. They are working, not selling yet.",
         "film": []
       },
-      "onCamera": "It's not even nine o'clock, and this market is getting ready — like it has for about 800 years.",
-      "closeOnCamera": "But here's the best part. In the 1750s Parliament shut this market down, because it was blocking the road to the bridge. The locals refused to lose it. They raised six thousand pounds, bought a patch of land, and got their own Act of Parliament saying it would belong to the parish forever. And it still does."
+      "onCamera": "It's not even nine o'clock, and this market is getting ready for the day. People have been selling food here for about 800 years.",
+      "closeOnCamera": "Here's my favourite part. In the 1750s, the market blocked the road so badly that Parliament closed it down. But the local people didn't want to lose it. They collected six thousand pounds. Today that's about a million. They bought a piece of land, and they got a new law that said the market belongs to the local people forever. And it still does."
     },
     "london-bridge": {
       "name": "London Bridge",
       "actId": "act1",
-      "angle": "The famous bridge is in Arizona",
-      "story": "Three minutes from the market. Everyone knows the name, and almost everyone pictures the wrong bridge — the one with the towers is Tower Bridge, and that's next. This one has been rebuilt again and again for 2,000 years, and the last old version is now in the desert.",
+      "angle": "The old bridge is in America",
+      "story": "This is the bridge next to the market. Everyone knows the name London Bridge, but most people imagine the wrong bridge. The one with the towers is Tower Bridge. This one looks simple, but it has a crazy story.",
       "facts": [
-        "There's been a bridge on this spot since the Romans, almost 2,000 years ago — it's the reason London is here at all. The concrete one you're standing on is the newest: it opened in 1973.",
-        "The medieval bridge had houses and shops built all along it, and the heads of executed traitors stuck on spikes over its gate. William Wallace's was put up here in 1305."
+        "There has been a bridge in this place for almost 2,000 years. The Romans built the first one. London grew up around it. The bridge you see now is made of concrete. It opened in 1973.",
+        "In the Middle Ages, London Bridge had houses and shops built on it. At one end, they put the heads of executed traitors on sticks, as a warning. In 1305, they put the head of William Wallace here. He was the Scottish rebel from the film Braveheart."
       ],
       "routeCard": {
         "sub": "London Bridge · 9:00 AM",
-        "note": "Three minutes' walk from Borough Market.",
+        "note": "3 minutes' walk from Borough Market.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.50805%2C-0.08767&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -286,24 +286,24 @@
           "HMS Belfast",
           "The Shard"
         ],
-        "todo": "Walk out to the middle of the bridge — Tower Bridge is in view downriver. Back to Borough Market for breakfast at 9:20; it's three minutes.",
+        "todo": "Walk to the middle of the bridge. You can see Tower Bridge from there. At 9:20, go back to the market for breakfast. It's 3 minutes away.",
         "film": []
       },
-      "onCamera": "This is London Bridge. Not the famous one — that's Tower Bridge, down there.",
-      "closeOnCamera": "So where's the old London Bridge? In 1968 it was sold to an American, taken apart and rebuilt stone by stone in the Arizona desert. It's still there, over a lake. The story goes that he thought he was buying Tower Bridge. He always denied it — but the story's too good to die."
+      "onCamera": "This is London Bridge. And no, it's not the one you're thinking of. The famous one with the towers is Tower Bridge, over there.",
+      "closeOnCamera": "So where is the old London Bridge? In 1968, it was sold to an American businessman. He took it apart, shipped it to America, and built it again in the desert in Arizona. It's still there today. People say he thought he was buying Tower Bridge. He always said that wasn't true. But it's a good story."
     },
     "borough-open": {
       "name": "Borough Market — open",
       "actId": "act1",
-      "angle": "Breakfast in a 1,000-year-old market",
-      "story": "Back three minutes later and it's a different place — open, full and loud. Eat here. You've got the empty market and the full one, and the full one is where the twist lands: for most of the last century you couldn't have bought breakfast here at all.",
+      "angle": "Breakfast in a very old market",
+      "story": "Come back to the market after London Bridge. Now it's open, busy and noisy. Have breakfast here. You filmed it empty, and now you can film it full.",
       "facts": [
-        "For most of the 1900s this was a wholesale market — fruit and vegetables sold by the crate to shops and restaurants, not to people walking in. The food market you see only began in 1998, with a three-day food fair that was such a hit it became monthly, then weekly, then daily.",
-        "And the people still own it. Borough Market is run by a charitable trust on behalf of the local community — not by a company, not by the council — exactly as that 1756 Act of Parliament promised."
+        "For most of the last century, this market was not for normal shoppers. Traders sold fruit and vegetables here in big boxes, to shops and restaurants. The food market you see today only started in 1998, with a food festival. People loved it so much that it opened every month, then every week, then every day.",
+        "Remember the local people who bought the market in the 1750s? They still own it. Today, a charity runs it for the local community. Not a company, and not the city council. Just like the old law promised."
       ],
       "routeCard": {
         "sub": "Borough Market · 9:20 AM · open 9–5",
-        "note": "Back from London Bridge in three minutes.",
+        "note": "3 minutes back from London Bridge.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.50553%2C-0.09044&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -316,24 +316,24 @@
           "Stoney Street",
           "The Globe pub on Bedale Street"
         ],
-        "todo": "Breakfast — twenty minutes. Then walk east along the river to Tower Bridge; leave by 9:40 for the 10:25 boat.",
+        "todo": "Have breakfast, about 20 minutes. Then walk east along the river to Tower Bridge. Leave by 9:40 for the 10:25 boat.",
         "film": []
       },
-      "onCamera": "Same market, half an hour later. Now it's open, it's loud, and it's breakfast.",
-      "closeOnCamera": "One more thing. See that street? That's Stoney Street — it was the entrance to the Leaky Cauldron in Harry Potter. And Bridget Jones's flat in the films is above the Globe pub, right on the corner. So you've probably seen this place before without knowing it."
+      "onCamera": "Same market, just half an hour later. Now it's open, it's busy, and it's time for breakfast.",
+      "closeOnCamera": "One more thing. See this street? It's called Stoney Street. In the Harry Potter films, it was the entrance to the Leaky Cauldron pub. And in the Bridget Jones films, her flat is above the pub on the corner. So you have probably seen this place before, without knowing it."
     },
     "tower-bridge": {
       "name": "Tower Bridge & the Tower of London",
       "actId": "act1",
       "angle": "The bus that jumped the bridge",
-      "story": "Fifteen minutes east along the river. This is the bridge people mean when they say London Bridge. Cross it to the north side — the Tower of London is right there, and the pier for your boat is just beyond it.",
+      "story": "A 15-minute walk along the river. This is the bridge most people think is London Bridge. Walk across it to the other side. The Tower of London is there, and so is the pier for your boat.",
       "facts": [
-        "It opened in 1894, and the stone is dressed over a steel frame. The two halves of the road lift to let tall ships through, and for 82 years they were raised by steam engines.",
-        "The Tower of London beside it was begun by William the Conqueror after 1066. And the legend that the kingdom falls if its ravens leave? The Tower's own historian found no record of it before the 1880s — it's almost certainly Victorian. They still keep at least six ravens, plus a spare."
+        "Tower Bridge opened in 1894. It looks like an old castle, but inside the stone there is a steel frame. The middle of the road can lift up in two halves, so tall ships can pass under it. For 82 years, big steam engines lifted it.",
+        "Next to the bridge is the Tower of London. William the Conqueror started building it after he took over England in 1066. There's a famous legend: if the ravens, the big black birds, ever leave the Tower, the country will fall. But the Tower's own historian checked the old records. He found nothing about the ravens before the 1880s. So the legend is probably only about 140 years old. They still keep at least six ravens there, just in case."
       ],
       "routeCard": {
         "sub": "Tower Bridge · 9:55 AM",
-        "note": "About 15 minutes' walk east along the river from Borough Market.",
+        "note": "About 15 minutes' walk along the river from Borough Market.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.50552%2C-0.07537&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -346,24 +346,24 @@
           "The Tower of London",
           "HMS Belfast"
         ],
-        "todo": "Cross the bridge to the north side for the Tower, then down to Tower Pier — be there by 10:20 for the 10:25 boat.",
+        "todo": "Walk over the bridge to the north side for the Tower of London. Then go down to Tower Pier. Be there by 10:20 for the 10:25 boat.",
         "film": []
       },
-      "onCamera": "And this is the bridge everyone thinks is London Bridge. It isn't — it's Tower Bridge, and it's younger than it looks.",
-      "closeOnCamera": "But my favourite story about this bridge: in December 1952 it started to open — with a double-decker bus on it. The driver, Albert Gunter, decided the safest thing was to put his foot down. The bus jumped the gap, and all twenty passengers made it across. He was given ten pounds and a day off."
+      "onCamera": "And this is the bridge everyone calls London Bridge. But it's not. This is Tower Bridge. And it's younger than it looks.",
+      "closeOnCamera": "But my favourite story about this bridge happened in December 1952. The bridge started to open while a red double-decker bus was on it. The driver, Albert Gunter, didn't stop. He drove faster, and the bus jumped across the gap. All twenty passengers were safe. He got ten pounds and a day off as a reward."
     },
     "river-boat": {
       "name": "The boat to Greenwich",
       "actId": "act2",
-      "angle": "Arrive the way Greenwich was meant to be seen",
-      "story": "Tap in with contactless at Tower Pier and sit down for twenty minutes — you've earned it. The river bends through the old docks, and then Greenwich appears on the right: two matching halves of a palace with a gap down the middle. That gap is your way into the next story.",
+      "angle": "Arrive by water, like people used to",
+      "story": "Get on the river boat at Tower Pier. Tap your bank card at the gate. Sit down for 20 minutes. When you get close to Greenwich, you will see two big matching buildings with a gap in the middle. That gap is the start of the next story.",
       "facts": [
-        "For most of London's history the river was its main road. The streets were narrow, dirty and dangerous, so kings, cargo and coffins all went by boat — and Greenwich was built to be arrived at by water.",
-        "Those buildings were the Royal Hospital for Seamen — not a hospital as we'd mean it, but a home for old and injured sailors of the Royal Navy, the navy's version of the Chelsea Pensioners. Thousands of them lived here."
+        "For most of London's history, the river was the main road. The streets were narrow, dirty and dangerous. So kings, goods and even coffins travelled by boat. Greenwich was built to be seen from the water.",
+        "These buildings were a home for old and injured sailors from the Royal Navy. It was called a hospital, but it was more like a big retirement home. Thousands of old sailors lived here."
       ],
       "routeCard": {
         "sub": "Tower Pier → Greenwich Pier · 10:25 AM",
-        "note": "Uber Boat by Thames Clippers — tap in with contactless. About 20 minutes. Next boat 10:54.",
+        "note": "Uber Boat (Thames Clippers). Tap your bank card. About 20 minutes. Next boat 10:54.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.50752%2C-0.07969&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -376,24 +376,24 @@
           "The Naval College from the water",
           "Cutty Sark by Greenwich Pier"
         ],
-        "todo": "The 10:25 from Tower Pier — the 10:54 if you miss it. Sit on the right-hand side for Greenwich as you arrive.",
+        "todo": "Boat at 10:25 from Tower Pier. If you miss it, the next one is at 10:54. Sit on the right side to see Greenwich when you arrive.",
         "film": []
       },
-      "onCamera": "No more walking. We're taking the river to Greenwich — the way you were meant to arrive.",
-      "closeOnCamera": "And look — see how it's built in two halves, with a gap down the middle? Queen Mary the Second made the architect, Christopher Wren — the same man who built St Paul's — leave that gap, so the little white house behind could still see the river."
+      "onCamera": "No more walking. Now we take the river to Greenwich, the way people arrived here hundreds of years ago.",
+      "closeOnCamera": "Look how it's built: two halves, with a big gap in the middle. The architect was Christopher Wren, the same man who built St Paul's. Queen Mary the Second told him to leave that gap. That way, the small white house behind it, called the Queen's House, could still see the river."
     },
     "painted-hall": {
       "name": "The Painted Hall",
       "actId": "act2",
-      "angle": "A dining room too grand to eat in",
-      "story": "Five minutes from the pier. It was meant to be where the old sailors ate their dinner. It came out so magnificent that they felt uncomfortable in it and ate downstairs instead — and it has been a showpiece ever since.",
+      "angle": "A dining room too fancy to eat in",
+      "story": "A five-minute walk from the boat. This hall was built for old sailors to eat their meals. But it was so beautiful and so grand that they didn't want to eat there.",
       "facts": [
-        "The sailors felt so uncomfortable in all this that they took their meals in the plain, dark room underneath instead — the undercroft. While the painter spent nineteen years up the scaffolding, that's where they ate.",
-        "In January 1806 Admiral Nelson's body lay in state in this hall after he was killed at the Battle of Trafalgar. Thousands queued to walk past his coffin before it was carried up the river to St Paul's — the cathedral you saw this morning."
+        "The sailors felt uncomfortable eating in such a grand room. So they ate in the simple, dark room downstairs instead. They ate there for all the years it took to paint this hall.",
+        "In 1806, Admiral Nelson, Britain's most famous sailor, was killed at the Battle of Trafalgar. His body was brought here, and thousands of people came to say goodbye. Then his coffin went up the river by boat to St Paul's Cathedral, the one we saw this morning."
       ],
       "routeCard": {
         "sub": "Old Royal Naval College · 10:50 AM · £19",
-        "note": "Five minutes' walk from Greenwich Pier. Open 10–5, last entry 4:30.",
+        "note": "5 minutes' walk from Greenwich Pier. Open 10:00 to 5:00, last entry 4:30.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.48178%2C-0.00663&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -406,22 +406,22 @@
           "The Upper Hall at the far end",
           "The undercroft where the sailors actually ate"
         ],
-        "todo": "Look up first, then walk to the Upper Hall at the far end. Leave by 11:40 for lunch.",
+        "todo": "Look up first. Then walk to the far end of the hall. Leave at 11:40 for lunch.",
         "film": []
       },
-      "onCamera": "This was built as a dining room for old sailors. It turned out so grand that they refused to eat in it.",
-      "closeOnCamera": "Now look up. One painter, James Thornhill, spent nineteen years on this, from 1707 to 1726. And he was paid by the square yard — three pounds a yard for the ceiling, one pound for the walls. That's what nineteen years looks like."
+      "onCamera": "This room was built as a dining room for old sailors. But it came out so fancy that the sailors refused to eat in it.",
+      "closeOnCamera": "Now look up. One painter, James Thornhill, painted all of this. It took him nineteen years, from 1707 to 1726. And he was paid by the size of the painting: three pounds for every square yard of ceiling, and one pound for the walls. This is what nineteen years of work looks like."
     },
     "greenwich-lunch": {
       "name": "Lunch, then up the hill",
       "actId": "act2",
       "hideOnTalk": true,
-      "angle": "Refuel before the climb",
-      "story": "Eat in Greenwich, then walk up through Greenwich Park to the Observatory. It's steep — allow fifteen minutes.",
+      "angle": "Food before the hill",
+      "story": "Have lunch in Greenwich. Then walk up the hill in the park to the Observatory. It's steep. It takes about 15 minutes.",
       "facts": [],
       "routeCard": {
         "sub": "Greenwich → Greenwich Park",
-        "note": "Fifteen minutes uphill through the park.",
+        "note": "15 minutes uphill through the park.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.47736%2C-0.00085&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -433,22 +433,22 @@
           "Greenwich Market",
           "The view back down the hill"
         ],
-        "todo": "Lunch in Greenwich, then fifteen minutes uphill through the park. Be at the Observatory by 12:50 for the time ball.",
+        "todo": "Have lunch in Greenwich. Then walk up the hill in the park. It takes about 15 minutes. Be at the Observatory by 12:50 for the red ball.",
         "film": []
       }
     },
     "time-ball": {
       "name": "The Time Ball",
       "actId": "act2",
-      "angle": "London's clock for ships",
-      "story": "A big red ball on a pole on the roof of the Observatory. At five to one it goes halfway up, at two minutes to it goes to the top, and at exactly one o'clock it drops. It has done this every day since 1833.",
+      "angle": "A clock for ships",
+      "story": "On the roof of the Observatory there is a big red ball on a pole. Every day, it drops at exactly one o'clock. It has done this since 1833.",
       "facts": [
-        "It was put up in 1833 so ship captains on the Thames could set their clocks exactly before a voyage. A clock even a few seconds wrong could put a ship miles off course.",
-        "At 12:55 it rises halfway up the pole, at 12:58 it goes to the top, and at exactly one o'clock it falls. It was one of the first public time signals in the world."
+        "It was made for the ships on the River Thames. Before a long trip, the captain had to set the ship's clock exactly right. If the clock was wrong by even a few seconds, the ship could end up miles away from where it should be.",
+        "At five to one, the ball goes halfway up. At two minutes to one, it goes to the top. And at exactly one o'clock, it drops. It was one of the first public time signals in the world."
       ],
       "routeCard": {
         "sub": "Royal Observatory · 12:55 PM · watch from outside",
-        "note": "Face the red ball on the roof of Flamsteed House.",
+        "note": "Stand facing the red ball on the roof.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.47736%2C-0.00085&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -460,24 +460,24 @@
           "The red time ball on Flamsteed House",
           "The view over London from the hilltop"
         ],
-        "todo": "Open at 12:50, facing the red ball on the roof. Do your close at 12:58 as it rises to the top — then it drops at 1pm. It won't run if it's very windy.",
+        "todo": "At 12:50, stand outside facing the red ball on the roof, and say your open. At 12:58 the ball goes to the top: say your close. At 1:00 it drops. If it's very windy, it won't work.",
         "film": []
       },
-      "onCamera": "That red ball on the roof drops at exactly one o'clock. It's done it every day since 1833.",
-      "closeOnCamera": "So why one o'clock and not midday? Because at noon the astronomers here were busy at their telescopes, checking the time by the sun. So they dropped the ball an hour later, once they were free. And here it goes..."
+      "onCamera": "See that big red ball on the roof? Every day, at exactly one o'clock, it drops. It has done this every day since 1833.",
+      "closeOnCamera": "So why one o'clock, and not twelve? Because at twelve, the scientists here were busy. They were using their telescopes to check the time by the sun. So they dropped the ball an hour later, when they were free. And... here it goes."
     },
     "observatory": {
       "name": "The Royal Observatory",
       "actId": "act2",
       "angle": "The carpenter who beat the scientists",
-      "story": "The main story of the day. Sailors couldn't tell where they were at sea, ships were being wrecked, and Parliament offered a fortune to whoever could fix it. The greatest scientists in the country said the answer was in the stars. A carpenter said it was a clock — and his clocks are here, still ticking.",
+      "story": "This is the biggest story of the day. For a long time, sailors could not tell exactly where they were at sea. Ships got lost and crashed. Parliament offered a huge prize to solve this. The top scientists looked at the stars. A carpenter built a clock. His clocks are here, and they still work.",
       "facts": [
-        "Sailors could tell how far north or south they were, but not how far east or west. In 1707 a navy fleet lost its way off the Isles of Scilly and well over a thousand men drowned. Parliament offered a fortune for a solution.",
-        "The scientists said the answer was in the stars. Harrison said it was a clock. The men in charge of the prize kept changing the rules and wouldn't pay him — he was 80 before Parliament finally did, after the King himself took his side."
+        "Sailors could tell how far north or south they were by looking at the sun. But they could not tell how far east or west they were. In 1707, some Navy ships got lost and crashed on rocks near the Isles of Scilly. More than a thousand sailors died. So Parliament offered a huge prize to anyone who could solve the problem.",
+        "Most scientists said the answer was in the stars. Harrison said the answer was a very good clock. The people in charge of the prize didn't like him. They kept changing the rules, and they didn't pay him. He was 80 years old before Parliament finally paid him, after the King himself helped him."
       ],
       "routeCard": {
         "sub": "Royal Observatory · 1:00 PM · £18",
-        "note": "Open until 6pm in September. Closes on 1 November 2026 until 2028.",
+        "note": "Open until 6pm in September. It closes on 1 November 2026, until 2028.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.47736%2C-0.00085&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -490,24 +490,24 @@
           "The Prime Meridian",
           "The view over London"
         ],
-        "todo": "Open inside at Harrison's clocks. Then out to the meridian line for your close — that's the end of Saturday. The Observatory closes on 1 November until 2028.",
+        "todo": "Start inside with Harrison's clocks, and say your open there. Then go out to the line on the ground, the meridian, and say your close. That's the end of Saturday. The Observatory closes on 1 November until 2028.",
         "film": []
       },
-      "onCamera": "These are John Harrison's clocks. He was a carpenter — and he beat the best scientists in England with them. They're still ticking. And this little one, H4, sailed to Jamaica in 1761 and lost just five seconds in eighty-one days.",
-      "closeOnCamera": "And this is what it was all for. One foot in the east, one foot in the west — zero degrees, the line the whole world measures from. A carpenter, a clock, and a line across the planet. That's Greenwich."
+      "onCamera": "These are the clocks of John Harrison. He was a carpenter, not a scientist. And with these clocks, he beat the best scientists in England. They still work today. This small one, H4, sailed to Jamaica in 1761. In 81 days, it was wrong by only five seconds.",
+      "closeOnCamera": "And this is what it was all for. This line is zero degrees. One foot in the east, one foot in the west. The whole world measures east and west from this line. A carpenter, a clock, and a line around the planet. That's Greenwich."
     },
     "highgate-cemetery": {
       "name": "Highgate Cemetery",
       "actId": "act3",
-      "angle": "Where London put its dead when it ran out of room",
-      "story": "Go early, while it's quiet. By the 1830s London's churchyards were so full that bodies were being stacked on top of each other. So the Victorians built huge garden cemeteries on the edge of the city — and made this one the place to be buried. Both sides are self-guided with your ticket.",
+      "angle": "Where London buried its dead",
+      "story": "In the 1800s, London had a big problem. The old churchyards were full of dead bodies. So new, big cemeteries were built on the edge of the city. Highgate was the most fashionable one. Rich and famous people were buried here.",
       "facts": [
-        "London's churchyards were overflowing — old coffins were broken up to make room for new ones, and people blamed the smell for disease. So private companies built seven great cemeteries round the edge of the city. Highgate opened in 1839 and became the fashionable one. Karl Marx is buried on the East side.",
-        "Inside is the Egyptian Avenue, a street of tombs from when Britain was obsessed with ancient Egypt, leading into the Circle of Lebanon — family vaults built in a ring around a cedar tree that was here before the cemetery. That tree lasted until 2019; the young one in the middle now is its replacement."
+        "London's old churchyards were completely full. Old coffins were broken up to make space for new ones. People believed the smell caused disease. So private companies built seven big cemeteries around the edge of London. Highgate opened in 1839, and it became the fashionable place to be buried. Karl Marx, the man who wrote about communism, is buried here too.",
+        "Inside there is the Egyptian Avenue, a street of tombs that looks like ancient Egypt. At that time, the British were crazy about Egypt. It leads to a circle of family tombs, built around a huge old cedar tree. The tree was here before the cemetery. It went rotten inside, and in 2019 they had to cut it down. The young tree in the middle is the new one."
       ],
       "routeCard": {
         "sub": "Swain's Lane · 10:00 AM · £10",
-        "note": "Open 10–5, last entry 4:30. From Archway: 15–20 minutes uphill, or a bus up Highgate Hill.",
+        "note": "Open 10:00 to 5:00, last entry 4:30. From Archway: 15 to 20 minutes uphill, or take a bus up Highgate Hill.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.56684%2C-0.14646&travelmode=transit",
         "walkPoints": [],
         "walkLoopHref": null
@@ -520,22 +520,22 @@
           "The Circle of Lebanon",
           "Karl Marx's tomb"
         ],
-        "todo": "Open at the gate on Swain's Lane. Inside, just film — the East side for Marx, the West for the Egyptian Avenue and the Circle of Lebanon; that's your voiceover footage. Close back at the gate. If there's a funeral, move away.",
+        "todo": "Say your open at the gate on Swain's Lane. Inside, just film. The East side has Karl Marx. The West side has the Egyptian Avenue and the circle of tombs. Say your close back at the gate. If there is a funeral, move away.",
         "film": []
       },
-      "onCamera": "By the 1830s, London had run out of room for its dead. So the Victorians built this.",
-      "closeOnCamera": "One more story from in there. The painter Dante Gabriel Rossetti buried a book of his poems with his wife — and seven years later had her dug up at night to get them back. But there's one story they won't let me tell in there at all. For that, we're going across the road."
+      "onCamera": "By the 1830s, London had no more room to bury its dead. So they built this.",
+      "closeOnCamera": "One more story from inside. The painter Dante Gabriel Rossetti buried a book of his poems with his wife when she died. Seven years later, he changed his mind. He had her dug up at night, to get the poems back. But there's one story they don't allow me to tell in there. For that one, we're going across the road."
     },
     "highgate-lunch": {
       "name": "Lunch in Highgate village",
       "actId": "act3",
       "hideOnTalk": true,
-      "angle": "A village on top of a hill",
-      "story": "Five minutes up the lane. Highgate still feels like the village it was before London swallowed it.",
+      "angle": "Lunch in the village",
+      "story": "Five minutes up the lane. Highgate still feels like a village.",
       "facts": [],
       "routeCard": {
         "sub": "Highgate village",
-        "note": "Five minutes up Swain's Lane.",
+        "note": "5 minutes up Swain's Lane.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.56848%2C-0.14458&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -546,22 +546,22 @@
         "see": [
           "Highgate village high street"
         ],
-        "todo": "An hour for lunch, then back down to Waterlow Park, directly across from the cemetery.",
+        "todo": "One hour for lunch. Then go to Waterlow Park, across the road from the cemetery.",
         "film": []
       }
     },
     "waterlow-park": {
       "name": "Waterlow Park",
       "actId": "act3",
-      "angle": "A garden for the gardenless",
-      "story": "Right across the road from the cemetery, and free. A Lord Mayor gave it away in 1889 so people without gardens had somewhere to go. The terraces look out over the whole City — and this is where you tell the story you can't tell inside the cemetery.",
+      "angle": "A garden for people with no garden",
+      "story": "The park is right across the road from the cemetery, and it's free. From the top, you can see all of London. This is where you tell the story the cemetery doesn't allow.",
       "facts": [
-        "This park was given to the public in 1889 by Sir Sydney Waterlow, a printer who became Lord Mayor of London — 26 acres, as he put it, 'a garden for the gardenless'. Most Victorian Londoners had no outdoor space at all.",
-        "The white house in the park, Lauderdale House, was built in 1582, before Shakespeare had written a play. Local legend says Nell Gwyn, the actress who became King Charles II's mistress, lived here."
+        "This park was a gift. In 1889, Sir Sydney Waterlow, the Lord Mayor of London, gave all this land to the public. He called it a garden for people who don't have a garden. Back then, most people in London lived in crowded streets, with no garden at all.",
+        "The white house in the park is called Lauderdale House. It was built in 1582, before Shakespeare wrote his first play. People say that Nell Gwyn lived here. She was an actress, and the girlfriend of King Charles the Second."
       ],
       "routeCard": {
         "sub": "Waterlow Park · 1:15 PM · free",
-        "note": "Directly across Swain's Lane from the cemetery.",
+        "note": "Right across the road from the cemetery.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.56848%2C-0.14458&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -574,24 +574,24 @@
           "Lauderdale House",
           "The terraced gardens"
         ],
-        "todo": "Top terrace: open with the vampire story, with the view behind you. Close on the view, then walk down Highgate Hill at 2:15.",
+        "todo": "Go to the top terrace. Tell the vampire story there, with London behind you. Then say your close with the view. Walk down the hill at 2:15.",
         "film": []
       },
-      "onCamera": "I'm not allowed to tell this story inside the cemetery — they've banned it. So here it is. In 1970 a newspaper reported a vampire in Highgate Cemetery, and crowds of vampire hunters climbed the walls at night with stakes and crucifixes, until the police broke it up.",
-      "closeOnCamera": "From up here you can see the whole of London. And at the bottom of this hill is the spot where, in the story, a boy who was leaving it turned back. That's where we're going next."
+      "onCamera": "The cemetery doesn't allow this story inside, so I'll tell it here. In 1970, a newspaper wrote that a vampire lived in Highgate Cemetery. After that, crowds of people climbed over the walls at night, with wooden stakes and crosses, to hunt the vampire. The police had to stop them.",
+      "closeOnCamera": "From up here, you can see all of London. And at the bottom of this hill, there's a place from an old story. It's where a boy who was leaving London decided to turn back. That's where we're going next."
     },
     "whittington-stone": {
       "name": "The Whittington Stone",
       "actId": "act3",
-      "angle": "Turn again, Whittington",
-      "story": "Ten minutes down Highgate Hill. A stone with a cat on top, marking the spot where — in the story every British child knows — a poor boy leaving London heard the bells call him back. It's the right place to end a weekend in London.",
+      "angle": "Turn back, Whittington",
+      "story": "Walk ten minutes down the hill. There is a stone with a cat on top. It marks a place from a famous English children's story, about a boy called Dick Whittington.",
       "facts": [
-        "The legend: Dick Whittington came to London because he heard the streets were paved with gold. He failed, and was walking out up this hill when the bells rang 'Turn again, Whittington, thrice Lord Mayor of London'. He turned back — and his cat made his fortune.",
-        "The stone was put here in 1821, and the cat added in 1964. The real Whittington had no children, and when he died in 1423 he left his whole fortune to the city — for almshouses, a library, a rebuilt prison, and one of the biggest public toilets in London."
+        "Here is the story that every English child knows. Dick Whittington was a poor boy. He came to London because he heard the streets were made of gold. They weren't. He gave up and started to walk away, up this hill. Then he heard the bells. They seemed to say: turn back, Whittington, you will be Lord Mayor of London. So he went back. And in the story, his cat made him rich.",
+        "The stone was put here in 1821. The cat on top was added in 1964. The real Whittington had no children. When he died in 1423, he gave all his money to the city. It paid for homes for poor people, a library, a new prison, and one of the biggest public toilets in London."
       ],
       "routeCard": {
         "sub": "Highgate Hill, Archway · 2:15 PM · free",
-        "note": "About 10 minutes' walk downhill from Waterlow Park. Archway station is two minutes away.",
+        "note": "About 10 minutes' walk down the hill from Waterlow Park. Archway station is 2 minutes away.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=51.56654%2C-0.13684&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -603,21 +603,21 @@
           "The Whittington Stone and its cat",
           "The view down to Archway"
         ],
-        "todo": "The stone is on the pavement at the foot of Highgate Hill. Archway station is at the bottom — Northern line to Euston, about ten minutes.",
+        "todo": "The stone is on the pavement at the bottom of Highgate Hill. Archway tube station is at the bottom. Take the Northern line to Euston. It's about 10 minutes.",
         "film": []
       },
-      "onCamera": "This is where, in the story, a poor boy leaving London heard the bells tell him to turn back. So he did — and became Lord Mayor.",
-      "closeOnCamera": "But here's the twist. The real Dick Whittington wasn't poor at all. He was a knight's son and a rich merchant who lent money to kings. He was Lord Mayor four times, not three. And there was no cat."
+      "onCamera": "This is where, in the old story, a poor boy called Dick Whittington was leaving London. Here, he heard the church bells telling him to turn back. So he went back, and he became the Lord Mayor of London.",
+      "closeOnCamera": "But here's the surprise. The real Dick Whittington was not poor at all. His father was a knight. He became a very rich trader, and he lent money to kings. He was Lord Mayor of London four times, not three. And there was no cat."
     }
   },
   "coldOpen": {
     "title": "Cold open",
     "color": "rust",
-    "where": "Westminster Bridge, 7am — the city still empty",
+    "where": "Westminster Bridge, 7am, when the city is still empty",
     "facts": [
-      "The hook: 'This is my first time filming London — so I'm doing it at seven in the morning, before it wakes up'",
-      "What this is: the famous London in the first hours of daylight, then two stories most visitors never hear",
-      "The promise: a market the people bought back, a carpenter who beat the scientists, and the hill where a boy leaving London turned round"
+      "The hook: 'This is my first video in London. So I'm starting at seven in the morning, before the city wakes up.'",
+      "What this is: the famous places at sunrise, then two stories most tourists never hear.",
+      "The promise: a market the local people bought back, a carpenter who beat the scientists, and a hill where a boy leaving London turned back."
     ]
   },
   "signOff": {
@@ -625,20 +625,20 @@
     "color": "forest",
     "where": "The Whittington Stone, Sunday afternoon",
     "facts": [
-      "Where you are: the spot where, in the story, a boy leaving London heard the bells and turned back",
-      "The link: 'I came for the landmarks — and the best bits were the ones nobody puts on a postcard'",
-      "The ask: like, subscribe — and where should I go next?"
+      "Where you are: the place where, in the story, a boy leaving London heard the bells and turned back.",
+      "The link: 'I came to see the famous places. But the best parts were the ones you won't find on a postcard.'",
+      "The ask: like and subscribe, and tell me where I should go next."
     ]
   },
-  "talkTipbox": "Every stop is a complete little piece that starts and ends with you: OPEN on camera, then the VOICEOVER in the middle — recorded later in the edit, over your footage — then CLOSE on camera. The open is the hook, the close is the payoff. In the voiceover, give every name one line on who they were: your audience has never heard of Wren, Harrison or Whittington.",
+  "talkTipbox": "Each stop has three parts. 1. OPEN: say it to the camera. 2. VOICEOVER: record it later, at home, over your video. 3. CLOSE: say it to the camera. You don't have to say it word for word. Use your own simple words. When you say a name, say who the person was.",
   "goldenRules": [
-    "Every stop: open on camera, voiceover in the middle, close on camera.",
-    "Two fixed times on Saturday: the 10:25 boat and the 1pm time ball.",
-    "Borough Market opens at 9 — watch the set-up from the street, and ask traders before filming them.",
-    "Handheld only at Borough Market and Highgate — no tripods.",
-    "Nothing about ghosts or vampires inside Highgate Cemetery. Tell that story in Waterlow Park.",
-    "It's a working cemetery. If there's a funeral, move away and stop filming.",
-    "Book the Observatory, the Painted Hall, Highgate and your train home before you leave."
+    "Each stop: open on camera, voiceover later, close on camera.",
+    "Saturday has two fixed times: the 10:25 boat and the red ball at 1:00.",
+    "Borough Market opens at 9. Film the set-up from the street. Ask traders before you film them.",
+    "No tripod at Borough Market or Highgate. Hold the camera in your hand.",
+    "No ghost or vampire stories inside Highgate Cemetery. Tell that one in Waterlow Park.",
+    "It's a real cemetery. If there is a funeral, move away and stop filming.",
+    "Before you go: book the Observatory, the Painted Hall, Highgate and your train home."
   ],
-  "outro": "The postcards at sunrise, then the stories behind them. Safe trip home."
+  "outro": "The famous places at sunrise, then the stories behind them. Have a good trip home."
 }
