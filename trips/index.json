@@ -1,6 +1,13 @@
 {
-  "default": "ep06",
+  "default": "ep07",
   "trips": [
+    {
+      "id": "ep07",
+      "title": "London, Past the Postcards",
+      "subtitle": "Dawn on the river → Greenwich → Highgate",
+      "dates": "Sat 26 – Sun 27 September 2026",
+      "episode": "EP.07"
+    },
     {
       "id": "ep06",
       "title": "The Biggest Show in Games",
