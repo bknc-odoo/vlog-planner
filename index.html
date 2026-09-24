@@ -886,23 +886,37 @@
       : '';
     /* Optional onCamera: the one line to deliver at the location. When present, the facts are
        voiceover material for the edit, so they're labelled that way. */
-    var onCamBlock = stopObj.onCamera
-      ? '<div class="mlabel" style="color:' + color + ';border-color:' + color + '">Say on camera</div>'
-        + '<div class="story"><p style="font-weight:600">&ldquo;' + esc(stopObj.onCamera) + '&rdquo;</p></div>'
+    /* onCamera may be one line or a list of short takes. */
+    var takes = Array.isArray(stopObj.onCamera) ? stopObj.onCamera : (stopObj.onCamera ? [stopObj.onCamera] : []);
+    var closeCam = (stopObj.closeOnCamera || '').trim();
+    var onCamBlock = takes.length
+      ? '<div class="mlabel" style="color:' + color + ';border-color:' + color + ';margin-top:14px">'
+        + (closeCam ? 'Open on camera' : 'Say on camera') + '</div>'
+        + '<div class="story">' + takes.map(function (tk, i) {
+            return '<p style="font-weight:600">'
+              + (takes.length > 1 ? '<span class="sub" style="display:block;margin:0 0 2px">Take ' + (i + 1) + '</span>' : '')
+              + '&ldquo;' + esc(tk) + '&rdquo;</p>';
+          }).join('') + '</div>'
       : '';
     var factsBlock = facts
       ? '<div class="mlabel" style="color:' + color + ';border-color:' + color + ';margin-top:14px">'
-        + (stopObj.onCamera ? 'For the voiceover' : 'Quick facts') + '</div>'
+        + ((takes.length || closeCam) ? 'Voiceover — record later' : 'Quick facts') + '</div>'
         + '<ul>' + facts + '</ul>'
+      : '';
+    /* Optional closeOnCamera: the payoff delivered back on camera after the voiceover. */
+    var closeBlock = closeCam
+      ? '<div class="mlabel" style="color:' + color + ';border-color:' + color + ';margin-top:14px">Close on camera</div>'
+        + '<div class="story"><p style="font-weight:600">&ldquo;' + esc(closeCam) + '&rdquo;</p></div>'
       : '';
     var slug = stopObj.name.toLowerCase().replace(/[^a-z]+/g, '-');
     return ''
       + '<div class="card" id="talk-' + attr(stopObj.actId) + '-' + attr(slug) + '">'
       +   '<div class="cap" style="font-size:16px;color:' + color + '">' + esc(stopObj.name) + '</div>'
       +   '<div class="sub">Angle · ' + esc(stopObj.angle) + '</div>'
-      +   onCamBlock
       +   storyBlock
+      +   onCamBlock
       +   factsBlock
+      +   closeBlock
       + '</div>';
   }
 
