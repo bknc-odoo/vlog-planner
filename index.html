@@ -359,7 +359,9 @@
       if (t.acts[i].id === actId) { ai = i; break; }
     }
     if (ai < 0) return null;
-    return t.days[ai] ? t.days[ai].id : null;
+    if (t.acts[ai].dayId) return t.acts[ai].dayId;
+    var di = Math.min(ai, t.days.length - 1);   /* leftover acts live on the last day, as in actsForDay */
+    return t.days[di] ? t.days[di].id : null;
   }
 
     function validateTrip(t) {
@@ -369,6 +371,9 @@
       (a.stopIds || []).forEach(function (sid) {
         if (ids.indexOf(sid) === -1) console.warn('[wt] act ' + a.id + ' references missing stop "' + sid + '"');
       });
+      if (a.dayId && !(t.days || []).some(function (d) { return d.id === a.dayId; })) {
+        console.warn('[wt] act ' + a.id + ' has unknown dayId "' + a.dayId + '"');
+      }
     });
     (t.days || []).forEach(function (d) {
       (d.routeStops || []).concat(d.planStops || []).forEach(function (sid) {
@@ -770,7 +775,7 @@
       +   topNote
       +   '<div class="btnrow">'
       +     '<a class="btn g" target="_blank" rel="noopener" href="' + attr(rc.mapsHref) + '">Google Maps</a>'
-      +     '<a class="btn w" target="_blank" rel="noopener" href="' + attr(rc.wazeHref) + '">Waze</a>'
+      +     (rc.wazeHref ? '<a class="btn w" target="_blank" rel="noopener" href="' + attr(rc.wazeHref) + '">Waze</a>' : '')
       +   '</div>'
       +   walkBlock
       + '</div>';
@@ -879,8 +884,15 @@
       ? '<div class="mlabel" style="color:' + color + ';border-color:' + color + '">The story</div>'
         + '<div class="story">' + storyParas + '</div>'
       : '';
+    /* Optional onCamera: the one line to deliver at the location. When present, the facts are
+       voiceover material for the edit, so they're labelled that way. */
+    var onCamBlock = stopObj.onCamera
+      ? '<div class="mlabel" style="color:' + color + ';border-color:' + color + '">Say on camera</div>'
+        + '<div class="story"><p style="font-weight:600">&ldquo;' + esc(stopObj.onCamera) + '&rdquo;</p></div>'
+      : '';
     var factsBlock = facts
-      ? '<div class="mlabel" style="color:' + color + ';border-color:' + color + ';margin-top:14px">Quick facts</div>'
+      ? '<div class="mlabel" style="color:' + color + ';border-color:' + color + ';margin-top:14px">'
+        + (stopObj.onCamera ? 'For the voiceover' : 'Quick facts') + '</div>'
         + '<ul>' + facts + '</ul>'
       : '';
     var slug = stopObj.name.toLowerCase().replace(/[^a-z]+/g, '-');
@@ -888,6 +900,7 @@
       + '<div class="card" id="talk-' + attr(stopObj.actId) + '-' + attr(slug) + '">'
       +   '<div class="cap" style="font-size:16px;color:' + color + '">' + esc(stopObj.name) + '</div>'
       +   '<div class="sub">Angle · ' + esc(stopObj.angle) + '</div>'
+      +   onCamBlock
       +   storyBlock
       +   factsBlock
       + '</div>';
@@ -914,9 +927,14 @@
 
   /* Acts are the story spine, days are calendar days — usually 1:1, but a single-day trip can
      span several acts. One act per day by index, with the LAST day taking any leftovers.
-     3 acts/3 days is unchanged; 5 acts/1 day puts all five under that day. */
+     3 acts/3 days is unchanged; 5 acts/1 day puts all five under that day.
+     If acts carry an explicit dayId (e.g. two acts on Saturday, one on Sunday), that wins. */
   function actsForDay(t, i) {
     var acts = t.acts || [];
+    var day = (t.days || [])[i];
+    if (acts.some(function (a) { return a.dayId; })) {
+      return acts.filter(function (a) { return day && a.dayId === day.id; });
+    }
     var lastDay = ((t.days || []).length - 1);
     return (i === lastDay) ? acts.slice(i) : [acts[i]].filter(Boolean);
   }
