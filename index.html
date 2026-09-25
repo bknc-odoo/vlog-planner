@@ -784,8 +784,6 @@
     }).join('');
 
     var html = ''
-      + '<h2 class="sec">Route &amp; Navigation</h2>'
-      + '<p class="lede">Driving links connect the towns; walking loops connect the sights inside each one. Set destinations while parked — never while moving.</p>'
       + days;
     document.getElementById('route').innerHTML = html;
   }
@@ -847,8 +845,6 @@
     }).join('');
 
     var html = ''
-      + '<h2 class="sec">The Plan</h2>'
-      + '<p class="lede">The timed agenda for each day — when to be where, and what to film.</p>'
       + days;
     document.getElementById('plan').innerHTML = html;
   }
@@ -907,7 +903,6 @@
     return ''
       + '<div class="card">'
       +   '<div class="cap" style="font-size:16px;color:' + colorVar(b.color) + '">' + esc(b.title) + '</div>'
-      +   '<div class="sub">' + esc(b.where) + '</div>'
       +   '<ul style="margin-top:7px">' + facts + '</ul>'
       + '</div>';
   }
