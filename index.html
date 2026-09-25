@@ -935,7 +935,6 @@
     return ''
       + '<div style="margin:20px 0 10px">'
       +   '<div class="cap" style="font-size:16px;color:' + c + '">' + esc(a.label) + '</div>'
-      +   (a.tagline ? '<div class="sub">' + esc(a.tagline) + '</div>' : '')
       + '</div>';
   }
 
@@ -982,9 +981,6 @@
     var rules = (t.goldenRules || []).map(function (r) { return '<li>' + esc(r) + '</li>'; }).join('');
 
     var html = ''
-      + '<h2 class="sec">What to Talk About</h2>'
-      + '<p class="lede">Learn two or three points per stop, then say them in your own words — don\'t read a script.</p>'
-      + '<div class="tipbox"><b>On camera</b>' + esc(t.talkTipbox) + '</div>'
       + days
       + '<h2 class="sec" style="margin-top:20px">Golden rules</h2>'
       + '<ul style="margin-top:8px">' + rules + '</ul>'
