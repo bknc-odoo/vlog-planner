@@ -671,15 +671,6 @@
 
   function renderTrip() {
     var t = TRIP;
-    var glance = t.dayGlance.map(function (g) {
-      return ''
-        + '<div class="glance">'
-        + '<div class="gd" style="background:' + colorVar(g.color) + '">' + esc(g.n) + '</div>'
-        + '<div><div class="gt">' + esc(g.title) + '</div>'
-        + '<div class="gs">' + esc(g.sub) + '</div></div>'
-        + '</div>';
-    }).join('');
-
     var acts = t.acts.map(function (a) {
       return ''
         + '<div class="card act-card" data-act="' + attr(a.id) + '">'
@@ -688,12 +679,9 @@
         + '</div>';
     }).join('');
 
-    var kit = t.kit.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('');
 
 
     /* Headings that adapt to trip shape (1 day vs N days, 1 act vs N acts) */
-    var DAY_WORD = { 1: 'The day', 2: 'The two days', 3: 'The three days', 4: 'The four days', 5: 'The five days' };
-    var glanceTitle = t.dayGlanceTitle || DAY_WORD[(t.days || []).length] || ('The ' + (t.days || []).length + ' days');
     var actsLede = t.actsLede;
     if (!actsLede) {
       var an = (t.acts || []).length;
@@ -719,15 +707,9 @@
       +   '<i style="background:var(--rust)"></i><i style="background:var(--ochre)"></i><i style="background:var(--forest)"></i>'
       + '</div>'
       + '<p class="p0">' + esc(t.intro) + '</p>'
-      + '<h2 class="sec">' + esc(glanceTitle) + '</h2>'
-      + '<div class="lede">Tap <b>Route</b> for navigation, <b>Plan</b> for the timed agenda, <b>Talk</b> for what to say on camera.</div>'
-      + glance
       + '<h2 class="sec" style="margin-top:22px">The story to film</h2>'
       + (actsLede ? '<div class="lede">' + esc(actsLede) + '</div>' : '')
-      + acts
-      + '<h2 class="sec" style="margin-top:22px">Your kit</h2>'
-      + '<ul style="margin-top:8px">' + kit + '</ul>'
-      + '<div class="tipbox" style="margin-top:14px"><b>Golden rule</b>' + esc(t.goldenRule) + '</div>';
+      + acts;
     document.getElementById('trip').innerHTML = html;
   }
 
@@ -978,13 +960,8 @@
         + '</div>';
     }).join('');
 
-    var rules = (t.goldenRules || []).map(function (r) { return '<li>' + esc(r) + '</li>'; }).join('');
 
-    var html = ''
-      + days
-      + '<h2 class="sec" style="margin-top:20px">Golden rules</h2>'
-      + '<ul style="margin-top:8px">' + rules + '</ul>'
-      + (t.outro ? '<p class="note" style="margin:14px 0 4px">' + esc(t.outro) + '</p>' : '');
+    var html = days;
     document.getElementById('talk').innerHTML = html;
   }
 

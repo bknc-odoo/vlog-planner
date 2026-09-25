@@ -1,5 +1,5 @@
 /* WockingTocking — offline cache */
-var CACHE = 'wt-v36';
+var CACHE = 'wt-v37';
 var SHELL = [
   './',
   './index.html',
