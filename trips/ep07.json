@@ -5,7 +5,7 @@
   "dates": "Sat 26 – Sun 27 September 2026",
   "episode": "EP.07",
   "heroKicker": "Two days in London",
-  "intro": "The famous London at sunrise, before the city wakes up. Then two stories most tourists never hear. Saturday: the river at sunrise, a market the local people bought back, and a carpenter who beat the scientists in Greenwich. Sunday: the hill above London, with a huge old cemetery, and the place where a boy leaving London turned back.",
+  "intro": "The famous places in London at sunrise, before the city wakes up. Then two places most tourists skip. Saturday: a walk along the river, breakfast at Borough Market, then Greenwich, where a carpenter beat the best scientists in England. Sunday: Highgate, with a huge old cemetery, and the Whittington Stone from a famous children's story.",
   "dayGlanceTitle": "The weekend at a glance",
   "dayGlance": [
     {
@@ -578,7 +578,7 @@
         "film": []
       },
       "onCamera": "The cemetery doesn't allow this story inside, so I'll tell it here. In 1970, a newspaper wrote that a vampire lived in Highgate Cemetery. After that, crowds of people climbed over the walls at night, with wooden stakes and crosses, to hunt the vampire. The police had to stop them.",
-      "closeOnCamera": "From up here, you can see all of London. And at the bottom of this hill, there's a place from an old story. It's where a boy who was leaving London decided to turn back. That's where we're going next."
+      "closeOnCamera": "From up here, you can see all of London. At the bottom of this hill is the Whittington Stone. It's from a famous English children's story, about a poor boy called Dick Whittington. That's where we're going next."
     },
     "whittington-stone": {
       "name": "The Whittington Stone",
@@ -616,8 +616,8 @@
     "where": "Westminster Bridge, 7am, when the city is still empty",
     "facts": [
       "The hook: 'This is my first video in London. So I'm starting at seven in the morning, before the city wakes up.'",
-      "What this is: the famous places at sunrise, then two stories most tourists never hear.",
-      "The promise: a market the local people bought back, a carpenter who beat the scientists, and a hill where a boy leaving London turned back."
+      "What this is: first the famous places, at sunrise. Then two places most tourists skip: Greenwich and Highgate.",
+      "The promise: 'You'll see a market that the local people saved, and still own. The clocks of a carpenter who beat the best scientists in England. And a stone from a famous children's story, about Dick Whittington and his cat.'"
     ]
   },
   "signOff": {
@@ -625,7 +625,7 @@
     "color": "forest",
     "where": "The Whittington Stone, Sunday afternoon",
     "facts": [
-      "Where you are: the place where, in the story, a boy leaving London heard the bells and turned back.",
+      "Where you are: the Whittington Stone. In the famous children's story, this is where Dick Whittington heard the bells and went back to London.",
       "The link: 'I came to see the famous places. But the best parts were the ones you won't find on a postcard.'",
       "The ask: like and subscribe, and tell me where I should go next."
     ]
