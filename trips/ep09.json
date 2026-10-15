@@ -5,7 +5,7 @@
   "dates": "Sun 18 October 2026",
   "episode": "EP.09",
   "heroKicker": "Sunday in Norfolk",
-  "intro": "Sunday in Norwich. A cathedral built with stone from France. A street that survived a great fire. And a castle that was a royal palace, then a prison.",
+  "intro": "Sunday in Norwich. A cathedral built as a punishment. A street that survived a great fire. A rebel hanged from the castle walls. And why the football team are called the Canaries.",
   "dayGlanceTitle": "The day",
   "dayGlance": [
     {
@@ -33,8 +33,8 @@
       "id": "act1",
       "color": "rust",
       "label": "Act 1 · The cathedral",
-      "tagline": "Stone from France, by boat.",
-      "narrative": "Start in the cathedral before the 10:30 service. It was built with stone shipped from Normandy, brought up the river by boat. Outside is the grave of Edith Cavell, a nurse shot in the First World War. Then walk down to Pull's Ferry, the gate where the boats arrived.",
+      "tagline": "Built as a punishment.",
+      "narrative": "Start in the cathedral before the 10:30 service. The first bishop bought his job, and the Pope made him build churches as a penance. Outside is the grave of Edith Cavell, a nurse shot in the First World War. Then walk down to Pull's Ferry, the gate where the boats arrived.",
       "stopIds": [
         "cathedral",
         "cavell",
@@ -57,7 +57,7 @@
       "color": "forest",
       "label": "Act 3 · Castle and arcade",
       "tagline": "A palace, a prison, then a museum.",
-      "narrative": "Norwich Castle was a Norman royal palace, then a prison until 1887. It reopened in 2025 with its royal rooms rebuilt. Finish two minutes away in the Royal Arcade, which brought the new Art Nouveau style to Norwich in 1899.",
+      "narrative": "Norwich Castle was a Norman royal palace, then a prison. In 1549 the rebel Robert Kett was hanged from its walls. Finish two minutes away in the Royal Arcade, with Colman's mustard and the story of the Canaries.",
       "stopIds": [
         "castle",
         "arcade"
@@ -119,11 +119,11 @@
     "cathedral": {
       "name": "Norwich Cathedral",
       "actId": "act1",
-      "angle": "Built with stone from France",
+      "angle": "Built as a punishment",
       "story": "Start here, before the 10:30 service. Entry is free. The cloister is a covered walkway, so you can film there even if it rains. Be out of the main church by 10:20.",
       "facts": [
-        "The man who started it was Herbert de Losinga, the first Bishop of Norwich. The stone came by boat from Caen, in Normandy. It crossed the sea, then came up the river.",
-        "The spire is 96 metres tall. In all of England, only Salisbury Cathedral has a taller one. This stone spire was built in 1480."
+        "The first Bishop of Norwich, Herbert de Losinga, paid King William the Second a huge sum of money for the job. In the church, buying a job like this was a serious sin. He felt guilty, and went to the Pope in Rome. The Pope let him stay, but as a penance, he had to build churches. Work on this cathedral started in 1096.",
+        "The stone came by boat from Caen, in Normandy. The spire is 96 metres tall. In all of England, only Salisbury Cathedral has a taller one. And peregrine falcons, the fastest birds in the world, nest up there."
       ],
       "routeCard": {
         "sub": "The Close · 9:30 AM · free",
@@ -144,7 +144,7 @@
         "todo": "Inside first, then the cloister. Be out of the main church by 10:20, before the 10:30 service. The cloister is covered, so it works in the rain.",
         "film": []
       },
-      "onCamera": "This cathedral was built with stone from France. Work started in 1096, thirty years after the Normans took England.",
+      "onCamera": "This cathedral was built as a punishment, for a bishop who bought his job.",
       "closeOnCamera": "Now look up. The roof of this cloister has hundreds of painted stone carvings, with stories from the Bible. Building the cloister took about 130 years, from 1297 to 1430. The Black Death came right in the middle."
     },
     "cavell": {
@@ -262,11 +262,11 @@
     "castle": {
       "name": "Norwich Castle",
       "actId": "act3",
-      "angle": "A royal palace, then a prison",
+      "angle": "A palace, a prison, and a rebel",
       "story": "Indoors, so it's good for the rainiest part of the day. Tickets are about £15.30 online, or £17 at the door. The keep opened again in 2025 after six years of work.",
       "facts": [
         "The big stone keep was finished around 1121, by King Henry the First, the son of William the Conqueror. It was built as a royal palace.",
-        "Later, it became a prison. It stayed a prison until 1887. Then it became a museum."
+        "Later, it became a prison, until 1887. Then it became a museum. In August 2025, it opened again after six years of work, with the royal rooms rebuilt."
       ],
       "routeCard": {
         "sub": "Castle Hill · 1:10 PM · open 10–5",
@@ -281,22 +281,22 @@
         "see": [
           "The rebuilt royal rooms in the keep",
           "The view from the top",
-          "The museum galleries"
+          "The Kett plaque by the entrance"
         ],
-        "todo": "Go up to the keep first. Ask at the desk about filming inside.",
+        "todo": "Go up to the keep first. Ask at the desk about filming inside. Say your close by the Kett plaque at the main entrance.",
         "film": []
       },
       "onCamera": "This castle was built by the Normans, after they took England in 1066.",
-      "closeOnCamera": "In August 2025, it opened again after six years of work. Inside, they rebuilt the royal rooms, to show how they looked in Norman times."
+      "closeOnCamera": "But its most famous story is from 1549. A farmer called Robert Kett led 16,000 rebels against the rich landowners, and they captured Norwich. The king's army beat them. Kett was hanged from the walls of this castle. There's a plaque to him by the entrance."
     },
     "arcade": {
       "name": "The Royal Arcade",
       "actId": "act3",
-      "angle": "A new style in 1899",
+      "angle": "Mustard and canaries",
       "story": "Two minutes from the castle. A covered shopping arcade with beautiful coloured tiles. A good place to finish if it's raining.",
       "facts": [
-        "The architect was George Skipper. He used a new style called Art Nouveau, full of curves and shapes from nature.",
-        "The coloured tiles were made by Royal Doulton, the famous pottery company. They were designed by William James Neatby."
+        "The architect was George Skipper. He used a new style called Art Nouveau, with curves and shapes from nature. The coloured tiles were made by Royal Doulton.",
+        "Norwich is the home of Colman's mustard. The famous Mustard Shop was here in this arcade until 2017."
       ],
       "routeCard": {
         "sub": "Royal Arcade · 3:00 PM · 2 minutes' walk from the castle",
@@ -317,7 +317,7 @@
         "film": []
       },
       "onCamera": "This shopping arcade opened in 1899. And it's covered, so it's perfect for a rainy day.",
-      "closeOnCamera": "In 1899, this style was brand new. This arcade brought it to Norwich for the first time."
+      "closeOnCamera": "One more Norwich story. In the 1500s, Dutch and Flemish weavers came here as refugees. They brought pet canaries, and kept them by their looms. Norwich became famous for canaries. That's why the football club, Norwich City, is called the Canaries."
     }
   },
   "coldOpen": {
@@ -325,9 +325,9 @@
     "color": "rust",
     "where": "",
     "facts": [
-      "The hook: 'Norwich has 31 medieval churches still standing. That's more than any other city north of the Alps.'",
+      "The hook: 'People say Norwich has a pub for every day of the year, and a church for every week. It really does have 31 medieval churches. That's more than any other city north of the Alps.'",
       "What this is: one day in Norwich: the cathedral, the old streets and the castle.",
-      "The promise: a cathedral built with stone from France. A castle that was a palace, then a prison. And a house that survived a great fire."
+      "The promise: a cathedral built as a punishment. A rebel hanged from the castle walls. And why the football team are called the Canaries."
     ]
   },
   "signOff": {
@@ -336,7 +336,7 @@
     "where": "",
     "facts": [
       "Where you are: the Royal Arcade.",
-      "The recap: stone from France, a palace that became a prison, and one house that survived the fire of 1507.",
+      "The recap: a bishop's punishment, a house that survived a fire, a rebel at the castle, and the Canaries.",
       "The ask: like and subscribe, and tell me where I should go next."
     ]
   },
