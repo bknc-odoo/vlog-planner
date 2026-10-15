@@ -1,6 +1,20 @@
 {
-  "default": "ep07",
+  "default": "ep08",
   "trips": [
+    {
+      "id": "ep08",
+      "title": "Saffron Walden & Audley End",
+      "subtitle": "A spice town and a palace",
+      "dates": "Sat 17 October 2026",
+      "episode": "EP.08"
+    },
+    {
+      "id": "ep09",
+      "title": "Norwich",
+      "subtitle": "Cathedral → Elm Hill → Castle",
+      "dates": "Sun 18 October 2026",
+      "episode": "EP.09"
+    },
     {
       "id": "ep07",
       "title": "London, Past the Postcards",

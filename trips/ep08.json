@@ -1,0 +1,360 @@
+{
+  "id": "ep08",
+  "title": "Saffron Walden & Audley End",
+  "subtitle": "A spice town and a palace",
+  "dates": "Sat 17 October 2026",
+  "episode": "EP.08",
+  "heroKicker": "Saturday in Essex",
+  "intro": "Saturday in north-west Essex. In the morning, Saffron Walden: a market town named after a spice. In the afternoon, Audley End: a huge house built by the man in charge of the king's money. He ended up in the Tower of London.",
+  "dayGlanceTitle": "The day",
+  "dayGlance": [
+    {
+      "n": 1,
+      "color": "rust",
+      "title": "Saffron Walden",
+      "sub": "9:30 AM. The market, St Mary's Church and the turf maze."
+    },
+    {
+      "n": 2,
+      "color": "ochre",
+      "title": "Audley End",
+      "sub": "12:40 PM. The house, the Victorian kitchen and the stables."
+    }
+  ],
+  "actsLede": "One day, two places.",
+  "acts": [
+    {
+      "id": "act1",
+      "color": "rust",
+      "label": "Act 1 · Saffron Walden",
+      "tagline": "The town that saffron made rich.",
+      "narrative": "Start in the Market Place while the Saturday market is busy. Saffron Walden is named after saffron, a spice from a crocus flower. It made the town rich, and the town even changed its name because of it. Then see the church that saffron money paid for, and a very old maze cut into the grass.",
+      "stopIds": [
+        "sw-market",
+        "st-marys",
+        "turf-maze",
+        "sw-lunch"
+      ]
+    },
+    {
+      "id": "act2",
+      "color": "ochre",
+      "label": "Act 2 · Audley End",
+      "tagline": "Too large for a king.",
+      "narrative": "Drive 6 minutes to Audley End. Thomas Howard, the man in charge of King James the First's money, built it to impress the king. Then money went missing, and he ended up in the Tower of London. In the kitchen is the story of Avis Crocombe, a real Victorian cook who is now famous on YouTube.",
+      "stopIds": [
+        "audley-front",
+        "audley-house",
+        "audley-kitchen",
+        "audley-stables"
+      ]
+    }
+  ],
+  "kit": [
+    "Phone or camera, and a power bank",
+    "A wind cover for the microphone. Strong gusts around 2pm.",
+    "A waterproof jacket"
+  ],
+  "preTrip": [
+    "Book Audley End online before midnight on Friday.",
+    "Check the weather again on Friday night."
+  ],
+  "goldenRule": "Town in the dry morning, Audley End in the afternoon. The house closes at about 3:30.",
+  "days": [
+    {
+      "id": "d1",
+      "label": "Saturday",
+      "date": "Sat 17 October 2026",
+      "color": "rust",
+      "routeHeader": "Little Yeldham → Saffron Walden → Audley End → home",
+      "fullRoute": {
+        "label": "SATURDAY BY CAR",
+        "sub": "Little Yeldham to Saffron Walden, then Audley End",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=52.02578%2C0.59151&destination=52.02086%2C0.22062&waypoints=52.02385%2C0.24128&travelmode=driving"
+      },
+      "planHeader": "Saffron Walden and Audley End · 8:50 AM – 5:25 PM",
+      "planNote": {
+        "kicker": "Leave at 8:50",
+        "color": "rust",
+        "text": "Leave home at 8:50. Saffron Walden is about 32 minutes. The Saturday market is on in the Market Place. Weather (Met Office, Thursday): sunny intervals, 13°C. Rain chance 10–20% in the morning and 40–60% after midday, with strong gusts around 2pm. So the town is in the morning, and Audley End is in the afternoon, mostly indoors. Audley End: the house is open until about 3:30, last entry to the grounds is 4:00, and the site closes at 5:00. Sunset is at 6:00."
+      },
+      "routeStops": [
+        "sw-market",
+        "st-marys",
+        "turf-maze",
+        "audley-front",
+        "audley-house",
+        "audley-kitchen"
+      ],
+      "planStops": [
+        "sw-market",
+        "st-marys",
+        "turf-maze",
+        "sw-lunch",
+        "audley-front",
+        "audley-house",
+        "audley-kitchen",
+        "audley-stables"
+      ],
+      "planArrival": {
+        "title": "Home at about 5:25 PM",
+        "note": "Leave Audley End at about 4:45. It's about 37 minutes home."
+      }
+    }
+  ],
+  "stops": {
+    "sw-market": {
+      "name": "Market Place and the Saturday market",
+      "actId": "act1",
+      "angle": "A town named after a spice",
+      "story": "Park in the town centre and walk to the Market Place. On Saturdays there's a market here, so it's busy and full of life. Start the story here: the town got rich from saffron, and even changed its name because of it.",
+      "facts": [
+        "Hundreds of years ago, farmers around here grew fields of saffron crocuses. People used saffron to dye cloth yellow. The saffron trade made the town rich.",
+        "The town used to be called Chipping Walden. 'Chipping' is an old English word for market. By the 1540s, people were calling it Saffron Walden instead."
+      ],
+      "routeCard": {
+        "sub": "Saffron Walden · 9:25 AM · about 32 minutes from home",
+        "note": "Park in the town centre. The Market Place is a short walk.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02385%2C0.24128&travelmode=driving",
+        "walkPoints": [],
+        "walkLoopHref": null,
+        "wazeHref": "https://waze.com/ul?ll=52.02385%2C0.24128&navigate=yes"
+      },
+      "planCard": {
+        "time": "9:30–10:15 AM",
+        "leaveBy": "10:15",
+        "see": [
+          "The Saturday market",
+          "The Market Place",
+          "Old timber houses around the square"
+        ],
+        "todo": "Film the market while it's busy. The morning is the driest part of the day, so do the outdoor shots now.",
+        "film": []
+      },
+      "onCamera": "This town is named after a spice: saffron. Saffron comes from a purple crocus flower.",
+      "closeOnCamera": "The town even made a joke about it. Its seal from 1549 shows three crocuses inside castle walls. Saffron, walled in. Saffron Walden."
+    },
+    "st-marys": {
+      "name": "St Mary's Church",
+      "actId": "act1",
+      "angle": "The biggest church in Essex",
+      "story": "Two minutes' walk from the Market Place. This church is huge for a small town. Its size shows how rich saffron made Saffron Walden. It's usually open every day.",
+      "facts": [
+        "It's 56 metres long. Its spire is 59 metres tall, the tallest in Essex. The spire is the newest part. It was added in 1832.",
+        "Money from the saffron trade helped pay for it. The church was rebuilt from about 1450, when the town was at its richest."
+      ],
+      "routeCard": {
+        "sub": "Church Street · 10:15 AM · 2 minutes' walk",
+        "note": "Usually open every day. If it's locked, film the outside and the spire.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02475%2C0.23932&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "10:15–10:55 AM",
+        "leaveBy": "10:55",
+        "see": [
+          "The spire",
+          "The long nave",
+          "The roof"
+        ],
+        "todo": "Inside first, then the spire from the churchyard. If it's locked, film from outside.",
+        "film": []
+      },
+      "onCamera": "This is the biggest church in Essex that isn't a cathedral. And it's in a small market town.",
+      "closeOnCamera": "And here's a link to my Cambridge video. One of the master builders here was John Wastell. He also built King's College Chapel in Cambridge. That's why this church might look familiar."
+    },
+    "turf-maze": {
+      "name": "The Turf Maze",
+      "actId": "act1",
+      "angle": "A maze cut into the grass",
+      "story": "About 8 minutes' walk east, on the Common. It's not a hedge maze. It's a pattern cut into the grass, and it's very old. It's free and always open.",
+      "facts": [
+        "It has 17 rings. It's one of the largest old turf mazes in Europe.",
+        "Nobody knows exactly how old it is. Historians think it probably comes from the Middle Ages."
+      ],
+      "routeCard": {
+        "sub": "The Common · 10:55 AM · about 8 minutes' walk",
+        "note": "Free. At the east end of the Common.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02389%2C0.24749&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "10:55–11:35 AM",
+        "leaveBy": "11:35",
+        "see": [
+          "The maze",
+          "The path winding round",
+          "The Common"
+        ],
+        "todo": "Walk the maze while you talk.",
+        "film": []
+      },
+      "onCamera": "This maze isn't made of hedges. It's cut into the grass.",
+      "closeOnCamera": "The first time it appears in writing is 1699. That year, the town paid 15 shillings to have it cut again. So people have looked after this maze for more than 300 years."
+    },
+    "sw-lunch": {
+      "name": "Lunch in Saffron Walden",
+      "actId": "act1",
+      "angle": "Lunch",
+      "story": "Have lunch in town, then drive to Audley End. It's only 6 minutes.",
+      "facts": [],
+      "routeCard": {
+        "sub": "Saffron Walden town centre",
+        "note": "Audley End is 6 minutes by car.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02385%2C0.24128&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "11:35 AM–12:30 PM",
+        "leaveBy": "12:30",
+        "see": [
+          "Cafés around the Market Place"
+        ],
+        "todo": "Lunch, then drive to Audley End. Showers are more likely after midday, and the afternoon is mostly indoors.",
+        "film": []
+      },
+      "hideOnTalk": true
+    },
+    "audley-front": {
+      "name": "Audley End — the front of the house",
+      "actId": "act2",
+      "angle": "Only one third is left",
+      "story": "Film the front of the house as soon as you arrive, while it's still fairly dry. It looks enormous. But most of it was knocked down long ago.",
+      "facts": [
+        "In the 1660s, King Charles the Second bought it. The family got it back in 1701. Then in the 1700s, about two thirds of the house was knocked down.",
+        "The park around it was designed by Capability Brown, the most famous garden designer of the 1700s. His real name was Lancelot Brown. People called him 'Capability', because he told owners their land had capability: it could be made beautiful."
+      ],
+      "routeCard": {
+        "sub": "Audley End · 12:40 PM · 6 minutes from town",
+        "note": "Book online before midnight on Friday to save up to 15%. Last entry to the grounds is 4:00, and the site closes at 5:00.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02086%2C0.22062&travelmode=driving",
+        "walkPoints": [],
+        "walkLoopHref": null,
+        "wazeHref": "https://waze.com/ul?ll=52.02086%2C0.22062&navigate=yes"
+      },
+      "planCard": {
+        "time": "12:40–1:10 PM",
+        "leaveBy": "1:10",
+        "see": [
+          "The front of the house",
+          "The park by Capability Brown",
+          "The river in the park"
+        ],
+        "todo": "Do the outside shots first, before the afternoon showers. Go into the house by 1:10.",
+        "film": []
+      },
+      "onCamera": "This is Audley End. It's enormous. But what you see is only about one third of the original house.",
+      "closeOnCamera": "The man who built this house was in charge of the king's money. And it ended with him in prison. Let's go inside."
+    },
+    "audley-house": {
+      "name": "Audley End — the house",
+      "actId": "act2",
+      "angle": "Too large for a king",
+      "story": "This is the main story of the day: the man in charge of the king's money built a palace to impress the king. Then the money went missing. The house closes at about 3:30, so do it first.",
+      "facts": [
+        "There was a monastery here first. In 1538, King Henry the Eighth closed it and gave the land to Thomas Audley. That's why it's called Audley End. Thomas Howard was his grandson.",
+        "Howard built this palace to impress the new king, James the First. King James came to see it. He reportedly said that it was too large for a king, but it might do for a Lord Treasurer."
+      ],
+      "routeCard": {
+        "sub": "Inside the house · open until about 3:30 PM",
+        "note": "The house closes about 1 hour 30 minutes before the site, so at about 3:30. Ask at the desk about filming inside.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02086%2C0.22062&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "1:10–2:30 PM",
+        "leaveBy": "2:30",
+        "see": [
+          "The Great Hall",
+          "The state rooms",
+          "The library"
+        ],
+        "todo": "House first, because it closes at about 3:30. Ask at the entrance if you can film inside. Go to the kitchen at 2:30.",
+        "film": []
+      },
+      "onCamera": "This house was built in the early 1600s by Thomas Howard, Earl of Suffolk. He was the Lord Treasurer, the man in charge of King James the First's money.",
+      "closeOnCamera": "And here's how it ended. In 1618, money went missing from the Treasury. In 1619, Howard and his wife were put on trial. They were fined thirty thousand pounds and locked in the Tower of London."
+    },
+    "audley-kitchen": {
+      "name": "The Victorian kitchen",
+      "actId": "act2",
+      "angle": "A Victorian cook who became a YouTube star",
+      "story": "The service wing shows how the servants lived and worked in the 1880s. The kitchen belonged to a real cook, Avis Crocombe. Today people all over the world know her from YouTube. The costumed cooks stopped in December 2024, so you'll see the kitchen, not her.",
+      "facts": [
+        "Her name was Avis Crocombe. She was the head cook here in the 1880s. Historians found her name in the 1881 census, the official list of everyone living in each house that year.",
+        "Her handwritten recipe book survived. A relative found it at the back of a drawer, and gave it to the house."
+      ],
+      "routeCard": {
+        "sub": "The service wing · before 3:30 PM",
+        "note": "The costumed cooks stopped in December 2024. You'll see the kitchen, not a live cook.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02086%2C0.22062&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "2:30–3:15 PM",
+        "leaveBy": "3:15",
+        "see": [
+          "The Victorian kitchen",
+          "The servants' rooms"
+        ],
+        "todo": "Film the kitchen and tell Mrs Crocombe's story. Be out by about 3:30.",
+        "film": []
+      },
+      "onCamera": "This kitchen belonged to a real Victorian cook. And today, she's a YouTube star.",
+      "closeOnCamera": "English Heritage made a YouTube series about her, called The Victorian Way. An actress plays her, cooking her real recipes. That's why people all over the world know her name."
+    },
+    "audley-stables": {
+      "name": "The stables and gardens",
+      "actId": "act2",
+      "angle": "Last shots",
+      "story": "Real horses still live in the stables. If it's dry, finish in the gardens and say your sign-off there.",
+      "facts": [],
+      "routeCard": {
+        "sub": "Stable Yard · 3:15 PM",
+        "note": "Last entry to the grounds is 4:00. The site closes at 5:00.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02086%2C0.22062&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "3:15–4:30 PM",
+        "leaveBy": "4:45",
+        "see": [
+          "The horses in the stables",
+          "The gardens"
+        ],
+        "todo": "Stables first. If it's dry, the gardens and your sign-off. Drive home at about 4:45. It's about 37 minutes.",
+        "film": []
+      },
+      "hideOnTalk": true
+    }
+  },
+  "coldOpen": {
+    "title": "Cold open",
+    "color": "rust",
+    "where": "",
+    "facts": [
+      "The hook: 'Today: a town named after a spice, and a house so big that its builder ended up in prison.'",
+      "What this is: Saffron Walden in the morning, and Audley End in the afternoon.",
+      "The promise: 'And the Victorian cook from that house who is now a YouTube star.'"
+    ]
+  },
+  "signOff": {
+    "title": "Closing sign-off",
+    "color": "ochre",
+    "where": "",
+    "facts": [
+      "Where you are: in the park at Audley End, with the house behind you.",
+      "The recap: saffron made the town rich, and the king's money built this house.",
+      "The ask: like and subscribe, and tell me where I should go next."
+    ]
+  },
+  "talkTipbox": "",
+  "goldenRules": [],
+  "outro": ""
+}

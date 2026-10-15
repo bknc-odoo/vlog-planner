@@ -1,0 +1,346 @@
+{
+  "id": "ep09",
+  "title": "Norwich",
+  "subtitle": "Cathedral → Elm Hill → Castle",
+  "dates": "Sun 18 October 2026",
+  "episode": "EP.09",
+  "heroKicker": "Sunday in Norfolk",
+  "intro": "Sunday in Norwich. A cathedral built with stone from France. A street that survived a great fire. And a castle that was a royal palace, then a prison.",
+  "dayGlanceTitle": "The day",
+  "dayGlance": [
+    {
+      "n": 1,
+      "color": "rust",
+      "title": "The cathedral",
+      "sub": "9:30 AM. The cathedral, Edith Cavell's grave and Pull's Ferry."
+    },
+    {
+      "n": 2,
+      "color": "ochre",
+      "title": "Elm Hill",
+      "sub": "11:20 AM. The street that survived the fire of 1507."
+    },
+    {
+      "n": 3,
+      "color": "forest",
+      "title": "Castle and arcade",
+      "sub": "1:10 PM. Norwich Castle and the Royal Arcade."
+    }
+  ],
+  "actsLede": "One day, three parts.",
+  "acts": [
+    {
+      "id": "act1",
+      "color": "rust",
+      "label": "Act 1 · The cathedral",
+      "tagline": "Stone from France, by boat.",
+      "narrative": "Start in the cathedral before the 10:30 service. It was built with stone shipped from Normandy, brought up the river by boat. Outside is the grave of Edith Cavell, a nurse shot in the First World War. Then walk down to Pull's Ferry, the gate where the boats arrived.",
+      "stopIds": [
+        "cathedral",
+        "cavell",
+        "pulls"
+      ]
+    },
+    {
+      "id": "act2",
+      "color": "ochre",
+      "label": "Act 2 · Elm Hill",
+      "tagline": "The house that survived the fire.",
+      "narrative": "A cobbled medieval street. A great fire in 1507 burned almost all of it, but one house survived, and it's more than 600 years old. In the 1920s the council wanted to knock the street down, and local people saved it.",
+      "stopIds": [
+        "elm-hill",
+        "nw-lunch"
+      ]
+    },
+    {
+      "id": "act3",
+      "color": "forest",
+      "label": "Act 3 · Castle and arcade",
+      "tagline": "A palace, a prison, then a museum.",
+      "narrative": "Norwich Castle was a Norman royal palace, then a prison until 1887. It reopened in 2025 with its royal rooms rebuilt. Finish two minutes away in the Royal Arcade, which brought the new Art Nouveau style to Norwich in 1899.",
+      "stopIds": [
+        "castle",
+        "arcade"
+      ]
+    }
+  ],
+  "kit": [
+    "Phone or camera, and a power bank",
+    "A waterproof jacket and shoes",
+    "A wind cover for the microphone"
+  ],
+  "preTrip": [
+    "Check the weather again on Saturday night.",
+    "Book Norwich Castle online the day before to save money."
+  ],
+  "goldenRule": "Be out of the cathedral by 10:20. Covered places for the rain: the cloister, the castle, the Royal Arcade.",
+  "days": [
+    {
+      "id": "d1",
+      "label": "Sunday",
+      "date": "Sun 18 October 2026",
+      "color": "rust",
+      "routeHeader": "Little Yeldham → Norwich → home",
+      "fullRoute": {
+        "label": "SUNDAY BY CAR",
+        "sub": "Little Yeldham to Norwich, about 1 hour 35 minutes",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=52.02578%2C0.59151&destination=52.63198%2C1.30115&travelmode=driving"
+      },
+      "planHeader": "Norwich · 7:45 AM – 5:50 PM",
+      "planNote": {
+        "kicker": "Leave at 7:45",
+        "color": "rust",
+        "text": "Leave home at 7:45. Norwich is about 1 hour 35 minutes. Park in the city centre. Weather (Met Office, Thursday): light showers all day, 14°C. Rain chance 60–70% in the morning and 50–60% in the afternoon, with strong gusts around midday. The cathedral cloister, the castle and the Royal Arcade are all covered. Cathedral services are at 10:30 and 3:30. Norwich Castle is open 10–5. The Sunday market is closed."
+      },
+      "routeStops": [
+        "cathedral",
+        "cavell",
+        "pulls",
+        "elm-hill",
+        "castle",
+        "arcade"
+      ],
+      "planStops": [
+        "cathedral",
+        "cavell",
+        "pulls",
+        "elm-hill",
+        "nw-lunch",
+        "castle",
+        "arcade"
+      ],
+      "planArrival": {
+        "title": "Home at about 5:50 PM",
+        "note": "Leave Norwich at about 4:15. It's about 1 hour 35 minutes home."
+      }
+    }
+  ],
+  "stops": {
+    "cathedral": {
+      "name": "Norwich Cathedral",
+      "actId": "act1",
+      "angle": "Built with stone from France",
+      "story": "Start here, before the 10:30 service. Entry is free. The cloister is a covered walkway, so you can film there even if it rains. Be out of the main church by 10:20.",
+      "facts": [
+        "The man who started it was Herbert de Losinga, the first Bishop of Norwich. The stone came by boat from Caen, in Normandy. It crossed the sea, then came up the river.",
+        "The spire is 96 metres tall. In all of England, only Salisbury Cathedral has a taller one. This stone spire was built in 1480."
+      ],
+      "routeCard": {
+        "sub": "The Close · 9:30 AM · free",
+        "note": "Services: Sung Eucharist at 10:30 and Evensong at 3:30. Don't film during the services.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.63198%2C1.30115&travelmode=driving",
+        "walkPoints": [],
+        "walkLoopHref": null,
+        "wazeHref": "https://waze.com/ul?ll=52.63198%2C1.30115&navigate=yes"
+      },
+      "planCard": {
+        "time": "9:30–10:20 AM",
+        "leaveBy": "10:20",
+        "see": [
+          "The nave",
+          "The spire",
+          "The covered cloister and its painted roof"
+        ],
+        "todo": "Inside first, then the cloister. Be out of the main church by 10:20, before the 10:30 service. The cloister is covered, so it works in the rain.",
+        "film": []
+      },
+      "onCamera": "This cathedral was built with stone from France. Work started in 1096, thirty years after the Normans took England.",
+      "closeOnCamera": "Now look up. The roof of this cloister has hundreds of painted stone carvings, with stories from the Bible. Building the cloister took about 130 years, from 1297 to 1430. The Black Death came right in the middle."
+    },
+    "cavell": {
+      "name": "Edith Cavell's grave",
+      "actId": "act1",
+      "angle": "The nurse who helped soldiers escape",
+      "story": "Outside the east end of the cathedral. A short stop, but a powerful story. Be respectful: it's a grave.",
+      "facts": [
+        "In the First World War, she was working in Brussels, in Belgium. The German army had taken Belgium. She nursed wounded soldiers from both sides.",
+        "She also helped about 200 Allied soldiers escape. The Germans arrested her, and they shot her in 1915."
+      ],
+      "routeCard": {
+        "sub": "Outside the east end of the cathedral · 10:20 AM",
+        "note": "Walk round the outside of the cathedral to the east end.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.63198%2C1.30115&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "10:20–10:40 AM",
+        "leaveBy": "10:40",
+        "see": [
+          "Edith Cavell's grave"
+        ],
+        "todo": "A short, quiet stop. Then walk through the Close down to the river, about 10 minutes.",
+        "film": []
+      },
+      "onCamera": "This is the grave of Edith Cavell, a British nurse from Norfolk.",
+      "closeOnCamera": "Before she died, she said: 'Patriotism is not enough. I must have no hatred or bitterness towards anyone.' After the war, her body came home. In May 1919, she was buried here."
+    },
+    "pulls": {
+      "name": "Pull's Ferry",
+      "actId": "act1",
+      "angle": "Where the stone arrived",
+      "story": "A 10-minute walk through the Close, down to the river. This old gate is where the boats brought the stone for the cathedral.",
+      "facts": [
+        "The stone crossed the sea from Normandy, then came up the river by boat. The monks dug a canal from here, right up to the building site. Wood from the Baltic and iron from Sweden came this way too.",
+        "The canal was filled in during the 1770s. The stone arch over it was built in the 1400s."
+      ],
+      "routeCard": {
+        "sub": "Pull's Ferry · 10:40 AM · about 10 minutes' walk",
+        "note": "Outdoors. The riverside path goes both ways from here.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.63031%2C1.307&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "10:40–11:20 AM",
+        "leaveBy": "11:20",
+        "see": [
+          "The arch over the old canal",
+          "The River Wensum",
+          "The riverside path"
+        ],
+        "todo": "Film the arch from the river path. Then walk to Elm Hill, about 15 minutes.",
+        "film": []
+      },
+      "onCamera": "This old gate on the river is where the cathedral's stone arrived.",
+      "closeOnCamera": "And the name? Pull's Ferry comes from a ferryman, John Pull. He took people across the river here from 1796 until he died in 1841. The ferry kept running until 1943."
+    },
+    "elm-hill": {
+      "name": "Elm Hill",
+      "actId": "act2",
+      "angle": "The house that survived the fire",
+      "story": "A cobbled medieval street, and wet cobbles look good on camera. Most of the street burned in 1507, but one house survived.",
+      "facts": [
+        "In 1507, a huge fire burned more than 300 houses and shops in Norwich. Almost everything on this street burned.",
+        "One house survived: the Briton's Arms, the one with the thatched roof. The wood in its attic came from trees cut down between 1407 and 1420. So it's more than 600 years old."
+      ],
+      "routeCard": {
+        "sub": "Elm Hill · 11:20 AM · about 15 minutes' walk",
+        "note": "The Briton's Arms is at number 9.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.63228%2C1.29771&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "11:20 AM–12:10 PM",
+        "leaveBy": "12:10",
+        "see": [
+          "The cobbles",
+          "The Briton's Arms at number 9",
+          "St Peter Hungate church at the top"
+        ],
+        "todo": "Walk up the street slowly. The Briton's Arms is the one with the thatched roof.",
+        "film": []
+      },
+      "onCamera": "This is Elm Hill, one of the oldest streets in Norwich.",
+      "closeOnCamera": "And in the 1920s, the council planned to knock this whole street down. Local people campaigned to save it, and they won. That's why you can still walk here today."
+    },
+    "nw-lunch": {
+      "name": "Lunch",
+      "actId": "act2",
+      "angle": "Lunch",
+      "story": "Lunch near the castle. The castle café is open without a ticket.",
+      "facts": [],
+      "routeCard": {
+        "sub": "Near the castle",
+        "note": "The castle café is open 10–4. You don't need a ticket.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.6284%2C1.29604&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "12:10–1:10 PM",
+        "leaveBy": "1:10",
+        "see": [
+          "Cafés near the castle"
+        ],
+        "todo": "Lunch near the castle. If it's pouring, the castle café works without a ticket.",
+        "film": []
+      },
+      "hideOnTalk": true
+    },
+    "castle": {
+      "name": "Norwich Castle",
+      "actId": "act3",
+      "angle": "A royal palace, then a prison",
+      "story": "Indoors, so it's good for the rainiest part of the day. Tickets are about £15.30 online, or £17 at the door. The keep opened again in 2025 after six years of work.",
+      "facts": [
+        "The big stone keep was finished around 1121, by King Henry the First, the son of William the Conqueror. It was built as a royal palace.",
+        "Later, it became a prison. It stayed a prison until 1887. Then it became a museum."
+      ],
+      "routeCard": {
+        "sub": "Castle Hill · 1:10 PM · open 10–5",
+        "note": "About £15.30 online, £17 at the door. There's a lift to every floor.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.6284%2C1.29604&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "1:10–3:00 PM",
+        "leaveBy": "3:00",
+        "see": [
+          "The rebuilt royal rooms in the keep",
+          "The view from the top",
+          "The museum galleries"
+        ],
+        "todo": "Go up to the keep first. Ask at the desk about filming inside.",
+        "film": []
+      },
+      "onCamera": "This castle was built by the Normans, after they took England in 1066.",
+      "closeOnCamera": "In August 2025, it opened again after six years of work. Inside, they rebuilt the royal rooms, to show how they looked in Norman times."
+    },
+    "arcade": {
+      "name": "The Royal Arcade",
+      "actId": "act3",
+      "angle": "A new style in 1899",
+      "story": "Two minutes from the castle. A covered shopping arcade with beautiful coloured tiles. A good place to finish if it's raining.",
+      "facts": [
+        "The architect was George Skipper. He used a new style called Art Nouveau, full of curves and shapes from nature.",
+        "The coloured tiles were made by Royal Doulton, the famous pottery company. They were designed by William James Neatby."
+      ],
+      "routeCard": {
+        "sub": "Royal Arcade · 3:00 PM · 2 minutes' walk from the castle",
+        "note": "The shops set their own hours. The walkway is usually open.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.62818%2C1.2939&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "3:00–3:30 PM",
+        "leaveBy": "3:30",
+        "see": [
+          "The coloured tiles",
+          "The shop fronts",
+          "The entrances at each end"
+        ],
+        "todo": "Film the tiles and say your sign-off here. If it gets brighter, go back to Elm Hill or the river until about 4:15.",
+        "film": []
+      },
+      "onCamera": "This shopping arcade opened in 1899. And it's covered, so it's perfect for a rainy day.",
+      "closeOnCamera": "In 1899, this style was brand new. This arcade brought it to Norwich for the first time."
+    }
+  },
+  "coldOpen": {
+    "title": "Cold open",
+    "color": "rust",
+    "where": "",
+    "facts": [
+      "The hook: 'Norwich has 31 medieval churches still standing. That's more than any other city north of the Alps.'",
+      "What this is: one day in Norwich: the cathedral, the old streets and the castle.",
+      "The promise: a cathedral built with stone from France. A castle that was a palace, then a prison. And a house that survived a great fire."
+    ]
+  },
+  "signOff": {
+    "title": "Closing sign-off",
+    "color": "forest",
+    "where": "",
+    "facts": [
+      "Where you are: the Royal Arcade.",
+      "The recap: stone from France, a palace that became a prison, and one house that survived the fire of 1507.",
+      "The ask: like and subscribe, and tell me where I should go next."
+    ]
+  },
+  "talkTipbox": "",
+  "goldenRules": [],
+  "outro": ""
+}
