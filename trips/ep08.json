@@ -5,20 +5,20 @@
   "dates": "Sat 17 October 2026",
   "episode": "EP.08",
   "heroKicker": "Saturday in Essex",
-  "intro": "Saturday in north-west Essex. In the morning, Saffron Walden: a market town named after a spice. In the afternoon, Audley End: a huge house built by the man in charge of the king's money. He ended up in the Tower of London.",
+  "intro": "Saturday in north-west Essex. In the morning, Audley End: a huge house built by the man in charge of the king's money. He ended up in the Tower of London. In the afternoon, Saffron Walden: a market town named after a spice.",
   "dayGlanceTitle": "The day",
   "dayGlance": [
     {
       "n": 1,
       "color": "rust",
-      "title": "Saffron Walden",
-      "sub": "9:30 AM. The market, St Mary's Church and the turf maze."
+      "title": "Audley End",
+      "sub": "10:00 AM. The house, the horses, the Victorian kitchen and the secret commando school."
     },
     {
       "n": 2,
       "color": "ochre",
-      "title": "Audley End",
-      "sub": "12:40 PM. The house, the Victorian kitchen and the secret commando school."
+      "title": "Saffron Walden",
+      "sub": "2:00 PM. The market, Cromwell's headquarters, St Mary's Church and the turf maze."
     }
   ],
   "actsLede": "One day, two places.",
@@ -26,98 +26,274 @@
     {
       "id": "act1",
       "color": "rust",
-      "label": "Act 1 · Saffron Walden",
-      "tagline": "The town that saffron made rich.",
-      "narrative": "Start in the Market Place while the Saturday market is busy. Saffron Walden is named after saffron, a spice from a crocus flower. It made the town rich, and the town even changed its name because of it. Then see the church that saffron money paid for, and a very old maze cut into the grass.",
+      "label": "Act 1 · Audley End",
+      "tagline": "Too large for a king.",
+      "narrative": "Start at Audley End when it opens. Thomas Howard, the man in charge of King James the First's money, built it to impress the king. Then money went missing, and he ended up in the Tower of London. At 11:15, the horses do a riding display by their 400-year-old stables. In the kitchen is the story of Avis Crocombe, a real Victorian cook who is now famous on YouTube. And in the Second World War, the house was a secret school for Polish paratroopers.",
       "stopIds": [
-        "sw-market",
-        "old-sun",
-        "st-marys",
-        "turf-maze",
-        "sw-lunch"
+        "audley-front",
+        "audley-house",
+        "audley-horses",
+        "audley-kitchen",
+        "audley-ww2",
+        "lunch"
       ]
     },
     {
       "id": "act2",
       "color": "ochre",
-      "label": "Act 2 · Audley End",
-      "tagline": "Too large for a king.",
-      "narrative": "Drive 6 minutes to Audley End. Thomas Howard, the man in charge of King James the First's money, built it to impress the king. Then money went missing, and he ended up in the Tower of London. In the kitchen is the story of Avis Crocombe, a real Victorian cook who is now famous on YouTube. And in the Second World War, the house was a secret school for Polish paratroopers.",
+      "label": "Act 2 · Saffron Walden",
+      "tagline": "The town that saffron made rich.",
+      "narrative": "Drive 6 minutes to Saffron Walden. It's named after saffron, a spice from a crocus flower. It made the town rich, and the town even changed its name because of it. Then Cromwell's headquarters, the church that saffron money paid for, and a very old maze cut into the grass.",
       "stopIds": [
-        "audley-front",
-        "audley-house",
-        "audley-kitchen",
-        "audley-ww2"
+        "sw-market",
+        "old-sun",
+        "st-marys",
+        "turf-maze"
       ]
     }
   ],
   "kit": [
     "Phone or camera, and a power bank",
-    "A wind cover for the microphone. Strong gusts around 2pm.",
-    "A waterproof jacket"
+    "A wind cover for the microphone. Windy in the afternoon."
   ],
   "preTrip": [
     "Book Audley End online before midnight on Friday.",
     "Check the weather again on Friday night."
   ],
-  "goldenRule": "Town in the dry morning, Audley End in the afternoon. The house closes at about 3:30.",
+  "goldenRule": "Audley End when it opens. Saffron Walden in the afternoon.",
   "days": [
     {
       "id": "d1",
       "label": "Saturday",
       "date": "Sat 17 October 2026",
       "color": "rust",
-      "routeHeader": "Little Yeldham → Saffron Walden → Audley End → home",
+      "routeHeader": "Little Yeldham → Audley End → Saffron Walden → home",
       "fullRoute": {
         "label": "SATURDAY BY CAR",
-        "sub": "Little Yeldham to Saffron Walden, then Audley End",
-        "href": "https://www.google.com/maps/dir/?api=1&origin=52.02578%2C0.59151&destination=52.02086%2C0.22062&waypoints=52.02385%2C0.24128&travelmode=driving"
+        "sub": "Little Yeldham to Audley End, then Saffron Walden",
+        "href": "https://www.google.com/maps/dir/?api=1&origin=52.02578%2C0.59151&destination=52.02385%2C0.24128&waypoints=52.02086%2C0.22062&travelmode=driving"
       },
-      "planHeader": "Saffron Walden and Audley End · 8:50 AM – 5:25 PM",
+      "planHeader": "Audley End and Saffron Walden · 9:20 AM – 4:50 PM",
       "planNote": {
-        "kicker": "Leave at 8:50",
+        "kicker": "Leave at 9:20",
         "color": "rust",
-        "text": "Leave home at 8:50. Saffron Walden is about 32 minutes. The Saturday market is on in the Market Place. Weather (Met Office, Thursday): sunny intervals, 13°C. Rain chance 10–20% in the morning and 40–60% after midday, with strong gusts around 2pm. So the town is in the morning, and Audley End is in the afternoon, mostly indoors. Audley End: the house is open until about 3:30, last entry to the grounds is 4:00, and the site closes at 5:00. Sunset is at 6:00."
+        "text": "Leave home at 9:20. Audley End is about 35 minutes. The grounds open at 10:00 and the house at 10:30. Riding display in the Stable Yard at 11:15, weather permitting. Last entry to the house is 3:30. Weather (Met Office model, Thursday): dry, sunny spells, 13°C. Windy in the afternoon, with gusts up to about 28 mph. Sunset is at about 6:00."
       },
       "routeStops": [
+        "audley-front",
+        "audley-house",
+        "audley-horses",
+        "audley-kitchen",
+        "audley-ww2",
         "sw-market",
         "old-sun",
         "st-marys",
-        "turf-maze",
-        "audley-front",
-        "audley-house",
-        "audley-kitchen",
-        "audley-ww2"
+        "turf-maze"
       ],
       "planStops": [
+        "audley-front",
+        "audley-house",
+        "audley-horses",
+        "audley-kitchen",
+        "audley-ww2",
+        "lunch",
         "sw-market",
         "old-sun",
         "st-marys",
-        "turf-maze",
-        "sw-lunch",
-        "audley-front",
-        "audley-house",
-        "audley-kitchen",
-        "audley-ww2"
+        "turf-maze"
       ],
       "planArrival": {
-        "title": "Home at about 5:25 PM",
-        "note": "Leave Audley End at about 4:45. It's about 37 minutes home."
+        "title": "Home at about 4:50 PM",
+        "note": "Leave Saffron Walden at about 4:15. It's about 31 minutes home."
       }
     }
   ],
   "stops": {
+    "audley-front": {
+      "name": "Audley End — the front of the house",
+      "actId": "act1",
+      "angle": "Only one third is left",
+      "story": "Film the front of the house first. It looks enormous. But most of it was knocked down long ago.",
+      "facts": [
+        "In the 1660s, King Charles the Second bought it, because it was only 20 miles from the horse races at Newmarket. The family got it back in 1701. Then in the 1700s, about two thirds of the house was knocked down.",
+        "In 1825, Lord Braybrooke of Audley End published Samuel Pepys's famous diary for the first time. Pepys wrote it in secret shorthand. The code was cracked using his story of King Charles the Second's escape. That's the same king who once owned this house."
+      ],
+      "routeCard": {
+        "sub": "Audley End · 10:00 AM · about 35 minutes from home",
+        "note": "Book online before midnight on Friday to save up to 15%. The grounds open at 10:00. The house opens at 10:30.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02086%2C0.22062&travelmode=driving",
+        "walkPoints": [],
+        "walkLoopHref": null,
+        "wazeHref": "https://waze.com/ul?ll=52.02086%2C0.22062&navigate=yes"
+      },
+      "planCard": {
+        "time": "10:00–10:30 AM",
+        "leaveBy": "10:30",
+        "see": [
+          "The front of the house",
+          "The park",
+          "The river in the park"
+        ],
+        "todo": "Say the cold open here. Then the outside shots. The house opens at 10:30.",
+        "film": []
+      },
+      "onCamera": "This is Audley End. It's enormous. But what you see is only about one third of the original house.",
+      "closeOnCamera": "The man who built this house was in charge of the king's money. And it ended with him in prison. Let's go inside."
+    },
+    "audley-house": {
+      "name": "Audley End — the house",
+      "actId": "act1",
+      "angle": "Too large for a king",
+      "story": "This is the main story of the day: the man in charge of the king's money built a palace to impress the king. Then the money went missing.",
+      "facts": [
+        "There was a monastery here first. In 1538, King Henry the Eighth closed it and gave the land to Thomas Audley. That's why it's called Audley End. Thomas Howard was his grandson.",
+        "Howard built this palace to impress the new king, James the First. King James came to see it. He reportedly said that it was too large for a king, but it might do for a Lord Treasurer."
+      ],
+      "routeCard": {
+        "sub": "Inside the house · from 10:30 AM",
+        "note": "Last entry to the house is 3:30. Ask at the desk about filming inside.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02086%2C0.22062&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "10:30–11:05 AM",
+        "leaveBy": "11:05",
+        "see": [
+          "The Great Hall",
+          "The state rooms",
+          "The Polish graffiti in the Coal Gallery"
+        ],
+        "todo": "Ask at the entrance if you can film inside. In the Coal Gallery, film the Polish soldiers' graffiti for later. Walk to the Stable Yard at 11:05.",
+        "film": []
+      },
+      "onCamera": "This house was built in the early 1600s by Thomas Howard, Earl of Suffolk. He was the Lord Treasurer, the man in charge of King James the First's money.",
+      "closeOnCamera": "And here's how it ended. In 1618, money went missing from the Treasury. In 1619, Howard and his wife were put on trial. They were fined thirty thousand pounds and locked in the Tower of London."
+    },
+    "audley-horses": {
+      "name": "The horses and the stables",
+      "actId": "act1",
+      "angle": "Horses in a 400-year-old stable",
+      "story": "Riding display at 11:15 in the Stable Yard, weather permitting. The website only says 'until October', so it may have finished for the year. The horses live in the stables either way.",
+      "facts": [
+        "They were built around 1610, by Thomas Howard, the same man who built the house. Experts think it was first built as rooms for the servants who travelled with the king. A few years later, it was turned into a stable.",
+        "When it became a stable, the big bay windows were added. Experts think they were for the owner and his guests. From there, they could look at the horses and talk about them."
+      ],
+      "routeCard": {
+        "sub": "The Stable Yard · riding display 11:15 AM",
+        "note": "Free with your ticket. No booking. Weekends at 11:15 and 2:30, weather permitting.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02086%2C0.22062&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "11:05–11:50 AM",
+        "leaveBy": "11:50",
+        "see": [
+          "The riding display at 11:15",
+          "The horses in the stables",
+          "The big bay windows"
+        ],
+        "todo": "Be there by 11:10. If there's no display, film the horses in the stables.",
+        "film": []
+      },
+      "onCamera": "These stables are more than 400 years old. And horses still live here.",
+      "closeOnCamera": "Earlier, I told you why King Charles the Second bought this house. It was close to the horse races at Newmarket. So horses are a big part of this house's story."
+    },
+    "audley-kitchen": {
+      "name": "The Victorian kitchen",
+      "actId": "act1",
+      "angle": "A Victorian cook who became a YouTube star",
+      "story": "The service wing shows how the servants lived and worked in the 1880s. The kitchen belonged to a real cook, Avis Crocombe. Today people all over the world know her from YouTube. The costumed cooks stopped in December 2024, so you'll see the kitchen, not her.",
+      "facts": [
+        "Her name was Avis Crocombe. She was the head cook here in the 1880s. Historians found her name in the 1881 census, the official list of everyone living in each house that year.",
+        "Her handwritten recipe book survived. A relative found it at the back of a drawer, and gave it to the house."
+      ],
+      "routeCard": {
+        "sub": "The service wing · 11:50 AM",
+        "note": "The costumed cooks stopped in December 2024. You'll see the kitchen, not a live cook.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02086%2C0.22062&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "11:50 AM–12:30 PM",
+        "leaveBy": "12:30",
+        "see": [
+          "The Victorian kitchen",
+          "The servants' rooms"
+        ],
+        "todo": "Film the kitchen and tell Mrs Crocombe's story. Then walk out to the park.",
+        "film": []
+      },
+      "onCamera": "This kitchen belonged to a real Victorian cook. And today, she's a YouTube star.",
+      "closeOnCamera": "English Heritage made a YouTube series about her, called The Victorian Way. An actress plays her, cooking her real recipes. That's why people all over the world know her name."
+    },
+    "audley-ww2": {
+      "name": "The secret commando school",
+      "actId": "act1",
+      "angle": "The Silent Unseen",
+      "story": "In the park, find the memorial urn for the Polish soldiers. Say your open and close there. Use the graffiti you filmed in the Coal Gallery for the voiceover.",
+      "facts": [
+        "The British called it Station 43. From 1942, Polish soldiers learned sabotage, spying and secret radio work here. Their nickname was the Cichociemni. It means 'the Silent Unseen'.",
+        "Germany had occupied Poland. 316 of these soldiers parachuted back into Poland, and most of them trained here. More than 100 of them were killed, by the Germans, or later by the communists."
+      ],
+      "routeCard": {
+        "sub": "The Polish memorial, West Park · 12:30 PM",
+        "note": "In the park, a short walk from the house.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02023%2C0.21956&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "12:30–1:00 PM",
+        "leaveBy": "1:00",
+        "see": [
+          "The Polish memorial urn",
+          "The gardens"
+        ],
+        "todo": "Open and close at the urn. Then lunch.",
+        "film": []
+      },
+      "onCamera": "In the Second World War, this house was a secret training school for Polish paratroopers.",
+      "closeOnCamera": "This urn was put here in 1983, to remember them. And inside the house, a few lines of their graffiti are still on the wall in the Coal Gallery. It's almost all they left behind."
+    },
+    "lunch": {
+      "name": "Lunch",
+      "actId": "act1",
+      "angle": "Lunch",
+      "story": "Have lunch, then drive 6 minutes to Saffron Walden.",
+      "facts": [],
+      "routeCard": {
+        "sub": "Audley End or Saffron Walden",
+        "note": "Saffron Walden is 6 minutes by car.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02385%2C0.24128&travelmode=driving",
+        "walkPoints": [],
+        "walkLoopHref": null,
+        "wazeHref": "https://waze.com/ul?ll=52.02385%2C0.24128&navigate=yes"
+      },
+      "planCard": {
+        "time": "1:00–1:50 PM",
+        "leaveBy": "1:50",
+        "see": [
+          "The café at Audley End, or cafés in town"
+        ],
+        "todo": "Lunch, then drive to Saffron Walden. Park in the town centre.",
+        "film": []
+      },
+      "hideOnTalk": true
+    },
     "sw-market": {
       "name": "Market Place and the Saturday market",
-      "actId": "act1",
+      "actId": "act2",
       "angle": "A town named after a spice",
-      "story": "Park in the town centre and walk to the Market Place. On Saturdays there's a market here, so it's busy and full of life. Start the story here: the town got rich from saffron, and even changed its name because of it.",
+      "story": "Park in the town centre and walk to the Market Place. On Saturdays there's a market here. Start the story here: the town got rich from saffron, and even changed its name because of it.",
       "facts": [
         "Hundreds of years ago, farmers around here grew fields of saffron crocuses. People used saffron to dye cloth yellow. The saffron trade made the town rich.",
         "The town used to be called Chipping Walden. 'Chipping' is an old English word for market. By the 1540s, people were calling it Saffron Walden instead."
       ],
       "routeCard": {
-        "sub": "Saffron Walden · 9:25 AM · about 32 minutes from home",
+        "sub": "Saffron Walden · 2:00 PM · 6 minutes from Audley End",
         "note": "Park in the town centre. The Market Place is a short walk.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02385%2C0.24128&travelmode=driving",
         "walkPoints": [],
@@ -125,14 +301,14 @@
         "wazeHref": "https://waze.com/ul?ll=52.02385%2C0.24128&navigate=yes"
       },
       "planCard": {
-        "time": "9:30–10:05 AM",
-        "leaveBy": "10:05",
+        "time": "2:00–2:35 PM",
+        "leaveBy": "2:35",
         "see": [
           "The Saturday market",
           "The Market Place",
           "Old timber houses around the square"
         ],
-        "todo": "Film the market while it's busy. The morning is the driest part of the day, so do the outdoor shots now.",
+        "todo": "Film the market first. The stalls may start packing up in the afternoon.",
         "film": []
       },
       "onCamera": "This town is named after a spice: saffron. Saffron comes from a purple crocus flower.",
@@ -140,7 +316,7 @@
     },
     "old-sun": {
       "name": "The Old Sun Inn",
-      "actId": "act1",
+      "actId": "act2",
       "angle": "Cromwell's headquarters",
       "story": "On Church Street, on your way from the market to the church. It's a shop now, so film the outside. Look at the plaster on the front.",
       "facts": [
@@ -148,15 +324,15 @@
         "The building is from the 1300s. Samuel Pepys, the famous diary writer, visited it too."
       ],
       "routeCard": {
-        "sub": "Church Street · 10:05 AM · 2 minutes' walk",
+        "sub": "Church Street · 2:35 PM · 2 minutes' walk",
         "note": "It's a shop now. Film the outside and the plaster.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02441%2C0.24042&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "10:05–10:25 AM",
-        "leaveBy": "10:25",
+        "time": "2:35–2:55 PM",
+        "leaveBy": "2:55",
         "see": [
           "The decorated plaster on the front",
           "The two giants",
@@ -170,7 +346,7 @@
     },
     "st-marys": {
       "name": "St Mary's Church",
-      "actId": "act1",
+      "actId": "act2",
       "angle": "The biggest church in Essex",
       "story": "Two minutes' walk from the Market Place. This church is huge for a small town. Its size shows how rich saffron made Saffron Walden. It's usually open every day.",
       "facts": [
@@ -178,15 +354,15 @@
         "Money from the saffron trade helped pay for it. The church was rebuilt from about 1450, when the town was at its richest."
       ],
       "routeCard": {
-        "sub": "Church Street · 10:25 AM · 2 minutes' walk",
+        "sub": "Church Street · 2:55 PM · 2 minutes' walk",
         "note": "Usually open every day. If it's locked, film the outside and the spire.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02475%2C0.23932&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "10:25–11:00 AM",
-        "leaveBy": "11:00",
+        "time": "2:55–3:30 PM",
+        "leaveBy": "3:30",
         "see": [
           "The spire",
           "The long nave",
@@ -200,7 +376,7 @@
     },
     "turf-maze": {
       "name": "The Turf Maze",
-      "actId": "act1",
+      "actId": "act2",
       "angle": "A maze cut into the grass",
       "story": "About 8 minutes' walk east, on the Common. It's not a hedge maze. It's a pattern cut into the grass, and it's very old. It's free and always open.",
       "facts": [
@@ -208,169 +384,25 @@
         "Nobody knows exactly how old it is. Historians think it probably comes from the Middle Ages."
       ],
       "routeCard": {
-        "sub": "The Common · 11:00 AM · about 8 minutes' walk",
+        "sub": "The Common · 3:30 PM · about 8 minutes' walk",
         "note": "Free. At the east end of the Common.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02389%2C0.24749&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "11:00–11:35 AM",
-        "leaveBy": "11:35",
+        "time": "3:30–4:10 PM",
+        "leaveBy": "4:15",
         "see": [
           "The maze",
           "The path winding round",
           "The Common"
         ],
-        "todo": "Walk the maze while you talk.",
+        "todo": "Walk the maze while you talk. Say the sign-off here. Then back to the car and drive home.",
         "film": []
       },
       "onCamera": "This maze isn't made of hedges. It's cut into the grass.",
       "closeOnCamera": "The first time it appears in writing is 1699. That year, the town paid 15 shillings to have it cut again. So people have looked after this maze for more than 300 years."
-    },
-    "sw-lunch": {
-      "name": "Lunch in Saffron Walden",
-      "actId": "act1",
-      "angle": "Lunch",
-      "story": "Have lunch in town, then drive to Audley End. It's only 6 minutes.",
-      "facts": [],
-      "routeCard": {
-        "sub": "Saffron Walden town centre",
-        "note": "Audley End is 6 minutes by car.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02385%2C0.24128&travelmode=walking",
-        "walkPoints": [],
-        "walkLoopHref": null
-      },
-      "planCard": {
-        "time": "11:35 AM–12:30 PM",
-        "leaveBy": "12:30",
-        "see": [
-          "Cafés around the Market Place"
-        ],
-        "todo": "Lunch, then drive to Audley End. Showers are more likely after midday, and the afternoon is mostly indoors.",
-        "film": []
-      },
-      "hideOnTalk": true
-    },
-    "audley-front": {
-      "name": "Audley End — the front of the house",
-      "actId": "act2",
-      "angle": "Only one third is left",
-      "story": "Film the front of the house as soon as you arrive, while it's still fairly dry. It looks enormous. But most of it was knocked down long ago.",
-      "facts": [
-        "In the 1660s, King Charles the Second bought it, because it was only 20 miles from the horse races at Newmarket. The family got it back in 1701. Then in the 1700s, about two thirds of the house was knocked down.",
-        "In 1825, Lord Braybrooke of Audley End published Samuel Pepys's famous diary for the first time. Pepys wrote it in secret shorthand. The code was cracked using his story of King Charles the Second's escape. That's the same king who once owned this house."
-      ],
-      "routeCard": {
-        "sub": "Audley End · 12:40 PM · 6 minutes from town",
-        "note": "Book online before midnight on Friday to save up to 15%. Last entry to the grounds is 4:00, and the site closes at 5:00.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02086%2C0.22062&travelmode=driving",
-        "walkPoints": [],
-        "walkLoopHref": null,
-        "wazeHref": "https://waze.com/ul?ll=52.02086%2C0.22062&navigate=yes"
-      },
-      "planCard": {
-        "time": "12:40–1:10 PM",
-        "leaveBy": "1:10",
-        "see": [
-          "The front of the house",
-          "The park",
-          "The river in the park"
-        ],
-        "todo": "Do the outside shots first, before the afternoon showers. Go into the house by 1:10.",
-        "film": []
-      },
-      "onCamera": "This is Audley End. It's enormous. But what you see is only about one third of the original house.",
-      "closeOnCamera": "The man who built this house was in charge of the king's money. And it ended with him in prison. Let's go inside."
-    },
-    "audley-house": {
-      "name": "Audley End — the house",
-      "actId": "act2",
-      "angle": "Too large for a king",
-      "story": "This is the main story of the day: the man in charge of the king's money built a palace to impress the king. Then the money went missing. The house closes at about 3:30, so do it first.",
-      "facts": [
-        "There was a monastery here first. In 1538, King Henry the Eighth closed it and gave the land to Thomas Audley. That's why it's called Audley End. Thomas Howard was his grandson.",
-        "Howard built this palace to impress the new king, James the First. King James came to see it. He reportedly said that it was too large for a king, but it might do for a Lord Treasurer."
-      ],
-      "routeCard": {
-        "sub": "Inside the house · open until about 3:30 PM",
-        "note": "The house closes about 1 hour 30 minutes before the site, so at about 3:30. Ask at the desk about filming inside.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02086%2C0.22062&travelmode=walking",
-        "walkPoints": [],
-        "walkLoopHref": null
-      },
-      "planCard": {
-        "time": "1:10–2:30 PM",
-        "leaveBy": "2:30",
-        "see": [
-          "The Great Hall",
-          "The state rooms",
-          "The Polish graffiti in the Coal Gallery"
-        ],
-        "todo": "House first, because it closes at about 3:30. Ask at the entrance if you can film inside. In the Coal Gallery, film the Polish soldiers' graffiti for later. Go to the kitchen at 2:30.",
-        "film": []
-      },
-      "onCamera": "This house was built in the early 1600s by Thomas Howard, Earl of Suffolk. He was the Lord Treasurer, the man in charge of King James the First's money.",
-      "closeOnCamera": "And here's how it ended. In 1618, money went missing from the Treasury. In 1619, Howard and his wife were put on trial. They were fined thirty thousand pounds and locked in the Tower of London."
-    },
-    "audley-kitchen": {
-      "name": "The Victorian kitchen",
-      "actId": "act2",
-      "angle": "A Victorian cook who became a YouTube star",
-      "story": "The service wing shows how the servants lived and worked in the 1880s. The kitchen belonged to a real cook, Avis Crocombe. Today people all over the world know her from YouTube. The costumed cooks stopped in December 2024, so you'll see the kitchen, not her.",
-      "facts": [
-        "Her name was Avis Crocombe. She was the head cook here in the 1880s. Historians found her name in the 1881 census, the official list of everyone living in each house that year.",
-        "Her handwritten recipe book survived. A relative found it at the back of a drawer, and gave it to the house."
-      ],
-      "routeCard": {
-        "sub": "The service wing · before 3:30 PM",
-        "note": "The costumed cooks stopped in December 2024. You'll see the kitchen, not a live cook.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02086%2C0.22062&travelmode=walking",
-        "walkPoints": [],
-        "walkLoopHref": null
-      },
-      "planCard": {
-        "time": "2:30–3:15 PM",
-        "leaveBy": "3:15",
-        "see": [
-          "The Victorian kitchen",
-          "The servants' rooms"
-        ],
-        "todo": "Film the kitchen and tell Mrs Crocombe's story. Be out by about 3:30.",
-        "film": []
-      },
-      "onCamera": "This kitchen belonged to a real Victorian cook. And today, she's a YouTube star.",
-      "closeOnCamera": "English Heritage made a YouTube series about her, called The Victorian Way. An actress plays her, cooking her real recipes. That's why people all over the world know her name."
-    },
-    "audley-ww2": {
-      "name": "The secret commando school",
-      "actId": "act2",
-      "angle": "The Silent Unseen",
-      "story": "In the park, find the memorial urn for the Polish soldiers. Say your open and close there. Use the graffiti you filmed in the Coal Gallery for the voiceover. Then the stables and gardens if there's time.",
-      "facts": [
-        "The British called it Station 43. From 1942, Polish soldiers learned sabotage, spying and secret radio work here. Their nickname was the Cichociemni. It means 'the Silent Unseen'.",
-        "Germany had occupied Poland. 316 of these soldiers parachuted back into Poland, and most of them trained here. More than 100 of them were killed, by the Germans, or later by the communists."
-      ],
-      "routeCard": {
-        "sub": "The Polish memorial, West Park · 3:15 PM",
-        "note": "Last entry to the grounds is 4:00. The site closes at 5:00.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.02023%2C0.21956&travelmode=walking",
-        "walkPoints": [],
-        "walkLoopHref": null
-      },
-      "planCard": {
-        "time": "3:15–4:30 PM",
-        "leaveBy": "4:45",
-        "see": [
-          "The Polish memorial urn",
-          "The horses in the stables",
-          "The gardens"
-        ],
-        "todo": "Memorial urn first. Then the stables and gardens. Drive home at about 4:45. It's about 37 minutes.",
-        "film": []
-      },
-      "onCamera": "In the Second World War, this house was a secret training school for Polish paratroopers.",
-      "closeOnCamera": "This urn was put here in 1983, to remember them. And inside the house, a few lines of their graffiti are still on the wall in the Coal Gallery. It's almost all they left behind."
     }
   },
   "coldOpen": {
@@ -378,9 +410,9 @@
     "color": "rust",
     "where": "",
     "facts": [
-      "The hook: 'Today: a town named after a spice, and a house so big that its builder ended up in prison.'",
-      "What this is: Saffron Walden in the morning, and Audley End in the afternoon.",
-      "The promise: 'That house has two more secrets. A Victorian cook who is now a YouTube star. And a secret school for Polish soldiers in the Second World War.'"
+      "The hook: 'Today: a house so big that its builder ended up in prison, and a town named after a spice.'",
+      "What this is: Audley End in the morning, and Saffron Walden in the afternoon.",
+      "The promise: 'That house has more secrets. Horses in 400-year-old stables. A Victorian cook who is now a YouTube star. And a secret school for Polish soldiers in the Second World War.'"
     ]
   },
   "signOff": {
@@ -388,8 +420,8 @@
     "color": "ochre",
     "where": "",
     "facts": [
-      "Where you are: in the park at Audley End, with the house behind you.",
-      "The recap: saffron made the town rich, the king's money built this house, and Polish soldiers trained here in secret.",
+      "Where you are: at the Turf Maze in Saffron Walden.",
+      "The recap: the king's money built that house, Polish soldiers trained there in secret, and saffron made this town rich.",
       "The ask: like and subscribe, and tell me where I should go next."
     ]
   },
