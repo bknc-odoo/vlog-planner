@@ -93,7 +93,7 @@
       "fullRoute": {
         "label": "SUNDAY BY CAR",
         "sub": "To the car park in Stratford, arriving about 2:00 PM",
-        "href": "https://www.google.com/maps/dir/?api=1&destination=52.19381%2C-1.70195&travelmode=driving"
+        "href": "https://www.google.com/maps/dir/?api=1&destination=52.19411%2C-1.70178&travelmode=driving"
       },
       "planHeader": "Stratford-upon-Avon · 2:00 PM – 5:45 PM",
       "planNote": {
@@ -138,7 +138,7 @@
       "routeCard": {
         "sub": "Bridgeway car park · CV37 6YX · arrive about 2:00 PM",
         "note": "Card only. You pay on the way out, so you can't overstay.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19381%2C-1.70195&travelmode=driving",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19411%2C-1.70178&travelmode=driving",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -166,7 +166,7 @@
       "routeCard": {
         "sub": "Chapel Street · outside",
         "note": "Outside only. You filmed the garden earlier.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19072%2C-1.70757&travelmode=walking",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19074%2C-1.70766&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -195,7 +195,7 @@
       "routeCard": {
         "sub": "Church Street · on the way to the church",
         "note": "Outside only.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19054%2C-1.70779&travelmode=walking",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19056%2C-1.70796&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -225,7 +225,7 @@
       "routeCard": {
         "sub": "Old Town · outside",
         "note": "Outside only. You filmed the grave earlier.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.18658%2C-1.70745&travelmode=walking",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.18675%2C-1.70768&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -255,7 +255,7 @@
       "routeCard": {
         "sub": "Henley Street · last entry 4:30",
         "note": "Enter through the Shakespeare Centre on Henley Street. Timed entry.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19388%2C-1.70801&travelmode=walking",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19402%2C-1.70835&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -312,7 +312,7 @@
       "routeCard": {
         "sub": "Chapel Street · last entry 2:30",
         "note": "Your Birthplace ticket gets you in.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19072%2C-1.70757&travelmode=walking",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19074%2C-1.70766&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
@@ -336,7 +336,7 @@
       "routeCard": {
         "sub": "Old Town · closes 3:15",
         "note": "Go in by the avenue of lime trees.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.18658%2C-1.70745&travelmode=walking",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.18675%2C-1.70768&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
