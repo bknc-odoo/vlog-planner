@@ -63,7 +63,7 @@
       "id": "act4",
       "color": "ochre",
       "label": "Act 4 · The rise",
-      "tagline": "From 'upstart crow' to owner.",
+      "tagline": "From a nobody to an owner.",
       "narrative": "Mocked as an upstart, he wrote for a rich patron in the plague years, then became an owner of his company and of the Globe.",
       "stopIds": [
         "new-place"
@@ -177,13 +177,13 @@
       "actId": "act1",
       "angle": "1564 · Born into trouble",
       "story": "",
-      "onCamera": "This is where it all starts. William Shakespeare was born in this house in 1564. Today he's probably the most famous writer in the world. But he didn't start out important. His family was ordinary, and when he was a boy they got into serious trouble. I think that explains everything he did later.",
+      "onCamera": "This is where it all starts. William Shakespeare was born in this house in 1564. Today he's probably the most famous writer in the world. But he didn't start out important. His family was ordinary. And when he was a boy, they got into serious trouble. I think that explains everything he did later.",
       "facts": [
-        "The first record of his family is right here. In 1552 his father was fined for leaving a pile of rubbish and dung in this street.",
-        "His father, John, made gloves. His wife, Mary Arden, came from a farming family that owned land. In fact, John's own father rented his farm from Mary's father. John kept climbing: he bought houses, joined the town council, and in 1568 he got the top job in town, like a mayor.",
-        "Then it went wrong. He was taken to court for trading wool without a licence, and for lending money at illegal interest. He got into debt, stopped going to council meetings, and his request for a family coat of arms went nowhere. William was about 12."
+        "The first record of his family is right here. In 1552, his father was fined for leaving a pile of rubbish and dung in this street.",
+        "His father, John, made gloves. His mother, Mary Arden, came from a farming family that owned its own land. In fact, John's father rented his farm from Mary's father. John kept moving up. He bought houses, joined the town council, and in 1568 he became head of the town, like a mayor.",
+        "Then it all went wrong. He was taken to court for selling wool without permission, and for charging too much interest on loans. He got into debt and stopped going to council meetings. He asked for a family badge, called a coat of arms, but he didn't get it. William was about 12."
       ],
-      "closeOnCamera": "So that's the boy. A family that had climbed up, then fallen. Everything he did later, the money, the houses, the coat of arms, was about climbing back. And it started at school, five minutes down the road.",
+      "closeOnCamera": "So that's the boy. His family climbed up, then fell. Everything he did later, the money, the houses, the family badge, was about climbing back. And it started at school, five minutes down the road.",
       "routeCard": {
         "sub": "Henley Street · timed entry",
         "note": "Enter through the Shakespeare Centre on Henley Street.",
@@ -208,12 +208,12 @@
       "actId": "act2",
       "angle": "1570s · The schoolboy",
       "story": "",
-      "onCamera": "This is almost certainly where Shakespeare went to school. Think about that. The boy who went on to write Romeo and Juliet, Hamlet and Macbeth sat his lessons in this room. And the hall downstairs has its own part in his story.",
+      "onCamera": "This is almost certainly where Shakespeare went to school. Think about that. The boy who wrote Romeo and Juliet, Hamlet and Macbeth had his lessons in this room. And the hall downstairs is part of his story too.",
       "facts": [
-        "It was a free school for boys from the town. Lessons were in Latin, from early morning to late afternoon, Monday to Saturday. Nobody can prove he came here, but it was free, it was five minutes from his house, and his father was one of the town's leaders.",
-        "The first time travelling actors are recorded performing in Stratford was in 1568, in the hall downstairs. That year his father had the top job in town, so he would have been in the audience. William was four."
+        "It was a free school for boys from the town. Lessons were in Latin, from early morning to late afternoon, Monday to Saturday. Nobody can prove he came here. But it was free, it was five minutes from his house, and his father was one of the town's leaders.",
+        "In 1568, travelling actors came to Stratford for the first time on record. They performed in the hall downstairs. That year his father was head of the town, so he would have been watching. William was four."
       ],
-      "closeOnCamera": "He never went to university. That's why some people still say a nobleman must have written his plays. And remember it, because in London it will be thrown back at him. But first, at 18, he married a farmer's daughter from Shottery, a village a mile away. Let's walk there.",
+      "closeOnCamera": "He never went to university. That's why some people still say a lord must have written his plays. Remember that, because in London, people will laugh at him for it. But first, at 18, he married a farmer's daughter from Shottery, a village a mile away. Let's walk there.",
       "routeCard": {
         "sub": "Church Street",
         "note": "The schoolroom is upstairs. The Guildhall, the medieval town hall, is downstairs.",
@@ -240,12 +240,12 @@
       "actId": "act3",
       "angle": "1582 · Married at 18",
       "story": "",
-      "onCamera": "This is where Anne Hathaway grew up. In 1582, an 18-year-old William Shakespeare married her. She was eight years older than him, and she was already pregnant. It was one of the biggest decisions of his life, and it shaped everything that came next.",
+      "onCamera": "This is where Anne Hathaway grew up. In 1582, William Shakespeare married her. He was 18. She was 26, and she was already pregnant. It was one of the biggest decisions of his life, and it shaped everything that came next.",
       "facts": [
-        "In Shakespeare's day this was Hewlands Farm, with more than 90 acres. Anne's family farmed here for generations. Her father had died the year before the wedding.",
-        "Their daughter Susanna was born six months after the wedding. Two years later came twins, Hamnet and Judith. By 20, William had a wife and three children."
+        "In Shakespeare's time, this was Hewlands Farm, with more than 90 acres. Anne's family farmed here for generations. Her father had died the year before the wedding.",
+        "Their daughter Susanna was born six months after the wedding. Two years later, they had twins, Hamnet and Judith. By 20, William had a wife and three children."
       ],
-      "closeOnCamera": "Then, at some point, he left. Anne and the children stayed in Stratford, and William went to London. For about seven years after the twins were born, nobody knows exactly where he was. Historians call them the lost years. When he appears again, he's in London, and he's about to get rich.",
+      "closeOnCamera": "Then, at some point, he left. Anne and the children stayed in Stratford, and William went to London. For about seven years after the twins were born, nobody knows where he was. Historians call them the lost years. When we find him again, he's in London, and he's about to get rich.",
       "routeCard": {
         "sub": "Cottage Lane, Shottery · a mile from the centre",
         "note": "About 25 minutes on foot from the school.",
@@ -269,14 +269,14 @@
       "actId": "act4",
       "angle": "1592–1603 · The rise",
       "story": "",
-      "onCamera": "This is where Shakespeare lived when he was rich. He bought a house on this spot in 1597, when he was 33. It was one of the biggest houses in his home town. Five years earlier, in London, people were laughing at him. So how does a glove-maker's son pull that off? Here's how.",
+      "onCamera": "This is where Shakespeare lived when he was rich. He bought a house on this spot in 1597, when he was 33. It was one of the biggest houses in his home town. Five years before that, people in London were laughing at him. So how did a glove-maker's son do it? Here's how.",
       "facts": [
-        "His first appearance in London is an insult. In 1592 a pamphlet by a jealous rival called him an 'upstart crow': a common actor, with no university education, who thought he could write as well as his betters.",
-        "Then plague closed London's theatres for more than a year. So he wrote long poems for a rich young nobleman, the Earl of Southampton. One of them, Venus and Adonis, was the biggest bestseller of his whole life.",
-        "When the theatres reopened in 1594, he made the smartest move of his career. He didn't just write for an acting company. He became one of its owners. They performed for Queen Elizabeth the First, and now he got a share of the profits, not just a writer's fee.",
-        "In 1598 their landlord refused to renew the lease on their theatre. So, while he was away for Christmas, the company took the whole building apart, carried the timber across the River Thames, and built the Globe Theatre with it. Shakespeare owned part of the Globe."
+        "The first time he's mentioned in London, it's an insult. In 1592, a jealous writer called him an 'upstart crow'. He meant: a nobody. An actor with no university education, who thought he could write as well as them.",
+        "Then a plague closed London's theatres for more than a year. So he wrote poems for a rich young lord. One of them became the biggest bestseller of his life.",
+        "When the theatres opened again in 1594, he made the smartest move of his life. He didn't just write for an acting company. He became one of its owners. They performed for Queen Elizabeth the First. And now he got a share of all the money, not just pay for his writing.",
+        "In 1598, the man who owned the land under their theatre wanted them out. So while he was away for Christmas, the company took the whole theatre apart. They carried the wood across the river, and used it to build the Globe. Shakespeare owned part of it."
       ],
-      "closeOnCamera": "And the money came home. In 1596 he finally got his father that coat of arms, making the family gentlemen. That same year his only son, Hamnet, died. He was 11. The next year Shakespeare bought the house that stood right here. It's gone now: in 1759 its owner, a priest tired of tourists and fighting the town over tax, knocked it down.",
+      "closeOnCamera": "And he brought the money home. In 1596, he finally got his father the family badge. Now they were officially upper class. But that same year, his only son, Hamnet, died. He was 11. A year later, Shakespeare bought the house that stood right here. So where is it? In 1759, it belonged to a priest. Tourists kept coming, and he argued with the town about tax. So he knocked it down.",
       "routeCard": {
         "sub": "Chapel Street",
         "note": "Enter by the gate on Chapel Street.",
@@ -300,13 +300,13 @@
       "actId": "act5",
       "angle": "1603–1616 · The king's man, and the end",
       "story": "",
-      "onCamera": "By the end of his life, Shakespeare wasn't just a successful writer. He worked for the king, he owned land and houses, and he was one of the richest men in his home town. He came back to Stratford for his last years, and died in 1616, aged 52. This is his grave. And even this spot, he paid for.",
+      "onCamera": "By the end of his life, Shakespeare was more than a writer. He worked for the king. He owned land and houses. He was one of the richest men in his home town. He came back to Stratford for his last years, and he died in 1616, at 52. This is his grave. And he even paid for this spot.",
       "facts": [
-        "In 1603 the new king, James the First, took over Shakespeare's company. They became the King's Men, the king's own actors. Shakespeare was named second in the list, and he was given red royal cloth to wear as a servant of the king.",
-        "He kept investing at home. In 1605 he paid £440, a fortune at the time, for a share of the church's income. That's what gave him the right to be buried in here, next to the altar, instead of outside in the churchyard.",
-        "A month before he died, he rewrote his will. His daughter Judith had just married a man who was then caught in a scandal, so Shakespeare protected her money from him. His wife Anne got just one thing by name: his 'second-best bed'."
+        "In 1603, the new king, James the First, made Shakespeare's company his own. They became the King's Men. Shakespeare's name was second on the list. He was even given red cloth for a royal uniform.",
+        "He kept spending his money at home. In 1605, he paid £440, a huge amount then, for a share of the money the church collected. That gave him the right to be buried inside, next to the altar. Most people were buried outside.",
+        "A month before he died, he changed his will. His daughter Judith had just married a man who was caught in a scandal. So Shakespeare made sure that man couldn't take her money. And his wife, Anne? He left her only one thing by name: his 'second-best bed'."
       ],
-      "closeOnCamera": "Now look at the stone: 'Cursed be he that moves my bones.' In 2016 a radar scan found the head end disturbed, which fits an old story that his skull was stolen. The church isn't convinced. And here's the sad part. He spent his life building a family name. But his last grandchild died in 1670, with no children. The family ended. The name didn't.",
+      "closeOnCamera": "Look at the stone. It says: 'Cursed be he that moves my bones.' In other words: don't touch my bones. In 2016, scientists scanned the grave. It looks like someone dug near his head. There's an old story that his skull was stolen. The church doesn't believe it. And here's the sad part. He spent his life building a family name. But his last grandchild died in 1670, with no children. The family ended. The name didn't.",
       "routeCard": {
         "sub": "Old Town",
         "note": "Go in by the avenue of lime trees.",
@@ -332,13 +332,13 @@
       "actId": "act6",
       "angle": "After 1616 · How he became a legend",
       "story": "",
-      "onCamera": "When Shakespeare died, he was famous in London. But he wasn't a legend yet. That took a book, a festival that went badly wrong, and a rumour about an American showman. And a lot of it happened right here, in this town.",
+      "onCamera": "When Shakespeare died, he was famous in London. But he wasn't a legend yet. That took a book, a party that went badly wrong, and a rumour about an American showman. And a lot of it happened right here.",
       "facts": [
         "Seven years after he died, two actors from his company printed his plays in one big book, the First Folio. Eighteen of the plays had never been printed before, including Macbeth and The Tempest. Without that book, we'd probably have lost them.",
-        "In September 1769, the most famous actor of the day, David Garrick, threw a three-day festival here for Shakespeare. It poured with rain, the river rose, and not a single Shakespeare play was performed. But it worked. After that, people started coming to Stratford to see where Shakespeare lived.",
-        "In 1847 his birthplace, the house where we started this walk, was put up for sale. Newspapers claimed the American showman P. T. Barnum wanted to buy it and ship it to America. Historians doubt he ever really tried, but people panicked. Charles Dickens helped raise £3,000, and the house was bought and saved."
+        "In 1769, the most famous actor in Britain at the time, David Garrick, held a three-day party here for Shakespeare. It rained non-stop. The river rose. And not one Shakespeare play was performed. But it worked. After that, people started coming to Stratford to see where he lived.",
+        "In 1847, the house where he was born went up for sale. Newspapers said an American showman, P. T. Barnum, wanted to buy it and ship it to America. He probably never really tried. But people panicked. The writer Charles Dickens helped raise £3,000, and the house was saved."
       ],
-      "closeOnCamera": "And this theatre opened on 23 April 1932, the day Stratford celebrates his birthday. It was designed by Elisabeth Scott. She was 29, and the only woman out of 70 architects in the competition. Now, one last stop: his statue.",
+      "closeOnCamera": "This theatre opened in 1932, on the day Stratford celebrates his birthday. It was designed by a 29-year-old woman, Elisabeth Scott. Seventy architects entered the competition, and she was the only woman. Now, one last stop: his statue.",
       "routeCard": {
         "sub": "Waterside",
         "note": "Free to look around outside.",
@@ -362,12 +362,12 @@
       "actId": "act6",
       "angle": "What he left behind",
       "story": "",
-      "onCamera": "Shakespeare died 400 years ago. But you've probably quoted him without knowing it. His words are in the way we talk, his plays shaped how England sees its own history, and this whole town still lives off his name. So what did he actually leave behind?",
+      "onCamera": "Shakespeare died 400 years ago. But you've probably used his words without knowing it. He changed the way we talk, and the way England sees its own history. This whole town still lives off his name. So what did he leave behind?",
       "facts": [
-        "'Green-eyed monster.' 'A wild-goose chase.' 'It's all Greek to me.' All of these reached everyday English through his plays. People say he invented 1,700 words. That's an exaggeration, but hundreds of words and phrases came to us through him.",
-        "He also shaped how England sees its own past. He made King Richard the Third into a famous villain, while writing for Queen Elizabeth the First, whose grandfather had taken Richard's crown. And in 1944, during the Second World War, the British government paid for a film of his play Henry the Fifth, about an English king who invades France and wins. It was made to lift spirits around D-Day."
+        "'Green-eyed monster.' 'A wild-goose chase.' 'It's all Greek to me.' We still say these today, and they come from his plays. People say he invented 1,700 words. That's too many. But hundreds of words and phrases reached us through him.",
+        "He also changed how England sees its past. In his play, King Richard the Third is a famous villain. But Shakespeare was writing for Queen Elizabeth the First, and it was her grandfather who took Richard's crown. In 1944, during the Second World War, the British government paid for a film of his play Henry the Fifth. It's about an English king who invades France and wins. It came out the same year as D-Day, to lift people's spirits."
       ],
-      "closeOnCamera": "A glove-maker's son from a small country town. Laughed at in London, rich as an owner, a servant of the king. And 400 years later: a theatre, a statue, and the words we speak.",
+      "closeOnCamera": "He was a glove-maker's son from a small country town. In London, they laughed at him. Then he got rich, and he worked for the king. And 400 years later, we have this theatre, this statue, and the words we still speak.",
       "routeCard": {
         "sub": "Bancroft Gardens",
         "note": "Your opening and closing lines are here too.",
@@ -393,7 +393,7 @@
     "color": "rust",
     "where": "",
     "facts": [
-      "Everyone knows this man as a poet. But there's another story about him that I'd like to tell you. Today I'm walking through his whole life, in order, in the town where it all happened. A family that lost everything. A young man laughed at as an upstart. A theatre taken apart behind the landlord's back. And a grave with a curse on it."
+      "Everyone knows this man as a poet. But there's another story about him, and I want to tell it. Today I'm walking through his whole life, in order, in the town where it happened. A family that lost everything. A young man everyone laughed at. A theatre taken apart in secret. And a grave with a curse on it."
     ]
   },
   "signOff": {
@@ -401,7 +401,7 @@
     "color": "forest",
     "where": "",
     "facts": [
-      "So that's his life, from the house where he was born to this statue by the river. A family that fell, a schoolboy, a husband at 18, a man who got rich by owning instead of writing, a servant of the king, and a grave he paid for. His family line ended. His words didn't. If you enjoyed this, like and subscribe, and tell me where I should go next."
+      "So that's his life, from the house where he was born to this statue by the river. A family that fell. A schoolboy. A husband at 18. A man who got rich by owning, not just writing. A servant of the king. And a grave he paid for. His family ended, but his words didn't. If you enjoyed this, please like and subscribe, and tell me where I should go next."
     ]
   },
   "talkTipbox": "",
