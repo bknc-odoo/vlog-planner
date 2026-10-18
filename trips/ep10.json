@@ -5,7 +5,7 @@
   "dates": "Sun 18 October 2026",
   "episode": "EP.10",
   "heroKicker": "Sunday in Shakespeare's town",
-  "intro": "Sunday afternoon in Stratford-upon-Avon. Everyone knows Shakespeare as a poet. This is the other story: a family that lost its place, a man who made money and won it back, and a grave with a curse on it.",
+  "intro": "Sunday afternoon in Stratford-upon-Avon. Everyone knows Shakespeare as a poet. This is the other story: a family that lost its money and its position, a man who got rich and won it all back, and a grave with a curse on it.",
   "dayGlanceTitle": "The day",
   "dayGlance": [
     {
@@ -32,9 +32,9 @@
     {
       "id": "act1",
       "color": "rust",
-      "label": "Act 1 · Born on the slide",
-      "tagline": "The family that lost its place.",
-      "narrative": "His father made gloves, rose to the top job in the town, then lost his money. The first record of the family is a fine for a muck heap in this street.",
+      "label": "Act 1 · Born into trouble",
+      "tagline": "The family that lost everything.",
+      "narrative": "His father made gloves, rose to the top job in the town, then lost his money. The first record of the family is a fine for a pile of rubbish in this street.",
       "stopIds": [
         "birthplace"
       ]
@@ -156,9 +156,9 @@
       "onCamera": "This is where Shakespeare lived when he was rich. Forget the poor poet in an attic. He bought a house on this spot when he was 33, and he died in it. So how does a glove-maker's son end up owning a place like this? Not by writing.",
       "facts": [
         "He didn't get rich from writing. He got rich because he owned a share of his acting company, and a share of the Globe Theatre in London.",
-        "In 1597 he bought this house, one of the biggest in town. The year before, he got his father a coat of arms. The motto was 'Not without right.' The glove-maker's family were gentlemen now."
+        "In 1597 he bought this house, one of the biggest in town. The year before, he got his father a coat of arms, an official family badge that only gentlemen could have. The motto was 'Not without right.' The glove-maker's family had moved up a class."
       ],
-      "closeOnCamera": "So where's the house? In the 1750s a vicar called Francis Gastrell owned it. Tourists kept coming, so he cut down Shakespeare's mulberry tree. Then he had a row with the town about tax, and in 1759 he knocked the whole house down. The town was so angry that he had to leave.",
+      "closeOnCamera": "So where's the house? In the 1750s a priest called Francis Gastrell owned it. Tourists kept coming, so he cut down Shakespeare's mulberry tree. Then he had an argument with the town about tax, and in 1759 he knocked the whole house down. The town was so angry that he had to leave.",
       "routeCard": {
         "sub": "Chapel Street · last entry 2:30",
         "note": "Enter from Chapel Street. Your Birthplace ticket gets you in.",
@@ -180,11 +180,11 @@
       "name": "The Guild Chapel and his school",
       "actId": "act2",
       "angle": "The free school",
-      "story": "On the walk from New Place to the church. The chapel is open until 4, and free. The schoolroom is upstairs in the old Guildhall, next to it. Don't stop long: the church closes at 3:15.",
+      "story": "On the walk from New Place to the church. The chapel is open until 4, and free. The schoolroom is upstairs in the old Guildhall, the medieval town hall, next door. Don't stop long: the church closes at 3:15.",
       "onCamera": "This is almost certainly where Shakespeare went to school. Think about that. The boy who went on to write Romeo and Juliet, Hamlet and Macbeth sat his lessons here, in a room upstairs. And what he learned here, and what he didn't, is still argued about today.",
       "facts": [
         "It was a free school for boys from the town. Lessons were in Latin, from early morning to late afternoon, Monday to Saturday.",
-        "Nobody can prove he came here. But it was free, it was five minutes from his house, and his father had been bailiff."
+        "Nobody can prove he came here. But it was free, it was five minutes from his house, and his father had been the head of the town."
       ],
       "closeOnCamera": "And here's the thing. He never went to university. That's why some people still say a nobleman must have written his plays. Almost every historian disagrees.",
       "routeCard": {
@@ -199,8 +199,8 @@
         "leaveBy": "2:45",
         "see": [
           "The Guild Chapel",
-          "The old Guildhall and the schoolroom",
-          "The timber almshouses next door, from the 1400s"
+          "The old Guildhall, the medieval town hall, with the schoolroom upstairs",
+          "Next door: timber houses from the 1400s, built for poor old people"
         ],
         "todo": "Keep walking. The church closes at 3:15.",
         "film": []
@@ -213,7 +213,7 @@
       "story": "Open today only until 3:15. Walk up the avenue of lime trees to the door. The grave costs £5 to see. It's a working church, so keep your voice down.",
       "onCamera": "This is where Shakespeare is buried. Four hundred years later, people still come from all over the world to stand in front of this grave. But how he got this spot tells you a lot about the man. It wasn't because he was famous. He paid for it.",
       "facts": [
-        "Most people were buried outside, in the churchyard. In 1605 he paid £440 for a share of the church's income. That gave him the right to be buried in here, next to the altar.",
+        "Most people were buried outside, in the churchyard. In 1605 he paid £440, a fortune at the time, for a share of the church's income. That gave him the right to be buried in here, next to the altar.",
         "Seven years after he died, two actors from his company printed his plays in one big book, the First Folio. Eighteen of the plays had never been printed before, including Macbeth and The Tempest. Without that book, we would probably have lost them."
       ],
       "closeOnCamera": "Now read his gravestone: 'Cursed be he that moves my bones.' In 2016, scientists scanned the grave with radar. The head end looks disturbed. That fits an old story that someone stole his skull. The church isn't convinced.",
@@ -240,14 +240,14 @@
     "birthplace": {
       "name": "Shakespeare's Birthplace",
       "actId": "act1",
-      "angle": "Born into a family on the slide",
+      "angle": "Born into a family in trouble",
       "story": "Timed entry: use the slot you booked. Last entry is 4:30. It's indoors, which is good: showers are forecast from 3 to 4.",
       "onCamera": "This is the house where William Shakespeare was born, in 1564. Today he's probably the most famous writer in the world. But when he was a boy, his family was in trouble. And I think that's the key to everything he did later.",
       "facts": [
-        "The first record of his family is right here. In April 1552, his father was fined 12 pence for a muck heap in this street.",
-        "His father made gloves. He rose to bailiff, the top job in the town. Then his business failed, he got into debt, and his application for a coat of arms went nowhere. William grew up watching his family lose its place."
+        "The first record of his family is right here. In April 1552, his father was fined 12 pence for leaving a pile of rubbish and dung in this street.",
+        "His father made gloves. He rose to the top job in the town, like a mayor. Then his business failed, he got into debt, and his request for a family coat of arms went nowhere. William grew up watching his family lose its money and its position."
       ],
-      "closeOnCamera": "And I think that explains him. The money, the big house, the coat of arms he got later: it was all about winning that place back.",
+      "closeOnCamera": "And I think that explains him. The money, the big house, the coat of arms he got later: it was all about winning that position back.",
       "routeCard": {
         "sub": "Henley Street · last entry 4:30",
         "note": "Enter through the Shakespeare Centre on Henley Street. Timed entry.",
@@ -271,13 +271,13 @@
       "name": "The river: the statue, the theatre and the bridge",
       "actId": "act4",
       "angle": "What he left behind",
-      "story": "Bancroft Gardens, by the canal basin. The statue is Shakespeare, with four of his characters around him: Hamlet, Lady Macbeth, Falstaff and Prince Hal. Clopton Bridge was built around 1484 by Hugh Clopton, the same man who built New Place. There's a market along Waterside until 6, so it will be busy.",
+      "story": "Bancroft Gardens, by the canal basin. The statue is Shakespeare, with four of his characters around him: Hamlet; Lady Macbeth; Falstaff, a fat, funny knight; and Prince Hal, a young prince who becomes king. Clopton Bridge was built around 1484 by Hugh Clopton, the same man who built New Place. There's a market along Waterside until 6, so it will be busy.",
       "onCamera": "Shakespeare died 400 years ago. But you've probably quoted him without knowing it. His words are in the way we talk, his plays shaped how England sees its own history, and this whole town still lives off his name. So what did he actually leave behind?",
       "facts": [
-        "'Green-eyed monster.' 'The be-all and end-all.' 'It's all Greek to me.' They all come from his plays. People say he invented 1,700 words. That's an exaggeration, but hundreds of words and phrases reached us through him.",
-        "He also shaped how England sees its own past. He made Richard the Third a villain, writing under Queen Elizabeth, whose grandfather took Richard's crown. And in 1944 the government paid for a film of Henry the Fifth, to lift spirits around D-Day."
+        "'Green-eyed monster.' 'A wild-goose chase.' 'It's all Greek to me.' All of these reached everyday English through his plays. People say he invented 1,700 words. That's an exaggeration, but hundreds of words and phrases came to us through him.",
+        "He also shaped how England sees its own past. He made King Richard the Third into a famous villain, while writing for Queen Elizabeth the First, whose grandfather had taken Richard's crown. And in 1944, during the Second World War, the British government paid for a film of his play Henry the Fifth, about an English king who invades France and wins. It was made to lift spirits around D-Day."
       ],
-      "closeOnCamera": "And this theatre opened on 23 April 1932, the day Stratford celebrates his birthday. It was designed by Elisabeth Scott. She was 29, and the only woman out of 70 architects in the competition. A glove-maker's son from a market town. And 400 years later: a theatre, a statue, and the words we speak.",
+      "closeOnCamera": "And this theatre opened on 23 April 1932, the day Stratford celebrates his birthday. It was designed by Elisabeth Scott. She was 29, and the only woman out of 70 architects in the competition. A glove-maker's son from a small country town. And 400 years later: a theatre, a statue, and the words we speak.",
       "routeCard": {
         "sub": "Bancroft Gardens · Waterside",
         "note": "Your opening and closing lines are here too.",
@@ -306,7 +306,7 @@
     "facts": [
       "The hook: 'Everyone knows this man as a poet. But there's another story about him that I'd like to tell you.'",
       "What this is: one afternoon in Stratford-upon-Avon, where Shakespeare was born, got rich, and is buried.",
-      "The promise: a family that lost its place, a man who won it back, and a grave with a curse on it."
+      "The promise: a family that lost everything, a man who won it all back, and a grave with a curse on it."
     ]
   },
   "signOff": {
@@ -315,7 +315,7 @@
     "where": "",
     "facts": [
       "Where you are: by the river, under his statue.",
-      "The recap: born into a family on the slide, rich from owning a theatre, buried in a grave he paid for, and still in the words we use.",
+      "The recap: born into a family in trouble, rich from owning a theatre, buried in a grave he paid for, and still in the words we use.",
       "The ask: like and subscribe, and tell me where I should go next."
     ]
   },
