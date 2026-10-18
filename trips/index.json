@@ -1,6 +1,13 @@
 {
-  "default": "ep08",
+  "default": "ep10",
   "trips": [
+    {
+      "id": "ep10",
+      "title": "Stratford-upon-Avon",
+      "subtitle": "Shakespeare the businessman",
+      "dates": "Sun 18 October 2026",
+      "episode": "EP.10"
+    },
     {
       "id": "ep08",
       "title": "Saffron Walden & Audley End",

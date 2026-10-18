@@ -1,5 +1,5 @@
 /* WockingTocking — offline cache */
-var CACHE = 'wt-v44';
+var CACHE = 'wt-v45';
 var SHELL = [
   './',
   './index.html',
@@ -16,7 +16,8 @@ var SHELL = [
   './trips/ep06.json',
   './trips/ep07.json',
   './trips/ep08.json',
-  './trips/ep09.json'
+  './trips/ep09.json',
+  './trips/ep10.json'
 ];
 
 self.addEventListener('install', function (e) {

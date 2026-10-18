@@ -1,0 +1,324 @@
+{
+  "id": "ep10",
+  "title": "Stratford-upon-Avon",
+  "subtitle": "Shakespeare the businessman",
+  "dates": "Sun 18 October 2026",
+  "episode": "EP.10",
+  "heroKicker": "Sunday in Shakespeare's town",
+  "intro": "Sunday afternoon in Stratford-upon-Avon. Everyone knows Shakespeare as a poet. This is the other story: a family that lost its place, a man who made money and won it back, and a grave with a curse on it.",
+  "dayGlanceTitle": "The day",
+  "dayGlance": [
+    {
+      "n": 1,
+      "color": "rust",
+      "title": "New Place and the church",
+      "sub": "2:15 PM. The house he bought, then the grave he paid for."
+    },
+    {
+      "n": 2,
+      "color": "ochre",
+      "title": "The Birthplace",
+      "sub": "3:25 PM. The house he was born in. Indoors for the showers."
+    },
+    {
+      "n": 3,
+      "color": "forest",
+      "title": "The river",
+      "sub": "4:35 PM. The statue, the theatre and Clopton Bridge."
+    }
+  ],
+  "actsLede": "One afternoon, four parts.",
+  "acts": [
+    {
+      "id": "act1",
+      "color": "rust",
+      "label": "Act 1 · Born on the slide",
+      "tagline": "The family that lost its place.",
+      "narrative": "His father made gloves, rose to the top job in the town, then lost his money. The first record of the family is a fine for a muck heap in this street.",
+      "stopIds": [
+        "birthplace"
+      ]
+    },
+    {
+      "id": "act2",
+      "color": "rust",
+      "label": "Act 2 · The free school",
+      "tagline": "Latin, Monday to Saturday.",
+      "narrative": "A free school paid for by the town. He never went to university, which is why some people still say someone else wrote his plays.",
+      "stopIds": [
+        "church-street"
+      ]
+    },
+    {
+      "id": "act3",
+      "color": "ochre",
+      "label": "Act 3 · The businessman",
+      "tagline": "Rich from owning, not from writing.",
+      "narrative": "He made his money from owning a share of a theatre company. He bought one of the biggest houses in town, and got his father a coat of arms.",
+      "stopIds": [
+        "new-place"
+      ]
+    },
+    {
+      "id": "act4",
+      "color": "forest",
+      "label": "Act 4 · The grave, and what he left",
+      "tagline": "A grave he paid for. Words we still use.",
+      "narrative": "He bought the right to be buried by the altar. His friends saved his plays. And his words are still in the way we talk.",
+      "stopIds": [
+        "holy-trinity",
+        "river"
+      ]
+    }
+  ],
+  "kit": [
+    "Phone or camera, and a power bank",
+    "A waterproof jacket. Showers are forecast from 3 to 4.",
+    "A wind cover for the microphone",
+    "A card for £5 at the church"
+  ],
+  "preTrip": [
+    "Holy Trinity closes at 3:15 today. Don't be late.",
+    "New Place: last entry is 2:30."
+  ],
+  "goldenRule": "New Place by 2:30. Holy Trinity by 3:15. Everything else can wait.",
+  "days": [
+    {
+      "id": "d1",
+      "label": "Sunday",
+      "date": "Sun 18 October 2026",
+      "color": "rust",
+      "routeHeader": "Car park → New Place → Holy Trinity → Birthplace → the river",
+      "fullRoute": {
+        "label": "SUNDAY BY CAR",
+        "sub": "To the car park in Stratford, arriving about 2:00 PM",
+        "href": "https://www.google.com/maps/dir/?api=1&destination=52.19381%2C-1.70195&travelmode=driving"
+      },
+      "planHeader": "Stratford-upon-Avon · 2:00 PM – 5:45 PM",
+      "planNote": {
+        "kicker": "Two deadlines",
+        "color": "rust",
+        "text": "New Place: last entry 2:30. Holy Trinity closes at 3:15 on Sundays. Weather (Met Office, this morning): cloudy at 2, light showers from 3 to 4 (60%), sunny spells again about 5. Sunset 6:06. You're inside the Birthplace for the showers. Hall's Croft and Mary Arden's Farm are closed to visitors."
+      },
+      "routeStops": [
+        "park",
+        "new-place",
+        "church-street",
+        "holy-trinity",
+        "birthplace",
+        "river"
+      ],
+      "planStops": [
+        "park",
+        "new-place",
+        "church-street",
+        "holy-trinity",
+        "birthplace",
+        "river"
+      ],
+      "planArrival": {
+        "title": "Done by about 5:45",
+        "note": "Walk back to the car, about 3 minutes. Sunset is 6:06."
+      }
+    }
+  ],
+  "stops": {
+    "park": {
+      "name": "Park and walk to New Place",
+      "actId": "act3",
+      "hideOnTalk": true,
+      "angle": "Park, then straight to New Place",
+      "story": "Park at Bridgefoot car park, by Clopton Bridge. The afternoon finishes at the river, right beside it. Walk up Bridge Street and High Street to New Place.",
+      "facts": [],
+      "routeCard": {
+        "sub": "Bridgefoot car park · arrive about 2:00 PM",
+        "note": "Check the tariff at the machine. You'll be there about 4 hours.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19381%2C-1.70195&travelmode=driving",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "2:00–2:15 PM",
+        "leaveBy": "2:10",
+        "see": [
+          "Harvard House on High Street (1596). It was the family home of John Harvard's mother. Harvard University is named after him."
+        ],
+        "todo": "Walk straight to New Place, about 9 minutes. Last entry is 2:30.",
+        "film": []
+      }
+    },
+    "new-place": {
+      "name": "Shakespeare's New Place",
+      "actId": "act3",
+      "angle": "The house he bought",
+      "story": "Last entry is 2:30, so come here first. The house has gone. Today it's a garden where the house stood.",
+      "onCamera": "Shakespeare bought a house here when he was 33. He died in it.",
+      "facts": [
+        "He didn't get rich from writing. He got rich because he owned a share of his acting company, and a share of the Globe Theatre in London.",
+        "In 1597 he bought this house, one of the biggest in town. The year before, he got his father a coat of arms. The motto was 'Not without right.' The glove-maker's family were gentlemen now."
+      ],
+      "closeOnCamera": "So where's the house? In the 1750s a vicar called Francis Gastrell owned it. Tourists kept coming, so he cut down Shakespeare's mulberry tree. Then he had a row with the town about tax, and in 1759 he knocked the whole house down. The town was so angry that he had to leave.",
+      "routeCard": {
+        "sub": "Chapel Street · last entry 2:30",
+        "note": "Enter from Chapel Street.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19072%2C-1.70757&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "2:15–2:35 PM",
+        "leaveBy": "2:35",
+        "see": [
+          "The garden where Shakespeare's house stood"
+        ],
+        "todo": "Then walk down Church Street to the church, about 8 minutes.",
+        "film": []
+      }
+    },
+    "church-street": {
+      "name": "The Guild Chapel and his school",
+      "actId": "act2",
+      "angle": "The free school",
+      "story": "On the walk from New Place to the church. The schoolroom is upstairs in the old Guildhall, next to the chapel. Don't go in today: the church closes at 3:15.",
+      "onCamera": "This is almost certainly where Shakespeare went to school.",
+      "facts": [
+        "It was a free school for boys from the town. Lessons were in Latin, from early morning to late afternoon, Monday to Saturday.",
+        "Nobody can prove he came here. But it was free, it was five minutes from his house, and his father had been bailiff."
+      ],
+      "closeOnCamera": "And here's the thing. He never went to university. That's why some people still say a nobleman must have written his plays. Almost every historian disagrees.",
+      "routeCard": {
+        "sub": "Church Street · on the way to the church",
+        "note": "Don't stop long.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19054%2C-1.70779&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "2:35–2:45 PM",
+        "leaveBy": "2:45",
+        "see": [
+          "The Guild Chapel",
+          "The old Guildhall and the schoolroom",
+          "The timber almshouses next door, from the 1400s"
+        ],
+        "todo": "Keep walking. The church closes at 3:15.",
+        "film": []
+      }
+    },
+    "holy-trinity": {
+      "name": "Holy Trinity Church",
+      "actId": "act4",
+      "angle": "The grave he paid for",
+      "story": "Open today only until 3:15. Walk up the avenue of lime trees to the door. The grave costs £5 to see. It's a working church, so keep your voice down.",
+      "onCamera": "Shakespeare is buried in this church. And he paid for the spot.",
+      "facts": [
+        "Most people were buried outside, in the churchyard. In 1605 he paid £440 for a share of the church's income. That gave him the right to be buried in here, next to the altar.",
+        "Seven years after he died, two actors from his company printed his plays in one big book, the First Folio. Eighteen of the plays had never been printed before, including Macbeth and The Tempest. Without that book, we would probably have lost them."
+      ],
+      "closeOnCamera": "Now read his gravestone: 'Cursed be he that moves my bones.' In 2016, scientists scanned the grave with radar. The head end looks disturbed. That fits an old story that someone stole his skull. The church isn't convinced.",
+      "routeCard": {
+        "sub": "Old Town · closes 3:15 today",
+        "note": "Go in by the avenue of lime trees.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.18658%2C-1.70745&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "2:45–3:10 PM",
+        "leaveBy": "3:10",
+        "see": [
+          "The avenue of lime trees",
+          "Shakespeare's grave and the curse",
+          "His monument on the wall",
+          "The spire over the river"
+        ],
+        "todo": "Pay £5 for the grave. Be out by 3:15. Then walk up to Henley Street, about 13 minutes.",
+        "film": []
+      }
+    },
+    "birthplace": {
+      "name": "Shakespeare's Birthplace",
+      "actId": "act1",
+      "angle": "Born into a family on the slide",
+      "story": "Last entry is 4:30. It's indoors, which is good: showers are forecast from 3 to 4.",
+      "onCamera": "This is the house where Shakespeare was born, in 1564.",
+      "facts": [
+        "The first record of his family is right here. In April 1552, his father was fined 12 pence for a muck heap in this street.",
+        "His father made gloves. He rose to bailiff, the top job in the town. Then his business failed, he got into debt, and his application for a coat of arms went nowhere. William grew up watching his family lose its place."
+      ],
+      "closeOnCamera": "And I think that explains him. The money, the big house, the coat of arms he got later: it was all about winning that place back.",
+      "routeCard": {
+        "sub": "Henley Street · last entry 4:30",
+        "note": "Enter through the Shakespeare Centre on Henley Street.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19388%2C-1.70801&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "3:25–4:25 PM",
+        "leaveBy": "4:25",
+        "see": [
+          "The room where he was born",
+          "His father's glove workshop",
+          "The old timber fronts of Henley Street"
+        ],
+        "todo": "Stay inside through the showers. Then walk down to the river, about 7 minutes.",
+        "film": []
+      }
+    },
+    "river": {
+      "name": "The river: the statue, the theatre and the bridge",
+      "actId": "act4",
+      "angle": "What he left behind",
+      "story": "Bancroft Gardens, by the canal basin. The statue is Shakespeare, with four of his characters around him: Hamlet, Lady Macbeth, Falstaff and Prince Hal. Clopton Bridge was built around 1484 by Hugh Clopton, the same man who built New Place.",
+      "onCamera": "Shakespeare died 400 years ago. You still use his words every day.",
+      "facts": [
+        "'Green-eyed monster.' 'The be-all and end-all.' 'It's all Greek to me.' They all come from his plays. People say he invented 1,700 words. That's an exaggeration, but hundreds of words and phrases reached us through him.",
+        "He also shaped how England sees its own past. He made Richard the Third a villain, writing under Queen Elizabeth, whose grandfather took Richard's crown. And in 1944 the government paid for a film of Henry the Fifth, to lift spirits around D-Day."
+      ],
+      "closeOnCamera": "And this theatre opened on 23 April 1932, the day Stratford celebrates his birthday. It was designed by Elisabeth Scott. She was 29, and the only woman out of 70 architects in the competition. A glove-maker's son from a market town. And 400 years later: a theatre, a statue, and the words we speak.",
+      "routeCard": {
+        "sub": "Bancroft Gardens · Waterside",
+        "note": "Your opening and closing lines are here too.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19216%2C-1.70236&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "4:35–5:45 PM",
+        "leaveBy": "5:45",
+        "see": [
+          "The Gower statue: Shakespeare with Hamlet, Lady Macbeth, Falstaff and Prince Hal",
+          "The swans and the narrowboats in the canal basin",
+          "The Royal Shakespeare Theatre",
+          "Clopton Bridge"
+        ],
+        "todo": "Your opening and closing lines are here. The sun should be back about 5. Sunset is 6:06.",
+        "film": []
+      }
+    }
+  },
+  "coldOpen": {
+    "title": "Cold open",
+    "color": "rust",
+    "where": "",
+    "facts": [
+      "The hook: 'Everyone knows this man as a poet. I think that's the least interesting thing about him.'",
+      "What this is: one afternoon in Stratford-upon-Avon, where Shakespeare was born, got rich, and is buried.",
+      "The promise: a family that lost its place, a man who won it back, and a grave with a curse on it."
+    ]
+  },
+  "signOff": {
+    "title": "Closing sign-off",
+    "color": "forest",
+    "where": "",
+    "facts": [
+      "Where you are: by the river, under his statue.",
+      "The recap: born into a family on the slide, rich from owning a theatre, buried in a grave he paid for, and still in the words we use.",
+      "The ask: like and subscribe, and tell me where I should go next."
+    ]
+  },
+  "talkTipbox": "",
+  "goldenRules": [],
+  "outro": ""
+}
