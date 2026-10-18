@@ -75,9 +75,10 @@
     "Phone or camera, and a power bank",
     "A waterproof jacket. Showers are forecast from 3 to 4.",
     "A wind cover for the microphone",
-    "A card for £5 at the church"
+    "A card: the car parks are card only, and the grave costs £5"
   ],
   "preTrip": [
+    "Book the Birthplace online now, for about 3:30. It's timed entry, and the same ticket gets you into New Place.",
     "Holy Trinity closes at 3:15 today. Don't be late.",
     "New Place: last entry is 2:30."
   ],
@@ -96,9 +97,9 @@
       },
       "planHeader": "Stratford-upon-Avon · 2:00 PM – 5:45 PM",
       "planNote": {
-        "kicker": "Two deadlines",
+        "kicker": "Book the Birthplace first",
         "color": "rust",
-        "text": "New Place: last entry 2:30. Holy Trinity closes at 3:15 on Sundays. Weather (Met Office, this morning): cloudy at 2, light showers from 3 to 4 (60%), sunny spells again about 5. Sunset 6:06. You're inside the Birthplace for the showers. Hall's Croft and Mary Arden's Farm are closed to visitors."
+        "text": "Book the Birthplace online before you leave: it has timed entry, and the same ticket gets you into New Place (£25 online, £27 at the door). Pick a slot about 3:30. New Place: last entry 2:30. Holy Trinity closes at 3:15 on Sundays. Waterside is closed to cars until 6 PM for a market, so don't drive that way. Weather (Met Office, this morning): cloudy at 2, light showers 3–4 PM (60%), sunny spells again about 5. Sunset 6:06."
       },
       "routeStops": [
         "park",
@@ -118,7 +119,7 @@
       ],
       "planArrival": {
         "title": "Done by about 5:45",
-        "note": "Walk back to the car, about 3 minutes. Sunset is 6:06."
+        "note": "Walk back to Bridgeway car park, about 5 minutes. Pay at the machine on the way out. Sunset is 6:06."
       }
     }
   ],
@@ -128,11 +129,11 @@
       "actId": "act3",
       "hideOnTalk": true,
       "angle": "Park, then straight to New Place",
-      "story": "Park at Bridgefoot car park, by Clopton Bridge. The afternoon finishes at the river, right beside it. Walk up Bridge Street and High Street to New Place.",
+      "story": "Park at Bridgeway multi-storey car park, by Clopton Bridge (CV37 6YX). The first hour is free, and 4 hours is £5.80. Card only: it reads your number plate, and you pay at the machine before you leave. Height limit 1.8 m. Running late? Church Street car park (CV37 6HB) is 3 minutes from New Place.",
       "facts": [],
       "routeCard": {
-        "sub": "Bridgefoot car park · arrive about 2:00 PM",
-        "note": "Check the tariff at the machine. You'll be there about 4 hours.",
+        "sub": "Bridgeway car park · CV37 6YX · arrive about 2:00 PM",
+        "note": "Card only. You pay on the way out, so you can't overstay.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19381%2C-1.70195&travelmode=driving",
         "walkPoints": [],
         "walkLoopHref": null
@@ -151,7 +152,7 @@
       "name": "Shakespeare's New Place",
       "actId": "act3",
       "angle": "The house he bought",
-      "story": "Last entry is 2:30, so come here first. The house has gone. Today it's a garden where the house stood.",
+      "story": "Last entry is 2:30, so come here first. Your Birthplace ticket gets you in. The house has gone. Today it's a garden where the house stood.",
       "onCamera": "Shakespeare bought a house here when he was 33. He died in it.",
       "facts": [
         "He didn't get rich from writing. He got rich because he owned a share of his acting company, and a share of the Globe Theatre in London.",
@@ -160,7 +161,7 @@
       "closeOnCamera": "So where's the house? In the 1750s a vicar called Francis Gastrell owned it. Tourists kept coming, so he cut down Shakespeare's mulberry tree. Then he had a row with the town about tax, and in 1759 he knocked the whole house down. The town was so angry that he had to leave.",
       "routeCard": {
         "sub": "Chapel Street · last entry 2:30",
-        "note": "Enter from Chapel Street.",
+        "note": "Enter from Chapel Street. Your Birthplace ticket gets you in.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19072%2C-1.70757&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -179,7 +180,7 @@
       "name": "The Guild Chapel and his school",
       "actId": "act2",
       "angle": "The free school",
-      "story": "On the walk from New Place to the church. The schoolroom is upstairs in the old Guildhall, next to the chapel. Don't go in today: the church closes at 3:15.",
+      "story": "On the walk from New Place to the church. The chapel is open until 4, and free. The schoolroom is upstairs in the old Guildhall, next to it. Don't stop long: the church closes at 3:15.",
       "onCamera": "This is almost certainly where Shakespeare went to school.",
       "facts": [
         "It was a free school for boys from the town. Lessons were in Latin, from early morning to late afternoon, Monday to Saturday.",
@@ -240,7 +241,7 @@
       "name": "Shakespeare's Birthplace",
       "actId": "act1",
       "angle": "Born into a family on the slide",
-      "story": "Last entry is 4:30. It's indoors, which is good: showers are forecast from 3 to 4.",
+      "story": "Timed entry: use the slot you booked. Last entry is 4:30. It's indoors, which is good: showers are forecast from 3 to 4.",
       "onCamera": "This is the house where Shakespeare was born, in 1564.",
       "facts": [
         "The first record of his family is right here. In April 1552, his father was fined 12 pence for a muck heap in this street.",
@@ -249,7 +250,7 @@
       "closeOnCamera": "And I think that explains him. The money, the big house, the coat of arms he got later: it was all about winning that place back.",
       "routeCard": {
         "sub": "Henley Street · last entry 4:30",
-        "note": "Enter through the Shakespeare Centre on Henley Street.",
+        "note": "Enter through the Shakespeare Centre on Henley Street. Timed entry.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19388%2C-1.70801&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
@@ -270,7 +271,7 @@
       "name": "The river: the statue, the theatre and the bridge",
       "actId": "act4",
       "angle": "What he left behind",
-      "story": "Bancroft Gardens, by the canal basin. The statue is Shakespeare, with four of his characters around him: Hamlet, Lady Macbeth, Falstaff and Prince Hal. Clopton Bridge was built around 1484 by Hugh Clopton, the same man who built New Place.",
+      "story": "Bancroft Gardens, by the canal basin. The statue is Shakespeare, with four of his characters around him: Hamlet, Lady Macbeth, Falstaff and Prince Hal. Clopton Bridge was built around 1484 by Hugh Clopton, the same man who built New Place. There's a market along Waterside until 6, so it will be busy.",
       "onCamera": "Shakespeare died 400 years ago. You still use his words every day.",
       "facts": [
         "'Green-eyed monster.' 'The be-all and end-all.' 'It's all Greek to me.' They all come from his plays. People say he invented 1,700 words. That's an exaggeration, but hundreds of words and phrases reached us through him.",
