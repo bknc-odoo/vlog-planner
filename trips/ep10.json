@@ -1,40 +1,40 @@
 {
   "id": "ep10",
   "title": "Stratford-upon-Avon",
-  "subtitle": "Shakespeare the businessman",
-  "dates": "Sun 18 October 2026",
+  "subtitle": "Shakespeare's life, walked in order",
+  "dates": "Date to choose",
   "episode": "EP.10",
-  "heroKicker": "Sunday in Shakespeare's town",
-  "intro": "Sunday afternoon in Stratford-upon-Avon. First, film the places that close early. Then walk Shakespeare's life in order: the house he was born in, his school, the house he got rich enough to buy, and his grave.",
-  "dayGlanceTitle": "The day",
+  "heroKicker": "Shakespeare's life, in order",
+  "intro": "Shakespeare's whole life, walked in order through the town where it happened: a family in trouble, a schoolboy, a marriage at 18, a rise in London, a servant of the king, and a legend.",
+  "dayGlanceTitle": "The walk",
   "dayGlance": [
     {
       "n": 1,
       "color": "rust",
-      "title": "Before they close",
-      "sub": "2:00 PM. Film New Place's garden and the grave. No talking yet."
+      "title": "His youth",
+      "sub": "The Birthplace, his school and Anne Hathaway's Cottage."
     },
     {
       "n": 2,
       "color": "ochre",
-      "title": "Walk his life",
-      "sub": "3:30 PM. Born, school, rich, buried. The story in order."
+      "title": "The rise and the end",
+      "sub": "New Place and Holy Trinity."
     },
     {
       "n": 3,
       "color": "forest",
-      "title": "The river",
-      "sub": "5:10 PM. What he left behind. Sunset 6:06."
+      "title": "The legend",
+      "sub": "The theatre, the statue and the river."
     }
   ],
-  "actsLede": "One afternoon, four parts.",
+  "actsLede": "Six parts, in the order he lived them.",
   "acts": [
     {
       "id": "act1",
       "color": "rust",
       "label": "Act 1 · 1564: born into trouble",
-      "tagline": "The family that lost everything.",
-      "narrative": "His father made gloves, rose to the top job in the town, then lost his money. The first record of the family is a fine for a pile of rubbish in this street.",
+      "tagline": "A family that climbed, then fell.",
+      "narrative": "His father married into a landowning family, rose to run the town, then was taken to court and fell into debt.",
       "stopIds": [
         "birthplace"
       ]
@@ -42,313 +42,348 @@
     {
       "id": "act2",
       "color": "rust",
-      "label": "Act 2 · School, marriage, London",
-      "tagline": "Free school, married at 18, then gone.",
-      "narrative": "A free school paid for by the town. Then marriage at 18, three children by 20, and off to London.",
+      "label": "Act 2 · The schoolboy",
+      "tagline": "A free school, and the first actors in town.",
+      "narrative": "Latin six days a week, and the first touring actors performing in the hall downstairs.",
       "stopIds": [
-        "church-street"
+        "schoolroom"
       ]
     },
     {
       "id": "act3",
       "color": "ochre",
-      "label": "Act 3 · The businessman",
-      "tagline": "Rich from owning, not from writing.",
-      "narrative": "He comes back into view in London. He gets rich owning a share of a theatre company, buys one of the biggest houses in town, gets the family a coat of arms, and loses his only son.",
+      "label": "Act 3 · Married at 18",
+      "tagline": "A wife, three children, then gone.",
+      "narrative": "He married an older, pregnant farmer's daughter, had three children by 20, and left for London.",
+      "stopIds": [
+        "anne-hathaway"
+      ]
+    },
+    {
+      "id": "act4",
+      "color": "ochre",
+      "label": "Act 4 · The rise",
+      "tagline": "From 'upstart crow' to owner.",
+      "narrative": "Mocked as an upstart, he wrote for a rich patron in the plague years, then became an owner of his company and of the Globe.",
       "stopIds": [
         "new-place"
       ]
     },
     {
-      "id": "act4",
+      "id": "act5",
       "color": "forest",
-      "label": "Act 4 · The grave, and what he left",
-      "tagline": "A grave he paid for. Words we still use.",
-      "narrative": "He bought the right to be buried by the altar. His friends saved his plays. And his words are still in the way we talk.",
+      "label": "Act 5 · The king's man, and the end",
+      "tagline": "Royal servant, rich man, a grave he paid for.",
+      "narrative": "The king took over his company. He invested at home, protected his daughter in his will, and paid for his own grave.",
       "stopIds": [
-        "holy-trinity",
+        "holy-trinity"
+      ]
+    },
+    {
+      "id": "act6",
+      "color": "forest",
+      "label": "Act 6 · The legend",
+      "tagline": "The family ended. The name didn't.",
+      "narrative": "His friends saved his plays, a rained-out festival made Stratford famous, and his birthplace was nearly shipped to America.",
+      "stopIds": [
+        "theatre",
         "river"
       ]
     }
   ],
   "kit": [
     "Phone or camera, and a power bank",
-    "A waterproof jacket. Showers are forecast from 3 to 4.",
     "A wind cover for the microphone",
+    "Comfortable shoes: it's a mile each way to Anne Hathaway's Cottage",
     "A card: the car parks are card only, and the grave costs £5"
   ],
   "preTrip": [
-    "Book the Birthplace for 3:30 if you haven't yet. The same ticket gets you into New Place's garden.",
-    "Film New Place's garden by 2:30 and the grave by 3:15. Then walk his life in order.",
-    "Running late? Skip New Place's garden and go straight to the church."
+    "Book the Birthplace online: it has timed entry. Add Anne Hathaway's Cottage and the Schoolroom.",
+    "Check Holy Trinity's hours for your day. Sundays are afternoon only.",
+    "Doing it all in one day? Start at the Birthplace at 10."
   ],
-  "goldenRule": "Film New Place's garden by 2:30 and the grave by 3:15. Then walk his life, first to last.",
+  "goldenRule": "Walk his life in order, and go inside every place at the right moment in the story.",
   "days": [
     {
       "id": "d1",
-      "label": "Sunday",
-      "date": "Sun 18 October 2026",
+      "label": "The walk",
+      "date": "Date to choose",
       "color": "rust",
-      "routeHeader": "Car park → New Place → church (film) → Birthplace → school → New Place → church → river",
+      "routeHeader": "Birthplace → Schoolroom → Anne Hathaway's Cottage → New Place → Holy Trinity → the theatre → the statue",
       "fullRoute": {
-        "label": "SUNDAY BY CAR",
-        "sub": "To the car park in Stratford, arriving about 2:00 PM",
+        "label": "DRIVE TO STRATFORD",
+        "sub": "To Bridgeway car park, CV37 6YX",
         "href": "https://www.google.com/maps/dir/?api=1&destination=52.19411%2C-1.70178&travelmode=driving"
       },
-      "planHeader": "Stratford-upon-Avon · 2:00 PM – 5:45 PM",
+      "planHeader": "Stratford-upon-Avon · his life in order",
       "planNote": {
-        "kicker": "Two parts",
+        "kicker": "Tickets and hours",
         "color": "rust",
-        "text": "Part 1, 2:00 to 2:55: film New Place's garden (last entry 2:30) and the grave (the church closes at 3:15). No talking yet. Part 2, from 3:30: walk his life in order and tell the story: born, school, rich, buried, then the river. Birthplace slot 3:30 (timed entry; the same ticket gets you into New Place). Waterside is closed to cars until 6 for a market. Weather: showers 3–4 PM, sun back about 5. Sunset 6:06."
+        "text": "One Birthplace ticket (£25 online, £27 at the door) also covers New Place. Add Anne Hathaway's Cottage (£5) and the Schoolroom (£10) when you book. The Birthplace has timed entry, so book ahead. To do it all in one day, start at the Birthplace at 10: New Place has the shortest hours (11 to 3 in autumn), and the church is only open on Sunday afternoons. Hall's Croft and Mary Arden's Farm are closed to visitors. Coming twice instead? Split after Anne Hathaway's Cottage: his youth on the first visit, then the rise, the end and the legend on the second."
       },
       "routeStops": [
         "park",
-        "bank-new-place",
-        "bank-grave",
         "birthplace",
-        "church-street",
+        "schoolroom",
+        "anne-hathaway",
         "new-place",
         "holy-trinity",
+        "theatre",
         "river"
       ],
       "planStops": [
         "park",
-        "bank-new-place",
-        "bank-grave",
         "birthplace",
-        "church-street",
+        "schoolroom",
+        "anne-hathaway",
         "new-place",
         "holy-trinity",
+        "theatre",
         "river"
       ],
       "planArrival": {
-        "title": "Done by about 5:55",
-        "note": "Walk back to Bridgeway car park, about 4 minutes. Pay at the machine on the way out. Sunset is 6:06."
+        "title": "The end of the walk",
+        "note": "Bridgeway car park is about 3 minutes from the statue."
       }
     }
   ],
   "stops": {
     "park": {
-      "name": "Park and walk to New Place",
-      "actId": "act3",
+      "name": "Park at Bridgeway",
+      "actId": "act1",
       "hideOnTalk": true,
-      "angle": "Park, then straight to New Place",
-      "story": "Park at Bridgeway multi-storey car park, by Clopton Bridge (CV37 6YX). The first hour is free, and 4 hours is £5.80. Card only: it reads your number plate, and you pay at the machine before you leave. Height limit 1.8 m. Running late? Church Street car park (CV37 6HB) is 3 minutes from New Place.",
+      "angle": "Park, then walk to Henley Street",
+      "story": "",
       "facts": [],
       "routeCard": {
-        "sub": "Bridgeway car park · CV37 6YX · arrive about 2:00 PM",
-        "note": "Card only. You pay on the way out, so you can't overstay.",
+        "sub": "Bridgeway multi-storey car park · CV37 6YX",
+        "note": "Card only. It reads your number plate, and you pay at the machine on the way out. First hour free, 4 hours £5.80. Height limit 1.8 m.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19411%2C-1.70178&travelmode=driving",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "2:00–2:10 PM",
-        "leaveBy": "2:00",
+        "time": "About 7 minutes' walk",
+        "leaveBy": null,
         "see": [
-          "Harvard House on High Street (1596). It was the family home of John Harvard's mother. Harvard University is named after him."
+          "Bridge Street"
         ],
-        "todo": "Walk to New Place, about 10 minutes, up Bridge Street and High Street. Last entry is 2:30.",
-        "film": []
-      }
-    },
-    "new-place": {
-      "name": "Shakespeare's New Place",
-      "actId": "act3",
-      "angle": "1590s–1616 · The businessman",
-      "story": "You filmed the garden at 2:10. Now tell the story from the gate on Chapel Street.",
-      "onCamera": "For about seven years after he left, nobody knows where Shakespeare was. Historians call them the lost years. When he appears again, he's in London, working as an actor and a writer. Then, at 33, he buys a house on this spot, one of the biggest in his home town. So how does a glove-maker's son get that rich? Not by writing.",
-      "facts": [
-        "He didn't get rich from writing. He got rich because he owned a share of his acting company, and a share of the Globe Theatre in London.",
-        "In 1596 he finally got his father that coat of arms, an official family badge that only gentlemen could have, passed from father to son. The motto was 'Not without right.' That same year, his only son, Hamnet, died. He was 11."
-      ],
-      "closeOnCamera": "So where's the house? In the 1750s a priest called Francis Gastrell owned it. Tourists kept coming, so he cut down Shakespeare's mulberry tree. Then, after an argument with the town about tax, he knocked the whole house down in 1759. The town was so angry that he had to leave. Shakespeare spent his last years here, and died here in 1616. He's buried just down the road.",
-      "routeCard": {
-        "sub": "Chapel Street · outside",
-        "note": "Outside only. You filmed the garden earlier.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19074%2C-1.70766&travelmode=walking",
-        "walkPoints": [],
-        "walkLoopHref": null
-      },
-      "planCard": {
-        "time": "4:25–4:35 PM",
-        "leaveBy": "4:35",
-        "see": [
-          "The gate on Chapel Street",
-          "The plot where the house stood"
-        ],
-        "todo": "Outside only. Then walk to the church, about 8 minutes.",
-        "film": []
-      }
-    },
-    "church-street": {
-      "name": "The Guild Chapel and his school",
-      "actId": "act2",
-      "angle": "1570s–1580s · School, marriage, London",
-      "story": "Outside only: the chapel closes at 4 and the schoolroom's last entry is 4:15. The schoolroom is upstairs in the old Guildhall, the medieval town hall.",
-      "onCamera": "This is almost certainly where Shakespeare went to school. Think about that. The boy who went on to write Romeo and Juliet, Hamlet and Macbeth sat his lessons here, in a room upstairs. And what he learned here, and what he didn't, is still argued about today.",
-      "facts": [
-        "It was a free school for boys from the town. Lessons were in Latin, from early morning to late afternoon, Monday to Saturday.",
-        "Nobody can prove he came here. But it was free, it was five minutes from his house, and his father had been the head of the town."
-      ],
-      "closeOnCamera": "He never went to university. That's why some people still say a nobleman must have written his plays. Almost every historian disagrees. And then his life moves fast. At 18 he married Anne Hathaway. She was 26, and already pregnant. By 20 he had three children. Then he left them here in Stratford, and went to London.",
-      "routeCard": {
-        "sub": "Church Street · on the way to the church",
-        "note": "Outside only.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19056%2C-1.70796&travelmode=walking",
-        "walkPoints": [],
-        "walkLoopHref": null
-      },
-      "planCard": {
-        "time": "4:16–4:25 PM",
-        "leaveBy": "4:25",
-        "see": [
-          "The Guild Chapel",
-          "The old Guildhall, the medieval town hall, with the schoolroom upstairs",
-          "Next door: timber houses from the 1400s, built for poor old people"
-        ],
-        "todo": "Outside only. New Place is next door.",
-        "film": []
-      }
-    },
-    "holy-trinity": {
-      "name": "Holy Trinity Church",
-      "actId": "act4",
-      "angle": "1616 · The grave he paid for",
-      "story": "You filmed the grave at 2:33. The church is closed now, so tell this part outside, on the avenue of lime trees. If the gate is shut, use the riverbank, where you can see the spire.",
-      "onCamera": "This is where Shakespeare is buried. He died in 1616, aged 52. In his will, the only thing he left his wife by name was his 'second-best bed'. People still argue about what he meant by it. And how he got this grave tells you a lot about the man. He paid for it.",
-      "facts": [
-        "Most people were buried outside, in the churchyard. In 1605 he paid £440, a fortune at the time, for a share of the church's income. That gave him the right to be buried in here, next to the altar.",
-        "Seven years after he died, two actors from his company printed his plays in one big book, the First Folio. Eighteen of the plays had never been printed before, including Macbeth and The Tempest. Without that book, we would probably have lost them."
-      ],
-      "closeOnCamera": "Now, his gravestone. It says: 'Cursed be he that moves my bones.' In 2016, scientists scanned the grave with radar. The head end looks disturbed. That fits an old story that someone stole his skull. The church isn't convinced. So that's his life, from that house on Henley Street to here. But the story doesn't end with his death.",
-      "routeCard": {
-        "sub": "Old Town · outside",
-        "note": "Outside only. You filmed the grave earlier.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.18675%2C-1.70768&travelmode=walking",
-        "walkPoints": [],
-        "walkLoopHref": null
-      },
-      "planCard": {
-        "time": "4:43–4:58 PM",
-        "leaveBy": "4:58",
-        "see": [
-          "The avenue of lime trees",
-          "The church door",
-          "The spire over the river"
-        ],
-        "todo": "Outside only. Then walk along the river to Bancroft Gardens, about 12 minutes. You pass the theatre.",
+        "todo": "Park at Bridgeway, then walk to Henley Street along Bridge Street.",
         "film": []
       }
     },
     "birthplace": {
       "name": "Shakespeare's Birthplace",
       "actId": "act1",
-      "angle": "1564 · Born into a family in trouble",
-      "story": "Timed entry: use your slot. Last entry is 4:30. This is where the walk through his life begins.",
-      "onCamera": "This is where it all starts. William Shakespeare was born in this house in 1564. Today he's probably the most famous writer in the world. But he didn't start out important. When he was a boy, his family was in trouble. And I think that explains everything he did later.",
+      "angle": "1564 · Born into trouble",
+      "story": "",
+      "onCamera": "This is where it all starts. William Shakespeare was born in this house in 1564. Today he's probably the most famous writer in the world. But he didn't start out important. His family was ordinary, and when he was a boy they got into serious trouble. I think that explains everything he did later.",
       "facts": [
-        "The first record of his family is right here. In April 1552, his father was fined 12 pence for leaving a pile of rubbish and dung in this street.",
-        "His father made gloves. He rose to the top job in the town, like a mayor. Then his business failed, he got into debt, and his request for a family coat of arms went nowhere. William grew up watching his family lose its money and its position."
+        "The first record of his family is right here. In 1552 his father was fined for leaving a pile of rubbish and dung in this street.",
+        "His father, John, made gloves. His wife, Mary Arden, came from a farming family that owned land. In fact, John's own father rented his farm from Mary's father. John kept climbing: he bought houses, joined the town council, and in 1568 he got the top job in town, like a mayor.",
+        "Then it went wrong. He was taken to court for trading wool without a licence, and for lending money at illegal interest. He got into debt, stopped going to council meetings, and his request for a family coat of arms went nowhere. William was about 12."
       ],
-      "closeOnCamera": "So keep that in mind. The money, the big house, the coat of arms he got later: it was all about winning that position back. But first, he had to go to school. It's five minutes down the road.",
+      "closeOnCamera": "So that's the boy. A family that had climbed up, then fallen. Everything he did later, the money, the houses, the coat of arms, was about climbing back. And it started at school, five minutes down the road.",
       "routeCard": {
-        "sub": "Henley Street · last entry 4:30",
-        "note": "Enter through the Shakespeare Centre on Henley Street. Timed entry.",
+        "sub": "Henley Street · timed entry",
+        "note": "Enter through the Shakespeare Centre on Henley Street.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19402%2C-1.70835&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "3:30–4:10 PM",
-        "leaveBy": "4:10",
+        "time": "About 1 hour",
+        "leaveBy": null,
         "see": [
           "The room where he was born",
           "His father's glove workshop",
           "The old timber fronts of Henley Street"
         ],
-        "todo": "Then walk down to Church Street, about 6 minutes.",
+        "todo": "Timed entry, so book ahead. Open 10 to 5 from spring to autumn. Your ticket also covers New Place. Then walk to the school, about 6 minutes.",
         "film": []
       }
     },
-    "river": {
-      "name": "The river: the statue, the theatre and the bridge",
-      "actId": "act4",
-      "angle": "What he left behind",
-      "story": "Walk here along the river from the church. Bancroft Gardens, by the canal basin. The statue is Shakespeare, with four of his characters around him: Hamlet; Lady Macbeth; Falstaff, a fat, funny knight; and Prince Hal, a young prince who becomes king. Clopton Bridge was built around 1484 by Hugh Clopton, the same man who built New Place. There's a market along Waterside until 6, so it will be busy.",
-      "onCamera": "Shakespeare died 400 years ago. But you've probably quoted him without knowing it. His words are in the way we talk, his plays shaped how England sees its own history, and this whole town still lives off his name. So what did he actually leave behind?",
+    "schoolroom": {
+      "name": "Shakespeare's Schoolroom and Guildhall",
+      "actId": "act2",
+      "angle": "1570s · The schoolboy",
+      "story": "",
+      "onCamera": "This is almost certainly where Shakespeare went to school. Think about that. The boy who went on to write Romeo and Juliet, Hamlet and Macbeth sat his lessons in this room. And the hall downstairs has its own part in his story.",
       "facts": [
-        "'Green-eyed monster.' 'A wild-goose chase.' 'It's all Greek to me.' All of these reached everyday English through his plays. People say he invented 1,700 words. That's an exaggeration, but hundreds of words and phrases came to us through him.",
-        "He also shaped how England sees its own past. He made King Richard the Third into a famous villain, while writing for Queen Elizabeth the First, whose grandfather had taken Richard's crown. And in 1944, during the Second World War, the British government paid for a film of his play Henry the Fifth, about an English king who invades France and wins. It was made to lift spirits around D-Day."
+        "It was a free school for boys from the town. Lessons were in Latin, from early morning to late afternoon, Monday to Saturday. Nobody can prove he came here, but it was free, it was five minutes from his house, and his father was one of the town's leaders.",
+        "The first time travelling actors are recorded performing in Stratford was in 1568, in the hall downstairs. That year his father had the top job in town, so he would have been in the audience. William was four."
       ],
-      "closeOnCamera": "And this theatre opened on 23 April 1932, the day Stratford celebrates his birthday. It was designed by Elisabeth Scott. She was 29, and the only woman out of 70 architects in the competition. A glove-maker's son from a small country town. And 400 years later: a theatre, a statue, and the words we speak.",
+      "closeOnCamera": "He never went to university. That's why some people still say a nobleman must have written his plays. And remember it, because in London it will be thrown back at him. But first, at 18, he married a farmer's daughter from Shottery, a village a mile away. Let's walk there.",
       "routeCard": {
-        "sub": "Bancroft Gardens · Waterside",
-        "note": "Your opening and closing lines are here too.",
-        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19216%2C-1.70236&travelmode=walking",
+        "sub": "Church Street",
+        "note": "The schoolroom is upstairs. The Guildhall, the medieval town hall, is downstairs.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19052%2C-1.70799&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "5:10–5:50 PM",
-        "leaveBy": "5:50",
+        "time": "About 45 minutes",
+        "leaveBy": null,
         "see": [
-          "The Gower statue: Shakespeare with Hamlet, Lady Macbeth, Falstaff and Prince Hal",
-          "The swans and the narrowboats in the canal basin",
-          "The Royal Shakespeare Theatre",
-          "Clopton Bridge"
+          "On the way: Harvard House on High Street (1596), the family home of John Harvard's mother. Harvard University is named after him.",
+          "The Tudor schoolroom upstairs",
+          "The Guildhall downstairs",
+          "The Guild Chapel next door (free)",
+          "Timber houses from the 1400s next door, built for poor old people"
         ],
-        "todo": "Your opening and closing lines are here. The sun should be back about 5. Sunset is 6:06.",
+        "todo": "Open 11 to 5, last entry 4:15. £10 if you add it to your Birthplace ticket, £15 on its own. Then walk to Anne Hathaway's Cottage in Shottery, about 25 minutes.",
         "film": []
       }
     },
-    "bank-new-place": {
-      "name": "Before it closes: New Place's garden",
+    "anne-hathaway": {
+      "name": "Anne Hathaway's Cottage",
       "actId": "act3",
-      "hideOnTalk": true,
-      "angle": "Film it now, tell it later",
-      "story": "Last entry is 2:30. Your Birthplace ticket gets you in. Just film the garden where the house stood. You'll tell this part of the story at about 4:25.",
-      "facts": [],
+      "angle": "1582 · Married at 18",
+      "story": "",
+      "onCamera": "This is where Anne Hathaway grew up. In 1582, an 18-year-old William Shakespeare married her. She was eight years older than him, and she was already pregnant. It was one of the biggest decisions of his life, and it shaped everything that came next.",
+      "facts": [
+        "In Shakespeare's day this was Hewlands Farm, with more than 90 acres. Anne's family farmed here for generations. Her father had died the year before the wedding.",
+        "Their daughter Susanna was born six months after the wedding. Two years later came twins, Hamnet and Judith. By 20, William had a wife and three children."
+      ],
+      "closeOnCamera": "Then, at some point, he left. Anne and the children stayed in Stratford, and William went to London. For about seven years after the twins were born, nobody knows exactly where he was. Historians call them the lost years. When he appears again, he's in London, and he's about to get rich.",
       "routeCard": {
-        "sub": "Chapel Street · last entry 2:30",
-        "note": "Your Birthplace ticket gets you in.",
+        "sub": "Cottage Lane, Shottery · a mile from the centre",
+        "note": "About 25 minutes on foot from the school.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19066%2C-1.73156&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "About 1 hour",
+        "leaveBy": null,
+        "see": [
+          "The thatched farmhouse",
+          "The cottage garden and orchard"
+        ],
+        "todo": "Open 10 to 5. £5 if you add it to your Birthplace ticket. Then walk back into the centre to New Place, about 25 minutes.",
+        "film": []
+      }
+    },
+    "new-place": {
+      "name": "Shakespeare's New Place",
+      "actId": "act4",
+      "angle": "1592–1603 · The rise",
+      "story": "",
+      "onCamera": "This is where Shakespeare lived when he was rich. He bought a house on this spot in 1597, when he was 33. It was one of the biggest houses in his home town. Five years earlier, in London, people were laughing at him. So how does a glove-maker's son pull that off? Here's how.",
+      "facts": [
+        "His first appearance in London is an insult. In 1592 a pamphlet by a jealous rival called him an 'upstart crow': a common actor, with no university education, who thought he could write as well as his betters.",
+        "Then plague closed London's theatres for more than a year. So he wrote long poems for a rich young nobleman, the Earl of Southampton. One of them, Venus and Adonis, was the biggest bestseller of his whole life.",
+        "When the theatres reopened in 1594, he made the smartest move of his career. He didn't just write for an acting company. He became one of its owners. They performed for Queen Elizabeth the First, and now he got a share of the profits, not just a writer's fee.",
+        "In 1598 their landlord refused to renew the lease on their theatre. So, while he was away for Christmas, the company took the whole building apart, carried the timber across the River Thames, and built the Globe Theatre with it. Shakespeare owned part of the Globe."
+      ],
+      "closeOnCamera": "And the money came home. In 1596 he finally got his father that coat of arms, making the family gentlemen. That same year his only son, Hamnet, died. He was 11. The next year Shakespeare bought the house that stood right here. It's gone now: in 1759 its owner, a priest tired of tourists and fighting the town over tax, knocked it down.",
+      "routeCard": {
+        "sub": "Chapel Street",
+        "note": "Enter by the gate on Chapel Street.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19074%2C-1.70766&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "2:10–2:25 PM",
-        "leaveBy": "2:25",
+        "time": "About 45 minutes",
+        "leaveBy": null,
         "see": [
-          "The garden where Shakespeare's house stood"
+          "The garden where the house stood",
+          "Nash's House next door: the home of Thomas Nash, who married Shakespeare's granddaughter Elizabeth"
         ],
-        "todo": "Film only, no talking yet. Then walk down Church Street to the church, about 8 minutes. You pass the Guild Chapel.",
+        "todo": "Included in your Birthplace ticket. Check the hours: in autumn it's open 11 to 3. Then walk to Holy Trinity, about 7 minutes.",
         "film": []
       }
     },
-    "bank-grave": {
-      "name": "Before it closes: the grave",
-      "actId": "act4",
-      "hideOnTalk": true,
-      "angle": "Film it now, tell it later",
-      "story": "The church closes at 3:15. The grave costs £5 to see. Just film the grave, the curse on the stone, his monument on the wall and the inside of the church. It's a working church, so keep your voice down. You'll tell this part of the story at about 4:45.",
-      "facts": [],
+    "holy-trinity": {
+      "name": "Holy Trinity Church",
+      "actId": "act5",
+      "angle": "1603–1616 · The king's man, and the end",
+      "story": "",
+      "onCamera": "By the end of his life, Shakespeare wasn't just a successful writer. He worked for the king, he owned land and houses, and he was one of the richest men in his home town. He came back to Stratford for his last years, and died in 1616, aged 52. This is his grave. And even this spot, he paid for.",
+      "facts": [
+        "In 1603 the new king, James the First, took over Shakespeare's company. They became the King's Men, the king's own actors. Shakespeare was named second in the list, and he was given red royal cloth to wear as a servant of the king.",
+        "He kept investing at home. In 1605 he paid £440, a fortune at the time, for a share of the church's income. That's what gave him the right to be buried in here, next to the altar, instead of outside in the churchyard.",
+        "A month before he died, he rewrote his will. His daughter Judith had just married a man who was then caught in a scandal, so Shakespeare protected her money from him. His wife Anne got just one thing by name: his 'second-best bed'."
+      ],
+      "closeOnCamera": "Now look at the stone: 'Cursed be he that moves my bones.' In 2016 a radar scan found the head end disturbed, which fits an old story that his skull was stolen. The church isn't convinced. And here's the sad part. He spent his life building a family name. But his last grandchild died in 1670, with no children. The family ended. The name didn't.",
       "routeCard": {
-        "sub": "Old Town · closes 3:15",
+        "sub": "Old Town",
         "note": "Go in by the avenue of lime trees.",
         "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.18675%2C-1.70768&travelmode=walking",
         "walkPoints": [],
         "walkLoopHref": null
       },
       "planCard": {
-        "time": "2:33–2:55 PM",
-        "leaveBy": "2:55",
+        "time": "About 45 minutes",
+        "leaveBy": null,
         "see": [
+          "On the way: Hall's Croft, where his daughter Susanna lived with her husband, Dr John Hall. They married in this church in 1607.",
+          "The avenue of lime trees",
           "The grave and the curse",
-          "His monument on the wall",
-          "The inside of the church"
+          "His monument on the wall"
         ],
-        "todo": "Film only. Then walk up to Henley Street, about 13 minutes. Get a coffee there if the shower has started.",
+        "todo": "Hours change with the day and the season, and on Sundays it's only open in the afternoon. The grave costs £5. It's a working church, so keep your voice down. Then walk along the river to the theatre, about 8 minutes.",
+        "film": []
+      }
+    },
+    "theatre": {
+      "name": "The Royal Shakespeare Theatre",
+      "actId": "act6",
+      "angle": "After 1616 · How he became a legend",
+      "story": "",
+      "onCamera": "When Shakespeare died, he was famous in London. But he wasn't a legend yet. That took a book, a festival that went badly wrong, and a rumour about an American showman. And a lot of it happened right here, in this town.",
+      "facts": [
+        "Seven years after he died, two actors from his company printed his plays in one big book, the First Folio. Eighteen of the plays had never been printed before, including Macbeth and The Tempest. Without that book, we'd probably have lost them.",
+        "In September 1769, the most famous actor of the day, David Garrick, threw a three-day festival here for Shakespeare. It poured with rain, the river rose, and not a single Shakespeare play was performed. But it worked. After that, people started coming to Stratford to see where Shakespeare lived.",
+        "In 1847 his birthplace, the house where we started this walk, was put up for sale. Newspapers claimed the American showman P. T. Barnum wanted to buy it and ship it to America. Historians doubt he ever really tried, but people panicked. Charles Dickens helped raise £3,000, and the house was bought and saved."
+      ],
+      "closeOnCamera": "And this theatre opened on 23 April 1932, the day Stratford celebrates his birthday. It was designed by Elisabeth Scott. She was 29, and the only woman out of 70 architects in the competition. Now, one last stop: his statue.",
+      "routeCard": {
+        "sub": "Waterside",
+        "note": "Free to look around outside.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19082%2C-1.70410&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "About 30 minutes",
+        "leaveBy": null,
+        "see": [
+          "The 1932 theatre and its tower",
+          "The river and the swans"
+        ],
+        "todo": "Then walk on to the statue in Bancroft Gardens, about 3 minutes.",
+        "film": []
+      }
+    },
+    "river": {
+      "name": "The statue, the garden and the bridge",
+      "actId": "act6",
+      "angle": "What he left behind",
+      "story": "",
+      "onCamera": "Shakespeare died 400 years ago. But you've probably quoted him without knowing it. His words are in the way we talk, his plays shaped how England sees its own history, and this whole town still lives off his name. So what did he actually leave behind?",
+      "facts": [
+        "'Green-eyed monster.' 'A wild-goose chase.' 'It's all Greek to me.' All of these reached everyday English through his plays. People say he invented 1,700 words. That's an exaggeration, but hundreds of words and phrases came to us through him.",
+        "He also shaped how England sees its own past. He made King Richard the Third into a famous villain, while writing for Queen Elizabeth the First, whose grandfather had taken Richard's crown. And in 1944, during the Second World War, the British government paid for a film of his play Henry the Fifth, about an English king who invades France and wins. It was made to lift spirits around D-Day."
+      ],
+      "closeOnCamera": "A glove-maker's son from a small country town. Laughed at in London, rich as an owner, a servant of the king. And 400 years later: a theatre, a statue, and the words we speak.",
+      "routeCard": {
+        "sub": "Bancroft Gardens",
+        "note": "Your opening and closing lines are here too.",
+        "mapsHref": "https://www.google.com/maps/dir/?api=1&destination=52.19216%2C-1.70236&travelmode=walking",
+        "walkPoints": [],
+        "walkLoopHref": null
+      },
+      "planCard": {
+        "time": "About 45 minutes",
+        "leaveBy": null,
+        "see": [
+          "The statue: Shakespeare with four of his characters. Hamlet; Lady Macbeth; Falstaff, a fat, funny knight; and Prince Hal, a young prince who becomes king.",
+          "The narrowboats in the canal basin",
+          "Clopton Bridge, built around 1484 by Hugh Clopton, the same man who built New Place"
+        ],
+        "todo": "Your opening and closing lines are here. Bridgeway car park is about 3 minutes away.",
         "film": []
       }
     }
@@ -358,9 +393,7 @@
     "color": "rust",
     "where": "",
     "facts": [
-      "The hook: 'Everyone knows this man as a poet. But there's another story about him that I'd like to tell you.'",
-      "What this is: one afternoon walking through Shakespeare's whole life, in the town where he was born, got rich, and is buried.",
-      "The promise: a family that lost everything, a man who won it all back, and a grave with a curse on it."
+      "Everyone knows this man as a poet. But there's another story about him that I'd like to tell you. Today I'm walking through his whole life, in order, in the town where it all happened. A family that lost everything. A young man laughed at as an upstart. A theatre taken apart behind the landlord's back. And a grave with a curse on it."
     ]
   },
   "signOff": {
@@ -368,9 +401,7 @@
     "color": "forest",
     "where": "",
     "facts": [
-      "Where you are: by the river, under his statue.",
-      "The recap: born into a family in trouble, rich from owning a theatre, buried in a grave he paid for, and still in the words we use.",
-      "The ask: like and subscribe, and tell me where I should go next."
+      "So that's his life, from the house where he was born to this statue by the river. A family that fell, a schoolboy, a husband at 18, a man who got rich by owning instead of writing, a servant of the king, and a grave he paid for. His family line ended. His words didn't. If you enjoyed this, like and subscribe, and tell me where I should go next."
     ]
   },
   "talkTipbox": "",
